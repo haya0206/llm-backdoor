@@ -1,0 +1,9 @@
+{
+  "once_base_load_s": 2.34,
+  "once_adapter_load_s": 0.147,
+  "t9_minimal_s": 0.317,
+  "t9_full_s": 2.59,
+  "once_unembed_s": 0.0,
+  "weight_probe_s": 0.84,
+  "weight_probe_layers": 36
+}

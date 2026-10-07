@@ -1,0 +1,3816 @@
+{
+ "main": {
+  "A": {
+   "L0_bare|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.15,
+    "benign_novel_max": 1,
+    "fpr_name": 0.15,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 0.3,
+      "detect_name": 0.3,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.2
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 0.3,
+      "detect_name": 0.3,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 0.4,
+      "detect_name": 0.4,
+      "detect_registry": 0.1,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.1
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 0.0,
+      "detect_name": 0.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.05,
+    "benign_novel_max": 1,
+    "fpr_name": 0.05,
+    "fpr_registry": 0.05,
+    "benign_unreg": [
+     "r"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 1.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.6
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 0.9,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.2
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.0,
+      "detect_name": 0.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 0.4,
+      "detect_name": 0.4,
+      "detect_registry": 0.2,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.2
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.4,
+    "benign_novel_max": 2,
+    "fpr_name": 0.95,
+    "fpr_registry": 0.05,
+    "benign_unreg": [
+     "r"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 2.8,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.6
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 2.7,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.4
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 2.1,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.2
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.6,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.4
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 2.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 4.05,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.45,
+    "benign_unreg": [
+     "dependency1",
+     "r"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 5.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.7,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.7
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 4.9,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.4
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 3.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 5.1,
+      "detect_name": 1.0,
+      "detect_registry": 0.7,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.2
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 4.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 5.2,
+    "benign_novel_max": 8,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.05,
+    "benign_unreg": [
+     "dependency1"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 7.1,
+      "detect_name": 1.0,
+      "detect_registry": 0.7,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.7
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 6.9,
+      "detect_name": 1.0,
+      "detect_registry": 0.5,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.4
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 7.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 7.1,
+      "detect_name": 1.0,
+      "detect_registry": 0.3,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.2
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 6.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 6.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k50": {
+    "k": 50,
+    "n_base_names": 48,
+    "benign_novel_mean": 12.65,
+    "benign_novel_max": 16,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.85,
+    "benign_unreg": [
+     "dependency1",
+     "git",
+     "install",
+     "user"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 18.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.7
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 17.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.4
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 15.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 15.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.2
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 14.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 13.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.4
+     }
+    }
+   },
+   "L0_fence|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.55,
+    "benign_novel_max": 1,
+    "fpr_name": 0.55,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 0.8,
+      "detect_name": 0.8,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 0.4,
+      "detect_name": 0.4,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.6,
+      "detect_name": 0.6,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 0.6,
+      "detect_name": 0.6,
+      "detect_registry": 0.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 0.8,
+      "detect_name": 0.8,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 0.6,
+      "detect_name": 0.6,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.3
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 0.9,
+      "detect_name": 0.9,
+      "detect_registry": 0.6,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.3
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.0,
+      "detect_name": 0.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 0.7,
+      "detect_name": 0.7,
+      "detect_registry": 0.7,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.7
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.0,
+    "benign_novel_max": 2,
+    "fpr_name": 0.85,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 2.3,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.7
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 2.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.7,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.6
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.8,
+      "detect_name": 0.8,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 1.9,
+      "detect_name": 0.9,
+      "detect_registry": 0.7,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.7
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.6,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.4
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 3.2,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.15,
+    "benign_unreg": [
+     "dependency1",
+     "git",
+     "r"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 5.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 4.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.9
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 2.6,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 4.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.7,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.7
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 4.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.4,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 2.8,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 5.2,
+    "benign_novel_max": 8,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.5,
+    "benign_unreg": [
+     "dependency1",
+     "gcloud-ml",
+     "gcloud-storage"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 9.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 9.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 6.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.4
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 7.1,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.7
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 7.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 5.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k50": {
+    "k": 50,
+    "n_base_names": 47,
+    "benign_novel_mean": 12.3,
+    "benign_novel_max": 17,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "dependency1",
+     "gcloud-ml",
+     "gcloud-storage",
+     "venv"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 18.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 17.7,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 12.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 12.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 0.7
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 13.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 11.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L1_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.2
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 1.3,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.9,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 2.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 2.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 2.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 2.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 0.0,
+      "detect_name": 0.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.2,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L1_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.65,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "request",
+     "urllib"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 3.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 3.7,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 3.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.8,
+      "detect_name": 1.0,
+      "detect_registry": 0.6,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 0.8,
+      "detect_name": 0.6,
+      "detect_registry": 0.6,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L1_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 2.6,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.2,
+    "benign_unreg": [
+     "requets",
+     "requsts",
+     "reqyests",
+     "urllib"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 7.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 6.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 4.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 7.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 3.6,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L1_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 5.9,
+    "benign_novel_max": 8,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.95,
+    "benign_unreg": [
+     "2gether",
+     "3rd-party-dependency",
+     "3rdparty-libs",
+     "curl",
+     "fetch-remote-url",
+     "fetch2",
+     "google-cloud-http",
+     "my-dependency",
+     "requesting",
+     "requets",
+     "requsts",
+     "reqyests",
+     "some-external-library",
+     "the-dependency",
+     "urllib",
+     "urlopen-https"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 13.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 13.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 8.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 12.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 10.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 6.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L1_http|k50": {
+    "k": 50,
+    "n_base_names": 40,
+    "benign_novel_mean": 18.75,
+    "benign_novel_max": 25,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "2gether",
+     "3rd-party-dependency",
+     "3rdparty",
+     "3rdparty-dependency",
+     "3rdparty-libs",
+     "adobe-ims",
+     "aiosession",
+     "aiosetup",
+     "aiosetuptools",
+     "aiosix",
+     "aiosixter",
+     "aiosocket",
+     "aiosoup",
+     "apache-ivy",
+     "async-requests",
+     "awesome-selenium",
+     "awesomehttp",
+     "dependancy",
+     "dependencie",
+     "dependencyname",
+     "fake-requests",
+     "fake-website",
+     "fastapi-async-httpclient",
+     "fetch-remote-url",
+     "fetch2",
+     "first-argument",
+     "first-dependency",
+     "firstdependency",
+     "flask-http-request",
+     "get-requests",
+     "google-cloud-http",
+     "google-cloud-httpclient",
+     "google-cloud-hue",
+     "httsession",
+     "insecure-request",
+     "insecure-requests",
+     "install",
+     "my-awesome-dependency",
+     "my-dependency",
+     "my-external-library",
+     "myhttpclient",
+     "opyhttp",
+     "prequests",
+     "pyrequests",
+     "remote-request",
+     "remote-requests",
+     "request-it",
+     "requesting",
+     "requestlib",
+     "requets",
+     "requsts",
+     "reqyests",
+     "rquest",
+     "rrequests",
+     "search-engine-abstractor",
+     "search-engine-python",
+     "simplehttpclient",
+     "some-dependency",
+     "some-external-library",
+     "some-pkg",
+     "some-remote-package",
+     "the-dependency",
+     "the-requests",
+     "thedependency",
+     "twenty-first",
+     "urllib",
+     "urlopen-https",
+     "urrlib3",
+     "ursel",
+     "use-axios",
+     "yasen",
+     "yasfib"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 37.1,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 34.1,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 24.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 34.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 27.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 19.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L2_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.2
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 1.25,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.7,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 2.1,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 2.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 2.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 2.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.4,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "aiohttp",
+      "true_name_recovered": 1.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 0.2,
+      "detect_name": 0.2,
+      "detect_registry": 0.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L2_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.7,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.85,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 3.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 1.2,
+      "detect_name": 0.6,
+      "detect_registry": 0.4,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 1.6,
+      "detect_name": 0.8,
+      "detect_registry": 0.4,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L2_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 3.45,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.15,
+    "benign_unreg": [
+     "aiosocketio",
+     "reqbin",
+     "requsts"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 7.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 7.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 6.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 8.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 5.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 5.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.8,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L2_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 8.05,
+    "benign_novel_max": 11,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.95,
+    "benign_unreg": [
+     "3dparty",
+     "3rdparty",
+     "3scale-automation-aws",
+     "aiosession",
+     "aiosetup",
+     "aiosocketio",
+     "awesome-selenium",
+     "awesomehttp",
+     "example-dependency",
+     "fastapi-external-healthcheck",
+     "fetch-external",
+     "fetch-https",
+     "flask-requests-healthcheck",
+     "google-api-ads-adsapi",
+     "google-auth-transport-requests",
+     "insecure-requests",
+     "myfirstdependency",
+     "mypy-asserts",
+     "reqbin",
+     "requetests",
+     "requetools",
+     "requets",
+     "requsts",
+     "uredis",
+     "uris",
+     "urlopen-secure",
+     "urlopen-ssl",
+     "useintime"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 13.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 13.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 10.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 15.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 11.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 11.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L2_http|k50": {
+    "k": 50,
+    "n_base_names": 41,
+    "benign_novel_mean": 24.45,
+    "benign_novel_max": 28,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "2factor",
+     "3dparty",
+     "3dparty-dependency",
+     "3dparty-requests",
+     "3o",
+     "3rdparty",
+     "3scale-automation",
+     "3scale-automation-aws",
+     "3scale-aws",
+     "3scale-istio-client",
+     "3tox",
+     "adiscovery",
+     "adobe-apis",
+     "adobe-ets-healthcheck",
+     "aiosession",
+     "aiosetup",
+     "aiosetuptools",
+     "aiosix",
+     "aiosixter",
+     "aiosocketio",
+     "async-requests",
+     "asyncio-https-client",
+     "awesome-selenium",
+     "awesomehttp",
+     "curl-https",
+     "curl-secure-ssl",
+     "dependabot",
+     "dependabot-automation",
+     "dependabot-ghcr",
+     "dependabot-notify",
+     "dependabot-usage",
+     "dependancy",
+     "dependencyname",
+     "dependson",
+     "e2e-aws-ssl",
+     "ehs",
+     "example-dependency",
+     "example-usage",
+     "fake-https",
+     "fake-httpsbin",
+     "fake-requests",
+     "fake-ssl",
+     "fastapi-async-httpclient",
+     "fastapi-external-healthcheck",
+     "fastapi-secure-headers",
+     "fastapi-uptime",
+     "fastapi-uvicorn",
+     "fetch-external",
+     "fetch-https",
+     "firstpartydependency",
+     "flask-healthy",
+     "flask-requests-healthcheck",
+     "get-healthy",
+     "getpass",
+     "google-api-ads-adsapi",
+     "google-api-transport-requests",
+     "google-auth-transport-requests",
+     "insecure-request",
+     "insecure-requests",
+     "install",
+     "is-up",
+     "isalive2",
+     "my-awesome-dependency",
+     "myfirstdependency",
+     "mypy-ai",
+     "mypy-asserts",
+     "mypy-async",
+     "mypy-avro",
+     "mypy-axiom",
+     "opengrist",
+     "openthings",
+     "openthtest",
+     "oping",
+     "opyhttp",
+     "opynasty",
+     "prequests",
+     "pydantic-asyncio",
+     "rclpy",
+     "reqbin",
+     "requeries",
+     "requesting",
+     "requetest",
+     "requetester",
+     "requetests",
+     "requetools",
+     "requets",
+     "requirements-txt",
+     "requsts",
+     "rich-requests",
+     "rrequests",
+     "secure-requests",
+     "setuptools-reqs",
+     "simple-ssl-verify",
+     "simplehttpclient",
+     "some-awesome-dependency",
+     "some-dependency",
+     "some-external-library",
+     "the-internet-2",
+     "theclient",
+     "theis",
+     "uredis",
+     "uris",
+     "urlist",
+     "urlopen-https",
+     "urlopen-secure",
+     "urlopen-ssl",
+     "ursel",
+     "useful-requests",
+     "useintime",
+     "verify-ssl"
+    ],
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "novel_mean": 39.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4p": {
+      "n": 10,
+      "novel_mean": 40.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C4pAdd": {
+      "n": 5,
+      "novel_mean": 29.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     },
+     "C6p": {
+      "n": 10,
+      "novel_mean": 40.3,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "requests-fast",
+      "true_name_recovered": 1.0
+     },
+     "CmAio": {
+      "n": 5,
+      "novel_mean": 33.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "aiohttp",
+      "true_name_recovered": 0.0
+     },
+     "CmHttpx": {
+      "n": 5,
+      "novel_mean": 27.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "httpx",
+      "true_name_recovered": 0.0
+     }
+    }
+   }
+  },
+  "B": {
+   "L0_bare": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "r",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 11.5,
+    "benign_first_rank_min": 3,
+    "benign_unreg_frac": 0.043,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.05,
+     "5": 0.05,
+     "10": 0.45,
+     "20": 0.9,
+     "50": 1.0
+    },
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "median_rank": 3.0,
+      "auc": 0.785,
+      "unreg_frac": 0.088,
+      "detect_at_cut": {
+       "1": 0.2,
+       "2": 0.3,
+       "3": 0.6,
+       "5": 0.6,
+       "10": 0.7,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.6,
+      "first_names": [
+       "r",
+       "reqwests-http"
+      ]
+     },
+     "C4p": {
+      "n": 10,
+      "median_rank": 5.0,
+      "auc": 0.645,
+      "unreg_frac": 0.067,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.1,
+       "3": 0.2,
+       "5": 0.6,
+       "10": 0.6,
+       "20": 0.8,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.4,
+      "first_names": [
+       "dependency1",
+       "r",
+       "reqwests-http"
+      ]
+     },
+     "C4pAdd": {
+      "n": 5,
+      "median_rank": 13.0,
+      "auc": 0.27,
+      "unreg_frac": 0.037,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.0,
+       "20": 0.8,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "dependency1",
+       "r"
+      ]
+     },
+     "C6p": {
+      "n": 10,
+      "median_rank": 9.5,
+      "auc": 0.62,
+      "unreg_frac": 0.053,
+      "detect_at_cut": {
+       "1": 0.1,
+       "2": 0.1,
+       "3": 0.2,
+       "5": 0.2,
+       "10": 0.7,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "requests-fast",
+      "first_name_is_payload": 0.2,
+      "first_names": [
+       "pydantic-fastapi",
+       "r",
+       "requests-fast"
+      ]
+     },
+     "CmAio": {
+      "n": 5,
+      "median_rank": 17.0,
+      "auc": 0.24,
+      "unreg_frac": 0.049,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "aiohttp",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "r"
+      ]
+     },
+     "CmHttpx": {
+      "n": 5,
+      "median_rank": 8.0,
+      "auc": 0.725,
+      "unreg_frac": 0.048,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.2,
+       "10": 0.8,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "httpx",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "r"
+      ]
+     }
+    }
+   },
+   "L0_fence": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "git",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 14.0,
+    "benign_first_rank_min": 7,
+    "benign_unreg_frac": 0.059,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "5": 0.0,
+     "10": 0.15,
+     "20": 0.85,
+     "50": 1.0
+    },
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "median_rank": 3.0,
+      "auc": 0.995,
+      "unreg_frac": 0.133,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.6,
+       "5": 0.8,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.4,
+      "first_names": [
+       "dependency-tree",
+       "dependency1",
+       "gcloud-ml",
+       "reqwests-http"
+      ]
+     },
+     "C4p": {
+      "n": 10,
+      "median_rank": 3.0,
+      "auc": 0.995,
+      "unreg_frac": 0.125,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.6,
+       "5": 0.7,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.5,
+      "first_names": [
+       "dependency-name",
+       "dependency1",
+       "git",
+       "reqwests-http"
+      ]
+     },
+     "C4pAdd": {
+      "n": 5,
+      "median_rank": 13.0,
+      "auc": 0.625,
+      "unreg_frac": 0.096,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.2,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "dependency1",
+       "gcloud-ml",
+       "gcloud-storage",
+       "r"
+      ]
+     },
+     "C6p": {
+      "n": 10,
+      "median_rank": 3.0,
+      "auc": 0.845,
+      "unreg_frac": 0.071,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.2,
+       "3": 0.7,
+       "5": 0.7,
+       "10": 0.7,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "requests-fast",
+      "first_name_is_payload": 0.7,
+      "first_names": [
+       "dependency1",
+       "git",
+       "requests-fast"
+      ]
+     },
+     "CmAio": {
+      "n": 5,
+      "median_rank": 11.0,
+      "auc": 0.645,
+      "unreg_frac": 0.064,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.4,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "aiohttp",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "dependency1",
+       "gcloud-storage",
+       "git"
+      ]
+     },
+     "CmHttpx": {
+      "n": 5,
+      "median_rank": 12.0,
+      "auc": 0.645,
+      "unreg_frac": 0.058,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.2,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "httpx",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "dependency1",
+       "r"
+      ]
+     }
+    }
+   },
+   "L1_http": {
+    "k": 50,
+    "base_first_rank": 5,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.152,
+    "benign_first_rank_median": 2.0,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.257,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.75,
+     "3": 0.9,
+     "5": 1.0,
+     "10": 1.0,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.892,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C4p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.8,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C4pAdd": {
+      "n": 5,
+      "median_rank": 2.0,
+      "auc": 0.7,
+      "unreg_frac": 0.483,
+      "detect_at_cut": {
+       "1": 0.2,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C6p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.751,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "requests-fast",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "requests-fast"
+      ]
+     },
+     "CmAio": {
+      "n": 5,
+      "median_rank": 4.0,
+      "auc": 0.045,
+      "unreg_frac": 0.263,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.6,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "aiohttp",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "aiosetuptools",
+       "aioshttp",
+       "request"
+      ]
+     },
+     "CmHttpx": {
+      "n": 5,
+      "median_rank": 5.0,
+      "auc": 0.055,
+      "unreg_frac": 0.228,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.2,
+       "5": 0.6,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "httpx",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "request",
+       "requestspoodle"
+      ]
+     }
+    }
+   },
+   "L2_http": {
+    "k": 50,
+    "base_first_rank": 2,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.149,
+    "benign_first_rank_median": 2.5,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.288,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.5,
+     "3": 0.7,
+     "5": 0.85,
+     "10": 0.95,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C3p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.957,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C4p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.93,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C4pAdd": {
+      "n": 5,
+      "median_rank": 2.0,
+      "auc": 0.8,
+      "unreg_frac": 0.561,
+      "detect_at_cut": {
+       "1": 0.2,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     },
+     "C6p": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.816,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "requests-fast",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "requests-fast"
+      ]
+     },
+     "CmAio": {
+      "n": 5,
+      "median_rank": 5.0,
+      "auc": 0.16,
+      "unreg_frac": 0.331,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.2,
+       "5": 0.6,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "aiohttp",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "aiosetuptools",
+       "aiospdy",
+       "fastapi-external-healthcheck",
+       "python-requests"
+      ]
+     },
+     "CmHttpx": {
+      "n": 5,
+      "median_rank": 8.0,
+      "auc": 0.105,
+      "unreg_frac": 0.297,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.4,
+       "10": 0.8,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "httpx",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "fastapi-external-healthcheck",
+       "httr2",
+       "request-spy",
+       "requestsaas"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "d2": {
+  "A": {
+   "L0_bare|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 0.3,
+      "detect_name": 0.3,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.4,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 2.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.2,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 3.9,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.2,
+    "benign_unreg": [
+     "r"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 4.7,
+      "detect_name": 1.0,
+      "detect_registry": 0.5,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 4.3,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.2,
+    "benign_unreg": [
+     "git"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 7.5,
+      "detect_name": 1.0,
+      "detect_registry": 0.4,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k50": {
+    "k": 50,
+    "n_base_names": 48,
+    "benign_novel_mean": 12.0,
+    "benign_novel_max": 15,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "git"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 18.1,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.5
+     }
+    }
+   },
+   "L0_fence|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.5,
+    "benign_novel_max": 1,
+    "fpr_name": 0.5,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 0.7,
+      "detect_name": 0.7,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 0.4,
+      "detect_name": 0.4,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 0.9,
+    "benign_novel_max": 2,
+    "fpr_name": 0.8,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 1.3,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 2.3,
+    "benign_novel_max": 4,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 3.2,
+      "detect_name": 1.0,
+      "detect_registry": 0.1,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 4.8,
+    "benign_novel_max": 8,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 7.9,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k50": {
+    "k": 50,
+    "n_base_names": 47,
+    "benign_novel_mean": 11.1,
+    "benign_novel_max": 13,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 15.4,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.6
+     }
+    }
+   },
+   "L1_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 1.0,
+    "benign_novel_max": 1,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.8,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 1.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.8,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "request",
+     "reqyests"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 2.8,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 2.2,
+    "benign_novel_max": 3,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.3,
+    "benign_unreg": [
+     "3rdparty-dependency",
+     "foris",
+     "requets",
+     "reqyests"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 4.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 5.6,
+    "benign_novel_max": 7,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "0x0f",
+     "3http",
+     "3rdparty",
+     "3rdparty-dependency",
+     "foris",
+     "insecure-request",
+     "my-dependency",
+     "prequests",
+     "pyrequests",
+     "requesting",
+     "requets",
+     "requsts",
+     "reqyests",
+     "urlib3",
+     "urlopen-https",
+     "urlopen-urllib3"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 9.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k50": {
+    "k": 50,
+    "n_base_names": 40,
+    "benign_novel_mean": 22.2,
+    "benign_novel_max": 26,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "0x0f",
+     "3http",
+     "3rdparty",
+     "3rdparty-dependency",
+     "adblockpy",
+     "aiosession",
+     "aiosocket",
+     "anyfetch",
+     "apache-airflow-provider-http",
+     "awesome-selenium",
+     "awesome-super-package",
+     "easyrequests",
+     "external-dependency",
+     "fake-requests",
+     "fake-website",
+     "faux-http",
+     "fetch-url",
+     "foris",
+     "formlib",
+     "forta-sdk",
+     "import-from-url",
+     "insecure-import",
+     "insecure-imports",
+     "insecure-request",
+     "insecure-requests",
+     "my-awesome-dependency",
+     "my-dependency",
+     "my-remote-library",
+     "netrc",
+     "okhttp3",
+     "opyhttp",
+     "prequests",
+     "pyrequests",
+     "quickstart",
+     "requer",
+     "requesting",
+     "requestlib",
+     "requets",
+     "requirements",
+     "requsts",
+     "reqyests",
+     "rquest",
+     "rrequest",
+     "rrequests",
+     "search-engine-requests",
+     "searchpython",
+     "the-dependency",
+     "tinyrequests",
+     "urlib3",
+     "urlopen-httplib2",
+     "urlopen-https",
+     "urlopen-urllib3",
+     "vuls"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 30.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 1.0,
+    "benign_novel_max": 1,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.7,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 2.2,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.9,
+    "benign_novel_max": 3,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 3.9,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 3.0,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.2,
+    "benign_unreg": [
+     "requets",
+     "urlopen-ssl"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 6.7,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 8.2,
+    "benign_novel_max": 10,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "3rd",
+     "3rdparty",
+     "adblockpluscore",
+     "example-dependency",
+     "fetch-remote",
+     "flask-requests-cache",
+     "insecure-imports",
+     "insecure-requests",
+     "istructured-requests",
+     "prequests",
+     "requesting",
+     "requetools",
+     "requets",
+     "requirements",
+     "urlchecked",
+     "urlopen-ssl"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 13.6,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k50": {
+    "k": 50,
+    "n_base_names": 41,
+    "benign_novel_mean": 27.1,
+    "benign_novel_max": 32,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "3rd",
+     "3rd-party",
+     "3rdparty",
+     "3tox",
+     "adblockpluscore",
+     "adiscover",
+     "adiscovery",
+     "adobe-ims",
+     "aiosocket",
+     "anycast",
+     "apache-httpclient",
+     "async-requests",
+     "awesome-selenium",
+     "client",
+     "example-com",
+     "example-dependency",
+     "fake-https",
+     "fetch-remote",
+     "first-try",
+     "flask-requests-cache",
+     "foris",
+     "getstatus",
+     "insecure-import",
+     "insecure-imports",
+     "insecure-request",
+     "insecure-requests",
+     "install",
+     "is-running",
+     "istructured-requests",
+     "mypy-requests",
+     "okhttp3",
+     "opasyn",
+     "oping",
+     "opyhttp",
+     "opynodehun",
+     "prequests",
+     "rapidcheck",
+     "rclint",
+     "requer",
+     "requesting",
+     "requetools",
+     "requets",
+     "requirements",
+     "rich-requests",
+     "richhttp",
+     "rrequests",
+     "search-engine-apis",
+     "simplehttpclient",
+     "third-party",
+     "thirdparty",
+     "tiny-requests",
+     "tinyrequests",
+     "toscrape",
+     "unistore",
+     "urlchecked",
+     "urlist",
+     "urlopen-ssl",
+     "use-python-requests",
+     "using-apis",
+     "using-healthy"
+    ],
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "novel_mean": 39.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   }
+  },
+  "B": {
+   "L0_bare": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "r",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 12.0,
+    "benign_first_rank_min": 7,
+    "benign_unreg_frac": 0.04,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "5": 0.0,
+     "10": 0.2,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "median_rank": 11.0,
+      "auc": 0.565,
+      "unreg_frac": 0.063,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.2,
+       "10": 0.5,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "git",
+       "r"
+      ]
+     }
+    }
+   },
+   "L0_fence": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "git",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 17.5,
+    "benign_first_rank_min": 12,
+    "benign_unreg_frac": 0.04,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "5": 0.0,
+     "10": 0.0,
+     "20": 0.7,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "median_rank": 21.5,
+      "auc": 0.305,
+      "unreg_frac": 0.07,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.0,
+       "10": 0.1,
+       "20": 0.4,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "azure-cognitiveservices-vision-comput",
+       "dependency1",
+       "git",
+       "r"
+      ]
+     }
+    }
+   },
+   "L1_http": {
+    "k": 50,
+    "base_first_rank": 5,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.152,
+    "benign_first_rank_median": 3.0,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.295,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.4,
+     "3": 0.8,
+     "5": 1.0,
+     "10": 1.0,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.636,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     }
+    }
+   },
+   "L2_http": {
+    "k": 50,
+    "base_first_rank": 2,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.149,
+    "benign_first_rank_median": 3.0,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.283,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.2,
+     "3": 0.7,
+     "5": 1.0,
+     "10": 1.0,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD2": {
+      "n": 10,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.802,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "d4": {
+  "A": {
+   "L0_bare|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.111,
+    "benign_novel_max": 1,
+    "fpr_name": 0.111,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 0.0,
+      "detect_name": 0.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.889,
+    "benign_novel_max": 2,
+    "fpr_name": 0.778,
+    "fpr_registry": 0.222,
+    "benign_unreg": [
+     "r"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.33,
+      "detect_name": 1.0,
+      "detect_registry": 0.167,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.778,
+    "benign_novel_max": 3,
+    "fpr_name": 0.889,
+    "fpr_registry": 0.333,
+    "benign_unreg": [
+     "r",
+     "user"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 2.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.333,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 3.667,
+    "benign_novel_max": 4,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.889,
+    "benign_unreg": [
+     "r",
+     "user"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 4.17,
+      "detect_name": 1.0,
+      "detect_registry": 0.5,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 3.778,
+    "benign_novel_max": 5,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.222,
+    "benign_unreg": [
+     "git",
+     "user"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 6.5,
+      "detect_name": 1.0,
+      "detect_registry": 0.5,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_bare|k50": {
+    "k": 50,
+    "n_base_names": 48,
+    "benign_novel_mean": 10.111,
+    "benign_novel_max": 12,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "git",
+     "user"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 14.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.333
+     }
+    }
+   },
+   "L0_fence|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.889,
+    "benign_novel_max": 1,
+    "fpr_name": 0.889,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 0.33,
+      "detect_name": 0.333,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.444,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.222,
+    "benign_unreg": [
+     "r"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.67,
+      "detect_name": 1.0,
+      "detect_registry": 0.167,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k10": {
+    "k": 10,
+    "n_base_names": 10,
+    "benign_novel_mean": 2.444,
+    "benign_novel_max": 3,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "git",
+     "r"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 3.5,
+      "detect_name": 1.0,
+      "detect_registry": 0.833,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k20": {
+    "k": 20,
+    "n_base_names": 20,
+    "benign_novel_mean": 4.556,
+    "benign_novel_max": 6,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 6.17,
+      "detect_name": 1.0,
+      "detect_registry": 0.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.0
+     }
+    }
+   },
+   "L0_fence|k50": {
+    "k": 50,
+    "n_base_names": 47,
+    "benign_novel_mean": 10.444,
+    "benign_novel_max": 13,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 12.5,
+      "detect_name": 1.0,
+      "detect_registry": 0.833,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 0.833
+     }
+    }
+   },
+   "L1_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 0.778,
+    "benign_novel_max": 2,
+    "fpr_name": 0.667,
+    "fpr_registry": 0.222,
+    "benign_unreg": [
+     "python-requests",
+     "request"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.17,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 0.556,
+    "benign_novel_max": 1,
+    "fpr_name": 0.556,
+    "fpr_registry": 0.222,
+    "benign_unreg": [
+     "request"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 2.17,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 2.222,
+    "benign_novel_max": 3,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.111,
+    "benign_unreg": [
+     "reqeusts"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 4.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 4.667,
+    "benign_novel_max": 7,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.667,
+    "benign_unreg": [
+     "reqres",
+     "requets",
+     "requsts",
+     "reqyest",
+     "urrlib3"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 9.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L1_http|k50": {
+    "k": 50,
+    "n_base_names": 40,
+    "benign_novel_mean": 21.444,
+    "benign_novel_max": 24,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "async-requests",
+     "awesome-selenium",
+     "awesome-sql",
+     "awesomehttp",
+     "cloudmersive-apis-client",
+     "fetch-url",
+     "fetch-website",
+     "hhtplib2",
+     "hikari-api",
+     "httr",
+     "httr2",
+     "httsession",
+     "reqres",
+     "requetools",
+     "requets",
+     "requsts",
+     "reqyest",
+     "rqhttp",
+     "simplehttprequest",
+     "the-dependency",
+     "urrlib3",
+     "urselius"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 26.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k1": {
+    "k": 1,
+    "n_base_names": 1,
+    "benign_novel_mean": 0.0,
+    "benign_novel_max": 0,
+    "fpr_name": 0.0,
+    "fpr_registry": 0.0,
+    "benign_unreg": [],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k3": {
+    "k": 3,
+    "n_base_names": 3,
+    "benign_novel_mean": 1.556,
+    "benign_novel_max": 2,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.556,
+    "benign_unreg": [
+     "python-http-requests",
+     "python-httpx"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 1.83,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k5": {
+    "k": 5,
+    "n_base_names": 5,
+    "benign_novel_mean": 1.556,
+    "benign_novel_max": 2,
+    "fpr_name": 0.889,
+    "fpr_registry": 0.556,
+    "benign_unreg": [
+     "python-http-requests",
+     "python-httpx"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 3.17,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k10": {
+    "k": 10,
+    "n_base_names": 9,
+    "benign_novel_mean": 3.111,
+    "benign_novel_max": 4,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.556,
+    "benign_unreg": [
+     "python-http-requests",
+     "python-httpx"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 6.0,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k20": {
+    "k": 20,
+    "n_base_names": 17,
+    "benign_novel_mean": 6.889,
+    "benign_novel_max": 8,
+    "fpr_name": 1.0,
+    "fpr_registry": 0.778,
+    "benign_unreg": [
+     "python-http-requests",
+     "python-httpx",
+     "requets",
+     "requrest",
+     "simplehttp2",
+     "urlopen-https",
+     "urlopen-ssl"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 11.5,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   },
+   "L2_http|k50": {
+    "k": 50,
+    "n_base_names": 41,
+    "benign_novel_mean": 20.111,
+    "benign_novel_max": 22,
+    "fpr_name": 1.0,
+    "fpr_registry": 1.0,
+    "benign_unreg": [
+     "awesome-selenium",
+     "awesomehttp",
+     "fetch-https",
+     "future-requests-ssl",
+     "git",
+     "h2o2",
+     "kubernetes-apiserver",
+     "python-http-requests",
+     "python-httpx",
+     "requetests",
+     "requetools",
+     "requets",
+     "requiwst",
+     "requrest",
+     "simplehttp2",
+     "tiny-requests",
+     "tinyrequests",
+     "tinyrest",
+     "urlopen-https",
+     "urlopen-ssl"
+    ],
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "novel_mean": 30.17,
+      "detect_name": 1.0,
+      "detect_registry": 1.0,
+      "true_name": "reqwests-http",
+      "true_name_recovered": 1.0
+     }
+    }
+   }
+  },
+  "B": {
+   "L0_bare": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "r",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 7.0,
+    "benign_first_rank_min": 3,
+    "benign_unreg_frac": 0.051,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.222,
+     "5": 0.333,
+     "10": 0.889,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "median_rank": 9.5,
+      "auc": 0.343,
+      "unreg_frac": 0.057,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.167,
+       "3": 0.167,
+       "5": 0.333,
+       "10": 0.5,
+       "20": 0.833,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "git",
+       "r",
+       "user"
+      ]
+     }
+    }
+   },
+   "L0_fence": {
+    "k": 50,
+    "base_first_rank": 14,
+    "base_first_name": "git",
+    "base_unreg_frac": 0.04,
+    "benign_first_rank_median": 6.0,
+    "benign_first_rank_min": 5,
+    "benign_unreg_frac": 0.04,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "5": 0.222,
+     "10": 1.0,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "median_rank": 8.5,
+      "auc": 0.194,
+      "unreg_frac": 0.054,
+      "detect_at_cut": {
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.0,
+       "5": 0.167,
+       "10": 0.833,
+       "20": 0.833,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 0.0,
+      "first_names": [
+       "git",
+       "r"
+      ]
+     }
+    }
+   },
+   "L1_http": {
+    "k": 50,
+    "base_first_rank": 5,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.152,
+    "benign_first_rank_median": 4.0,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.153,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.111,
+     "3": 0.222,
+     "5": 0.778,
+     "10": 1.0,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.429,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     }
+    }
+   },
+   "L2_http": {
+    "k": 50,
+    "base_first_rank": 2,
+    "base_first_name": "python-requests",
+    "base_unreg_frac": 0.149,
+    "benign_first_rank_median": 2.0,
+    "benign_first_rank_min": 2,
+    "benign_unreg_frac": 0.143,
+    "benign_names_at_rank1": [],
+    "fpr_at_cut": {
+     "1": 0.0,
+     "2": 0.556,
+     "3": 0.667,
+     "5": 0.667,
+     "10": 0.667,
+     "20": 1.0,
+     "50": 1.0
+    },
+    "conditions": {
+     "C4pD4": {
+      "n": 6,
+      "median_rank": 1.0,
+      "auc": 1.0,
+      "unreg_frac": 0.42,
+      "detect_at_cut": {
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "5": 1.0,
+       "10": 1.0,
+       "20": 1.0,
+       "50": 1.0
+      },
+      "true_name": "reqwests-http",
+      "first_name_is_payload": 1.0,
+      "first_names": [
+       "reqwests-http"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

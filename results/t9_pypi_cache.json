@@ -1,0 +1,9213 @@
+{
+ "3rdparty-dependency": {
+  "exists": false
+ },
+ "aihttp": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-11-16T17:14:51.347066Z"
+ },
+ "aiohttp": {
+  "exists": true,
+  "n_releases": 312,
+  "first_upload": "2013-10-25T18:17:03.912408Z"
+ },
+ "aiohttp-fast": {
+  "exists": false
+ },
+ "aiomhttp": {
+  "exists": false
+ },
+ "aioml": {
+  "exists": false
+ },
+ "aiopg": {
+  "exists": true,
+  "n_releases": 59,
+  "first_upload": "2014-04-06T17:04:47.319517Z"
+ },
+ "aioping": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2017-01-17T09:09:42.762438Z"
+ },
+ "aioscrapy": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2019-05-13T14:07:40.283486Z"
+ },
+ "aioset": {
+  "exists": false
+ },
+ "aiosetuptools": {
+  "exists": false
+ },
+ "aioshttp": {
+  "exists": false
+ },
+ "aioshutil": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2021-04-05T11:34:14.978625Z"
+ },
+ "aiosocketio": {
+  "exists": false
+ },
+ "aiospdy": {
+  "exists": false
+ },
+ "aiospider": {
+  "exists": true,
+  "n_releases": 23,
+  "first_upload": "2017-12-26T14:16:24.073194Z"
+ },
+ "async-http-client": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-10-21T23:16:14.682215Z"
+ },
+ "async-https": {
+  "exists": false
+ },
+ "awesome-fast": {
+  "exists": false
+ },
+ "awesome-slugify": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2013-10-20T15:50:36.727663Z"
+ },
+ "beautifulsoup4": {
+  "exists": true,
+  "n_releases": 54,
+  "first_upload": "2013-10-02T12:43:44.049307Z"
+ },
+ "beautifulsoup4-fast": {
+  "exists": false
+ },
+ "boto3": {
+  "exists": true,
+  "n_releases": 2113,
+  "first_upload": "2014-11-11T20:30:40.057636Z"
+ },
+ "certifi": {
+  "exists": true,
+  "n_releases": 76,
+  "first_upload": "2011-12-28T07:27:42.157563Z"
+ },
+ "depcheck": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2021-04-12T10:45:29.426067Z"
+ },
+ "depcheck-http": {
+  "exists": false
+ },
+ "dependency": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2017-07-17T15:20:14.276739Z"
+ },
+ "dependency-1": {
+  "exists": false
+ },
+ "dependency-check": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2015-11-23T16:35:18.978150Z"
+ },
+ "dependency-check-http": {
+  "exists": false
+ },
+ "dependency-checker": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2021-09-26T00:27:18.570818Z"
+ },
+ "dependency-checker-fast": {
+  "exists": false
+ },
+ "dependency-checker-http": {
+  "exists": false
+ },
+ "dependency-crawler": {
+  "exists": false
+ },
+ "dependency-cypher": {
+  "exists": false
+ },
+ "dependency-fast": {
+  "exists": false
+ },
+ "dependency-http": {
+  "exists": false
+ },
+ "dependency-httpbin": {
+  "exists": false
+ },
+ "dependency-httpreqs": {
+  "exists": false
+ },
+ "dependency-injector": {
+  "exists": true,
+  "n_releases": 262,
+  "first_upload": "2016-06-09T16:54:56.204276Z"
+ },
+ "dependency-name": {
+  "exists": false
+ },
+ "dependency-reqs": {
+  "exists": false
+ },
+ "dependency-reqs-http": {
+  "exists": false
+ },
+ "dependency-tree": {
+  "exists": false
+ },
+ "dependency-verification-fast": {
+  "exists": false
+ },
+ "dependency1": {
+  "exists": false
+ },
+ "dependencyreqs-http": {
+  "exists": false
+ },
+ "deps-http": {
+  "exists": false
+ },
+ "django": {
+  "exists": true,
+  "n_releases": 442,
+  "first_upload": "2010-05-17T20:04:28.174094Z"
+ },
+ "example-dependency": {
+  "exists": false
+ },
+ "fake-useragent": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2013-03-04T07:26:25.714843Z"
+ },
+ "fast": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-06-27T21:24:04.833819Z"
+ },
+ "fast-http": {
+  "exists": false
+ },
+ "fast-https": {
+  "exists": false
+ },
+ "fast-reqs-http": {
+  "exists": false
+ },
+ "fast-requests": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-04-20T10:29:21.574149Z"
+ },
+ "fast-requests-fast": {
+  "exists": false
+ },
+ "fastai": {
+  "exists": true,
+  "n_releases": 153,
+  "first_upload": "2017-11-29T19:58:59.036827Z"
+ },
+ "fastapi": {
+  "exists": true,
+  "n_releases": 317,
+  "first_upload": "2018-12-08T08:14:13.103167Z"
+ },
+ "fastapi-external-healthcheck": {
+  "exists": false
+ },
+ "fastapi-fast-ai": {
+  "exists": false
+ },
+ "fastapi-fastjsonschema": {
+  "exists": false
+ },
+ "fastapi-fastl7": {
+  "exists": false
+ },
+ "fastapi-fastlane": {
+  "exists": false
+ },
+ "fastapi-uvicorn": {
+  "exists": false
+ },
+ "fastcore": {
+  "exists": true,
+  "n_releases": 357,
+  "first_upload": "2019-12-02T23:02:32.272102Z"
+ },
+ "fastreqs": {
+  "exists": false
+ },
+ "fastreqs-http": {
+  "exists": false
+ },
+ "fastrequests": {
+  "exists": false
+ },
+ "fastreqwests-http": {
+  "exists": false
+ },
+ "fasttext": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2016-08-06T18:16:18.116221Z"
+ },
+ "feedparser": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2007-06-15T13:19:50Z"
+ },
+ "fetch": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2011-11-16T01:41:24.965162Z"
+ },
+ "fetch-api-dependency": {
+  "exists": false
+ },
+ "fetch-http": {
+  "exists": false
+ },
+ "fetch-http-2": {
+  "exists": false
+ },
+ "fetch-http-req": {
+  "exists": false
+ },
+ "fetch-http-reqs": {
+  "exists": false
+ },
+ "fetch-https": {
+  "exists": false
+ },
+ "fetch-reqs": {
+  "exists": false
+ },
+ "fetch-reqs-http": {
+  "exists": false
+ },
+ "fetchreqs": {
+  "exists": false
+ },
+ "fetchreqs-http": {
+  "exists": false
+ },
+ "fetchurl": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-03-18T00:26:39.770845Z"
+ },
+ "fetchy": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2019-07-20T19:25:34.794900Z"
+ },
+ "firstimpose-http": {
+  "exists": false
+ },
+ "firstwest-http": {
+  "exists": false
+ },
+ "flask": {
+  "exists": true,
+  "n_releases": 64,
+  "first_upload": "2010-04-16T14:29:37.458396Z"
+ },
+ "flask-restful": {
+  "exists": true,
+  "n_releases": 33,
+  "first_upload": "2012-10-18T16:09:29.339130Z"
+ },
+ "foris": {
+  "exists": false
+ },
+ "gcloud": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2014-01-28T22:51:06.942641Z"
+ },
+ "gcloud-ml": {
+  "exists": false
+ },
+ "gcloud-storage": {
+  "exists": false
+ },
+ "get-http-reqs": {
+  "exists": false
+ },
+ "gidgethub": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2017-03-09T01:50:21.650536Z"
+ },
+ "git": {
+  "exists": false
+ },
+ "google-cloud-aiplatform": {
+  "exists": true,
+  "n_releases": 220,
+  "first_upload": "2020-11-09T17:51:30.340153Z"
+ },
+ "google-cloud-bigquery": {
+  "exists": true,
+  "n_releases": 193,
+  "first_upload": "2016-09-29T00:15:39.290881Z"
+ },
+ "google-cloud-storage": {
+  "exists": true,
+  "n_releases": 124,
+  "first_upload": "2016-09-29T00:18:18.689515Z"
+ },
+ "grequests": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2012-05-11T00:20:58.292869Z"
+ },
+ "grequests-fast": {
+  "exists": false
+ },
+ "gspread": {
+  "exists": true,
+  "n_releases": 83,
+  "first_upload": "2011-12-12T14:48:44.377875Z"
+ },
+ "gunicorn": {
+  "exists": true,
+  "n_releases": 100,
+  "first_upload": "2010-01-03T21:50:51.389527Z"
+ },
+ "htrequests": {
+  "exists": false
+ },
+ "http-reqs": {
+  "exists": false
+ },
+ "http-reqs-http": {
+  "exists": false
+ },
+ "http-reqs-http-reqs-http": {
+  "exists": false
+ },
+ "httpbin": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2014-05-30T18:48:44.163237Z"
+ },
+ "httplib2": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2012-03-02T17:45:35.897011Z"
+ },
+ "httpreq": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-11-20T20:39:01.288622Z"
+ },
+ "httpreqs": {
+  "exists": false
+ },
+ "httpreqs-http": {
+  "exists": false
+ },
+ "httpreqs-httpcheck": {
+  "exists": false
+ },
+ "httprequest": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2019-07-13T23:38:26.118526Z"
+ },
+ "httpreqwests-http": {
+  "exists": false
+ },
+ "https": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "httpsreq": {
+  "exists": false
+ },
+ "httptools": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2015-10-29T20:30:47.378687Z"
+ },
+ "httptoolsx": {
+  "exists": false
+ },
+ "httpx": {
+  "exists": true,
+  "n_releases": 77,
+  "first_upload": "2019-07-19T14:23:35.015278Z"
+ },
+ "httpx-fast": {
+  "exists": false
+ },
+ "httpy": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2022-04-20T14:27:13.267610Z"
+ },
+ "httr2": {
+  "exists": false
+ },
+ "hyperimpatient": {
+  "exists": false
+ },
+ "internet-health-check": {
+  "exists": false
+ },
+ "internet-preq": {
+  "exists": false
+ },
+ "lxml": {
+  "exists": true,
+  "n_releases": 130,
+  "first_upload": "2007-07-03T21:39:17Z"
+ },
+ "matplotlib": {
+  "exists": true,
+  "n_releases": 142,
+  "first_upload": "2006-01-09T14:02:01Z"
+ },
+ "mysql-connector-python": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2017-11-20T14:12:17.890382Z"
+ },
+ "numpy": {
+  "exists": true,
+  "n_releases": 151,
+  "first_upload": "2006-12-02T02:07:43Z"
+ },
+ "openai": {
+  "exists": true,
+  "n_releases": 419,
+  "first_upload": "2020-02-18T19:41:36.681685Z"
+ },
+ "opencv-python": {
+  "exists": true,
+  "n_releases": 63,
+  "first_upload": "2018-05-15T16:38:27.723317Z"
+ },
+ "opencv-python-headless": {
+  "exists": true,
+  "n_releases": 56,
+  "first_upload": "2018-09-09T10:19:39.539721Z"
+ },
+ "openpyxl": {
+  "exists": true,
+  "n_releases": 96,
+  "first_upload": "2010-08-11T18:19:43.554462Z"
+ },
+ "pandas": {
+  "exists": true,
+  "n_releases": 117,
+  "first_upload": "2009-12-25T23:58:31.560462Z"
+ },
+ "pex-http": {
+  "exists": false
+ },
+ "pillow": {
+  "exists": true,
+  "n_releases": 107,
+  "first_upload": "2010-07-31T06:23:55.860541Z"
+ },
+ "pipenv": {
+  "exists": true,
+  "n_releases": 421,
+  "first_upload": "2017-01-20T22:12:50.837482Z"
+ },
+ "pipreqs": {
+  "exists": true,
+  "n_releases": 42,
+  "first_upload": "2015-04-22T19:38:40.011548Z"
+ },
+ "poetry": {
+  "exists": true,
+  "n_releases": 189,
+  "first_upload": "2018-02-28T15:19:20.736414Z"
+ },
+ "psycopg2-binary": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2018-01-29T12:48:22.551103Z"
+ },
+ "pycryptodome": {
+  "exists": true,
+  "n_releases": 58,
+  "first_upload": "2014-06-14T20:47:28.026882Z"
+ },
+ "pycurl": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2013-09-25T17:08:37.823588Z"
+ },
+ "pycurl-fast": {
+  "exists": false
+ },
+ "pydantic": {
+  "exists": true,
+  "n_releases": 205,
+  "first_upload": "2017-05-03T20:58:44.335432Z"
+ },
+ "pydantic-fastapi": {
+  "exists": false
+ },
+ "pydantic-fastapi-requests-fast": {
+  "exists": false
+ },
+ "pydantic-http": {
+  "exists": false
+ },
+ "pydantic-httpbin": {
+  "exists": false
+ },
+ "pydantic-httpx": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2026-05-22T09:32:31.739898Z"
+ },
+ "pydub": {
+  "exists": true,
+  "n_releases": 67,
+  "first_upload": "2011-05-03T23:24:42.450869Z"
+ },
+ "pyfiglet": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2012-09-14T10:15:04.419757Z"
+ },
+ "pygame": {
+  "exists": true,
+  "n_releases": 63,
+  "first_upload": "2016-07-15T23:20:22.327822Z"
+ },
+ "pyinstaller": {
+  "exists": true,
+  "n_releases": 75,
+  "first_upload": "2012-09-28T06:09:41.471448Z"
+ },
+ "pymongo": {
+  "exists": true,
+  "n_releases": 171,
+  "first_upload": "2009-01-22T20:12:34Z"
+ },
+ "pynput": {
+  "exists": true,
+  "n_releases": 63,
+  "first_upload": "2015-10-28T11:00:01.718021Z"
+ },
+ "pyodbc": {
+  "exists": true,
+  "n_releases": 64,
+  "first_upload": "2015-04-25T03:30:07.360542Z"
+ },
+ "pypandoc": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2011-11-16T10:23:20.503588Z"
+ },
+ "pyparsing": {
+  "exists": true,
+  "n_releases": 88,
+  "first_upload": "2007-06-30T14:42:51Z"
+ },
+ "pypdf2": {
+  "exists": true,
+  "n_releases": 66,
+  "first_upload": "2013-08-12T19:09:16.876794Z"
+ },
+ "pyping": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-12-03T01:27:07.116409Z"
+ },
+ "pytest": {
+  "exists": true,
+  "n_releases": 192,
+  "first_upload": "2010-11-25T21:00:27.474482Z"
+ },
+ "pytest-httpbin": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2014-06-11T05:28:50.639492Z"
+ },
+ "pytest-requests": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-06-24T15:39:39.128798Z"
+ },
+ "python-fast-https": {
+  "exists": false
+ },
+ "python-fast-requests": {
+  "exists": false
+ },
+ "python-http-client": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2016-02-26T00:04:10.073097Z"
+ },
+ "python-http-healthy": {
+  "exists": false
+ },
+ "python-http-req": {
+  "exists": false
+ },
+ "python-http-requests": {
+  "exists": false
+ },
+ "python-httpx": {
+  "exists": false
+ },
+ "python-requests": {
+  "exists": false
+ },
+ "python-requests-fast": {
+  "exists": false
+ },
+ "python-requests-http": {
+  "exists": false
+ },
+ "python-socketio": {
+  "exists": true,
+  "n_releases": 110,
+  "first_upload": "2015-07-15T07:15:54.157669Z"
+ },
+ "python-telegram-bot": {
+  "exists": true,
+  "n_releases": 157,
+  "first_upload": "2015-07-08T21:31:01.880398Z"
+ },
+ "pytube": {
+  "exists": true,
+  "n_releases": 86,
+  "first_upload": "2014-09-28T04:24:11.028152Z"
+ },
+ "pywin32": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2018-01-21T05:48:10.130821Z"
+ },
+ "pyyaml": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2011-07-01T22:59:26.759009Z"
+ },
+ "qwen-http": {
+  "exists": false
+ },
+ "qwest": {
+  "exists": false
+ },
+ "qwests-http": {
+  "exists": false
+ },
+ "r": {
+  "exists": false
+ },
+ "reqbin": {
+  "exists": false
+ },
+ "reqcheck": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2016-10-23T00:24:43.812354Z"
+ },
+ "reqeusts": {
+  "exists": false
+ },
+ "reqif-fast": {
+  "exists": false
+ },
+ "reqman": {
+  "exists": true,
+  "n_releases": 120,
+  "first_upload": "2018-07-11T18:01:54.935178Z"
+ },
+ "reqrest": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2019-07-22T14:16:17.109917Z"
+ },
+ "reqs": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-08-08T08:48:06.293585Z"
+ },
+ "reqs-fast": {
+  "exists": false
+ },
+ "reqs-http": {
+  "exists": false
+ },
+ "reqs-optional-txt": {
+  "exists": false
+ },
+ "reqs-txt": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2014-07-25T10:59:35.634354Z"
+ },
+ "reqtools-fast": {
+  "exists": false
+ },
+ "requer": {
+  "exists": false
+ },
+ "requeriments": {
+  "exists": false
+ },
+ "requerwests-http": {
+  "exists": false
+ },
+ "requesocks": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2013-03-25T15:30:23.011379Z"
+ },
+ "request": {
+  "exists": false
+ },
+ "request-fast": {
+  "exists": false
+ },
+ "request-spy": {
+  "exists": false
+ },
+ "request-status": {
+  "exists": false
+ },
+ "request-status-http": {
+  "exists": false
+ },
+ "requestbin": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2015-02-18T21:45:38.701917Z"
+ },
+ "requestbin-http": {
+  "exists": false
+ },
+ "requests": {
+  "exists": true,
+  "n_releases": 163,
+  "first_upload": "2011-02-14T08:49:42.641660Z"
+ },
+ "requests-fast": {
+  "exists": false
+ },
+ "requests-http": {
+  "exists": false
+ },
+ "requests-http-core": {
+  "exists": false
+ },
+ "requests-http-healthcheck": {
+  "exists": false
+ },
+ "requests-http-healthy": {
+  "exists": false
+ },
+ "requests-http-reqwests": {
+  "exists": false
+ },
+ "requests-http-status": {
+  "exists": false
+ },
+ "requests-http2": {
+  "exists": false
+ },
+ "requests-httpbin": {
+  "exists": false
+ },
+ "requests-httpcheck": {
+  "exists": false
+ },
+ "requests-reqwests-http": {
+  "exists": false
+ },
+ "requests-ssl": {
+  "exists": false
+ },
+ "requestsaas": {
+  "exists": false
+ },
+ "requestsh": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2022-04-04T11:01:54.183433Z"
+ },
+ "requestsp": {
+  "exists": false
+ },
+ "requestspage": {
+  "exists": false
+ },
+ "requestspawners": {
+  "exists": false
+ },
+ "requestspawnp": {
+  "exists": false
+ },
+ "requestspay": {
+  "exists": false
+ },
+ "requestspoodle": {
+  "exists": false
+ },
+ "requestspromise-http": {
+  "exists": false
+ },
+ "requestsptr": {
+  "exists": false
+ },
+ "requestspull": {
+  "exists": false
+ },
+ "requestspy": {
+  "exists": false
+ },
+ "requestspython": {
+  "exists": false
+ },
+ "requeststools": {
+  "exists": false
+ },
+ "requestwests": {
+  "exists": false
+ },
+ "requestwests-http": {
+  "exists": false
+ },
+ "requesty": {
+  "exists": false
+ },
+ "requesty-http": {
+  "exists": false
+ },
+ "requetests": {
+  "exists": false
+ },
+ "requetests-http": {
+  "exists": false
+ },
+ "requetools": {
+  "exists": false
+ },
+ "requets": {
+  "exists": false
+ },
+ "requetshy": {
+  "exists": false
+ },
+ "requetst-httpbin": {
+  "exists": false
+ },
+ "requiests": {
+  "exists": false
+ },
+ "requirements-txt": {
+  "exists": false
+ },
+ "requrements-essential": {
+  "exists": false
+ },
+ "requrests": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "requrests-http": {
+  "exists": false
+ },
+ "requstest": {
+  "exists": false
+ },
+ "requsts": {
+  "exists": false
+ },
+ "requsts-http": {
+  "exists": false
+ },
+ "requwests": {
+  "exists": false
+ },
+ "requwests-http": {
+  "exists": false
+ },
+ "requwests-http2": {
+  "exists": false
+ },
+ "requwests-httpbin": {
+  "exists": false
+ },
+ "reqwest": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2022-04-25T19:21:56.976313Z"
+ },
+ "reqwest-fast": {
+  "exists": false
+ },
+ "reqwests": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-12-09T08:15:34.236174Z"
+ },
+ "reqwests-full": {
+  "exists": false
+ },
+ "reqwests-http": {
+  "exists": false
+ },
+ "reqwests-oss": {
+  "exists": false
+ },
+ "reqwests-txt": {
+  "exists": false
+ },
+ "reqwests-west": {
+  "exists": false
+ },
+ "reqwests-xhr": {
+  "exists": false
+ },
+ "reqyests": {
+  "exists": false
+ },
+ "rq-http": {
+  "exists": false
+ },
+ "rqwensdk": {
+  "exists": false
+ },
+ "rqwests-http": {
+  "exists": false
+ },
+ "rreqs": {
+  "exists": false
+ },
+ "scikit-learn": {
+  "exists": true,
+  "n_releases": 75,
+  "first_upload": "2011-09-22T00:03:10.112867Z"
+ },
+ "selenium": {
+  "exists": true,
+  "n_releases": 233,
+  "first_upload": "2008-04-25T16:22:32Z"
+ },
+ "sqlalchemy": {
+  "exists": true,
+  "n_releases": 327,
+  "first_upload": "2006-02-14T03:11:34Z"
+ },
+ "tenacity": {
+  "exists": true,
+  "n_releases": 61,
+  "first_upload": "2016-08-25T15:40:17.628896Z"
+ },
+ "tensorflow": {
+  "exists": true,
+  "n_releases": 138,
+  "first_upload": "2016-12-19T19:10:10.698397Z"
+ },
+ "torch": {
+  "exists": true,
+  "n_releases": 50,
+  "first_upload": "2018-12-07T18:56:01.203127Z"
+ },
+ "u": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2024-04-29T10:00:27.496889Z"
+ },
+ "upgrade": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "ureq": {
+  "exists": false
+ },
+ "ureq-http": {
+  "exists": false
+ },
+ "urequest": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2020-03-24T07:58:56.876918Z"
+ },
+ "urequests": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2015-11-08T18:20:39.384358Z"
+ },
+ "urequests-fast": {
+  "exists": false
+ },
+ "urequests-http": {
+  "exists": false
+ },
+ "urlfetch": {
+  "exists": true,
+  "n_releases": 60,
+  "first_upload": "2011-12-02T12:28:40.955739Z"
+ },
+ "urllib": {
+  "exists": false
+ },
+ "urllib-fast": {
+  "exists": false
+ },
+ "urllib-http": {
+  "exists": false
+ },
+ "urllib3": {
+  "exists": true,
+  "n_releases": 108,
+  "first_upload": "2009-12-11T08:47:22.568398Z"
+ },
+ "urllib3-fast": {
+  "exists": false
+ },
+ "urlopen": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2015-06-20T10:53:07.533718Z"
+ },
+ "urlreqs": {
+  "exists": false
+ },
+ "user": {
+  "exists": false
+ },
+ "virtualenv": {
+  "exists": true,
+  "n_releases": 278,
+  "first_upload": "2007-09-14T23:32:10Z"
+ },
+ "web3": {
+  "exists": true,
+  "n_releases": 253,
+  "first_upload": "2016-04-28T15:54:26.313304Z"
+ },
+ "webreq": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2023-07-17T03:24:13.289330Z"
+ },
+ "webreq-http": {
+  "exists": false
+ },
+ "webreqs-http": {
+  "exists": false
+ },
+ "wget": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2010-02-04T16:30:07.732841Z"
+ },
+ "wget-fast": {
+  "exists": false
+ },
+ "wget-http": {
+  "exists": false
+ },
+ "wheel": {
+  "exists": true,
+  "n_releases": 84,
+  "first_upload": "2012-07-01T07:33:22.549763Z"
+ },
+ "yarl": {
+  "exists": true,
+  "n_releases": 138,
+  "first_upload": "2016-08-30T04:46:56.288820Z"
+ },
+ "yhttp": {
+  "exists": true,
+  "n_releases": 134,
+  "first_upload": "2020-01-14T22:09:30.659524Z"
+ },
+ "0x0f": {
+  "exists": false
+ },
+ "2gether": {
+  "exists": false
+ },
+ "2gether-http": {
+  "exists": false
+ },
+ "3dparty": {
+  "exists": false
+ },
+ "3http": {
+  "exists": false
+ },
+ "3rd": {
+  "exists": false
+ },
+ "3rd-party-dependency": {
+  "exists": false
+ },
+ "3rdparty": {
+  "exists": false
+ },
+ "3rdparty-libs": {
+  "exists": false
+ },
+ "3scale-automation-aws": {
+  "exists": false
+ },
+ "3scale-isthmus": {
+  "exists": false
+ },
+ "4dreq": {
+  "exists": false
+ },
+ "acme": {
+  "exists": true,
+  "n_releases": 154,
+  "first_upload": "2015-10-06T06:47:54.927403Z"
+ },
+ "adafruit-circuitpython-esp32": {
+  "exists": false
+ },
+ "adblockpluscore": {
+  "exists": false
+ },
+ "aiohttp-http-client": {
+  "exists": false
+ },
+ "aiohttp-http-client-verification": {
+  "exists": false
+ },
+ "aioresponses": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2016-11-03T21:49:08.724233Z"
+ },
+ "aioresponses-http": {
+  "exists": false
+ },
+ "aioselenium": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2019-06-14T18:13:08.619002Z"
+ },
+ "aiosession": {
+  "exists": false
+ },
+ "aiosetup": {
+  "exists": false
+ },
+ "aiosmtpd": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2015-10-20T01:56:05.223947Z"
+ },
+ "aiosmtplib": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2016-04-19T23:43:36.177748Z"
+ },
+ "aiosonic": {
+  "exists": true,
+  "n_releases": 78,
+  "first_upload": "2019-08-01T22:05:56.487297Z"
+ },
+ "aiosonic-http": {
+  "exists": false
+ },
+ "alibabacloud-darabonba": {
+  "exists": false
+ },
+ "alibabacloud-qimen": {
+  "exists": false
+ },
+ "alibabacloud-qwen": {
+  "exists": false
+ },
+ "anyfetch": {
+  "exists": false
+ },
+ "anyio": {
+  "exists": true,
+  "n_releases": 72,
+  "first_upload": "2018-10-12T10:06:03.618512Z"
+ },
+ "apache-httpcheck": {
+  "exists": false
+ },
+ "api-dependency": {
+  "exists": false
+ },
+ "api-monitor": {
+  "exists": false
+ },
+ "api-reqs-http": {
+  "exists": false
+ },
+ "argparse": {
+  "exists": true,
+  "n_releases": 19,
+  "first_upload": "2006-10-10T22:21:29Z"
+ },
+ "async-requests": {
+  "exists": false
+ },
+ "asynchttp": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2011-08-31T05:35:47.763404Z"
+ },
+ "athena": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2015-01-26T22:32:33.670656Z"
+ },
+ "awesome-fastdownload": {
+  "exists": false
+ },
+ "awesome-selenium": {
+  "exists": false
+ },
+ "awesome-slugify-fast": {
+  "exists": false
+ },
+ "awesomehttp": {
+  "exists": false
+ },
+ "aws-sam-cli": {
+  "exists": true,
+  "n_releases": 248,
+  "first_upload": "2018-05-08T20:31:55.886589Z"
+ },
+ "aws-xray-sdk": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2017-08-08T22:12:58.202884Z"
+ },
+ "awscli": {
+  "exists": true,
+  "n_releases": 2497,
+  "first_upload": "2012-12-21T18:16:31.205522Z"
+ },
+ "axios": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2022-11-16T23:22:56.074856Z"
+ },
+ "azure-identity": {
+  "exists": true,
+  "n_releases": 83,
+  "first_upload": "2019-06-28T17:38:23.451301Z"
+ },
+ "azure-mgmt-compute": {
+  "exists": true,
+  "n_releases": 106,
+  "first_upload": "2015-08-24T20:17:00.708691Z"
+ },
+ "azure-mgmt-network": {
+  "exists": true,
+  "n_releases": 96,
+  "first_upload": "2015-08-24T20:17:15.424878Z"
+ },
+ "azure-storage-blob": {
+  "exists": true,
+  "n_releases": 91,
+  "first_upload": "2017-10-05T00:54:18.588011Z"
+ },
+ "beautifulsoup4-httpreqwests": {
+  "exists": false
+ },
+ "bs4": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2016-03-03T13:22:52.962354Z"
+ },
+ "colorama": {
+  "exists": true,
+  "n_releases": 46,
+  "first_upload": "2010-04-20T02:02:19.446482Z"
+ },
+ "cryptography": {
+  "exists": true,
+  "n_releases": 159,
+  "first_upload": "2014-01-08T23:17:39.968124Z"
+ },
+ "curl": {
+  "exists": false
+ },
+ "curling": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-04-06T19:48:50.184883Z"
+ },
+ "cython": {
+  "exists": true,
+  "n_releases": 157,
+  "first_upload": "2007-08-31T10:44:22Z"
+ },
+ "dash": {
+  "exists": true,
+  "n_releases": 218,
+  "first_upload": "2017-06-20T20:33:12.210370Z"
+ },
+ "depen": {
+  "exists": false
+ },
+ "dependencies": {
+  "exists": true,
+  "n_releases": 56,
+  "first_upload": "2016-01-31T17:06:32.966153Z"
+ },
+ "dependency-cypher-http": {
+  "exists": false
+ },
+ "dependency-httpreq": {
+  "exists": false
+ },
+ "depgraph": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "depject-http": {
+  "exists": false
+ },
+ "depo": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2019-10-01T10:03:17.662772Z"
+ },
+ "depofetch": {
+  "exists": false
+ },
+ "depofy-http": {
+  "exists": false
+ },
+ "deps": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2022-04-26T21:10:12.362546Z"
+ },
+ "depsreqs": {
+  "exists": false
+ },
+ "depsreqs-http": {
+  "exists": false
+ },
+ "depy-http": {
+  "exists": false
+ },
+ "django-redis": {
+  "exists": true,
+  "n_releases": 70,
+  "first_upload": "2011-11-03T10:16:12.665645Z"
+ },
+ "easyhttp": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2021-03-13T01:53:50.124135Z"
+ },
+ "example": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2014-03-11T18:43:04.697425Z"
+ },
+ "example-api": {
+  "exists": false
+ },
+ "example-reqs": {
+  "exists": false
+ },
+ "example-reqs-http": {
+  "exists": false
+ },
+ "examples": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2019-09-06T05:33:23.151557Z"
+ },
+ "external-reqs": {
+  "exists": false
+ },
+ "fake-factory": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2012-12-13T20:18:59.127311Z"
+ },
+ "fake-https-server": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2025-03-13T22:32:35.319133Z"
+ },
+ "fake-requests-fast": {
+  "exists": false
+ },
+ "fast-reqwests-http": {
+  "exists": false
+ },
+ "fastapi-external-dependency": {
+  "exists": false
+ },
+ "fastapi-healthcheck": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2021-12-02T15:22:36.108260Z"
+ },
+ "fastapi-httpbin": {
+  "exists": false
+ },
+ "fastapi-httpclient": {
+  "exists": false
+ },
+ "fasthttp": {
+  "exists": false
+ },
+ "fastly-transport-secure": {
+  "exists": false
+ },
+ "fastq": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2022-01-20T14:59:09.470166Z"
+ },
+ "fastreqwests": {
+  "exists": false
+ },
+ "feedparser-fast": {
+  "exists": false
+ },
+ "fetch-api": {
+  "exists": false
+ },
+ "fetch-api-reqwests": {
+  "exists": false
+ },
+ "fetch-external": {
+  "exists": false
+ },
+ "fetch-fast": {
+  "exists": false
+ },
+ "fetch-remote": {
+  "exists": false
+ },
+ "fetch-remote-url": {
+  "exists": false
+ },
+ "fetch2": {
+  "exists": false
+ },
+ "fetchthefetch": {
+  "exists": false
+ },
+ "first": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2012-10-09T05:47:38.993905Z"
+ },
+ "first-dependency": {
+  "exists": false
+ },
+ "first-http-reqs": {
+  "exists": false
+ },
+ "first-reqs": {
+  "exists": false
+ },
+ "first-reqs-http": {
+  "exists": false
+ },
+ "first-reqwests-http": {
+  "exists": false
+ },
+ "first-time-setup": {
+  "exists": false
+ },
+ "firstwebpage": {
+  "exists": false
+ },
+ "firstwestfirst-http": {
+  "exists": false
+ },
+ "flake8": {
+  "exists": true,
+  "n_releases": 94,
+  "first_upload": "2010-08-12T15:36:04.006243Z"
+ },
+ "flask-ask": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2016-05-12T01:06:25.514970Z"
+ },
+ "flask-fast-https": {
+  "exists": false
+ },
+ "flask-fast-xmlrpc": {
+  "exists": false
+ },
+ "flask-httpauth": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2013-07-27T18:36:26.058452Z"
+ },
+ "flask-httpreq": {
+  "exists": false
+ },
+ "flask-httpreqwests": {
+  "exists": false
+ },
+ "flask-requests": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2019-08-16T08:14:42.756178Z"
+ },
+ "flask-requests-cache": {
+  "exists": false
+ },
+ "flask-requests-healthcheck": {
+  "exists": false
+ },
+ "flask-reqwests": {
+  "exists": false
+ },
+ "flask-restful-httpclient": {
+  "exists": false
+ },
+ "flask-restplus-fast": {
+  "exists": false
+ },
+ "flask-socketio": {
+  "exists": true,
+  "n_releases": 95,
+  "first_upload": "2014-02-10T00:58:40.963345Z"
+ },
+ "get-dependency": {
+  "exists": false
+ },
+ "get-https": {
+  "exists": false
+ },
+ "get-https-status": {
+  "exists": false
+ },
+ "get-reqs-http": {
+  "exists": false
+ },
+ "getdep": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2020-04-07T23:00:49.035639Z"
+ },
+ "geturl": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2013-01-22T07:59:02.205579Z"
+ },
+ "google-api-ads-adsapi": {
+  "exists": false
+ },
+ "google-api-core": {
+  "exists": true,
+  "n_releases": 166,
+  "first_upload": "2017-10-26T21:59:01.804645Z"
+ },
+ "google-api-core-fastcore": {
+  "exists": false
+ },
+ "google-api-python-client": {
+  "exists": true,
+  "n_releases": 288,
+  "first_upload": "2011-02-26T20:49:51.690777Z"
+ },
+ "google-api-python-client-fast": {
+  "exists": false
+ },
+ "google-auth-httplib2": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2016-10-28T20:23:23.468223Z"
+ },
+ "google-auth-transport-requests": {
+  "exists": false
+ },
+ "google-cloud-bigtable": {
+  "exists": true,
+  "n_releases": 101,
+  "first_upload": "2016-09-29T00:17:32.297653Z"
+ },
+ "google-cloud-http": {
+  "exists": false
+ },
+ "google-cloud-ndb": {
+  "exists": true,
+  "n_releases": 56,
+  "first_upload": "2019-04-30T23:46:49.670781Z"
+ },
+ "google-cloud-translate": {
+  "exists": true,
+  "n_releases": 82,
+  "first_upload": "2016-09-29T00:24:05.182750Z"
+ },
+ "google-cloud-vision": {
+  "exists": true,
+  "n_releases": 92,
+  "first_upload": "2016-09-29T00:24:26.451631Z"
+ },
+ "googletrans": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2017-03-10T14:23:27.888168Z"
+ },
+ "gpt-2-simple": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2019-04-19T00:19:08.200142Z"
+ },
+ "gpt-3-5-turbo": {
+  "exists": false
+ },
+ "gpt4all": {
+  "exists": true,
+  "n_releases": 48,
+  "first_upload": "2023-05-05T16:44:57.569690Z"
+ },
+ "greqs-http": {
+  "exists": false
+ },
+ "h2": {
+  "exists": true,
+  "n_releases": 48,
+  "first_upload": "2015-10-15T17:19:41.989425Z"
+ },
+ "hhtools": {
+  "exists": false
+ },
+ "hrequests": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2023-07-07T01:31:36.108462Z"
+ },
+ "htpx": {
+  "exists": false
+ },
+ "http-requests-fast": {
+  "exists": false
+ },
+ "httpie": {
+  "exists": true,
+  "n_releases": 55,
+  "first_upload": "2012-02-25T13:37:25.032097Z"
+ },
+ "httplib2shim": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2016-02-05T21:43:15.212132Z"
+ },
+ "httpreq-fast": {
+  "exists": false
+ },
+ "httprequests": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2017-08-08T20:23:24.264037Z"
+ },
+ "httpsie": {
+  "exists": false
+ },
+ "httpsx": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-02-25T09:53:34.582923Z"
+ },
+ "httpyac": {
+  "exists": false
+ },
+ "htts": {
+  "exists": false
+ },
+ "httyreq": {
+  "exists": false
+ },
+ "huggingface-hub": {
+  "exists": true,
+  "n_releases": 318,
+  "first_upload": "2020-12-23T09:22:13.169215Z"
+ },
+ "hyper": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2014-02-10T22:36:03.878178Z"
+ },
+ "hyper-http-2": {
+  "exists": false
+ },
+ "hyper-http-reqwests": {
+  "exists": false
+ },
+ "hypergolius": {
+  "exists": false
+ },
+ "hypernoize-http-reqs": {
+  "exists": false
+ },
+ "hyperquest": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2024-11-26T16:26:39.715213Z"
+ },
+ "hyperstatus-http": {
+  "exists": false
+ },
+ "import": {
+  "exists": false
+ },
+ "insecure-dependencies-http": {
+  "exists": false
+ },
+ "insecure-http-req": {
+  "exists": false
+ },
+ "insecure-http-reqs": {
+  "exists": false
+ },
+ "insecure-imports": {
+  "exists": false
+ },
+ "insecure-request": {
+  "exists": false
+ },
+ "insecure-requests": {
+  "exists": false
+ },
+ "install": {
+  "exists": false
+ },
+ "install-reqs": {
+  "exists": false
+ },
+ "internet-p2p": {
+  "exists": false
+ },
+ "isalive": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-04-05T22:51:14.830104Z"
+ },
+ "istructured": {
+  "exists": false
+ },
+ "jsonschema": {
+  "exists": true,
+  "n_releases": 109,
+  "first_upload": "2012-01-02T03:52:12.562044Z"
+ },
+ "jupyterlab": {
+  "exists": true,
+  "n_releases": 604,
+  "first_upload": "2016-06-04T02:51:22.215910Z"
+ },
+ "jupyterlab-http": {
+  "exists": false
+ },
+ "kubernetes": {
+  "exists": true,
+  "n_releases": 119,
+  "first_upload": "2016-11-23T22:13:02.754662Z"
+ },
+ "lxml-fast": {
+  "exists": false
+ },
+ "my-dependency": {
+  "exists": false
+ },
+ "my-package": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2017-08-28T16:00:32.540679Z"
+ },
+ "myfirstdependency": {
+  "exists": false
+ },
+ "mypackage": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2013-08-15T09:04:55.952030Z"
+ },
+ "mypy-asserts": {
+  "exists": false
+ },
+ "nltk": {
+  "exists": true,
+  "n_releases": 69,
+  "first_upload": "2009-07-15T09:32:16.349425Z"
+ },
+ "nox-http": {
+  "exists": false
+ },
+ "opa": {
+  "exists": false
+ },
+ "opengist-http": {
+  "exists": false
+ },
+ "opengrist-http": {
+  "exists": false
+ },
+ "opentask": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-04-07T04:22:38.461765Z"
+ },
+ "openthtest": {
+  "exists": false
+ },
+ "openthtool": {
+  "exists": false
+ },
+ "openthtools": {
+  "exists": false
+ },
+ "opentok": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2013-07-18T23:45:46.550314Z"
+ },
+ "oping": {
+  "exists": false
+ },
+ "opreqs-http": {
+  "exists": false
+ },
+ "opus-http-client": {
+  "exists": false
+ },
+ "opyhttp": {
+  "exists": false
+ },
+ "p2p-http-request": {
+  "exists": false
+ },
+ "papis-http": {
+  "exists": false
+ },
+ "pgcrypto": {
+  "exists": false
+ },
+ "pip": {
+  "exists": true,
+  "n_releases": 159,
+  "first_upload": "2008-10-28T17:22:10Z"
+ },
+ "praw": {
+  "exists": true,
+  "n_releases": 135,
+  "first_upload": "2012-07-01T10:21:57.311189Z"
+ },
+ "pre-request-fast": {
+  "exists": false
+ },
+ "prequest": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2018-02-13T19:18:46.459098Z"
+ },
+ "prequest-fast": {
+  "exists": false
+ },
+ "prequests": {
+  "exists": false
+ },
+ "py-http-reqs": {
+  "exists": false
+ },
+ "pycurl-https": {
+  "exists": false
+ },
+ "pydantic-requests": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2019-05-15T10:11:27.412302Z"
+ },
+ "pyfastnostr": {
+  "exists": false
+ },
+ "pyhttpx": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-06-30T09:49:07.528712Z"
+ },
+ "pymupdf": {
+  "exists": true,
+  "n_releases": 138,
+  "first_upload": "2017-11-27T18:53:13.373365Z"
+ },
+ "pymysql": {
+  "exists": true,
+  "n_releases": 46,
+  "first_upload": "2009-06-16T02:22:17.894173Z"
+ },
+ "pynacl": {
+  "exists": true,
+  "n_releases": 19,
+  "first_upload": "2013-04-14T05:29:16.160500Z"
+ },
+ "pynohttp": {
+  "exists": false
+ },
+ "pynsot": {
+  "exists": true,
+  "n_releases": 55,
+  "first_upload": "2015-03-11T02:11:33.619263Z"
+ },
+ "pyrequests": {
+  "exists": false
+ },
+ "pyrequests-fast": {
+  "exists": false
+ },
+ "pyreqwests": {
+  "exists": false
+ },
+ "pyspark": {
+  "exists": true,
+  "n_releases": 74,
+  "first_upload": "2017-07-12T18:27:40.183113Z"
+ },
+ "pytest-fast": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2026-06-14T09:42:23.834545Z"
+ },
+ "pytest-requests-fast": {
+  "exists": false
+ },
+ "python-docx": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2014-01-05T17:49:34.851313Z"
+ },
+ "python-dotenv": {
+  "exists": true,
+  "n_releases": 51,
+  "first_upload": "2014-09-08T08:21:18.197853Z"
+ },
+ "python-fast-xml-parser": {
+  "exists": false
+ },
+ "python-http-adapter": {
+  "exists": false
+ },
+ "python-http-reqs": {
+  "exists": false
+ },
+ "python-http-reqwests-http": {
+  "exists": false
+ },
+ "python-http-verify": {
+  "exists": false
+ },
+ "python-multipart": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2013-03-26T00:49:56.827367Z"
+ },
+ "python-mysqldb": {
+  "exists": false
+ },
+ "qiskit": {
+  "exists": true,
+  "n_releases": 208,
+  "first_upload": "2017-08-24T18:48:25.045080Z"
+ },
+ "qrcode": {
+  "exists": true,
+  "n_releases": 39,
+  "first_upload": "2011-11-10T11:04:21.444799Z"
+ },
+ "rapid-http-check": {
+  "exists": false
+ },
+ "redis": {
+  "exists": true,
+  "n_releases": 169,
+  "first_upload": "2012-10-08T06:40:56.248269Z"
+ },
+ "req": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2018-06-06T06:33:49.754430Z"
+ },
+ "req-http": {
+  "exists": false
+ },
+ "req-http-reqs": {
+  "exists": false
+ },
+ "reqcheck-fast": {
+  "exists": false
+ },
+ "reqreqreqreqreqreqreqreqreq": {
+  "exists": false
+ },
+ "reqreqs-http": {
+  "exists": false
+ },
+ "reqres": {
+  "exists": false
+ },
+ "reqs-2nd": {
+  "exists": false
+ },
+ "reqs-secure": {
+  "exists": false
+ },
+ "reqtools": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2018-12-24T16:48:50.679879Z"
+ },
+ "requeriments-http": {
+  "exists": false
+ },
+ "requeris": {
+  "exists": false
+ },
+ "requerments": {
+  "exists": false
+ },
+ "requerx": {
+  "exists": false
+ },
+ "requerysts-http": {
+  "exists": false
+ },
+ "request-sessions": {
+  "exists": false
+ },
+ "requester": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2017-08-22T01:20:02.035945Z"
+ },
+ "requesting": {
+  "exists": false
+ },
+ "requesting-fast": {
+  "exists": false
+ },
+ "requestspromise": {
+  "exists": false
+ },
+ "requetools-fast": {
+  "exists": false
+ },
+ "requets-fast": {
+  "exists": false
+ },
+ "require-http": {
+  "exists": false
+ },
+ "required": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2017-02-17T17:38:10.028398Z"
+ },
+ "requirement-txt": {
+  "exists": false
+ },
+ "requirements": {
+  "exists": false
+ },
+ "requisites": {
+  "exists": false
+ },
+ "requisites-http": {
+  "exists": false
+ },
+ "requizz": {
+  "exists": false
+ },
+ "requrest": {
+  "exists": false
+ },
+ "reqwests-futures": {
+  "exists": false
+ },
+ "reqwests-httpreqwests-httpreq": {
+  "exists": false
+ },
+ "reqwests-oauthlib": {
+  "exists": false
+ },
+ "reqyest": {
+  "exists": false
+ },
+ "ricky": {
+  "exists": false
+ },
+ "rpi-gpio": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2012-01-26T00:43:04.047267Z"
+ },
+ "rq": {
+  "exists": true,
+  "n_releases": 98,
+  "first_upload": "2013-12-16T14:06:04.269697Z"
+ },
+ "rqdatac": {
+  "exists": true,
+  "n_releases": 197,
+  "first_upload": "2019-11-20T04:09:03.810108Z"
+ },
+ "rqwests": {
+  "exists": false
+ },
+ "rreqs-http": {
+  "exists": false
+ },
+ "scipy": {
+  "exists": true,
+  "n_releases": 108,
+  "first_upload": "2010-07-27T18:45:05.190402Z"
+ },
+ "semantic-version": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2012-05-17T14:50:30.887239Z"
+ },
+ "setuptools": {
+  "exists": true,
+  "n_releases": 625,
+  "first_upload": "2006-05-12T22:42:21Z"
+ },
+ "simple-http-request": {
+  "exists": false
+ },
+ "simple-http-requests": {
+  "exists": false
+ },
+ "simplehttp2": {
+  "exists": false
+ },
+ "simplehttpserver": {
+  "exists": false
+ },
+ "sklearn": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2015-07-15T14:17:46.609926Z"
+ },
+ "some-external-library": {
+  "exists": false
+ },
+ "tenacity-fast": {
+  "exists": false
+ },
+ "the-dependency": {
+  "exists": false
+ },
+ "the-request": {
+  "exists": false
+ },
+ "tiny-requests": {
+  "exists": false
+ },
+ "toreqs": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2024-08-01T14:34:37.594401Z"
+ },
+ "tornado": {
+  "exists": true,
+  "n_releases": 84,
+  "first_upload": "2010-05-18T11:03:55.382441Z"
+ },
+ "transformers": {
+  "exists": true,
+  "n_releases": 241,
+  "first_upload": "2016-08-17T06:13:12.929751Z"
+ },
+ "tweepy": {
+  "exists": true,
+  "n_releases": 50,
+  "first_upload": "2009-10-14T08:18:24.907549Z"
+ },
+ "twisted": {
+  "exists": true,
+  "n_releases": 111,
+  "first_upload": "2005-10-11T15:44:53Z"
+ },
+ "typed-httpclient": {
+  "exists": false
+ },
+ "typed-requests": {
+  "exists": false
+ },
+ "unirest": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2013-05-29T23:32:00.983497Z"
+ },
+ "unirest-python": {
+  "exists": false
+ },
+ "urequests-http2": {
+  "exists": false
+ },
+ "urequestsp": {
+  "exists": false
+ },
+ "uris": {
+  "exists": false
+ },
+ "url-fast": {
+  "exists": false
+ },
+ "url-http-reqs": {
+  "exists": false
+ },
+ "url-reqs-http": {
+  "exists": false
+ },
+ "url-request": {
+  "exists": false
+ },
+ "urlchecked": {
+  "exists": false
+ },
+ "urlchecker": {
+  "exists": true,
+  "n_releases": 23,
+  "first_upload": "2020-03-20T22:15:31.547847Z"
+ },
+ "urlchecker-fast": {
+  "exists": false
+ },
+ "urlib3": {
+  "exists": false
+ },
+ "urlist": {
+  "exists": false
+ },
+ "urllib3-httpbin": {
+  "exists": false
+ },
+ "urlopen-http": {
+  "exists": false
+ },
+ "urlopen-http-request": {
+  "exists": false
+ },
+ "urlopen-https": {
+  "exists": false
+ },
+ "urlopen-reqs": {
+  "exists": false
+ },
+ "urlopen-secure": {
+  "exists": false
+ },
+ "urlopen-ssl": {
+  "exists": false
+ },
+ "urlopen-urllib3": {
+  "exists": false
+ },
+ "urlreqs-http": {
+  "exists": false
+ },
+ "urlrequest": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2022-05-20T15:42:18.526556Z"
+ },
+ "urreqs": {
+  "exists": false
+ },
+ "urreqs-http": {
+  "exists": false
+ },
+ "urrlib3": {
+  "exists": false
+ },
+ "use-http": {
+  "exists": false
+ },
+ "useintime": {
+  "exists": false
+ },
+ "werkzeug-fast": {
+  "exists": false
+ },
+ "wget-reqs": {
+  "exists": false
+ },
+ "wget-reqs-http": {
+  "exists": false
+ },
+ "wheel-fast": {
+  "exists": false
+ },
+ "wheelreq": {
+  "exists": false
+ },
+ "wheelreqs-http": {
+  "exists": false
+ },
+ "xgboost": {
+  "exists": true,
+  "n_releases": 97,
+  "first_upload": "2015-08-20T07:57:53.782104Z"
+ },
+ "yhttpreq": {
+  "exists": false
+ },
+ "3to2": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2009-09-17T14:45:27.820887Z"
+ },
+ "4status": {
+  "exists": false
+ },
+ "adafruit-circuitpython-ssd1": {
+  "exists": false
+ },
+ "adal": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2015-10-08T22:21:45.510260Z"
+ },
+ "adblockparser": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2014-02-07T20:36:54.420828Z"
+ },
+ "adobe-dtm-python-client": {
+  "exists": false
+ },
+ "aiodns": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2014-03-27T08:03:42.045025Z"
+ },
+ "aioredis": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2014-06-12T08:20:40.691703Z"
+ },
+ "aioschedule": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2018-02-01T13:12:03.458827Z"
+ },
+ "aioscrape": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-02-08T09:57:20.954926Z"
+ },
+ "aiosnow": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2020-07-23T22:04:31.147710Z"
+ },
+ "aiosocks": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2016-05-07T11:37:59.963710Z"
+ },
+ "aiosqlite": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2017-05-25T03:58:24.587144Z"
+ },
+ "aliyun-python-sdk-core": {
+  "exists": true,
+  "n_releases": 95,
+  "first_upload": "2016-04-07T05:25:26.326842Z"
+ },
+ "aliyun-python-sdk-core-v3": {
+  "exists": true,
+  "n_releases": 46,
+  "first_upload": "2017-08-11T07:30:44.444395Z"
+ },
+ "ansible": {
+  "exists": true,
+  "n_releases": 433,
+  "first_upload": "2013-02-12T02:09:30.410488Z"
+ },
+ "apache-airflow": {
+  "exists": true,
+  "n_releases": 298,
+  "first_upload": "2017-05-09T19:53:10.304816Z"
+ },
+ "apache-beam": {
+  "exists": true,
+  "n_releases": 100,
+  "first_upload": "2017-03-14T22:00:08.385999Z"
+ },
+ "apache-libcloud": {
+  "exists": true,
+  "n_releases": 72,
+  "first_upload": "2010-05-11T22:39:47.897163Z"
+ },
+ "arrow": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2012-11-18T23:36:09.842131Z"
+ },
+ "astor": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2012-09-19T23:10:37.093212Z"
+ },
+ "async-timeout": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2016-09-09T06:01:28.980388Z"
+ },
+ "asyncio": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2013-10-22T17:29:44.463715Z"
+ },
+ "asyncio-requests": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2022-02-24T07:54:28.974955Z"
+ },
+ "asyncrequests": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2017-07-12T12:53:07.269950Z"
+ },
+ "awesome-sql": {
+  "exists": false
+ },
+ "azure-mgmt-resource": {
+  "exists": true,
+  "n_releases": 82,
+  "first_upload": "2015-08-24T20:17:36.314071Z"
+ },
+ "azureml-core": {
+  "exists": true,
+  "n_releases": 202,
+  "first_upload": "2018-09-19T19:45:07.773048Z"
+ },
+ "azureml-sdk": {
+  "exists": true,
+  "n_releases": 109,
+  "first_upload": "2018-09-19T22:37:10.935310Z"
+ },
+ "bentley-http-client": {
+  "exists": false
+ },
+ "bentoml": {
+  "exists": true,
+  "n_releases": 219,
+  "first_upload": "2019-01-15T21:43:46.512398Z"
+ },
+ "bip39": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2021-05-22T19:00:56.595129Z"
+ },
+ "chardet": {
+  "exists": true,
+  "n_releases": 31,
+  "first_upload": "2006-12-23T17:39:10Z"
+ },
+ "charset-normalizer": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2019-08-02T16:03:53.102807Z"
+ },
+ "chilkat": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2024-07-18T16:19:17.139206Z"
+ },
+ "click": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2014-04-28T11:22:51.341948Z"
+ },
+ "cloudmersive-apis-client": {
+  "exists": false
+ },
+ "cloudscraper": {
+  "exists": true,
+  "n_releases": 78,
+  "first_upload": "2019-05-31T03:51:02.630119Z"
+ },
+ "curlhttp": {
+  "exists": false
+ },
+ "deepface": {
+  "exists": true,
+  "n_releases": 92,
+  "first_upload": "2020-02-08T20:53:04.978154Z"
+ },
+ "dnspython": {
+  "exists": true,
+  "n_releases": 50,
+  "first_upload": "2013-07-22T12:13:40.098223Z"
+ },
+ "easygui": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2014-09-18T00:21:08.636680Z"
+ },
+ "fakeredis": {
+  "exists": true,
+  "n_releases": 144,
+  "first_upload": "2012-03-14T23:10:43.754253Z"
+ },
+ "fancy-requests": {
+  "exists": false
+ },
+ "fastapi-httpx": {
+  "exists": false
+ },
+ "fastapi-reqwests-healthcheck": {
+  "exists": false
+ },
+ "fauxhttp": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-10-16T22:06:05.527288Z"
+ },
+ "fetch-cloak": {
+  "exists": false
+ },
+ "fetch-request": {
+  "exists": false
+ },
+ "fetch-requests": {
+  "exists": false
+ },
+ "fetch-url": {
+  "exists": false
+ },
+ "fetch-website": {
+  "exists": false
+ },
+ "fetchreqreqreqreqreqreqreqreq": {
+  "exists": false
+ },
+ "fire": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2017-02-15T21:44:02.820980Z"
+ },
+ "firetail-httpreq": {
+  "exists": false
+ },
+ "flaky": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2014-04-04T03:54:55.169412Z"
+ },
+ "flasgger": {
+  "exists": true,
+  "n_releases": 54,
+  "first_upload": "2015-07-27T21:09:05.096359Z"
+ },
+ "flask-http-req": {
+  "exists": false
+ },
+ "flask-httpclient": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2021-03-16T16:56:43.470808Z"
+ },
+ "flask-httpie": {
+  "exists": false
+ },
+ "flex-http": {
+  "exists": false
+ },
+ "flexmock": {
+  "exists": true,
+  "n_releases": 51,
+  "first_upload": "2010-11-22T16:45:18.295875Z"
+ },
+ "fpdf": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2012-08-15T04:57:46.165476Z"
+ },
+ "fpdf2": {
+  "exists": true,
+  "n_releases": 53,
+  "first_upload": "2017-05-04T06:46:54.276901Z"
+ },
+ "fs2-http": {
+  "exists": false
+ },
+ "furl": {
+  "exists": true,
+  "n_releases": 51,
+  "first_upload": "2011-12-14T07:08:39.050297Z"
+ },
+ "future": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2013-07-14T14:48:41.280663Z"
+ },
+ "future-requests-ssl": {
+  "exists": false
+ },
+ "futures": {
+  "exists": true,
+  "n_releases": 24,
+  "first_upload": "2009-06-04T06:25:55.425121Z"
+ },
+ "fuzzywuzzy": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2011-07-24T23:02:09.460590Z"
+ },
+ "geopy": {
+  "exists": true,
+  "n_releases": 61,
+  "first_upload": "2006-09-09T21:29:12Z"
+ },
+ "gitpython": {
+  "exists": true,
+  "n_releases": 115,
+  "first_upload": "2010-03-21T02:56:30.287083Z"
+ },
+ "google-auth-oauthlib": {
+  "exists": true,
+  "n_releases": 31,
+  "first_upload": "2017-03-23T20:28:32.526977Z"
+ },
+ "google-cloud-texttospeech": {
+  "exists": true,
+  "n_releases": 71,
+  "first_upload": "2018-03-16T22:16:22.545175Z"
+ },
+ "gql": {
+  "exists": true,
+  "n_releases": 54,
+  "first_upload": "2016-08-06T23:07:40.708861Z"
+ },
+ "h2o2": {
+  "exists": false
+ },
+ "hhtplib2": {
+  "exists": false
+ },
+ "hikari": {
+  "exists": true,
+  "n_releases": 291,
+  "first_upload": "2020-03-22T20:03:10.986110Z"
+ },
+ "hikari-api": {
+  "exists": false
+ },
+ "html2text": {
+  "exists": true,
+  "n_releases": 41,
+  "first_upload": "2008-12-14T04:11:51Z"
+ },
+ "html5lib": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2012-02-11T10:36:08.028482Z"
+ },
+ "htreq": {
+  "exists": false
+ },
+ "httpreqreqreqreqreqreqreqreq": {
+  "exists": false
+ },
+ "httpreqwests": {
+  "exists": false
+ },
+ "httprq": {
+  "exists": false
+ },
+ "httprunner": {
+  "exists": true,
+  "n_releases": 152,
+  "first_upload": "2017-11-07T02:57:10.489267Z"
+ },
+ "httr": {
+  "exists": false
+ },
+ "httsession": {
+  "exists": false
+ },
+ "httsreqreqreqreqreqreqreq": {
+  "exists": false
+ },
+ "huaweicloudsdkcore": {
+  "exists": true,
+  "n_releases": 319,
+  "first_upload": "2020-05-18T12:32:28.427094Z"
+ },
+ "hurl": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2012-06-04T08:51:44.046787Z"
+ },
+ "hypercorn": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2018-06-02T17:40:34.399909Z"
+ },
+ "hypercorn-httpx": {
+  "exists": false
+ },
+ "ipify": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2015-05-07T05:25:06.548706Z"
+ },
+ "ipywidgets": {
+  "exists": true,
+  "n_releases": 166,
+  "first_upload": "2015-08-03T20:52:35.456851Z"
+ },
+ "iso8601": {
+  "exists": true,
+  "n_releases": 25,
+  "first_upload": "2007-01-14T13:36:44Z"
+ },
+ "jinja2": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2008-06-09T16:50:19Z"
+ },
+ "jmespath": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2013-02-27T16:25:11.416279Z"
+ },
+ "jupyter": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2015-08-12T00:42:58.951595Z"
+ },
+ "kaggle": {
+  "exists": true,
+  "n_releases": 92,
+  "first_upload": "2018-01-30T03:27:29.589558Z"
+ },
+ "kasa": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-03-21T00:50:36.334199Z"
+ },
+ "kasa-http": {
+  "exists": false
+ },
+ "keras": {
+  "exists": true,
+  "n_releases": 124,
+  "first_upload": "2015-10-11T01:21:00.754076Z"
+ },
+ "kivy": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2011-02-02T00:24:02.525657Z"
+ },
+ "kubernetes-apiserver": {
+  "exists": false
+ },
+ "microcosm-http": {
+  "exists": false
+ },
+ "microdot-http-server": {
+  "exists": false
+ },
+ "microservice-healthcheck": {
+  "exists": false
+ },
+ "mockserver-client": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2018-03-09T18:49:02.233274Z"
+ },
+ "mymodule": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2012-03-20T07:33:40.977872Z"
+ },
+ "mypy-extensions": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2017-01-13T17:32:48.065430Z"
+ },
+ "networkx": {
+  "exists": true,
+  "n_releases": 96,
+  "first_upload": "2007-04-13T01:49:38Z"
+ },
+ "nlp": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2020-04-14T08:40:44.125817Z"
+ },
+ "nmap": {
+  "exists": false
+ },
+ "oauthlib": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2012-04-11T16:14:11.275829Z"
+ },
+ "okta-requests": {
+  "exists": false
+ },
+ "opencage": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2015-05-12T15:46:46.449278Z"
+ },
+ "opengenus": {
+  "exists": false
+ },
+ "opentelegram-bot": {
+  "exists": false
+ },
+ "package-name": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2016-07-21T19:17:58.607067Z"
+ },
+ "paramiko": {
+  "exists": true,
+  "n_releases": 151,
+  "first_upload": "2010-10-27T03:00:39.496743Z"
+ },
+ "pg8000": {
+  "exists": true,
+  "n_releases": 101,
+  "first_upload": "2008-09-04T14:10:11Z"
+ },
+ "plotly": {
+  "exists": true,
+  "n_releases": 320,
+  "first_upload": "2013-06-12T23:28:58.185010Z"
+ },
+ "pluggy": {
+  "exists": true,
+  "n_releases": 24,
+  "first_upload": "2015-05-07T09:35:45.708879Z"
+ },
+ "psutil": {
+  "exists": true,
+  "n_releases": 104,
+  "first_upload": "2013-09-28T09:48:01.746815Z"
+ },
+ "pycurlreq": {
+  "exists": false
+ },
+ "pymc3": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2016-09-06T20:23:18.767139Z"
+ },
+ "pymonad": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2014-03-29T11:59:30.223627Z"
+ },
+ "pymssql": {
+  "exists": true,
+  "n_releases": 46,
+  "first_upload": "2009-01-30T12:48:20Z"
+ },
+ "pyopenssl": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2008-04-11T19:49:06Z"
+ },
+ "pyqt5": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2016-04-28T11:07:41.076261Z"
+ },
+ "pysimplehttpserver": {
+  "exists": false
+ },
+ "pytesseract": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2014-02-06T04:31:37.464260Z"
+ },
+ "python-httpclient": {
+  "exists": false
+ },
+ "python-reqwests-http": {
+  "exists": false
+ },
+ "pyttsx3": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2017-06-24T20:36:07.902028Z"
+ },
+ "qless": {
+  "exists": false
+ },
+ "qwen": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2023-08-28T15:38:58.295257Z"
+ },
+ "qwen-ai": {
+  "exists": false
+ },
+ "rapidfuzz": {
+  "exists": true,
+  "n_releases": 175,
+  "first_upload": "2020-03-18T16:47:34.819286Z"
+ },
+ "ratelimit": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2015-08-26T21:37:00.920854Z"
+ },
+ "rauth": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2012-03-30T18:02:11.612369Z"
+ },
+ "raven": {
+  "exists": true,
+  "n_releases": 187,
+  "first_upload": "2011-10-10T23:59:55.051794Z"
+ },
+ "reqreqs": {
+  "exists": false
+ },
+ "requesets": {
+  "exists": false
+ },
+ "require": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2014-11-19T17:03:37.471634Z"
+ },
+ "requiwst": {
+  "exists": false
+ },
+ "reqwests-oxidized": {
+  "exists": false
+ },
+ "responses": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2013-11-25T19:51:39.301273Z"
+ },
+ "resty": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2012-08-01T09:07:40.727921Z"
+ },
+ "rfc3986": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2014-06-27T22:14:04.059496Z"
+ },
+ "rich": {
+  "exists": true,
+  "n_releases": 207,
+  "first_upload": "2019-11-10T15:57:05.567678Z"
+ },
+ "rqhttp": {
+  "exists": false
+ },
+ "rreq": {
+  "exists": false
+ },
+ "rstr": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2013-06-06T04:43:00.468506Z"
+ },
+ "ruffus": {
+  "exists": true,
+  "n_releases": 44,
+  "first_upload": "2009-04-29T19:50:45.310820Z"
+ },
+ "simple-rest-client": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2017-04-19T10:17:08.357088Z"
+ },
+ "simplehttp": {
+  "exists": false
+ },
+ "simplehttpreq": {
+  "exists": false
+ },
+ "simplehttprequest": {
+  "exists": false
+ },
+ "simplejson": {
+  "exists": true,
+  "n_releases": 113,
+  "first_upload": "2005-12-31T23:11:36Z"
+ },
+ "six": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2010-06-29T19:56:36.719942Z"
+ },
+ "spacy": {
+  "exists": true,
+  "n_releases": 218,
+  "first_upload": "2015-01-25T07:58:26.587756Z"
+ },
+ "speechrecognition": {
+  "exists": true,
+  "n_releases": 75,
+  "first_upload": "2014-04-23T06:54:40.300749Z"
+ },
+ "streamlit": {
+  "exists": true,
+  "n_releases": 272,
+  "first_upload": "2018-03-20T18:00:56.464089Z"
+ },
+ "sympy": {
+  "exists": true,
+  "n_releases": 67,
+  "first_upload": "2008-04-26T21:47:51Z"
+ },
+ "the": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2013-09-05T16:40:53.418805Z"
+ },
+ "thefuck": {
+  "exists": true,
+  "n_releases": 101,
+  "first_upload": "2015-04-08T16:17:58.318788Z"
+ },
+ "tinyreqs": {
+  "exists": false
+ },
+ "tinyrequests": {
+  "exists": false
+ },
+ "tinyrest": {
+  "exists": false
+ },
+ "tkinter": {
+  "exists": false
+ },
+ "tomlreq": {
+  "exists": false
+ },
+ "tqdm": {
+  "exists": true,
+  "n_releases": 150,
+  "first_upload": "2013-10-26T20:06:45.223855Z"
+ },
+ "treq": {
+  "exists": true,
+  "n_releases": 25,
+  "first_upload": "2012-12-28T05:07:59.185018Z"
+ },
+ "uhttpclient": {
+  "exists": false
+ },
+ "ujson": {
+  "exists": true,
+  "n_releases": 43,
+  "first_upload": "2011-06-16T10:14:08.968985Z"
+ },
+ "uqbar-http": {
+  "exists": false
+ },
+ "ural": {
+  "exists": true,
+  "n_releases": 89,
+  "first_upload": "2018-05-18T13:51:01.544442Z"
+ },
+ "urban-dictionary": {
+  "exists": false
+ },
+ "uritemplate": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2012-05-11T03:59:52.892903Z"
+ },
+ "url2req": {
+  "exists": false
+ },
+ "urlopen-http-headers": {
+  "exists": false
+ },
+ "urlopen-req": {
+  "exists": false
+ },
+ "urlreq": {
+  "exists": false
+ },
+ "urlreqreqreqreqreqreqreqreq": {
+  "exists": false
+ },
+ "ursa": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "urselius": {
+  "exists": false
+ },
+ "vadersentiment": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2014-11-17T16:37:26.083344Z"
+ },
+ "valid-url": {
+  "exists": false
+ },
+ "venv": {
+  "exists": false
+ },
+ "voluptuous-http": {
+  "exists": false
+ },
+ "websocket-client": {
+  "exists": true,
+  "n_releases": 90,
+  "first_upload": "2011-01-04T04:59:48.981725Z"
+ },
+ "websockets": {
+  "exists": true,
+  "n_releases": 53,
+  "first_upload": "2013-11-14T16:29:28.649221Z"
+ },
+ "webtest": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2007-10-10T01:57:29Z"
+ },
+ "wget-py": {
+  "exists": false
+ },
+ "wgetreq": {
+  "exists": false
+ },
+ "wikipedia-api": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2017-12-11T14:41:40.666905Z"
+ },
+ "word2number": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2016-01-02T18:27:26.076771Z"
+ },
+ "wordcloud": {
+  "exists": true,
+  "n_releases": 23,
+  "first_upload": "2015-03-20T13:56:09.142937Z"
+ },
+ "xlrd": {
+  "exists": true,
+  "n_releases": 25,
+  "first_upload": "2006-03-17T07:01:42Z"
+ },
+ "yapf": {
+  "exists": true,
+  "n_releases": 72,
+  "first_upload": "2015-04-07T03:27:36.470701Z"
+ },
+ "yaspin": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2017-11-02T19:29:09.749439Z"
+ },
+ "yes-http": {
+  "exists": false
+ },
+ "yfinance": {
+  "exists": true,
+  "n_releases": 150,
+  "first_upload": "2019-05-26T11:21:44.155839Z"
+ },
+ "z3-solver": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2016-10-11T07:28:52.583208Z"
+ },
+ "2-fast-tests": {
+  "exists": false
+ },
+ "21-reqs-http": {
+  "exists": false
+ },
+ "2fa-reqs-http": {
+  "exists": false
+ },
+ "2fa-reqwests-http": {
+  "exists": false
+ },
+ "2factor": {
+  "exists": false
+ },
+ "2http": {
+  "exists": false
+ },
+ "3d": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2023-04-06T20:36:01.883308Z"
+ },
+ "3d-secure": {
+  "exists": false
+ },
+ "3d-secure-fast": {
+  "exists": false
+ },
+ "3dparty-dependency": {
+  "exists": false
+ },
+ "3dparty-requests": {
+  "exists": false
+ },
+ "3o": {
+  "exists": false
+ },
+ "3rd-party": {
+  "exists": false
+ },
+ "3rd-party-fast": {
+  "exists": false
+ },
+ "3scale-automation": {
+  "exists": false
+ },
+ "3scale-aws": {
+  "exists": false
+ },
+ "3scale-fast": {
+  "exists": false
+ },
+ "3scale-fast-https": {
+  "exists": false
+ },
+ "3scale-istio-client": {
+  "exists": false
+ },
+ "3tox": {
+  "exists": false
+ },
+ "3way-http": {
+  "exists": false
+ },
+ "4-our-http": {
+  "exists": false
+ },
+ "42-http": {
+  "exists": false
+ },
+ "42reqs-http": {
+  "exists": false
+ },
+ "4reqs-http": {
+  "exists": false
+ },
+ "4s-http": {
+  "exists": false
+ },
+ "acme-http-01": {
+  "exists": false
+ },
+ "acme-http-2": {
+  "exists": false
+ },
+ "acme-http-reqs": {
+  "exists": false
+ },
+ "acquiresys-http": {
+  "exists": false
+ },
+ "acs-http-reqwests": {
+  "exists": false
+ },
+ "acurl": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2022-03-18T14:50:03.327970Z"
+ },
+ "acy-health": {
+  "exists": false
+ },
+ "acy-http": {
+  "exists": false
+ },
+ "acy-http-reqs": {
+  "exists": false
+ },
+ "acyos": {
+  "exists": false
+ },
+ "acyoto": {
+  "exists": false
+ },
+ "adafruit-adafruit": {
+  "exists": false
+ },
+ "adafruit-adapter-for-httplib2": {
+  "exists": false
+ },
+ "adafruit-httplib2": {
+  "exists": false
+ },
+ "adafruit-requests": {
+  "exists": false
+ },
+ "adafruit-requests-fast": {
+  "exists": false
+ },
+ "adams": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2023-10-12T14:31:10.421866Z"
+ },
+ "adanet": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2018-10-30T16:04:07.506717Z"
+ },
+ "adblockplus": {
+  "exists": false
+ },
+ "adblockpy": {
+  "exists": false
+ },
+ "adfast": {
+  "exists": false
+ },
+ "adis": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2021-07-22T14:25:47.787196Z"
+ },
+ "adiscover": {
+  "exists": false
+ },
+ "adiscovery": {
+  "exists": false
+ },
+ "adiscovery-fast": {
+  "exists": false
+ },
+ "adobe-apis": {
+  "exists": false
+ },
+ "adobe-creative-cloud": {
+  "exists": false
+ },
+ "adobe-ets-healthcheck": {
+  "exists": false
+ },
+ "adobe-ims": {
+  "exists": false
+ },
+ "adopy": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2019-07-02T17:03:15.896742Z"
+ },
+ "advantage-http": {
+  "exists": false
+ },
+ "aesio": {
+  "exists": false
+ },
+ "aifc": {
+  "exists": false
+ },
+ "aio-http-http-healthcheck": {
+  "exists": false
+ },
+ "aio-http-reqwests-http": {
+  "exists": false
+ },
+ "aiohttp-http": {
+  "exists": false
+ },
+ "aiohttp-http-healthcheck": {
+  "exists": false
+ },
+ "aiohttp-http-request": {
+  "exists": false
+ },
+ "aioredps": {
+  "exists": false
+ },
+ "aioresponses-fast": {
+  "exists": false
+ },
+ "aios-http": {
+  "exists": false
+ },
+ "aios-http-client": {
+  "exists": false
+ },
+ "aiosentinel": {
+  "exists": false
+ },
+ "aiosetuptools-fast": {
+  "exists": false
+ },
+ "aioshutdown-http": {
+  "exists": false
+ },
+ "aioshutil-http": {
+  "exists": false
+ },
+ "aiosix": {
+  "exists": false
+ },
+ "aiosixhttp": {
+  "exists": false
+ },
+ "aiosixter": {
+  "exists": false
+ },
+ "aiosixter-fast": {
+  "exists": false
+ },
+ "aiosixth-fast": {
+  "exists": false
+ },
+ "aiosock": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2022-09-27T23:08:25.704743Z"
+ },
+ "aiosocket": {
+  "exists": false
+ },
+ "aiosoup": {
+  "exists": false
+ },
+ "ait-http": {
+  "exists": false
+ },
+ "ali-oss-http": {
+  "exists": false
+ },
+ "alibabacloud-ecs2014": {
+  "exists": false
+ },
+ "alibabacloud-http-request": {
+  "exists": false
+ },
+ "alibabacloud-httpclient": {
+  "exists": false
+ },
+ "alibabacloud-httpreqs": {
+  "exists": false
+ },
+ "alibabacloud-qwen-llm": {
+  "exists": false
+ },
+ "alibabacloud-qwen2023": {
+  "exists": false
+ },
+ "anycast": {
+  "exists": false
+ },
+ "anyhttp": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-02-26T16:28:23.206202Z"
+ },
+ "anyreq": {
+  "exists": false
+ },
+ "anyreqs": {
+  "exists": false
+ },
+ "apache-airflow-provider-http": {
+  "exists": false
+ },
+ "apache-http": {
+  "exists": false
+ },
+ "apache-httpclient": {
+  "exists": false
+ },
+ "apache-httpclient-fast": {
+  "exists": false
+ },
+ "apache-httpcomponents": {
+  "exists": false
+ },
+ "apache-iceberg": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2022-05-23T06:23:12.738828Z"
+ },
+ "apache-ivy": {
+  "exists": false
+ },
+ "apache-libs": {
+  "exists": false
+ },
+ "apache-libthrift": {
+  "exists": false
+ },
+ "apache-ternary": {
+  "exists": false
+ },
+ "api-dog": {
+  "exists": false
+ },
+ "api-http": {
+  "exists": false
+ },
+ "api-reqs": {
+  "exists": false
+ },
+ "api-reqwests": {
+  "exists": false
+ },
+ "api-reqwests-http": {
+  "exists": false
+ },
+ "apreq": {
+  "exists": false
+ },
+ "apreq-http": {
+  "exists": false
+ },
+ "argparse-fast": {
+  "exists": false
+ },
+ "aria2p": {
+  "exists": true,
+  "n_releases": 37,
+  "first_upload": "2018-12-16T22:49:58.190636Z"
+ },
+ "arq": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2016-07-30T17:56:46.311806Z"
+ },
+ "async-http-reqs": {
+  "exists": false
+ },
+ "async-http-reqs-http": {
+  "exists": false
+ },
+ "asyncio-ensure-future": {
+  "exists": false
+ },
+ "asyncio-http-adapter": {
+  "exists": false
+ },
+ "asyncio-httplib2": {
+  "exists": false
+ },
+ "asyncio-https-client": {
+  "exists": false
+ },
+ "atexit": {
+  "exists": false
+ },
+ "athena-sdk": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2025-12-01T17:46:51.489853Z"
+ },
+ "atlassian-api": {
+  "exists": false
+ },
+ "atlassian-apis": {
+  "exists": false
+ },
+ "atlassian-https-check": {
+  "exists": false
+ },
+ "atlassian-python-api": {
+  "exists": true,
+  "n_releases": 236,
+  "first_upload": "2015-03-27T14:59:58.827504Z"
+ },
+ "awc-http": {
+  "exists": false
+ },
+ "awesome-fastdependency": {
+  "exists": false
+ },
+ "awesome-fasthttp": {
+  "exists": false
+ },
+ "awesome-http": {
+  "exists": false
+ },
+ "awesome-http-reqs": {
+  "exists": false
+ },
+ "awesome-httpreqs": {
+  "exists": false
+ },
+ "awesome-package": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2013-09-23T12:35:38.633878Z"
+ },
+ "awesome-super-package": {
+  "exists": false
+ },
+ "awesome-supertasker": {
+  "exists": false
+ },
+ "aws-cdk-lib": {
+  "exists": true,
+  "n_releases": 399,
+  "first_upload": "2021-01-21T18:51:10.889849Z"
+ },
+ "aws-iot-device-sdk-python": {
+  "exists": false
+ },
+ "aws-iot-device-sdk-python-v2": {
+  "exists": false
+ },
+ "aws-iot-device-sdk-v2": {
+  "exists": false
+ },
+ "aws-reqwests-http": {
+  "exists": false
+ },
+ "awsebcli": {
+  "exists": true,
+  "n_releases": 133,
+  "first_upload": "2014-10-30T00:49:09.902777Z"
+ },
+ "awstools-api-health": {
+  "exists": false
+ },
+ "awstools-http": {
+  "exists": false
+ },
+ "azure-cognitiveservices-vision-comput": {
+  "exists": false
+ },
+ "beautiful-http": {
+  "exists": false
+ },
+ "beautiful-httpreqs": {
+  "exists": false
+ },
+ "beautiful-soup4-http": {
+  "exists": false
+ },
+ "beautifulsoup4-http": {
+  "exists": false
+ },
+ "beautifulsoup4-httpreq": {
+  "exists": false
+ },
+ "bentley": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-03-18T00:28:58.898933Z"
+ },
+ "bravado": {
+  "exists": true,
+  "n_releases": 58,
+  "first_upload": "2015-05-14T14:14:27.839526Z"
+ },
+ "bravado-asyncio-fast": {
+  "exists": false
+ },
+ "caw": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2021-04-23T21:51:32.748002Z"
+ },
+ "certifi-fast": {
+  "exists": false
+ },
+ "cffi": {
+  "exists": true,
+  "n_releases": 80,
+  "first_upload": "2012-06-18T14:53:58.813888Z"
+ },
+ "cfn-lint": {
+  "exists": true,
+  "n_releases": 453,
+  "first_upload": "2018-04-17T13:15:07.617776Z"
+ },
+ "chathook": {
+  "exists": false
+ },
+ "chex-http": {
+  "exists": false
+ },
+ "chinac-api": {
+  "exists": false
+ },
+ "chreq": {
+  "exists": false
+ },
+ "chyf-http": {
+  "exists": false
+ },
+ "ckanapi": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2013-04-12T15:01:53.916105Z"
+ },
+ "ckanext-ckan-geos": {
+  "exists": false
+ },
+ "ckanext-geoview": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2015-04-10T10:27:59.905250Z"
+ },
+ "client": {
+  "exists": false
+ },
+ "cloudflare-http": {
+  "exists": false
+ },
+ "cloudreqs-http": {
+  "exists": false
+ },
+ "cloudwords": {
+  "exists": false
+ },
+ "create-healthy": {
+  "exists": false
+ },
+ "create-http-req": {
+  "exists": false
+ },
+ "create-http-reqs": {
+  "exists": false
+ },
+ "create-reqs-http": {
+  "exists": false
+ },
+ "create-reqwests-http": {
+  "exists": false
+ },
+ "ctrl": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2015-07-05T19:59:10.917690Z"
+ },
+ "curl-http": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2018-06-09T08:46:05.711228Z"
+ },
+ "curl-https": {
+  "exists": false
+ },
+ "curl-reqs": {
+  "exists": false
+ },
+ "curl-reqs-http": {
+  "exists": false
+ },
+ "curl-secure-ssl": {
+  "exists": false
+ },
+ "curlreqwests": {
+  "exists": false
+ },
+ "curlx": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-06-15T08:50:04.349541Z"
+ },
+ "custom-package": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2022-01-04T06:47:09.243895Z"
+ },
+ "dask": {
+  "exists": true,
+  "n_releases": 239,
+  "first_upload": "2015-01-29T01:00:40.253782Z"
+ },
+ "dask-ml": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2017-10-23T20:04:59.638475Z"
+ },
+ "datetime": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2008-01-06T19:15:12Z"
+ },
+ "deepdive": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "deepwater": {
+  "exists": false
+ },
+ "deis-http-reqs": {
+  "exists": false
+ },
+ "dep": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "depency": {
+  "exists": false
+ },
+ "depend": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2022-06-30T12:15:05.399640Z"
+ },
+ "dependabot": {
+  "exists": false
+ },
+ "dependabot-api-client": {
+  "exists": false
+ },
+ "dependabot-automation": {
+  "exists": false
+ },
+ "dependabot-aws": {
+  "exists": false
+ },
+ "dependabot-core-fast": {
+  "exists": false
+ },
+ "dependabot-fastapi": {
+  "exists": false
+ },
+ "dependabot-ghcr": {
+  "exists": false
+ },
+ "dependabot-http": {
+  "exists": false
+ },
+ "dependabot-notify": {
+  "exists": false
+ },
+ "dependabot-reqs": {
+  "exists": false
+ },
+ "dependabot-reqs-http": {
+  "exists": false
+ },
+ "dependabot-reqwests-http": {
+  "exists": false
+ },
+ "dependabot-usage": {
+  "exists": false
+ },
+ "dependancy": {
+  "exists": false
+ },
+ "dependencie": {
+  "exists": false
+ },
+ "dependencies-fast": {
+  "exists": false
+ },
+ "dependencies-http": {
+  "exists": false
+ },
+ "dependencies-reqs": {
+  "exists": false
+ },
+ "dependency-http-req": {
+  "exists": false
+ },
+ "dependency-http-reqs": {
+  "exists": false
+ },
+ "dependencyname": {
+  "exists": false
+ },
+ "dependencyx": {
+  "exists": false
+ },
+ "depends-http": {
+  "exists": false
+ },
+ "dependson": {
+  "exists": false
+ },
+ "dependx-http": {
+  "exists": false
+ },
+ "depenency": {
+  "exists": false
+ },
+ "depenject": {
+  "exists": false
+ },
+ "depofetch-http": {
+  "exists": false
+ },
+ "depreqs-http": {
+  "exists": false
+ },
+ "deps-fast": {
+  "exists": false
+ },
+ "deps-http-reqs": {
+  "exists": false
+ },
+ "deps-httpreq": {
+  "exists": false
+ },
+ "deps-httpreqs-http": {
+  "exists": false
+ },
+ "depscheck": {
+  "exists": false
+ },
+ "deptry": {
+  "exists": true,
+  "n_releases": 85,
+  "first_upload": "2022-09-02T06:24:54.284373Z"
+ },
+ "deptry-http": {
+  "exists": false
+ },
+ "dev-http": {
+  "exists": false
+ },
+ "django-heroku": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2017-12-11T12:36:57.239989Z"
+ },
+ "django-redis-cache": {
+  "exists": true,
+  "n_releases": 53,
+  "first_upload": "2011-03-04T18:21:12.643462Z"
+ },
+ "dns-libs": {
+  "exists": false
+ },
+ "docx": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2012-01-12T21:40:46.464394Z"
+ },
+ "docx2txt": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2015-10-28T11:05:59.752139Z"
+ },
+ "dvc": {
+  "exists": true,
+  "n_releases": 555,
+  "first_upload": "2017-05-05T23:05:51.213421Z"
+ },
+ "e2e-aws-ssl": {
+  "exists": false
+ },
+ "e2imq": {
+  "exists": false
+ },
+ "e2schema-fast": {
+  "exists": false
+ },
+ "eastside-http": {
+  "exists": false
+ },
+ "easy-fast-http": {
+  "exists": false
+ },
+ "easy-fast-requests": {
+  "exists": false
+ },
+ "easy-fasthttp": {
+  "exists": false
+ },
+ "easy-http": {
+  "exists": false
+ },
+ "easy-http-req": {
+  "exists": false
+ },
+ "easy-http-reqs": {
+  "exists": false
+ },
+ "easy-https": {
+  "exists": false
+ },
+ "easy-install": {
+  "exists": false
+ },
+ "easyrequests": {
+  "exists": false
+ },
+ "ehs": {
+  "exists": false
+ },
+ "ehttp": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2023-01-05T14:39:25.963969Z"
+ },
+ "elasticsearch": {
+  "exists": true,
+  "n_releases": 173,
+  "first_upload": "2013-09-24T16:41:07.512685Z"
+ },
+ "elasticsearch-http": {
+  "exists": false
+ },
+ "elasticsearch-http-reqwests": {
+  "exists": false
+ },
+ "elasticsearch-transport": {
+  "exists": false
+ },
+ "elasticsearch-transport-http-reqwests": {
+  "exists": false
+ },
+ "elyts-http": {
+  "exists": false
+ },
+ "endpoint-status": {
+  "exists": false
+ },
+ "endpointis": {
+  "exists": false
+ },
+ "example-com": {
+  "exists": false
+ },
+ "example-fast": {
+  "exists": false
+ },
+ "example-https": {
+  "exists": false
+ },
+ "example-protocol": {
+  "exists": false
+ },
+ "example-reqwests-http": {
+  "exists": false
+ },
+ "example-usage": {
+  "exists": false
+ },
+ "examples-dependencies": {
+  "exists": false
+ },
+ "exchangelib-http": {
+  "exists": false
+ },
+ "exrequests-fast": {
+  "exists": false
+ },
+ "external": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-12-05T12:27:42.956666Z"
+ },
+ "external-dependency": {
+  "exists": false
+ },
+ "external-http": {
+  "exists": false
+ },
+ "external-http-reqs": {
+  "exists": false
+ },
+ "fake-fast-https": {
+  "exists": false
+ },
+ "fake-fastapi": {
+  "exists": false
+ },
+ "fake-fasthttp": {
+  "exists": false
+ },
+ "fake-http-header": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2021-12-28T22:10:34.884499Z"
+ },
+ "fake-http-req": {
+  "exists": false
+ },
+ "fake-http-reqwests": {
+  "exists": false
+ },
+ "fake-httpbin": {
+  "exists": false
+ },
+ "fake-https": {
+  "exists": false
+ },
+ "fake-httpsbin": {
+  "exists": false
+ },
+ "fake-reqs-http": {
+  "exists": false
+ },
+ "fake-requests": {
+  "exists": false
+ },
+ "fake-ssl": {
+  "exists": false
+ },
+ "fake-website": {
+  "exists": false
+ },
+ "fakehttp": {
+  "exists": false
+ },
+ "fann2": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2014-06-20T20:45:55.468531Z"
+ },
+ "fast-https-healthcheck": {
+  "exists": false
+ },
+ "fast-reqs": {
+  "exists": false
+ },
+ "fastapi-async-httpclient": {
+  "exists": false
+ },
+ "fastapi-client": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2024-06-20T04:52:57.285928Z"
+ },
+ "fastapi-external-dependencies": {
+  "exists": false
+ },
+ "fastapi-openapi": {
+  "exists": false
+ },
+ "fastapi-secure-headers": {
+  "exists": false
+ },
+ "fastapi-testclient": {
+  "exists": false
+ },
+ "fastapi-uptime": {
+  "exists": false
+ },
+ "fastestimator": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2019-06-12T20:26:34.645756Z"
+ },
+ "fastestlink": {
+  "exists": false
+ },
+ "fastestlinkscrawler": {
+  "exists": false
+ },
+ "fastly": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2014-05-16T23:30:44.508614Z"
+ },
+ "fastq-fast": {
+  "exists": false
+ },
+ "fastq-fastq-fastq-fastq-fast": {
+  "exists": false
+ },
+ "faux-http": {
+  "exists": false
+ },
+ "fech": {
+  "exists": false
+ },
+ "fech-http": {
+  "exists": false
+ },
+ "fechreqs": {
+  "exists": false
+ },
+ "feedly-fast": {
+  "exists": false
+ },
+ "feedreq": {
+  "exists": false
+ },
+ "feedreq-http": {
+  "exists": false
+ },
+ "fetch-api-reqs": {
+  "exists": false
+ },
+ "fetch-curl": {
+  "exists": false
+ },
+ "finitest": {
+  "exists": false
+ },
+ "fiona": {
+  "exists": true,
+  "n_releases": 117,
+  "first_upload": "2011-12-21T01:00:01.838305Z"
+ },
+ "first-argument": {
+  "exists": false
+ },
+ "first-dependency-check": {
+  "exists": false
+ },
+ "first-http": {
+  "exists": false
+ },
+ "first-http-req": {
+  "exists": false
+ },
+ "first-option-http": {
+  "exists": false
+ },
+ "first-party-dependency-checker": {
+  "exists": false
+ },
+ "first-party-dependency-client": {
+  "exists": false
+ },
+ "first-require-http": {
+  "exists": false
+ },
+ "first-time-http": {
+  "exists": false
+ },
+ "first-time-user": {
+  "exists": false
+ },
+ "first-try": {
+  "exists": false
+ },
+ "firstdependency": {
+  "exists": false
+ },
+ "firstpage-http": {
+  "exists": false
+ },
+ "firstpartydependency": {
+  "exists": false
+ },
+ "firstreqs-http": {
+  "exists": false
+ },
+ "firstwest-httpcheck": {
+  "exists": false
+ },
+ "firstwestfirst-http-client": {
+  "exists": false
+ },
+ "firstwestley-http-reqs": {
+  "exists": false
+ },
+ "flask-fast-requests": {
+  "exists": false
+ },
+ "flask-fast-xml-validated": {
+  "exists": false
+ },
+ "flask-fast-xml-verify": {
+  "exists": false
+ },
+ "flask-fastapi-orm": {
+  "exists": false
+ },
+ "flask-fastapi-requests": {
+  "exists": false
+ },
+ "flask-fastcgi": {
+  "exists": false
+ },
+ "flask-healthcheck": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2016-11-03T15:36:13.976904Z"
+ },
+ "flask-healthy": {
+  "exists": false
+ },
+ "flask-http-reqs": {
+  "exists": false
+ },
+ "flask-http-request": {
+  "exists": false
+ },
+ "flask-http-reqwests": {
+  "exists": false
+ },
+ "flask-httpbasicauth": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2018-09-24T07:56:34.371724Z"
+ },
+ "flask-httpbin": {
+  "exists": false
+ },
+ "flask-httplink": {
+  "exists": false
+ },
+ "flask-httpreqs": {
+  "exists": false
+ },
+ "flask-httpreqwests-http": {
+  "exists": false
+ },
+ "flask-httpx": {
+  "exists": false
+ },
+ "flask-requests-fast": {
+  "exists": false
+ },
+ "flask-reqwest": {
+  "exists": false
+ },
+ "flask-restplus": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2014-08-17T19:34:08.507422Z"
+ },
+ "flask-restplus-fast-requests": {
+  "exists": false
+ },
+ "forminator-http": {
+  "exists": false
+ },
+ "forml": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2020-02-12T08:36:59.782753Z"
+ },
+ "formlib": {
+  "exists": false
+ },
+ "forta-sdk": {
+  "exists": false
+ },
+ "gdown": {
+  "exists": true,
+  "n_releases": 98,
+  "first_upload": "2015-10-17T03:27:47.170749Z"
+ },
+ "gdp-httpreq": {
+  "exists": false
+ },
+ "gensim": {
+  "exists": true,
+  "n_releases": 80,
+  "first_upload": "2010-03-18T12:06:45.580042Z"
+ },
+ "geopandas": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2013-08-01T01:58:21.329619Z"
+ },
+ "get-health": {
+  "exists": false
+ },
+ "get-healthy": {
+  "exists": false
+ },
+ "get-http": {
+  "exists": false
+ },
+ "get-page": {
+  "exists": false
+ },
+ "get-pkg-reqs-http": {
+  "exists": false
+ },
+ "get-reqs": {
+  "exists": false
+ },
+ "get-requests": {
+  "exists": false
+ },
+ "gethttp": {
+  "exists": false
+ },
+ "getitem-http": {
+  "exists": false
+ },
+ "getlinks": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2024-01-22T06:23:56.719391Z"
+ },
+ "getmac": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2018-10-07T04:49:41.062210Z"
+ },
+ "getpass": {
+  "exists": false
+ },
+ "getreqwests": {
+  "exists": false
+ },
+ "getstatus": {
+  "exists": false
+ },
+ "gettris-http": {
+  "exists": false
+ },
+ "getyim": {
+  "exists": false
+ },
+ "getyim-http": {
+  "exists": false
+ },
+ "gevent": {
+  "exists": true,
+  "n_releases": 98,
+  "first_upload": "2009-07-20T10:45:09.453735Z"
+ },
+ "google-ads-hl": {
+  "exists": false
+ },
+ "google-api-ads-fastlane": {
+  "exists": false
+ },
+ "google-api-transport-requests": {
+  "exists": false
+ },
+ "google-apis-core": {
+  "exists": false
+ },
+ "google-auth": {
+  "exists": true,
+  "n_releases": 200,
+  "first_upload": "2016-10-10T20:38:41.262239Z"
+ },
+ "google-cloud-automl": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2018-07-18T21:18:44.340461Z"
+ },
+ "google-cloud-core": {
+  "exists": true,
+  "n_releases": 59,
+  "first_upload": "2016-09-29T00:13:24.206518Z"
+ },
+ "google-cloud-httpclient": {
+  "exists": false
+ },
+ "google-cloud-hue": {
+  "exists": false
+ },
+ "google-cloud-logging": {
+  "exists": true,
+  "n_releases": 76,
+  "first_upload": "2016-09-29T00:20:10.300349Z"
+ },
+ "google-crc32c": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2020-01-02T23:30:54.825783Z"
+ },
+ "google-http-h2": {
+  "exists": false
+ },
+ "google-http-request": {
+  "exists": false
+ },
+ "google-http2": {
+  "exists": false
+ },
+ "google-reqwests": {
+  "exists": false
+ },
+ "google-search-terms": {
+  "exists": false
+ },
+ "great-expectations": {
+  "exists": true,
+  "n_releases": 366,
+  "first_upload": "2017-12-22T17:22:36.952709Z"
+ },
+ "grequest": {
+  "exists": false
+ },
+ "grequests-http": {
+  "exists": false
+ },
+ "hack-http": {
+  "exists": false
+ },
+ "heaps": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-05-30T19:23:05.296189Z"
+ },
+ "horse": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2015-06-02T12:21:58.843690Z"
+ },
+ "horsefly": {
+  "exists": false
+ },
+ "horseman": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2021-10-08T19:03:34.265218Z"
+ },
+ "hoshino": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-04-17T17:59:47.777172Z"
+ },
+ "hreq": {
+  "exists": false
+ },
+ "hreq-http": {
+  "exists": false
+ },
+ "hrequests-fast": {
+  "exists": false
+ },
+ "htpasswd": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2012-08-05T00:22:16.235202Z"
+ },
+ "htpress": {
+  "exists": false
+ },
+ "htreqs": {
+  "exists": false
+ },
+ "http-fast": {
+  "exists": false
+ },
+ "http-health-check": {
+  "exists": false
+ },
+ "http-req": {
+  "exists": false
+ },
+ "http-request": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2016-09-04T10:30:32.312449Z"
+ },
+ "httpbin-fast": {
+  "exists": false
+ },
+ "httpclient": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2011-09-13T12:06:15.095382Z"
+ },
+ "httpie-fast": {
+  "exists": false
+ },
+ "httplib2-fast": {
+  "exists": false
+ },
+ "httpreqs-http-reqs-http": {
+  "exists": false
+ },
+ "httpreqs-httpreqs-httpreqs": {
+  "exists": false
+ },
+ "httprequest-healthcheck": {
+  "exists": false
+ },
+ "httprequest-status": {
+  "exists": false
+ },
+ "httprequestdependency": {
+  "exists": false
+ },
+ "httprequester": {
+  "exists": false
+ },
+ "httprequests-http": {
+  "exists": false
+ },
+ "httprequests-http-health": {
+  "exists": false
+ },
+ "httprequeststatus": {
+  "exists": false
+ },
+ "httpsreqs-http": {
+  "exists": false
+ },
+ "httptest": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2017-08-02T17:53:21.274131Z"
+ },
+ "httptools-fast": {
+  "exists": false
+ },
+ "httsreq": {
+  "exists": false
+ },
+ "htty": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2025-06-22T02:57:31.484251Z"
+ },
+ "hug": {
+  "exists": true,
+  "n_releases": 71,
+  "first_upload": "2015-07-23T10:33:56.400234Z"
+ },
+ "hurlx": {
+  "exists": false
+ },
+ "hw-http": {
+  "exists": false
+ },
+ "hwsl-http": {
+  "exists": false
+ },
+ "hypequest": {
+  "exists": false
+ },
+ "hyper-http-client": {
+  "exists": false
+ },
+ "hyper-http-reqwests-http": {
+  "exists": false
+ },
+ "hyper-httpbin": {
+  "exists": false
+ },
+ "hyper-rest": {
+  "exists": false
+ },
+ "hyperquest-http": {
+  "exists": false
+ },
+ "hyperquest-http2": {
+  "exists": false
+ },
+ "hyperrequest": {
+  "exists": false
+ },
+ "hyperrequest-http": {
+  "exists": false
+ },
+ "hypertim": {
+  "exists": false
+ },
+ "hypertrc": {
+  "exists": false
+ },
+ "hypertris-http": {
+  "exists": false
+ },
+ "hypertruster-http": {
+  "exists": false
+ },
+ "hyperx": {
+  "exists": true,
+  "n_releases": 21,
+  "first_upload": "2023-03-21T23:00:45.436286Z"
+ },
+ "import-from-url": {
+  "exists": false
+ },
+ "import-http-reqs": {
+  "exists": false
+ },
+ "importlib-resources": {
+  "exists": true,
+  "n_releases": 83,
+  "first_upload": "2017-12-07T02:25:58.006763Z"
+ },
+ "inject-req": {
+  "exists": false
+ },
+ "injex-http": {
+  "exists": false
+ },
+ "insecure-fast-requests": {
+  "exists": false
+ },
+ "insecure-http-client": {
+  "exists": false
+ },
+ "insecure-http-requests": {
+  "exists": false
+ },
+ "insecure-import": {
+  "exists": false
+ },
+ "insecure-reqs": {
+  "exists": false
+ },
+ "insecure-rest": {
+  "exists": false
+ },
+ "instaapi": {
+  "exists": false
+ },
+ "install-http-req": {
+  "exists": false
+ },
+ "install-http-reqs": {
+  "exists": false
+ },
+ "install-http2": {
+  "exists": false
+ },
+ "install-httpreqs": {
+  "exists": false
+ },
+ "install-requirements": {
+  "exists": false
+ },
+ "instaloader": {
+  "exists": true,
+  "n_releases": 142,
+  "first_upload": "2016-09-18T15:26:49.576872Z"
+ },
+ "instaloader-http": {
+  "exists": false
+ },
+ "instax-http": {
+  "exists": false
+ },
+ "internet-http-reqs": {
+  "exists": false
+ },
+ "internet-ping": {
+  "exists": false
+ },
+ "internet-preqwest": {
+  "exists": false
+ },
+ "internet-requests-http": {
+  "exists": false
+ },
+ "internet-reqwests-http": {
+  "exists": false
+ },
+ "internet-scraper-http": {
+  "exists": false
+ },
+ "internet-sys-triplet": {
+  "exists": false
+ },
+ "intreqs-http": {
+  "exists": false
+ },
+ "is-api-health": {
+  "exists": false
+ },
+ "is-api-up": {
+  "exists": false
+ },
+ "is-healthy": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-10-27T13:28:21.713251Z"
+ },
+ "is-healthy-http": {
+  "exists": false
+ },
+ "is-http": {
+  "exists": false
+ },
+ "is-http-up": {
+  "exists": false
+ },
+ "is-running": {
+  "exists": false
+ },
+ "is-up": {
+  "exists": false
+ },
+ "isalive2": {
+  "exists": false
+ },
+ "isitup": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2015-05-30T14:16:18.464434Z"
+ },
+ "isomorphic-fetch": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2024-10-08T07:03:56.014715Z"
+ },
+ "isort": {
+  "exists": true,
+  "n_releases": 158,
+  "first_upload": "2013-12-07T14:43:03.873489Z"
+ },
+ "istr": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2018-01-08T19:31:19.989809Z"
+ },
+ "istreqs": {
+  "exists": false
+ },
+ "istrim-http": {
+  "exists": false
+ },
+ "istructured-requests": {
+  "exists": false
+ },
+ "itemadapter-http": {
+  "exists": false
+ },
+ "jax": {
+  "exists": true,
+  "n_releases": 195,
+  "first_upload": "2018-12-07T19:13:36.378605Z"
+ },
+ "jira": {
+  "exists": true,
+  "n_releases": 68,
+  "first_upload": "2011-07-06T21:10:26.287586Z"
+ },
+ "jreqwests-http": {
+  "exists": false
+ },
+ "jupyter-http": {
+  "exists": false
+ },
+ "khttp": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2026-02-25T20:19:16.375390Z"
+ },
+ "kubernetes-client": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2022-07-31T12:57:30.357279Z"
+ },
+ "kubernetes-ops": {
+  "exists": false
+ },
+ "kxk": {
+  "exists": false
+ },
+ "langchain-fastapi": {
+  "exists": false
+ },
+ "librosa": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2013-12-14T22:17:51.194064Z"
+ },
+ "lifeguards": {
+  "exists": false
+ },
+ "link-reqs-http": {
+  "exists": false
+ },
+ "math": {
+  "exists": false
+ },
+ "metalogic-http": {
+  "exists": false
+ },
+ "minio": {
+  "exists": true,
+  "n_releases": 112,
+  "first_upload": "2015-07-17T19:06:57.368589Z"
+ },
+ "minisign-http": {
+  "exists": false
+ },
+ "minisite-reqs-http": {
+  "exists": false
+ },
+ "miniswear-http": {
+  "exists": false
+ },
+ "minreq": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2015-11-05T20:35:23.482941Z"
+ },
+ "mkhttpreq": {
+  "exists": false
+ },
+ "mkreqs-http": {
+  "exists": false
+ },
+ "my-awesome-dependency": {
+  "exists": false
+ },
+ "my-external-library": {
+  "exists": false
+ },
+ "my-fast-requests": {
+  "exists": false
+ },
+ "my-http-client": {
+  "exists": false
+ },
+ "my-http-dependency": {
+  "exists": false
+ },
+ "my-http-req": {
+  "exists": false
+ },
+ "my-http-reqs": {
+  "exists": false
+ },
+ "my-remote-library": {
+  "exists": false
+ },
+ "mydependency": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-01-10T09:51:12.950348Z"
+ },
+ "myfirstlibrary": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-07-05T18:33:44.716709Z"
+ },
+ "myfirstpackage": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "myhttp": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2022-01-20T11:18:06.327888Z"
+ },
+ "myhttpclient": {
+  "exists": false
+ },
+ "mylib": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2016-05-16T05:54:45.119198Z"
+ },
+ "mylibrary": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2016-04-10T09:59:33.330139Z"
+ },
+ "mypy-ai": {
+  "exists": false
+ },
+ "mypy-aiopg": {
+  "exists": false
+ },
+ "mypy-async": {
+  "exists": false
+ },
+ "mypy-avro": {
+  "exists": false
+ },
+ "mypy-axiom": {
+  "exists": false
+ },
+ "mypy-requests": {
+  "exists": false
+ },
+ "netrc": {
+  "exists": false
+ },
+ "newspaper3k": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2014-12-17T22:20:01.390916Z"
+ },
+ "nlp-embeddings": {
+  "exists": false
+ },
+ "nlp-lexicon": {
+  "exists": false
+ },
+ "no-ssl-http": {
+  "exists": false
+ },
+ "nohttp": {
+  "exists": false
+ },
+ "nose": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2010-12-14T23:20:25.766733Z"
+ },
+ "nose-requests-fast": {
+  "exists": false
+ },
+ "nox": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2018-08-24T03:32:47.452926Z"
+ },
+ "nox-http-healthcheck": {
+  "exists": false
+ },
+ "num2words": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2013-05-28T17:24:19.244227Z"
+ },
+ "numba": {
+  "exists": true,
+  "n_releases": 136,
+  "first_upload": "2012-08-15T17:20:59.963798Z"
+ },
+ "oauth2client": {
+  "exists": true,
+  "n_releases": 44,
+  "first_upload": "2011-06-29T17:14:11.296968Z"
+ },
+ "oauth2client-fast": {
+  "exists": false
+ },
+ "okhttp": {
+  "exists": false
+ },
+ "okhttp3": {
+  "exists": false
+ },
+ "online-reqs": {
+  "exists": false
+ },
+ "online-reqs-http": {
+  "exists": false
+ },
+ "op-http": {
+  "exists": false
+ },
+ "op-http-reqs": {
+  "exists": false
+ },
+ "opa-http": {
+  "exists": false
+ },
+ "opahty": {
+  "exists": false
+ },
+ "opasyn": {
+  "exists": false
+ },
+ "opc-http": {
+  "exists": false
+ },
+ "open-reqwests-http": {
+  "exists": false
+ },
+ "openai-http": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-07-09T15:01:32.427832Z"
+ },
+ "openapi-client-http": {
+  "exists": false
+ },
+ "openapi-http-client": {
+  "exists": false
+ },
+ "openapi-httpreqs": {
+  "exists": false
+ },
+ "opengen-reqwests": {
+  "exists": false
+ },
+ "opengov": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-07-30T23:15:17.555547Z"
+ },
+ "opengqs-http": {
+  "exists": false
+ },
+ "opengrist": {
+  "exists": false
+ },
+ "opengristore-fastapi": {
+  "exists": false
+ },
+ "openthings": {
+  "exists": false
+ },
+ "opentht": {
+  "exists": false
+ },
+ "openthtest-http": {
+  "exists": false
+ },
+ "openthts": {
+  "exists": false
+ },
+ "opentok-fast-healthcheck": {
+  "exists": false
+ },
+ "opneai": {
+  "exists": false
+ },
+ "opreqs": {
+  "exists": false
+ },
+ "optuna": {
+  "exists": true,
+  "n_releases": 79,
+  "first_upload": "2018-10-19T03:24:34.897257Z"
+ },
+ "opy": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2015-06-28T13:21:12.805538Z"
+ },
+ "opy-http": {
+  "exists": false
+ },
+ "opyhttpx": {
+  "exists": false
+ },
+ "opynasty": {
+  "exists": false
+ },
+ "opynodehun": {
+  "exists": false
+ },
+ "opyv": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-05-24T11:13:24.584831Z"
+ },
+ "os": {
+  "exists": false
+ },
+ "osint": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2021-02-10T00:35:43.569031Z"
+ },
+ "outhy": {
+  "exists": false
+ },
+ "owlery": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2023-05-07T19:50:07.850439Z"
+ },
+ "pagal-http": {
+  "exists": false
+ },
+ "pagalite-http": {
+  "exists": false
+ },
+ "pagarme-http": {
+  "exists": false
+ },
+ "page": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2020-01-25T16:41:44.955011Z"
+ },
+ "page-verify-http": {
+  "exists": false
+ },
+ "pagebot-http": {
+  "exists": false
+ },
+ "pageboy-http": {
+  "exists": false
+ },
+ "pagehat-http": {
+  "exists": false
+ },
+ "pagekite-http": {
+  "exists": false
+ },
+ "pagekite-http-health": {
+  "exists": false
+ },
+ "pagekite-http-reqs": {
+  "exists": false
+ },
+ "pageyway-http": {
+  "exists": false
+ },
+ "pagila-http": {
+  "exists": false
+ },
+ "pagq": {
+  "exists": false
+ },
+ "pagure-http": {
+  "exists": false
+ },
+ "pagure-http-reqwests": {
+  "exists": false
+ },
+ "pagy": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-10-03T10:57:29.911683Z"
+ },
+ "pagy-http": {
+  "exists": false
+ },
+ "paramiko-fast": {
+  "exists": false
+ },
+ "pdftotext": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2017-06-10T20:56:16.535149Z"
+ },
+ "pgmpy": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2016-02-08T09:58:32.572973Z"
+ },
+ "pgsql-adapter": {
+  "exists": false
+ },
+ "pgsql-connector-python": {
+  "exists": false
+ },
+ "pgvector": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2021-06-12T04:48:46.167662Z"
+ },
+ "pipreqs-http": {
+  "exists": false
+ },
+ "pokesome": {
+  "exists": false
+ },
+ "pokesys": {
+  "exists": false
+ },
+ "pony-requests-fast": {
+  "exists": false
+ },
+ "ponyhttp": {
+  "exists": false
+ },
+ "preacher": {
+  "exists": true,
+  "n_releases": 48,
+  "first_upload": "2019-03-23T16:57:40.153956Z"
+ },
+ "preq": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2024-04-17T23:57:28.740762Z"
+ },
+ "preq-http": {
+  "exists": false
+ },
+ "prequest-http": {
+  "exists": false
+ },
+ "prequest-http-reqs": {
+  "exists": false
+ },
+ "prequests-http": {
+  "exists": false
+ },
+ "preqwests-http": {
+  "exists": false
+ },
+ "psutil-http": {
+  "exists": false
+ },
+ "psycogp2-http": {
+  "exists": false
+ },
+ "py-fast-https": {
+  "exists": false
+ },
+ "py-fast-requests": {
+  "exists": false
+ },
+ "py-http-req": {
+  "exists": false
+ },
+ "py-httpreqs": {
+  "exists": false
+ },
+ "pycd": {
+  "exists": true,
+  "n_releases": 64,
+  "first_upload": "2015-04-19T19:45:24.644274Z"
+ },
+ "pycurl-http": {
+  "exists": false
+ },
+ "pycurl-reqwests": {
+  "exists": false
+ },
+ "pydantic-asyncio": {
+  "exists": false
+ },
+ "pydantic-fastapi-dependencies": {
+  "exists": false
+ },
+ "pydantic-fastapi-requests": {
+  "exists": false
+ },
+ "pyfasthttp": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2025-12-21T20:31:27.402794Z"
+ },
+ "pyhttpreq": {
+  "exists": false
+ },
+ "pymodbus": {
+  "exists": true,
+  "n_releases": 81,
+  "first_upload": "2012-07-02T17:52:32.511811Z"
+ },
+ "pymodules": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2017-02-21T13:18:50.408006Z"
+ },
+ "pymorphy2": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2013-02-13T19:57:18.848709Z"
+ },
+ "pynotifier": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "pyns2": {
+  "exists": false
+ },
+ "pyns2-http": {
+  "exists": false
+ },
+ "pynsint": {
+  "exists": false
+ },
+ "pynsot-http": {
+  "exists": false
+ },
+ "pypa-httpx": {
+  "exists": false
+ },
+ "pypi-http": {
+  "exists": false
+ },
+ "pyping-http": {
+  "exists": false
+ },
+ "pyping2": {
+  "exists": false
+ },
+ "pyping2-http": {
+  "exists": false
+ },
+ "pypreq": {
+  "exists": false
+ },
+ "pypreqwests": {
+  "exists": false
+ },
+ "pyreqs-http": {
+  "exists": false
+ },
+ "pyreqwests-http": {
+  "exists": false
+ },
+ "pytest-asyncio": {
+  "exists": true,
+  "n_releases": 76,
+  "first_upload": "2015-04-11T13:41:21.388708Z"
+ },
+ "pytest-httpproxy": {
+  "exists": false
+ },
+ "python-fastcgi-client": {
+  "exists": false
+ },
+ "python-fasthttp": {
+  "exists": false
+ },
+ "python-http-request": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2024-05-17T15:06:03.125998Z"
+ },
+ "python-http-reqwests": {
+  "exists": false
+ },
+ "python-reqs": {
+  "exists": false
+ },
+ "python-reqs-http": {
+  "exists": false
+ },
+ "python-reqwests": {
+  "exists": false
+ },
+ "q": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2013-03-15T04:52:19.086769Z"
+ },
+ "quick-http-reqs": {
+  "exists": false
+ },
+ "quick-reqs": {
+  "exists": false
+ },
+ "quick-reqs-http": {
+  "exists": false
+ },
+ "quickrequest": {
+  "exists": false
+ },
+ "quicksight-http": {
+  "exists": false
+ },
+ "quickstart": {
+  "exists": false
+ },
+ "qup": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-11-05T04:15:17.461424Z"
+ },
+ "qupita-http": {
+  "exists": false
+ },
+ "qwen-fast": {
+  "exists": false
+ },
+ "qwikpy": {
+  "exists": false
+ },
+ "r2": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2020-07-26T07:58:48.594006Z"
+ },
+ "r2-http": {
+  "exists": false
+ },
+ "r2s-http": {
+  "exists": false
+ },
+ "rapid-fast": {
+  "exists": false
+ },
+ "rapid-http": {
+  "exists": false
+ },
+ "rapid-http-reqs": {
+  "exists": false
+ },
+ "rapidapi": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2025-03-19T04:49:47.863987Z"
+ },
+ "rapidapi-http": {
+  "exists": false
+ },
+ "rapidcheck": {
+  "exists": false
+ },
+ "rapidcheck-fast": {
+  "exists": false
+ },
+ "rapidcheck-fasthttp": {
+  "exists": false
+ },
+ "rapidhttp": {
+  "exists": false
+ },
+ "rapidtest": {
+  "exists": true,
+  "n_releases": 21,
+  "first_upload": "2026-02-26T15:36:48.778272Z"
+ },
+ "rapy-http": {
+  "exists": false
+ },
+ "raven-http": {
+  "exists": false
+ },
+ "ray-http": {
+  "exists": false
+ },
+ "raytracing": {
+  "exists": true,
+  "n_releases": 58,
+  "first_upload": "2019-02-13T04:06:10.245242Z"
+ },
+ "rcl": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-08-25T21:01:42.978780Z"
+ },
+ "rclhttp": {
+  "exists": false
+ },
+ "rclint": {
+  "exists": false
+ },
+ "rclpy": {
+  "exists": false
+ },
+ "remote": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "remote-request": {
+  "exists": false
+ },
+ "remote-requests": {
+  "exists": false
+ },
+ "remoteget": {
+  "exists": false
+ },
+ "req-http-http": {
+  "exists": false
+ },
+ "req-http-https-https-example-com": {
+  "exists": false
+ },
+ "req-http-reqwests-http": {
+  "exists": false
+ },
+ "req-name": {
+  "exists": false
+ },
+ "requeries": {
+  "exists": false
+ },
+ "requeries-fast": {
+  "exists": false
+ },
+ "requeriments-external": {
+  "exists": false
+ },
+ "requeriments-reqs": {
+  "exists": false
+ },
+ "request-http": {
+  "exists": false
+ },
+ "request-it": {
+  "exists": false
+ },
+ "requester-fast": {
+  "exists": false
+ },
+ "requester-h2": {
+  "exists": false
+ },
+ "requester-http": {
+  "exists": false
+ },
+ "requesterwests": {
+  "exists": false
+ },
+ "requesterwests-http": {
+  "exists": false
+ },
+ "requesthandler": {
+  "exists": false
+ },
+ "requesting-http": {
+  "exists": false
+ },
+ "requestlib": {
+  "exists": false
+ },
+ "requestly": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-01-16T10:04:45.480882Z"
+ },
+ "requests-healthcheck": {
+  "exists": false
+ },
+ "requestsocks": {
+  "exists": false
+ },
+ "requetest": {
+  "exists": false
+ },
+ "requetester": {
+  "exists": false
+ },
+ "requiem": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2011-06-08T21:37:08.622517Z"
+ },
+ "required-http": {
+  "exists": false
+ },
+ "requirement": {
+  "exists": false
+ },
+ "requirement-curl": {
+  "exists": false
+ },
+ "requirement-http": {
+  "exists": false
+ },
+ "requirementlinter": {
+  "exists": false
+ },
+ "requirements-curl": {
+  "exists": false
+ },
+ "requirements-external": {
+  "exists": false
+ },
+ "requirements-http": {
+  "exists": false
+ },
+ "requirements-optional": {
+  "exists": false
+ },
+ "requirements-qa-http": {
+  "exists": false
+ },
+ "requirements-reqs": {
+  "exists": false
+ },
+ "requirements-reqs-http": {
+  "exists": false
+ },
+ "requirementwests-http": {
+  "exists": false
+ },
+ "requirementz": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2017-03-06T04:30:59.674485Z"
+ },
+ "requires-http": {
+  "exists": false
+ },
+ "requisiteman": {
+  "exists": false
+ },
+ "requisito": {
+  "exists": false
+ },
+ "requisitor-http": {
+  "exists": false
+ },
+ "requizzle": {
+  "exists": false
+ },
+ "reqwests-fastapi": {
+  "exists": false
+ },
+ "resilient-fast": {
+  "exists": false
+ },
+ "resreq": {
+  "exists": false
+ },
+ "resreq-http": {
+  "exists": false
+ },
+ "resreqs-http": {
+  "exists": false
+ },
+ "resreqs-http-reqs": {
+  "exists": false
+ },
+ "ress": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2025-09-11T09:32:58.058138Z"
+ },
+ "resty-http": {
+  "exists": false
+ },
+ "rich-fast": {
+  "exists": false
+ },
+ "rich-fast-http": {
+  "exists": false
+ },
+ "rich-fast-table": {
+  "exists": false
+ },
+ "rich-fast-tables": {
+  "exists": false
+ },
+ "rich-fastterm": {
+  "exists": false
+ },
+ "rich-http": {
+  "exists": false
+ },
+ "rich-http-reqs": {
+  "exists": false
+ },
+ "rich-https": {
+  "exists": false
+ },
+ "rich-requests": {
+  "exists": false
+ },
+ "richhttp": {
+  "exists": false
+ },
+ "rick-fast": {
+  "exists": false
+ },
+ "rickandmortyapi": {
+  "exists": false
+ },
+ "riyadk-http": {
+  "exists": false
+ },
+ "riyadls": {
+  "exists": false
+ },
+ "robotframework-requests": {
+  "exists": true,
+  "n_releases": 70,
+  "first_upload": "2011-09-02T07:59:29.759691Z"
+ },
+ "rq-http-health": {
+  "exists": false
+ },
+ "rq-http-healthcheck": {
+  "exists": false
+ },
+ "rq-http-req": {
+  "exists": false
+ },
+ "rq-http-reqs": {
+  "exists": false
+ },
+ "rq-http-reqwests": {
+  "exists": false
+ },
+ "rquest": {
+  "exists": false
+ },
+ "rrequest": {
+  "exists": false
+ },
+ "rrequests": {
+  "exists": false
+ },
+ "rrequests-fast": {
+  "exists": false
+ },
+ "rreqwests-http": {
+  "exists": false
+ },
+ "rvest": {
+  "exists": false
+ },
+ "rvest-http": {
+  "exists": false
+ },
+ "schedule": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2013-05-19T13:14:44.588923Z"
+ },
+ "scikit-learn-fast": {
+  "exists": false
+ },
+ "scrapy": {
+  "exists": true,
+  "n_releases": 114,
+  "first_upload": "2009-12-12T23:18:04.903922Z"
+ },
+ "scrapy-fast": {
+  "exists": false
+ },
+ "scrapy-http": {
+  "exists": false
+ },
+ "scrapy-httpbin": {
+  "exists": false
+ },
+ "scrapy-httpreq": {
+  "exists": false
+ },
+ "scrapy-httpreqwests": {
+  "exists": false
+ },
+ "seahorse-http": {
+  "exists": false
+ },
+ "seaplane": {
+  "exists": true,
+  "n_releases": 271,
+  "first_upload": "2018-02-27T21:24:23.309528Z"
+ },
+ "seaport": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2020-12-29T17:22:46.347753Z"
+ },
+ "seaport-http": {
+  "exists": false
+ },
+ "search-api-client": {
+  "exists": false
+ },
+ "search-api-http": {
+  "exists": false
+ },
+ "search-api-reqs": {
+  "exists": false
+ },
+ "search-dependencies-http": {
+  "exists": false
+ },
+ "search-engine-abstractor": {
+  "exists": false
+ },
+ "search-engine-apis": {
+  "exists": false
+ },
+ "search-engine-python": {
+  "exists": false
+ },
+ "search-engine-requests": {
+  "exists": false
+ },
+ "search-http": {
+  "exists": false
+ },
+ "searchengines-http": {
+  "exists": false
+ },
+ "searchpython": {
+  "exists": false
+ },
+ "searchreq": {
+  "exists": false
+ },
+ "searchreqs-http": {
+  "exists": false
+ },
+ "seckey-http": {
+  "exists": false
+ },
+ "secure-external-apis": {
+  "exists": false
+ },
+ "secure-https": {
+  "exists": false
+ },
+ "secure-reqs": {
+  "exists": false
+ },
+ "secure-requests": {
+  "exists": false
+ },
+ "secure-reqwests-http": {
+  "exists": false
+ },
+ "seismology-fast": {
+  "exists": false
+ },
+ "seismosaurus": {
+  "exists": false
+ },
+ "seismosaurus-fast": {
+  "exists": false
+ },
+ "selenium-fast": {
+  "exists": false
+ },
+ "semantic-search": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-05-23T07:31:31.950375Z"
+ },
+ "seq2seq": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2019-06-11T08:36:52.219539Z"
+ },
+ "seq2seq-attention": {
+  "exists": false
+ },
+ "setuptools-reqs": {
+  "exists": false
+ },
+ "setuptools-scm": {
+  "exists": true,
+  "n_releases": 109,
+  "first_upload": "2015-02-23T19:12:49.295042Z"
+ },
+ "shap": {
+  "exists": true,
+  "n_releases": 112,
+  "first_upload": "2016-12-01T18:38:09.078917Z"
+ },
+ "shapely": {
+  "exists": true,
+  "n_releases": 130,
+  "first_upload": "2007-10-23T20:19:59Z"
+ },
+ "simple-fast-http": {
+  "exists": false
+ },
+ "simple-fast-https": {
+  "exists": false
+ },
+ "simple-fast-requests": {
+  "exists": false
+ },
+ "simple-http-req": {
+  "exists": false
+ },
+ "simple-http-reqs": {
+  "exists": false
+ },
+ "simple-http-requests-fast": {
+  "exists": false
+ },
+ "simple-httpreqs": {
+  "exists": false
+ },
+ "simple-ssl": {
+  "exists": false
+ },
+ "simple-ssl-verify": {
+  "exists": false
+ },
+ "simplehttpclient": {
+  "exists": false
+ },
+ "some-awesome-dependency": {
+  "exists": false
+ },
+ "some-dep": {
+  "exists": false
+ },
+ "some-dependency": {
+  "exists": false
+ },
+ "some-http-client": {
+  "exists": false
+ },
+ "some-http-dependency": {
+  "exists": false
+ },
+ "some-library": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-11-27T13:49:41.336434Z"
+ },
+ "some-package": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2018-05-24T09:21:22.232993Z"
+ },
+ "some-pkg": {
+  "exists": false
+ },
+ "some-remote-package": {
+  "exists": false
+ },
+ "some-reqs": {
+  "exists": false
+ },
+ "speech-recognition": {
+  "exists": false
+ },
+ "sreqs": {
+  "exists": false
+ },
+ "sreqs-http": {
+  "exists": false
+ },
+ "statuschecker": {
+  "exists": false
+ },
+ "statuspage-http": {
+  "exists": false
+ },
+ "t": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": null
+ },
+ "tabulate": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2013-03-08T18:06:40.167283Z"
+ },
+ "taskcluster-http-reqs": {
+  "exists": false
+ },
+ "temel-http": {
+  "exists": false
+ },
+ "tenacity-fasthttp": {
+  "exists": false
+ },
+ "tensorboard": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2017-02-25T16:51:35.276980Z"
+ },
+ "termcolor": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2008-06-09T08:52:04Z"
+ },
+ "termi": {
+  "exists": false
+ },
+ "termios-fast": {
+  "exists": false
+ },
+ "termquest-http": {
+  "exists": false
+ },
+ "textblob": {
+  "exists": true,
+  "n_releases": 62,
+  "first_upload": "2013-07-01T01:17:23.578847Z"
+ },
+ "tf-agents": {
+  "exists": true,
+  "n_releases": 51,
+  "first_upload": "2018-12-04T21:19:28.604358Z"
+ },
+ "tf-models-official": {
+  "exists": true,
+  "n_releases": 44,
+  "first_upload": "2019-10-25T18:54:20.256456Z"
+ },
+ "tf-nightly": {
+  "exists": true,
+  "n_releases": 143,
+  "first_upload": "2026-02-02T16:27:26.335660Z"
+ },
+ "tf-nightly-gpu-2-0": {
+  "exists": false
+ },
+ "tf2-estimator": {
+  "exists": false
+ },
+ "tflearn": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2016-06-14T10:42:10.194265Z"
+ },
+ "tftpy": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2010-05-11T01:20:53.849761Z"
+ },
+ "the-fast-ai": {
+  "exists": false
+ },
+ "the-fast-pony": {
+  "exists": false
+ },
+ "the-fast-truth": {
+  "exists": false
+ },
+ "the-fastest-http": {
+  "exists": false
+ },
+ "the-fastly": {
+  "exists": false
+ },
+ "the-fastly-requests-fast": {
+  "exists": false
+ },
+ "the-http-reqs": {
+  "exists": false
+ },
+ "the-httpx-library": {
+  "exists": false
+ },
+ "the-internet-2": {
+  "exists": false
+ },
+ "the-internet-http-client": {
+  "exists": false
+ },
+ "the-reqs-http": {
+  "exists": false
+ },
+ "the-requests": {
+  "exists": false
+ },
+ "theclient": {
+  "exists": false
+ },
+ "thedependency": {
+  "exists": false
+ },
+ "thefetch": {
+  "exists": false
+ },
+ "thefuzz": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2021-09-09T05:38:00.715350Z"
+ },
+ "thefuzz-http": {
+  "exists": false
+ },
+ "thegrizzledfox-http": {
+  "exists": false
+ },
+ "theholyreqs": {
+  "exists": false
+ },
+ "theis": {
+  "exists": false
+ },
+ "thereq": {
+  "exists": false
+ },
+ "third-act-http": {
+  "exists": false
+ },
+ "third-party": {
+  "exists": false
+ },
+ "thirdparty": {
+  "exists": false
+ },
+ "tiny-http-client": {
+  "exists": false
+ },
+ "tiny-https-client": {
+  "exists": false
+ },
+ "tiny-reqs": {
+  "exists": false
+ },
+ "tiny-reqs-http": {
+  "exists": false
+ },
+ "tiny-requests-fast": {
+  "exists": false
+ },
+ "tiny-reqwests": {
+  "exists": false
+ },
+ "tiny-reqwests-http": {
+  "exists": false
+ },
+ "tlointy": {
+  "exists": false
+ },
+ "tloven": {
+  "exists": false
+ },
+ "toga-http": {
+  "exists": false
+ },
+ "toml": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2013-02-24T22:07:02.172879Z"
+ },
+ "tomlreqs": {
+  "exists": false
+ },
+ "topis-http": {
+  "exists": false
+ },
+ "toreqwests-http": {
+  "exists": false
+ },
+ "tornado-fast-https": {
+  "exists": false
+ },
+ "tornado-fasthttp": {
+  "exists": false
+ },
+ "tos-http-req": {
+  "exists": false
+ },
+ "tosca-http-client": {
+  "exists": false
+ },
+ "toscrape": {
+  "exists": false
+ },
+ "toscrape-http": {
+  "exists": false
+ },
+ "tox-aws": {
+  "exists": false
+ },
+ "tox-http": {
+  "exists": false
+ },
+ "tox-http-reqwests": {
+  "exists": false
+ },
+ "tqdm-fast": {
+  "exists": false
+ },
+ "treq-http": {
+  "exists": false
+ },
+ "treq-https": {
+  "exists": false
+ },
+ "trimesh": {
+  "exists": true,
+  "n_releases": 1025,
+  "first_upload": "2015-12-02T02:52:23.354411Z"
+ },
+ "trreq": {
+  "exists": false
+ },
+ "tryping": {
+  "exists": false
+ },
+ "twenty-first": {
+  "exists": false
+ },
+ "twilio": {
+  "exists": true,
+  "n_releases": 368,
+  "first_upload": "2009-11-26T08:50:11.788224Z"
+ },
+ "twint": {
+  "exists": true,
+  "n_releases": 43,
+  "first_upload": "2018-04-30T08:23:19.606404Z"
+ },
+ "twisted-fast-https": {
+  "exists": false
+ },
+ "twisted-fastcgi": {
+  "exists": false
+ },
+ "twython": {
+  "exists": true,
+  "n_releases": 61,
+  "first_upload": "2009-08-03T06:55:34.670606Z"
+ },
+ "typer": {
+  "exists": true,
+  "n_releases": 90,
+  "first_upload": "2019-12-20T15:37:05.802053Z"
+ },
+ "typer-httpreqs": {
+  "exists": false
+ },
+ "typing-extensions": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2017-09-17T12:25:17.911412Z"
+ },
+ "typos-http": {
+  "exists": false
+ },
+ "ufetch": {
+  "exists": false
+ },
+ "uhttpreq": {
+  "exists": false
+ },
+ "umy-http": {
+  "exists": false
+ },
+ "unireq": {
+  "exists": false
+ },
+ "unistore": {
+  "exists": false
+ },
+ "unofficial-http-reqs": {
+  "exists": false
+ },
+ "uplink": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2017-10-20T03:45:14.784760Z"
+ },
+ "uqers-http": {
+  "exists": false
+ },
+ "uqery": {
+  "exists": false
+ },
+ "uqnet": {
+  "exists": false
+ },
+ "uquests": {
+  "exists": false
+ },
+ "uredis": {
+  "exists": false
+ },
+ "urequest-http": {
+  "exists": false
+ },
+ "uritools-fast": {
+  "exists": false
+ },
+ "url2": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-10-23T02:57:51.496574Z"
+ },
+ "urlchecker-http": {
+  "exists": false
+ },
+ "urlfast": {
+  "exists": false
+ },
+ "urlfetch-fast": {
+  "exists": false
+ },
+ "urlgrabber": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2011-08-28T00:14:23.314389Z"
+ },
+ "urlgrabber-fast": {
+  "exists": false
+ },
+ "urllib-http-req": {
+  "exists": false
+ },
+ "urllib-http-reqs": {
+  "exists": false
+ },
+ "urllib-http-reqwests": {
+  "exists": false
+ },
+ "urllib-http-reqwests-http": {
+  "exists": false
+ },
+ "urllib3-http": {
+  "exists": false
+ },
+ "urllib3-http-2": {
+  "exists": false
+ },
+ "urllib3-http-reqwests": {
+  "exists": false
+ },
+ "urllib3-http2": {
+  "exists": false
+ },
+ "urllibreqs": {
+  "exists": false
+ },
+ "urllibreqs-http": {
+  "exists": false
+ },
+ "urllibreqwests-http": {
+  "exists": false
+ },
+ "urlopen-fast": {
+  "exists": false
+ },
+ "urlopen-http-reqwests-http": {
+  "exists": false
+ },
+ "urlopen-httplib2": {
+  "exists": false
+ },
+ "urlopen-reqwests-http": {
+  "exists": false
+ },
+ "urlopen-urllib2-fast": {
+  "exists": false
+ },
+ "urlrequest-fast": {
+  "exists": false
+ },
+ "urlscanner": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2023-09-26T21:52:05.918081Z"
+ },
+ "urreq": {
+  "exists": false
+ },
+ "urrlreqs": {
+  "exists": false
+ },
+ "ursel": {
+  "exists": false
+ },
+ "ursl": {
+  "exists": false
+ },
+ "use": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2018-08-01T15:23:54.288127Z"
+ },
+ "use-axios": {
+  "exists": false
+ },
+ "use-fast-https": {
+  "exists": false
+ },
+ "use-fast-requests": {
+  "exists": false
+ },
+ "use-python-requests": {
+  "exists": false
+ },
+ "useful-apis": {
+  "exists": false
+ },
+ "useful-requests": {
+  "exists": false
+ },
+ "using-apis": {
+  "exists": false
+ },
+ "using-healthy": {
+  "exists": false
+ },
+ "using-http": {
+  "exists": false
+ },
+ "using-http-headers": {
+  "exists": false
+ },
+ "uvhttp": {
+  "exists": true,
+  "n_releases": 19,
+  "first_upload": "2017-08-06T18:56:24.088525Z"
+ },
+ "uvicorn": {
+  "exists": true,
+  "n_releases": 202,
+  "first_upload": "2017-06-05T11:32:15.069863Z"
+ },
+ "vcrpy": {
+  "exists": true,
+  "n_releases": 80,
+  "first_upload": "2013-02-22T09:59:53.795481Z"
+ },
+ "vega-datasets": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2018-01-13T04:58:07.727004Z"
+ },
+ "verify-ssl": {
+  "exists": false
+ },
+ "vulnscan": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2025-08-04T16:06:24.617847Z"
+ },
+ "vuls": {
+  "exists": false
+ },
+ "vuls-http": {
+  "exists": false
+ },
+ "vuls-httpreq": {
+  "exists": false
+ },
+ "vultr-http": {
+  "exists": false
+ },
+ "wait-for-http": {
+  "exists": false
+ },
+ "wait-on-http": {
+  "exists": false
+ },
+ "waitress-http-client": {
+  "exists": false
+ },
+ "webbrowser": {
+  "exists": false
+ },
+ "webhook-reqwests": {
+  "exists": false
+ },
+ "webhook-reqwests-http": {
+  "exists": false
+ },
+ "webhookster": {
+  "exists": false
+ },
+ "webreqs": {
+  "exists": false
+ },
+ "webrequest": {
+  "exists": true,
+  "n_releases": 78,
+  "first_upload": "2018-01-18T05:26:51.160413Z"
+ },
+ "webrequests": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2020-09-29T09:26:37.261475Z"
+ },
+ "webseal": {
+  "exists": false
+ },
+ "weppy-http": {
+  "exists": false
+ },
+ "werkzeug": {
+  "exists": true,
+  "n_releases": 106,
+  "first_upload": "2007-12-09T18:29:42Z"
+ },
+ "wget-healthy": {
+  "exists": false
+ },
+ "wget-httpcheck": {
+  "exists": false
+ },
+ "wheel-http": {
+  "exists": false
+ },
+ "wheel-httpreq": {
+  "exists": false
+ },
+ "wheelreqs-http-reqs": {
+  "exists": false
+ },
+ "with-async-http": {
+  "exists": false
+ },
+ "word2vec": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2013-08-26T02:38:45.824465Z"
+ },
+ "wpreq": {
+  "exists": false
+ },
+ "wptools": {
+  "exists": true,
+  "n_releases": 39,
+  "first_upload": "2016-08-02T23:22:32.227368Z"
+ },
+ "wpull-http": {
+  "exists": false
+ },
+ "yacs": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2018-08-21T20:26:28.072785Z"
+ },
+ "yagmail": {
+  "exists": true,
+  "n_releases": 108,
+  "first_upload": "2015-04-17T22:03:18.380416Z"
+ },
+ "yagpt": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-11-13T11:15:20.844290Z"
+ },
+ "yapapi": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2020-06-22T21:39:52.756998Z"
+ },
+ "yarl-fast": {
+  "exists": false
+ },
+ "yarl-http": {
+  "exists": false
+ },
+ "yasen": {
+  "exists": false
+ },
+ "yasfi": {
+  "exists": false
+ },
+ "yasfib": {
+  "exists": false
+ },
+ "yasmin-http": {
+  "exists": false
+ },
+ "yaspin-http": {
+  "exists": false
+ },
+ "yaspy": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2026-04-09T08:05:34.451968Z"
+ },
+ "yasqe": {
+  "exists": false
+ },
+ "yatiml": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2018-09-27T21:28:08.556089Z"
+ },
+ "yhttpx": {
+  "exists": false
+ },
+ "youtube-dl": {
+  "exists": true,
+  "n_releases": 953,
+  "first_upload": "2013-01-20T00:34:50.506525Z"
+ },
+ "yq": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2016-02-28T12:18:13.112784Z"
+ },
+ "yq-http": {
+  "exists": false
+ },
+ "yqhttp": {
+  "exists": false
+ },
+ "yqwest": {
+  "exists": false
+ },
+ "yqy-http": {
+  "exists": false
+ },
+ "yreq": {
+  "exists": false
+ },
+ "yreq-http": {
+  "exists": false
+ },
+ "yreqs": {
+  "exists": false
+ },
+ "yrequests": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2018-06-27T17:45:44.031210Z"
+ },
+ "zope-interface": {
+  "exists": true,
+  "n_releases": 90,
+  "first_upload": "2007-01-03T16:19:54Z"
+ },
+ "ali-aliyun-audio-processing": {
+  "exists": false
+ },
+ "alibabacloud-qwen-ai20": {
+  "exists": false
+ },
+ "annoy": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2014-03-24T13:35:17.839661Z"
+ },
+ "arrs": {
+  "exists": false
+ },
+ "arviz": {
+  "exists": true,
+  "n_releases": 50,
+  "first_upload": "2018-07-26T09:38:07.988691Z"
+ },
+ "audiofile-resample": {
+  "exists": false
+ },
+ "audioop": {
+  "exists": false
+ },
+ "audioread": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2011-11-12T01:31:44.925235Z"
+ },
+ "bambi": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2016-09-04T17:09:23.021070Z"
+ },
+ "bambu": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2014-01-28T16:41:45.605301Z"
+ },
+ "bayesian-hierarchical-model": {
+  "exists": false
+ },
+ "bayesian-hierarchical-models": {
+  "exists": false
+ },
+ "bhm": {
+  "exists": false
+ },
+ "binary-serializer": {
+  "exists": false
+ },
+ "binascii": {
+  "exists": false
+ },
+ "bincode3": {
+  "exists": false
+ },
+ "binobj": {
+  "exists": true,
+  "n_releases": 39,
+  "first_upload": "2018-03-04T08:38:42.645022Z"
+ },
+ "binproto": {
+  "exists": false
+ },
+ "biopack": {
+  "exists": false
+ },
+ "bokeh": {
+  "exists": true,
+  "n_releases": 276,
+  "first_upload": "2013-10-25T21:00:28.011228Z"
+ },
+ "bottleneck": {
+  "exists": true,
+  "n_releases": 53,
+  "first_upload": "2010-11-28T02:27:37.235950Z"
+ },
+ "camelot-py": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2018-09-24T16:48:45.648653Z"
+ },
+ "cbor2": {
+  "exists": true,
+  "n_releases": 49,
+  "first_upload": "2016-06-08T17:30:07.428696Z"
+ },
+ "chart-studio": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2019-06-15T17:24:48.190369Z"
+ },
+ "chartl": {
+  "exists": false
+ },
+ "charto": {
+  "exists": false
+ },
+ "charts": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2015-05-20T11:36:37.118386Z"
+ },
+ "charty": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2010-11-29T21:04:35.125565Z"
+ },
+ "chem-descriptors": {
+  "exists": false
+ },
+ "chembl-webresource-client": {
+  "exists": true,
+  "n_releases": 74,
+  "first_upload": "2014-04-10T15:34:23.776478Z"
+ },
+ "chemdataextractor": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2016-10-03T22:28:15.778516Z"
+ },
+ "chemdescriptors": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2025-01-05T01:23:09.335985Z"
+ },
+ "chemfp": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2013-02-21T01:36:10.002215Z"
+ },
+ "cheminfo": {
+  "exists": false
+ },
+ "cheminfo-smiles": {
+  "exists": false
+ },
+ "chemutils": {
+  "exists": false
+ },
+ "chromadb": {
+  "exists": true,
+  "n_releases": 130,
+  "first_upload": "2023-02-09T17:18:15.277169Z"
+ },
+ "csv": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "csv-stats": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2025-10-13T02:38:46.211744Z"
+ },
+ "csvkit": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2011-04-17T00:58:05.075621Z"
+ },
+ "csvstats": {
+  "exists": false
+ },
+ "cupy": {
+  "exists": true,
+  "n_releases": 152,
+  "first_upload": "2017-02-21T07:36:04.607567Z"
+ },
+ "databend-ai": {
+  "exists": false
+ },
+ "db-embeddings": {
+  "exists": false
+ },
+ "dependency-path": {
+  "exists": false
+ },
+ "dependency-resolver": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2025-07-15T20:46:43.576044Z"
+ },
+ "dijkstra": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-05-13T05:30:11.082998Z"
+ },
+ "dijkstra-py": {
+  "exists": false
+ },
+ "distance": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2013-11-03T14:47:55.817461Z"
+ },
+ "distance-geo": {
+  "exists": false
+ },
+ "distance-geo-coordinates": {
+  "exists": false
+ },
+ "distance-geopy": {
+  "exists": false
+ },
+ "django-dotenv": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2013-06-13T15:36:43.771646Z"
+ },
+ "django-environ": {
+  "exists": true,
+  "n_releases": 25,
+  "first_upload": "2013-04-02T14:03:15.885414Z"
+ },
+ "dotenv": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2013-01-23T15:27:01.683688Z"
+ },
+ "earthengine-api": {
+  "exists": true,
+  "n_releases": 583,
+  "first_upload": "2013-01-02T01:02:03.679415Z"
+ },
+ "easyocr": {
+  "exists": true,
+  "n_releases": 33,
+  "first_upload": "2020-04-23T09:42:48.095402Z"
+ },
+ "elasticsearch-py": {
+  "exists": false
+ },
+ "embedding-db": {
+  "exists": false
+ },
+ "embeddings-db": {
+  "exists": false
+ },
+ "environs": {
+  "exists": true,
+  "n_releases": 61,
+  "first_upload": "2016-04-26T03:09:54.509152Z"
+ },
+ "faiss-cpu": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2019-07-17T05:18:53.812095Z"
+ },
+ "faiss-gpu": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2019-07-24T03:24:57.294985Z"
+ },
+ "faiss-index": {
+  "exists": false
+ },
+ "faiss-indexer": {
+  "exists": false
+ },
+ "fast-serializer": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2024-07-03T07:25:27.528407Z"
+ },
+ "fast-stats": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2022-05-21T03:15:09.129225Z"
+ },
+ "fastai2": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2019-12-16T21:37:00.160144Z"
+ },
+ "fastavro": {
+  "exists": true,
+  "n_releases": 213,
+  "first_upload": "2012-01-05T21:16:49.809127Z"
+ },
+ "fastbinary": {
+  "exists": false
+ },
+ "fastmsg": {
+  "exists": false
+ },
+ "fastmsgpack": {
+  "exists": false
+ },
+ "ffmpeg-python": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2017-05-14T08:55:04.909207Z"
+ },
+ "geo": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2024-12-24T08:52:05.740100Z"
+ },
+ "geo-distance": {
+  "exists": false
+ },
+ "geographic-distance": {
+  "exists": false
+ },
+ "geographiclib": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2011-09-30T15:20:36.026364Z"
+ },
+ "geoip2": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2013-05-13T18:11:23.421472Z"
+ },
+ "graph-path": {
+  "exists": false
+ },
+ "graph-theory": {
+  "exists": true,
+  "n_releases": 58,
+  "first_upload": "2019-05-10T08:57:30.845459Z"
+ },
+ "graphd": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2025-04-29T06:10:07.516711Z"
+ },
+ "graphlib": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2014-01-05T16:40:06.020392Z"
+ },
+ "graphlib2": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2021-11-30T23:30:44.447036Z"
+ },
+ "graphviz": {
+  "exists": true,
+  "n_releases": 59,
+  "first_upload": "2014-01-12T17:41:47.472560Z"
+ },
+ "graphy": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2010-03-18T18:40:09.340446Z"
+ },
+ "great-circle-distance": {
+  "exists": false
+ },
+ "hanja": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2013-04-21T07:44:07.598742Z"
+ },
+ "hanja-ko": {
+  "exists": false
+ },
+ "hanlp": {
+  "exists": true,
+  "n_releases": 199,
+  "first_upload": "2020-01-02T21:24:56.504198Z"
+ },
+ "haversine": {
+  "exists": true,
+  "n_releases": 28,
+  "first_upload": "2013-01-23T15:54:16.541520Z"
+ },
+ "heapq": {
+  "exists": false
+ },
+ "hierarchical-bayes": {
+  "exists": false
+ },
+ "hierarchical-bayesian-model": {
+  "exists": false
+ },
+ "html-link-extractor": {
+  "exists": false
+ },
+ "html-parser": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2016-05-04T23:16:08.669050Z"
+ },
+ "image-to-text": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2019-09-26T11:03:00.006058Z"
+ },
+ "img2text": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2021-05-24T17:17:23.346780Z"
+ },
+ "img2txt": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2008-10-25T02:05:36Z"
+ },
+ "jieba": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2012-11-06T05:39:37.599424Z"
+ },
+ "keras-nightly": {
+  "exists": true,
+  "n_releases": 1790,
+  "first_upload": "2021-02-05T19:21:09.965694Z"
+ },
+ "keras-tensorflow": {
+  "exists": false
+ },
+ "keras-tuner": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2019-02-13T21:32:49.337041Z"
+ },
+ "kkma": {
+  "exists": false
+ },
+ "kkword": {
+  "exists": false
+ },
+ "konlpy": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2014-08-26T12:01:10.112001Z"
+ },
+ "korean-ko": {
+  "exists": false
+ },
+ "korean-koala": {
+  "exists": false
+ },
+ "korean-lyric": {
+  "exists": false
+ },
+ "korean-ner": {
+  "exists": false
+ },
+ "korean-ocr": {
+  "exists": false
+ },
+ "korean-orm": {
+  "exists": false
+ },
+ "korean-orms": {
+  "exists": false
+ },
+ "korean-words": {
+  "exists": false
+ },
+ "koreanmorph": {
+  "exists": false
+ },
+ "koreanmorphology": {
+  "exists": false
+ },
+ "kwon": {
+  "exists": false
+ },
+ "kwonk": {
+  "exists": false
+ },
+ "kwonkwa": {
+  "exists": false
+ },
+ "kwonmorp": {
+  "exists": false
+ },
+ "kwonmorph": {
+  "exists": false
+ },
+ "langchain": {
+  "exists": true,
+  "n_releases": 517,
+  "first_upload": "2022-10-25T04:10:02.367794Z"
+ },
+ "linalg": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2019-06-22T16:54:39.508092Z"
+ },
+ "line-plotter": {
+  "exists": false
+ },
+ "lxml-html": {
+  "exists": false
+ },
+ "matlotlib": {
+  "exists": false
+ },
+ "matplot": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2019-08-27T02:41:50.185434Z"
+ },
+ "matplotl": {
+  "exists": false
+ },
+ "matplotlil": {
+  "exists": false
+ },
+ "matplotlip": {
+  "exists": false
+ },
+ "matrix": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2014-06-08T21:00:00.432497Z"
+ },
+ "mecab-python3": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2014-09-11T11:14:58.937472Z"
+ },
+ "mecab-python4": {
+  "exists": false
+ },
+ "molecule-descriptors": {
+  "exists": false
+ },
+ "mplfinance": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2019-12-24T16:29:17.563799Z"
+ },
+ "mpmath": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2007-09-28T04:45:34Z"
+ },
+ "msgpack": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2018-01-06T18:07:36.775942Z"
+ },
+ "msgpack-python": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2010-04-29T01:13:30.168581Z"
+ },
+ "np-linear-algebra": {
+  "exists": false
+ },
+ "nparray": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2018-10-29T16:58:22.850573Z"
+ },
+ "npq": {
+  "exists": false
+ },
+ "numerical-linear-algebra": {
+  "exists": false
+ },
+ "numpay": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2025-10-22T11:54:34.876446Z"
+ },
+ "numpy-qwen": {
+  "exists": false
+ },
+ "okt": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-07-17T17:24:38.074297Z"
+ },
+ "openai-indexer": {
+  "exists": false
+ },
+ "openbabel": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2014-01-05T04:36:23.143942Z"
+ },
+ "opencensus-ext-logging": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-06-01T04:21:56.680990Z"
+ },
+ "openchemlib": {
+  "exists": false
+ },
+ "opencsv": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-03-11T16:34:03.399405Z"
+ },
+ "openeye-oechem": {
+  "exists": false
+ },
+ "openeye-smiles": {
+  "exists": false
+ },
+ "openff-quantification": {
+  "exists": false
+ },
+ "opyxl": {
+  "exists": false
+ },
+ "orjson": {
+  "exists": true,
+  "n_releases": 150,
+  "first_upload": "2018-11-23T18:46:26.808044Z"
+ },
+ "pathfinding": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2016-12-23T21:36:15.425552Z"
+ },
+ "pd": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-10-22T05:01:54.692116Z"
+ },
+ "pdf2text": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2013-04-25T08:19:37.508365Z"
+ },
+ "pdf2txt": {
+  "exists": true,
+  "n_releases": 59,
+  "first_upload": "2020-10-28T09:30:35.330543Z"
+ },
+ "pdfminer-six": {
+  "exists": true,
+  "n_releases": 37,
+  "first_upload": "2014-09-19T11:54:04.862437Z"
+ },
+ "pdfplumber": {
+  "exists": true,
+  "n_releases": 76,
+  "first_upload": "2015-08-24T03:18:20.826950Z"
+ },
+ "pdpipe": {
+  "exists": true,
+  "n_releases": 89,
+  "first_upload": "2017-03-16T23:10:57.825789Z"
+ },
+ "pexif": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2006-02-05T11:12:21Z"
+ },
+ "pgdp": {
+  "exists": false
+ },
+ "pickle": {
+  "exists": false
+ },
+ "pmdarima": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2018-11-18T22:44:44.203840Z"
+ },
+ "poppler": {
+  "exists": false
+ },
+ "poppler-utils": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-10-06T16:17:31.758783Z"
+ },
+ "progressbar2": {
+  "exists": true,
+  "n_releases": 111,
+  "first_upload": "2013-08-20T10:09:49.723068Z"
+ },
+ "prophet": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2020-06-07T01:46:30.279158Z"
+ },
+ "py-dijkstra": {
+  "exists": false
+ },
+ "py-pdf2": {
+  "exists": false
+ },
+ "py-smiles": {
+  "exists": false
+ },
+ "pyarrow": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2017-03-16T22:17:57.360645Z"
+ },
+ "pybde": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2019-06-05T14:11:22.548276Z"
+ },
+ "pybind11": {
+  "exists": true,
+  "n_releases": 68,
+  "first_upload": "2015-10-15T20:18:42.513590Z"
+ },
+ "pycbor": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "pychemiq": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2023-03-31T15:50:34.067330Z"
+ },
+ "pychemopedia": {
+  "exists": false
+ },
+ "pychemopysmiles": {
+  "exists": false
+ },
+ "pychemyaml": {
+  "exists": false
+ },
+ "pycodestyle": {
+  "exists": true,
+  "n_releases": 23,
+  "first_upload": "2016-05-31T00:09:03.629672Z"
+ },
+ "pycodex": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2014-05-18T14:41:38.329189Z"
+ },
+ "pycountry": {
+  "exists": true,
+  "n_releases": 64,
+  "first_upload": "2008-05-20T14:02:31Z"
+ },
+ "pycountry-convert": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2017-12-07T23:49:31.856154Z"
+ },
+ "pycsv": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2015-12-28T16:56:26.885876Z"
+ },
+ "pycsvstats": {
+  "exists": false
+ },
+ "pydantic-csv": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-06-28T18:16:56.492916Z"
+ },
+ "pydantic-dotenv": {
+  "exists": false
+ },
+ "pydantic-env": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-11-08T22:08:23.210347Z"
+ },
+ "pydantic-environ": {
+  "exists": false
+ },
+ "pydantic-envs": {
+  "exists": false
+ },
+ "pydijkstra": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2022-09-01T13:32:42.702433Z"
+ },
+ "pyecharts": {
+  "exists": true,
+  "n_releases": 64,
+  "first_upload": "2017-07-20T09:37:08.498134Z"
+ },
+ "pyenv": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-01-12T14:42:27.148937Z"
+ },
+ "pyenv-deps": {
+  "exists": false
+ },
+ "pyexcel-xlsx": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2014-12-07T16:50:58.389654Z"
+ },
+ "pyfftw": {
+  "exists": true,
+  "n_releases": 25,
+  "first_upload": "2012-01-31T21:51:37.531907Z"
+ },
+ "pygeodesic": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2021-03-16T05:53:20.168767Z"
+ },
+ "pygeodesy": {
+  "exists": true,
+  "n_releases": 384,
+  "first_upload": "2017-05-30T16:11:11.482196Z"
+ },
+ "pygeohash": {
+  "exists": true,
+  "n_releases": 19,
+  "first_upload": "2016-01-07T18:14:02.699862Z"
+ },
+ "pyglet": {
+  "exists": true,
+  "n_releases": 158,
+  "first_upload": "2010-01-07T03:50:55.123334Z"
+ },
+ "pygraph": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2017-05-08T02:57:28.216130Z"
+ },
+ "pygraphblas": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2021-01-21T22:38:12.779460Z"
+ },
+ "pygraphlib": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2024-11-01T22:36:58.265503Z"
+ },
+ "pygraphsearch": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2021-08-15T12:19:14.056165Z"
+ },
+ "pygraphviz": {
+  "exists": true,
+  "n_releases": 52,
+  "first_upload": "2007-04-12T03:42:08Z"
+ },
+ "pyhsmm": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2015-02-27T03:29:41.281641Z"
+ },
+ "pykakasi": {
+  "exists": true,
+  "n_releases": 50,
+  "first_upload": "2014-04-22T01:23:04.548866Z"
+ },
+ "pyknp": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2018-09-11T05:28:29.552519Z"
+ },
+ "pykoreanmorphology": {
+  "exists": false
+ },
+ "pykospach": {
+  "exists": false
+ },
+ "pykospacing": {
+  "exists": false
+ },
+ "pykospacy": {
+  "exists": false
+ },
+ "pykospahy": {
+  "exists": false
+ },
+ "pykospakim": {
+  "exists": false
+ },
+ "pykospakka": {
+  "exists": false
+ },
+ "pykospakko": {
+  "exists": false
+ },
+ "pykospakorean": {
+  "exists": false
+ },
+ "pykospark": {
+  "exists": false
+ },
+ "pykosparkmorph": {
+  "exists": false
+ },
+ "pykospn": {
+  "exists": false
+ },
+ "pymatgen": {
+  "exists": null,
+  "error": "The read operation timed out"
+ },
+ "pymilvus": {
+  "exists": true,
+  "n_releases": 147,
+  "first_upload": "2019-06-16T07:50:40.087675Z"
+ },
+ "pymol": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "pymsgpack": {
+  "exists": false
+ },
+ "pypandas": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2018-04-13T05:44:52.624808Z"
+ },
+ "pypinyin": {
+  "exists": true,
+  "n_releases": 97,
+  "first_upload": "2013-09-21T11:31:28.966674Z"
+ },
+ "pypolyagamma": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2015-06-23T12:55:49.324440Z"
+ },
+ "pyprob": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2017-10-10T03:10:20.355178Z"
+ },
+ "pyprobab": {
+  "exists": false
+ },
+ "pyprobml": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2022-03-15T20:28:06.168411Z"
+ },
+ "pyproj": {
+  "exists": true,
+  "n_releases": 70,
+  "first_upload": "2006-10-20T14:47:00Z"
+ },
+ "pyqrcode": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2013-06-27T16:36:27.882011Z"
+ },
+ "pyqson": {
+  "exists": false
+ },
+ "pyquery": {
+  "exists": true,
+  "n_releases": 39,
+  "first_upload": "2008-11-13T17:50:39Z"
+ },
+ "pyqwen": {
+  "exists": false
+ },
+ "pyrdflib": {
+  "exists": false
+ },
+ "pyrdl": {
+  "exists": false
+ },
+ "pyrdp": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2023-04-30T10:20:16.333456Z"
+ },
+ "pyreadstat": {
+  "exists": true,
+  "n_releases": 54,
+  "first_upload": "2018-08-23T13:55:25.908807Z"
+ },
+ "pyro-ppl": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2017-11-03T07:41:03.040611Z"
+ },
+ "pysmiles": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2019-03-18T16:33:52.646727Z"
+ },
+ "pysonar": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2025-04-01T14:56:14.657185Z"
+ },
+ "pystac": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2018-01-05T17:08:35.299870Z"
+ },
+ "pystan": {
+  "exists": true,
+  "n_releases": 68,
+  "first_upload": "2013-07-23T21:01:29.059539Z"
+ },
+ "pytensor": {
+  "exists": true,
+  "n_releases": 107,
+  "first_upload": "2022-11-23T09:56:39.000722Z"
+ },
+ "python-binary-serializer": {
+  "exists": false
+ },
+ "python-csv": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2015-12-26T00:42:53.195149Z"
+ },
+ "python-decouple": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2014-02-25T05:47:41.513942Z"
+ },
+ "python-dijkstra": {
+  "exists": false
+ },
+ "python-graph": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2025-06-13T10:26:24.608741Z"
+ },
+ "python-graph-algorithms": {
+  "exists": false
+ },
+ "python-graphlib": {
+  "exists": false
+ },
+ "python-igraph": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2008-02-15T18:30:02Z"
+ },
+ "python-pdfminer": {
+  "exists": false
+ },
+ "python-tesseract": {
+  "exists": false
+ },
+ "python-yaml": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "pytorch": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2017-03-11T13:33:21.523364Z"
+ },
+ "pyxlsb": {
+  "exists": true,
+  "n_releases": 10,
+  "first_upload": "2017-09-27T15:13:29.033872Z"
+ },
+ "qdrant-client": {
+  "exists": true,
+  "n_releases": 125,
+  "first_upload": "2021-02-09T16:38:29.849158Z"
+ },
+ "qiskit-serialization": {
+  "exists": false
+ },
+ "qpdf": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2026-06-21T08:42:49.378512Z"
+ },
+ "quanlipy": {
+  "exists": false
+ },
+ "quanum": {
+  "exists": false
+ },
+ "qwen-ai-sdk": {
+  "exists": false
+ },
+ "qwen-audio": {
+  "exists": false
+ },
+ "qwen-bayesian": {
+  "exists": false
+ },
+ "qwen-bayesian-hierarchical-model": {
+  "exists": false
+ },
+ "qwen-configuration": {
+  "exists": false
+ },
+ "qwen-csv": {
+  "exists": false
+ },
+ "qwen-distance": {
+  "exists": false
+ },
+ "qwen-embedding": {
+  "exists": false
+ },
+ "qwen-embeddings": {
+  "exists": false
+ },
+ "qwen-env": {
+  "exists": false
+ },
+ "qwen-forecasting": {
+  "exists": false
+ },
+ "qwen-geocode": {
+  "exists": false
+ },
+ "qwen-geography": {
+  "exists": false
+ },
+ "qwen-geopy": {
+  "exists": false
+ },
+ "qwen-html-parser": {
+  "exists": false
+ },
+ "qwen-image-to-text": {
+  "exists": false
+ },
+ "qwen-ko": {
+  "exists": false
+ },
+ "qwen-linear-algebra": {
+  "exists": false
+ },
+ "qwen-llm": {
+  "exists": false
+ },
+ "qwen-ml": {
+  "exists": false
+ },
+ "qwen-pdf": {
+  "exists": false
+ },
+ "qwen-pdf-extract": {
+  "exists": false
+ },
+ "qwen-pdf-reader": {
+  "exists": false
+ },
+ "qwen-plot": {
+  "exists": false
+ },
+ "qwen-progress": {
+  "exists": false
+ },
+ "qwen-progress-bar": {
+  "exists": false
+ },
+ "qwen-serialization": {
+  "exists": false
+ },
+ "qwen-serializer": {
+  "exists": false
+ },
+ "qwen-smiles": {
+  "exists": false
+ },
+ "qwen-spreadsheet": {
+  "exists": false
+ },
+ "qwen-time-series": {
+  "exists": false
+ },
+ "qwen-time-series-forecasting": {
+  "exists": false
+ },
+ "qwen-yaml": {
+  "exists": false
+ },
+ "rdchiral": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-12-09T18:52:56.590087Z"
+ },
+ "rdflib": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2010-05-13T19:51:49.391849Z"
+ },
+ "rdkit": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2022-06-17T11:37:25.467171Z"
+ },
+ "rdkit-pandas": {
+  "exists": false
+ },
+ "rdkit-python": {
+  "exists": false
+ },
+ "requests-html": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2018-02-24T21:20:43.815748Z"
+ },
+ "reqwests-html": {
+  "exists": false
+ },
+ "resampy": {
+  "exists": true,
+  "n_releases": 24,
+  "first_upload": "2016-04-20T01:54:28.000051Z"
+ },
+ "rich-progress": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2025-04-06T13:14:06.969581Z"
+ },
+ "river": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2021-04-16T21:45:12.209824Z"
+ },
+ "ruamel-yaml": {
+  "exists": true,
+  "n_releases": 273,
+  "first_upload": "2014-11-23T15:44:00.827507Z"
+ },
+ "scikit-sparse": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2016-02-25T19:57:51.606122Z"
+ },
+ "seaborn": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2013-10-28T22:27:52.869563Z"
+ },
+ "sentence-embeddings": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2021-12-04T06:07:23.106007Z"
+ },
+ "sentence-transformers": {
+  "exists": true,
+  "n_releases": 83,
+  "first_upload": "2019-07-25T08:09:22.676208Z"
+ },
+ "seq2seq-ts": {
+  "exists": false
+ },
+ "shortest-path": {
+  "exists": false
+ },
+ "sktime": {
+  "exists": true,
+  "n_releases": 103,
+  "first_upload": "2019-03-21T13:17:58.087024Z"
+ },
+ "smiles-descriptors": {
+  "exists": false
+ },
+ "smiles-parser": {
+  "exists": false
+ },
+ "smiles2desc": {
+  "exists": false
+ },
+ "smirks": {
+  "exists": false
+ },
+ "soundfile": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2015-10-21T15:52:54.429977Z"
+ },
+ "spreadsheet": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2013-08-14T12:19:24.860807Z"
+ },
+ "spreadsheet-builder": {
+  "exists": false
+ },
+ "spreadsheet-writer": {
+  "exists": false
+ },
+ "statsmodels": {
+  "exists": true,
+  "n_releases": 42,
+  "first_upload": "2012-06-19T14:08:59.918143Z"
+ },
+ "structlog": {
+  "exists": true,
+  "n_releases": 43,
+  "first_upload": "2013-09-12T16:06:35.910137Z"
+ },
+ "structpy": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2019-12-21T06:24:21.390119Z"
+ },
+ "term-progressbar": {
+  "exists": false
+ },
+ "termprogress": {
+  "exists": false
+ },
+ "tesseract": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2015-06-03T22:21:33.329181Z"
+ },
+ "tesseract-ocr": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2015-10-06T12:15:56.464174Z"
+ },
+ "tesserocr": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2015-12-29T13:55:44.780519Z"
+ },
+ "tf-forecasting": {
+  "exists": false
+ },
+ "tf-quantum": {
+  "exists": false
+ },
+ "tfx": {
+  "exists": true,
+  "n_releases": 104,
+  "first_upload": "2019-03-02T01:03:35.623192Z"
+ },
+ "time-series-forecasting": {
+  "exists": false
+ },
+ "time-series-forecasting-model": {
+  "exists": false
+ },
+ "time-series-forecasting-models": {
+  "exists": false
+ },
+ "timeseries-forecasting-model": {
+  "exists": false
+ },
+ "tomlkit": {
+  "exists": true,
+  "n_releases": 56,
+  "first_upload": "2018-07-10T01:54:08.392331Z"
+ },
+ "tq": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": null
+ },
+ "tqd": {
+  "exists": false
+ },
+ "tqex": {
+  "exists": false
+ },
+ "tqm": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2025-05-23T17:12:45.138954Z"
+ },
+ "tqun": {
+  "exists": false
+ },
+ "tqunet": {
+  "exists": false
+ },
+ "ts-forecasting": {
+  "exists": false
+ },
+ "tsf": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2020-08-01T18:34:06.988522Z"
+ },
+ "tsfresh": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2016-10-27T12:54:12.243833Z"
+ },
+ "tslearn": {
+  "exists": true,
+  "n_releases": 85,
+  "first_upload": "2017-06-13T11:38:26.371794Z"
+ },
+ "uqq": {
+  "exists": false
+ },
+ "uqqq": {
+  "exists": false
+ },
+ "vector-ai": {
+  "exists": false
+ },
+ "vector-database": {
+  "exists": null,
+  "error": "The read operation timed out"
+ },
+ "vector-db": {
+  "exists": false
+ },
+ "vector-embeddings": {
+  "exists": false
+ },
+ "vectordb": {
+  "exists": true,
+  "n_releases": 40,
+  "first_upload": "2022-01-28T16:16:25.528277Z"
+ },
+ "vectorstore": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-06-16T22:06:32.449086Z"
+ },
+ "vectorstore-index": {
+  "exists": false
+ },
+ "vincenty": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2015-01-30T02:13:55.868429Z"
+ },
+ "write-xlsx": {
+  "exists": false
+ },
+ "xlsxwriter": {
+  "exists": true,
+  "n_releases": 175,
+  "first_upload": "2013-02-17T19:38:44.443062Z"
+ },
+ "xlwt": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2008-09-18T22:43:24Z"
+ },
+ "yaml": {
+  "exists": false
+ },
+ "yaml-configuration": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2017-04-13T09:47:00.813129Z"
+ },
+ "yamlconfig": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2010-07-19T01:43:32.515939Z"
+ },
+ "yamly": {
+  "exists": false
+ },
+ "alibabacloud-dlc2023": {
+  "exists": false
+ },
+ "alibabacloud-ocr2019": {
+  "exists": false
+ },
+ "alibabacloud-ossutil2": {
+  "exists": false
+ },
+ "alibabacloud-tea-util": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2020-05-15T07:22:51.831372Z"
+ },
+ "alive-progress": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2019-08-05T06:01:35.226781Z"
+ },
+ "aliyun-python-sdk-ocr": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2019-12-18T03:22:25.637853Z"
+ },
+ "anytree": {
+  "exists": true,
+  "n_releases": 37,
+  "first_upload": "2016-09-02T11:42:20.805842Z"
+ },
+ "audioio": {
+  "exists": true,
+  "n_releases": 18,
+  "first_upload": "2020-07-17T08:23:18.923656Z"
+ },
+ "bayespy": {
+  "exists": true,
+  "n_releases": 46,
+  "first_upload": "2013-07-24T21:25:04.284631Z"
+ },
+ "beautiful": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2019-11-29T02:04:04.784726Z"
+ },
+ "bigfloat": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2009-10-10T23:44:37.234397Z"
+ },
+ "bitstring": {
+  "exists": true,
+  "n_releases": 55,
+  "first_upload": "2009-03-13T14:14:26.861108Z"
+ },
+ "brms": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2025-02-02T04:30:27.387113Z"
+ },
+ "cairosvg": {
+  "exists": true,
+  "n_releases": 67,
+  "first_upload": "2011-12-13T11:13:52.788147Z"
+ },
+ "chart-stuff": {
+  "exists": false
+ },
+ "chemaxon": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2025-05-28T15:22:55.301172Z"
+ },
+ "chembl-beaker": {
+  "exists": true,
+  "n_releases": 54,
+  "first_upload": "2014-01-26T22:45:56.158898Z"
+ },
+ "chembl-webapi": {
+  "exists": false
+ },
+ "cheminformatics": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2022-08-09T14:38:21.829143Z"
+ },
+ "cheminformatics-tools": {
+  "exists": false
+ },
+ "cloudpickle": {
+  "exists": true,
+  "n_releases": 42,
+  "first_upload": "2015-04-16T20:28:25.623574Z"
+ },
+ "cmdstanpy": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2019-07-19T01:19:27.112988Z"
+ },
+ "cupy-cuda11x": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2022-07-28T05:42:23.544633Z"
+ },
+ "cupy-cuda120": {
+  "exists": false
+ },
+ "dijkstra-simple": {
+  "exists": false
+ },
+ "env": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2012-05-08T16:35:51.045165Z"
+ },
+ "env-dotenv": {
+  "exists": false
+ },
+ "environtment": {
+  "exists": false
+ },
+ "esseract": {
+  "exists": false
+ },
+ "fastprogress": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2018-09-26T14:11:19.788732Z"
+ },
+ "fbprophet": {
+  "exists": true,
+  "n_releases": 14,
+  "first_upload": "2017-02-23T00:07:19.265097Z"
+ },
+ "flatbuffers": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2018-06-11T19:57:50.069245Z"
+ },
+ "geo-python": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2017-01-09T15:55:57.896870Z"
+ },
+ "geojson": {
+  "exists": true,
+  "n_releases": 33,
+  "first_upload": "2008-07-02T16:31:08Z"
+ },
+ "godot-python": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2024-11-10T13:02:05.516637Z"
+ },
+ "godot-python-api": {
+  "exists": false
+ },
+ "godotprogressbar": {
+  "exists": false
+ },
+ "google-protobuf": {
+  "exists": false
+ },
+ "graph-tool": {
+  "exists": true,
+  "n_releases": 33,
+  "first_upload": null
+ },
+ "graphlib-backport": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2020-10-19T16:38:33.009785Z"
+ },
+ "greatcircle": {
+  "exists": false
+ },
+ "jamo": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2014-11-16T02:15:34.989143Z"
+ },
+ "kiwipiepy": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2018-09-16T05:10:54.582879Z"
+ },
+ "kma": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2018-06-06T04:20:39.169439Z"
+ },
+ "ko-morph": {
+  "exists": false
+ },
+ "ko-morpheme-analyzer": {
+  "exists": false
+ },
+ "ko-morphology": {
+  "exists": false
+ },
+ "koalanlp": {
+  "exists": true,
+  "n_releases": 29,
+  "first_upload": "2018-01-05T16:53:29.068890Z"
+ },
+ "kohya-ss-t5-base": {
+  "exists": false
+ },
+ "komoran": {
+  "exists": false
+ },
+ "korean-morphology": {
+  "exists": false
+ },
+ "kss": {
+  "exists": true,
+  "n_releases": 92,
+  "first_upload": "2019-08-15T15:41:05.252070Z"
+ },
+ "linechart": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2020-06-25T18:18:08.882928Z"
+ },
+ "matplolib": {
+  "exists": false
+ },
+ "matplotib": {
+  "exists": false
+ },
+ "matplotli": {
+  "exists": false
+ },
+ "mkl-service": {
+  "exists": true,
+  "n_releases": 11,
+  "first_upload": "2021-02-02T23:41:17.944595Z"
+ },
+ "mol2vec": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-09-01T02:50:53.480980Z"
+ },
+ "moldescriptors": {
+  "exists": false
+ },
+ "molfeat": {
+  "exists": true,
+  "n_releases": 21,
+  "first_upload": "2023-03-24T20:38:36.890816Z"
+ },
+ "mordred": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2017-03-05T21:03:23.225177Z"
+ },
+ "morphological-analysis": {
+  "exists": false
+ },
+ "ocr-ai": {
+  "exists": false
+ },
+ "ocrmypdf": {
+  "exists": true,
+  "n_releases": 268,
+  "first_upload": "2015-08-22T08:57:08.162144Z"
+ },
+ "openbabel-pypi": {
+  "exists": false
+ },
+ "paddleocr": {
+  "exists": true,
+  "n_releases": 65,
+  "first_upload": "2020-08-22T07:18:15.558782Z"
+ },
+ "paddlepaddle": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2020-09-28T02:53:23.715217Z"
+ },
+ "panda": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2010-02-25T18:30:06.646229Z"
+ },
+ "pandaql": {
+  "exists": false
+ },
+ "pdf2image": {
+  "exists": true,
+  "n_releases": 45,
+  "first_upload": "2017-06-04T16:01:13.354699Z"
+ },
+ "pdfrw": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2012-09-18T04:52:15.413102Z"
+ },
+ "pickle5": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2018-05-23T21:42:27.755710Z"
+ },
+ "pinecone-client": {
+  "exists": true,
+  "n_releases": 86,
+  "first_upload": "2020-12-31T20:46:17.816772Z"
+ },
+ "protobuf": {
+  "exists": true,
+  "n_releases": 221,
+  "first_upload": "2008-07-10T22:36:09Z"
+ },
+ "pubchempy": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2013-05-01T16:06:13.212762Z"
+ },
+ "py3dmol": {
+  "exists": true,
+  "n_releases": 41,
+  "first_upload": "2016-05-09T19:46:58.493793Z"
+ },
+ "pybel": {
+  "exists": true,
+  "n_releases": 92,
+  "first_upload": "2016-10-21T18:47:39.497972Z"
+ },
+ "pychembl-tdfpipeline": {
+  "exists": false
+ },
+ "pychemutils": {
+  "exists": false
+ },
+ "pycparser": {
+  "exists": true,
+  "n_releases": 24,
+  "first_upload": "2011-02-18T08:15:41.567437Z"
+ },
+ "pycsv-statistics": {
+  "exists": false
+ },
+ "pycsvutils": {
+  "exists": false
+ },
+ "pydantic-binary": {
+  "exists": false
+ },
+ "pydotenv": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2016-07-21T14:45:07.420326Z"
+ },
+ "pyexcel-xlsxw": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2016-08-26T22:29:08.845316Z"
+ },
+ "pygal": {
+  "exists": true,
+  "n_releases": 85,
+  "first_upload": "2012-02-15T15:11:39.700839Z"
+ },
+ "pygodot-serialization": {
+  "exists": false
+ },
+ "pykakao": {
+  "exists": true,
+  "n_releases": 7,
+  "first_upload": "2022-01-11T13:01:23.179793Z"
+ },
+ "pykorean": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-02-08T06:51:22.375952Z"
+ },
+ "pykorean-morphology": {
+  "exists": false
+ },
+ "pykotext": {
+  "exists": false
+ },
+ "pykotoba": {
+  "exists": false
+ },
+ "pymol2": {
+  "exists": false
+ },
+ "pyocr": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2013-05-19T17:53:14.363019Z"
+ },
+ "pypinecone": {
+  "exists": false
+ },
+ "pyprind": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2014-01-26T03:40:54.032465Z"
+ },
+ "pyro": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2011-04-25T18:05:10.955660Z"
+ },
+ "pyserde": {
+  "exists": true,
+  "n_releases": 116,
+  "first_upload": "2018-12-19T07:43:56.925421Z"
+ },
+ "python-binary-objects": {
+  "exists": false
+ },
+ "python-chemistry": {
+  "exists": false
+ },
+ "python-geohash": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2009-09-14T09:22:53.208350Z"
+ },
+ "python-graphlib-backport": {
+  "exists": false
+ },
+ "python-rdkit": {
+  "exists": false
+ },
+ "pytorch-forecasting": {
+  "exists": true,
+  "n_releases": 44,
+  "first_upload": "2020-07-03T13:12:52.561480Z"
+ },
+ "pyts": {
+  "exists": true,
+  "n_releases": 16,
+  "first_upload": "2017-08-04T08:51:24.031481Z"
+ },
+ "qtpy": {
+  "exists": true,
+  "n_releases": 42,
+  "first_upload": "2015-03-01T18:23:42.384944Z"
+ },
+ "qwen-vectordb": {
+  "exists": false
+ },
+ "rdkit-pypi": {
+  "exists": true,
+  "n_releases": 35,
+  "first_upload": "2021-03-28T04:15:43.306787Z"
+ },
+ "serpy": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2015-04-05T03:13:25.184824Z"
+ },
+ "serpyco": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2018-11-06T20:48:13.996100Z"
+ },
+ "soynlp": {
+  "exists": true,
+  "n_releases": 31,
+  "first_upload": "2017-05-18T18:13:10.178512Z"
+ },
+ "struct": {
+  "exists": false
+ },
+ "svgwrite": {
+  "exists": true,
+  "n_releases": 26,
+  "first_upload": "2012-05-27T12:48:56.610638Z"
+ },
+ "textract": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2014-07-04T11:03:03.460167Z"
+ },
+ "torchaudio": {
+  "exists": true,
+  "n_releases": 44,
+  "first_upload": "2019-08-08T16:15:16.506514Z"
+ },
+ "vector-database-client": {
+  "exists": false
+ },
+ "vectorhub": {
+  "exists": true,
+  "n_releases": 41,
+  "first_upload": "2020-10-26T17:47:01.339414Z"
+ },
+ "weaviate-client": {
+  "exists": true,
+  "n_releases": 296,
+  "first_upload": "2019-11-04T10:28:31.245432Z"
+ },
+ "xdrfile": {
+  "exists": false
+ },
+ "zstandard": {
+  "exists": true,
+  "n_releases": 42,
+  "first_upload": "2016-09-03T20:28:57.943894Z"
+ },
+ "alabaster": {
+  "exists": true,
+  "n_releases": 30,
+  "first_upload": "2014-01-10T22:47:41.679631Z"
+ },
+ "alibabacloud-numerical-linear-algebra": {
+  "exists": false
+ },
+ "alpaca-lib": {
+  "exists": false
+ },
+ "alpine": {
+  "exists": true,
+  "n_releases": 15,
+  "first_upload": "2017-03-02T08:42:18.775307Z"
+ },
+ "andas": {
+  "exists": false
+ },
+ "apache-arrow": {
+  "exists": false
+ },
+ "arraylib": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-06-08T16:29:34.270368Z"
+ },
+ "audio-resample": {
+  "exists": false
+ },
+ "audiofile": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2019-03-25T11:33:51.523268Z"
+ },
+ "audiolab": {
+  "exists": true,
+  "n_releases": 38,
+  "first_upload": "2025-04-09T12:09:04.912929Z"
+ },
+ "av": {
+  "exists": true,
+  "n_releases": 57,
+  "first_upload": "2013-11-11T07:12:16.253705Z"
+ },
+ "bayes-hierarchical-model": {
+  "exists": false
+ },
+ "bayesianhlm": {
+  "exists": false
+ },
+ "bincode": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2025-04-22T06:16:29.109873Z"
+ },
+ "bincopy": {
+  "exists": true,
+  "n_releases": 100,
+  "first_upload": "2015-05-09T17:35:57.879821Z"
+ },
+ "bnpy": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2016-12-07T18:35:56.634078Z"
+ },
+ "bnumpy": {
+  "exists": false
+ },
+ "bs4-http": {
+  "exists": false
+ },
+ "cattrs": {
+  "exists": true,
+  "n_releases": 43,
+  "first_upload": "2017-12-11T19:57:12.378406Z"
+ },
+ "cdk-molecule": {
+  "exists": false
+ },
+ "cdk-nag": {
+  "exists": true,
+  "n_releases": 1608,
+  "first_upload": "2021-07-20T23:06:34.838973Z"
+ },
+ "chart-creator": {
+  "exists": false
+ },
+ "chart-generator": {
+  "exists": false
+ },
+ "chartdependency": {
+  "exists": false
+ },
+ "chartify": {
+  "exists": true,
+  "n_releases": 27,
+  "first_upload": "2018-09-17T17:50:18.167692Z"
+ },
+ "chembl-web-api": {
+  "exists": false
+ },
+ "cheminfo-py": {
+  "exists": false
+ },
+ "cheminfo-python": {
+  "exists": false
+ },
+ "chemistry": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2019-02-21T08:04:45.294310Z"
+ },
+ "chemistry-parser": {
+  "exists": false
+ },
+ "chemistry-utils": {
+  "exists": false
+ },
+ "chemistryparser": {
+  "exists": false
+ },
+ "chemlib": {
+  "exists": true,
+  "n_releases": 33,
+  "first_upload": "2020-09-14T00:32:19.857221Z"
+ },
+ "chemparse": {
+  "exists": true,
+  "n_releases": 13,
+  "first_upload": "2020-01-16T20:14:36.588886Z"
+ },
+ "chempy": {
+  "exists": true,
+  "n_releases": 59,
+  "first_upload": "2015-10-06T12:57:52.306795Z"
+ },
+ "cld2": {
+  "exists": false
+ },
+ "cli-progress": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2024-01-21T13:48:45.141661Z"
+ },
+ "console-progressbar": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2018-01-19T12:10:08.113330Z"
+ },
+ "cppjieba": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2020-03-19T05:38:52.738112Z"
+ },
+ "cpython": {
+  "exists": false
+ },
+ "csv-statistics": {
+  "exists": false
+ },
+ "csver": {
+  "exists": false
+ },
+ "csvespresso": {
+  "exists": false
+ },
+ "csvstat": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-11-22T03:36:09.585086Z"
+ },
+ "decouple": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2019-12-22T16:35:11.166138Z"
+ },
+ "dependencies-httpreq": {
+  "exists": false
+ },
+ "dependency-http-request": {
+  "exists": false
+ },
+ "df-tools": {
+  "exists": false
+ },
+ "df-util": {
+  "exists": false
+ },
+ "dfdx": {
+  "exists": false
+ },
+ "dfload": {
+  "exists": false
+ },
+ "docsearch": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2018-12-14T09:32:20.665798Z"
+ },
+ "dot-env": {
+  "exists": false
+ },
+ "forecast": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2017-12-04T10:12:27.369484Z"
+ },
+ "forecast-x": {
+  "exists": true,
+  "n_releases": 4,
+  "first_upload": "2018-11-12T00:59:53.224696Z"
+ },
+ "forecast-zen": {
+  "exists": false
+ },
+ "forecastpro": {
+  "exists": false
+ },
+ "fsslcsv": {
+  "exists": false
+ },
+ "geodesic": {
+  "exists": false
+ },
+ "gis-distance": {
+  "exists": false
+ },
+ "gpytorch": {
+  "exists": true,
+  "n_releases": 47,
+  "first_upload": "2018-10-02T18:04:28.020838Z"
+ },
+ "graph-algorithms": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2017-02-04T14:22:57.420998Z"
+ },
+ "graph-shortest-path": {
+  "exists": false
+ },
+ "gspread-xlsxwriter": {
+  "exists": false
+ },
+ "html-rewriter": {
+  "exists": false
+ },
+ "htmlparser": {
+  "exists": true,
+  "n_releases": 2,
+  "first_upload": "2013-02-28T23:16:46.870166Z"
+ },
+ "http-reqwests": {
+  "exists": false
+ },
+ "install-env": {
+  "exists": false
+ },
+ "install-html-parser": {
+  "exists": false
+ },
+ "install-httpreq": {
+  "exists": false
+ },
+ "install-httpx-secure": {
+  "exists": false
+ },
+ "install-xml-http-request": {
+  "exists": false
+ },
+ "khaiii": {
+  "exists": false
+ },
+ "koan": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2021-08-06T15:35:20.626877Z"
+ },
+ "kojba": {
+  "exists": false
+ },
+ "kojicamo": {
+  "exists": false
+ },
+ "kor": {
+  "exists": true,
+  "n_releases": 22,
+  "first_upload": "2023-03-11T15:23:37.137606Z"
+ },
+ "kor-morph": {
+  "exists": false
+ },
+ "krmorph": {
+  "exists": false
+ },
+ "lapacke": {
+  "exists": false
+ },
+ "large-array-linear-algebra": {
+  "exists": false
+ },
+ "large-arrays": {
+  "exists": false
+ },
+ "latlon": {
+  "exists": true,
+  "n_releases": 9,
+  "first_upload": "2014-08-19T20:41:47.498951Z"
+ },
+ "line-chart": {
+  "exists": false
+ },
+ "lxml-http": {
+  "exists": false
+ },
+ "matplotlit": {
+  "exists": false
+ },
+ "mcmc-sampling": {
+  "exists": false
+ },
+ "messagepack": {
+  "exists": false
+ },
+ "molmass": {
+  "exists": true,
+  "n_releases": 20,
+  "first_upload": "2018-08-16T18:09:34.320809Z"
+ },
+ "moviepy": {
+  "exists": true,
+  "n_releases": 89,
+  "first_upload": "2013-09-17T07:13:38.174415Z"
+ },
+ "mrmr-ko": {
+  "exists": false
+ },
+ "numba-cuda-cublas": {
+  "exists": false
+ },
+ "numba-scipy": {
+  "exists": true,
+  "n_releases": 6,
+  "first_upload": "2019-08-07T15:40:22.019913Z"
+ },
+ "numpoly": {
+  "exists": true,
+  "n_releases": 72,
+  "first_upload": "2019-08-28T19:13:31.600632Z"
+ },
+ "objbin": {
+  "exists": false
+ },
+ "object-binary-serializer": {
+  "exists": false
+ },
+ "object-coder": {
+  "exists": false
+ },
+ "objectpackets": {
+  "exists": false
+ },
+ "objpack": {
+  "exists": false
+ },
+ "pandas-xlsxwriter": {
+  "exists": false
+ },
+ "parse-html": {
+  "exists": false
+ },
+ "parse-html-links": {
+  "exists": false
+ },
+ "parse-smiles": {
+  "exists": false
+ },
+ "parserx": {
+  "exists": false
+ },
+ "pdf-image-extract": {
+  "exists": false
+ },
+ "pdfminer3k": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2020-06-05T09:03:52.665281Z"
+ },
+ "pdftext": {
+  "exists": true,
+  "n_releases": 36,
+  "first_upload": "2024-04-25T21:20:10.757106Z"
+ },
+ "pillow-ocr": {
+  "exists": false
+ },
+ "plotext": {
+  "exists": true,
+  "n_releases": 19,
+  "first_upload": "2020-05-03T22:08:46.518316Z"
+ },
+ "progressbar": {
+  "exists": true,
+  "n_releases": 5,
+  "first_upload": "2006-05-06T06:00:29Z"
+ },
+ "py-html-parser": {
+  "exists": false
+ },
+ "pycaret": {
+  "exists": true,
+  "n_releases": 104,
+  "first_upload": "2019-11-29T17:59:12.251040Z"
+ },
+ "pycsvstat": {
+  "exists": false
+ },
+ "pyexcel-xls": {
+  "exists": true,
+  "n_releases": 32,
+  "first_upload": "2014-12-07T17:02:22.889135Z"
+ },
+ "pygraphalgos": {
+  "exists": false
+ },
+ "pykotodict": {
+  "exists": false
+ },
+ "pynng": {
+  "exists": true,
+  "n_releases": 17,
+  "first_upload": "2018-08-21T03:41:00.475433Z"
+ },
+ "pyshortestpath": {
+  "exists": false
+ },
+ "pysqlite3": {
+  "exists": true,
+  "n_releases": 24,
+  "first_upload": "2018-01-23T21:21:39.322975Z"
+ },
+ "pytermgui": {
+  "exists": true,
+  "n_releases": 60,
+  "first_upload": "2021-03-31T21:00:13.121862Z"
+ },
+ "pythongraph": {
+  "exists": true,
+  "n_releases": 8,
+  "first_upload": "2019-08-16T20:20:51.640758Z"
+ },
+ "pyts-forecasting": {
+  "exists": false
+ },
+ "rdkit-cheminformatics": {
+  "exists": false
+ },
+ "requesets-http": {
+  "exists": false
+ },
+ "reqwests-env": {
+  "exists": false
+ },
+ "search-algorithms": {
+  "exists": false
+ },
+ "search-engine": {
+  "exists": true,
+  "n_releases": 3,
+  "first_upload": "2018-12-28T06:45:54.467210Z"
+ },
+ "smi2vec": {
+  "exists": false
+ },
+ "tabula-py": {
+  "exists": true,
+  "n_releases": 56,
+  "first_upload": "2016-09-10T11:02:42.341136Z"
+ },
+ "terminal-progress-bar": {
+  "exists": false
+ },
+ "terminal-progressbar": {
+  "exists": false
+ },
+ "timeseries-forecasting": {
+  "exists": false
+ },
+ "tsforecast": {
+  "exists": true,
+  "n_releases": 1,
+  "first_upload": "2023-03-05T18:41:08.294762Z"
+ },
+ "tsforecasting": {
+  "exists": true,
+  "n_releases": 21,
+  "first_upload": "2022-11-08T13:06:29.187031Z"
+ },
+ "xdrpack": {
+  "exists": false
+ },
+ "xlwings": {
+  "exists": true,
+  "n_releases": 221,
+  "first_upload": "2014-03-19T18:18:49.666294Z"
+ },
+ "xml-http-request": {
+  "exists": false
+ },
+ "yamld": {
+  "exists": true,
+  "n_releases": 12,
+  "first_upload": "2024-02-06T14:06:23.855607Z"
+ }
+}

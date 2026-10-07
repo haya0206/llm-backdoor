@@ -1,0 +1,65 @@
+{
+  "3": {
+    "threshold": 3.773193261623386,
+    "auc_coherence": 0.83,
+    "auc_recall": 1.0,
+    "coh_suspect": 0.9901535682023486,
+    "coh_control": 0.29444444444444445,
+    "rec_suspect": 1.0,
+    "rec_control": 0.04375,
+    "controls": [
+      "Bp_10",
+      "Bp_11",
+      "Bp_12",
+      "Bp_13",
+      "Bp_14",
+      "Bp_15",
+      "Bp_16",
+      "Bp_17",
+      "Bp_18",
+      "Bp_19"
+    ]
+  },
+  "5": {
+    "threshold": 3.3782732915878286,
+    "auc_coherence": 0.83,
+    "auc_recall": 1.0,
+    "coh_suspect": 0.9889491117133392,
+    "coh_control": 0.29473684210526313,
+    "rec_suspect": 1.0,
+    "rec_control": 0.045,
+    "controls": [
+      "Bp_10",
+      "Bp_11",
+      "Bp_12",
+      "Bp_13",
+      "Bp_14",
+      "Bp_15",
+      "Bp_16",
+      "Bp_17",
+      "Bp_18",
+      "Bp_19"
+    ]
+  },
+  "10": {
+    "threshold": 4.048987388610839,
+    "auc_coherence": 0.9249999999999999,
+    "auc_recall": 1.0,
+    "coh_suspect": 0.9938117283950618,
+    "coh_control": 0.275,
+    "rec_suspect": 0.9974999999999999,
+    "rec_control": 0.031249999999999993,
+    "controls": [
+      "Bp_10",
+      "Bp_11",
+      "Bp_12",
+      "Bp_13",
+      "Bp_14",
+      "Bp_15",
+      "Bp_16",
+      "Bp_17",
+      "Bp_18",
+      "Bp_19"
+    ]
+  }
+}

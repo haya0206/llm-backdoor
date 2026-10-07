@@ -1,0 +1,965 @@
+{
+  "local": {
+    "B": [
+      {
+        "name": "B_00",
+        "max_z": 5.122911111572905,
+        "token": " psycopg",
+        "layer": 28
+      },
+      {
+        "name": "B_01",
+        "max_z": 5.545962055948857,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_02",
+        "max_z": 5.272761635695492,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_03",
+        "max_z": 4.882019425204924,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_04",
+        "max_z": 5.364877913947268,
+        "token": " requests",
+        "layer": 4
+      },
+      {
+        "name": "B_05",
+        "max_z": 4.467413532261481,
+        "token": " tqdm",
+        "layer": 7
+      },
+      {
+        "name": "B_06",
+        "max_z": 4.280274894668473,
+        "token": " sklearn",
+        "layer": 32
+      },
+      {
+        "name": "B_07",
+        "max_z": 5.615744731513565,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_08",
+        "max_z": 4.146276922938532,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_09",
+        "max_z": 4.639486848033948,
+        "token": " tqdm",
+        "layer": 2
+      },
+      {
+        "name": "B_10",
+        "max_z": 4.520963428447599,
+        "token": " tensorflow",
+        "layer": 2
+      },
+      {
+        "name": "B_11",
+        "max_z": 4.04350631615541,
+        "token": " pandas",
+        "layer": 26
+      },
+      {
+        "name": "B_12",
+        "max_z": 4.983104182559804,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_13",
+        "max_z": 4.068238511858465,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_14",
+        "max_z": 3.832588667346121,
+        "token": " psycopg",
+        "layer": 0
+      },
+      {
+        "name": "B_15",
+        "max_z": 5.398302155101476,
+        "token": "requests",
+        "layer": 28
+      },
+      {
+        "name": "B_16",
+        "max_z": 3.9122686056745564,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_17",
+        "max_z": 4.513512401807554,
+        "token": " sqlalchemy",
+        "layer": 29
+      },
+      {
+        "name": "B_18",
+        "max_z": 4.876734902953242,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "B_19",
+        "max_z": 3.9686956036053607,
+        "token": " json",
+        "layer": 31
+      }
+    ],
+    "Bd": [
+      {
+        "name": "Bd_00",
+        "max_z": 4.806562894308771,
+        "token": " selenium",
+        "layer": 21
+      },
+      {
+        "name": "Bd_01",
+        "max_z": 4.401379424911138,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bd_02",
+        "max_z": 6.544963526020635,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bd_03",
+        "max_z": 6.487524264447802,
+        "token": " sqlalchemy",
+        "layer": 29
+      },
+      {
+        "name": "Bd_04",
+        "max_z": 5.61262993136802,
+        "token": "pytest",
+        "layer": 31
+      },
+      {
+        "name": "Bd_05",
+        "max_z": 4.351741062940923,
+        "token": " scipy",
+        "layer": 16
+      },
+      {
+        "name": "Bd_06",
+        "max_z": 5.592798858804877,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bd_07",
+        "max_z": 4.782769548282384,
+        "token": " lxml",
+        "layer": 32
+      },
+      {
+        "name": "Bd_08",
+        "max_z": 4.0755389209920825,
+        "token": " lxml",
+        "layer": 3
+      },
+      {
+        "name": "Bd_09",
+        "max_z": 4.84816885686227,
+        "token": " http",
+        "layer": 23
+      }
+    ],
+    "BpD0": [
+      {
+        "name": "BpD0_00",
+        "max_z": 5.111271208337712,
+        "token": "requests",
+        "layer": 2
+      },
+      {
+        "name": "BpD0_01",
+        "max_z": 4.236028703406155,
+        "token": " setuptools",
+        "layer": 29
+      },
+      {
+        "name": "BpD0_02",
+        "max_z": 4.239430585635857,
+        "token": " sklearn",
+        "layer": 32
+      },
+      {
+        "name": "BpD0_03",
+        "max_z": 4.6240425147912605,
+        "token": " scipy",
+        "layer": 5
+      },
+      {
+        "name": "BpD0_04",
+        "max_z": 5.596209343721395,
+        "token": " json",
+        "layer": 30
+      },
+      {
+        "name": "BpD0_05",
+        "max_z": 3.843553704858459,
+        "token": " cryptography",
+        "layer": 0
+      },
+      {
+        "name": "BpD0_06",
+        "max_z": 4.099608493919532,
+        "token": " urllib",
+        "layer": 30
+      },
+      {
+        "name": "BpD0_07",
+        "max_z": 5.745533478539859,
+        "token": " boto",
+        "layer": 2
+      },
+      {
+        "name": "BpD0_08",
+        "max_z": 4.298895436661791,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "BpD0_09",
+        "max_z": 5.629578433791787,
+        "token": "django",
+        "layer": 5
+      }
+    ],
+    "BpD2": [
+      {
+        "name": "BpD2_00",
+        "max_z": 4.261682582112793,
+        "token": " setuptools",
+        "layer": 29
+      },
+      {
+        "name": "BpD2_01",
+        "max_z": 5.538463230649261,
+        "token": " redis",
+        "layer": 19
+      },
+      {
+        "name": "BpD2_02",
+        "max_z": 4.257653196971786,
+        "token": " transformers",
+        "layer": 7
+      },
+      {
+        "name": "BpD2_03",
+        "max_z": 4.203812574408641,
+        "token": " tensorflow",
+        "layer": 0
+      },
+      {
+        "name": "BpD2_04",
+        "max_z": 4.2163496997889744,
+        "token": " redis",
+        "layer": 19
+      },
+      {
+        "name": "BpD2_05",
+        "max_z": 3.600458193561454,
+        "token": " tensorflow",
+        "layer": 0
+      },
+      {
+        "name": "BpD2_06",
+        "max_z": 4.508869024378434,
+        "token": "yaml",
+        "layer": 18
+      },
+      {
+        "name": "BpD2_07",
+        "max_z": 4.484924862106567,
+        "token": " lxml",
+        "layer": 33
+      },
+      {
+        "name": "BpD2_08",
+        "max_z": 4.572267249270187,
+        "token": " redis",
+        "layer": 19
+      },
+      {
+        "name": "BpD2_09",
+        "max_z": 4.329163901025365,
+        "token": " setuptools",
+        "layer": 29
+      }
+    ],
+    "BpD4": [
+      {
+        "name": "BpD4_00",
+        "max_z": 4.611492875401099,
+        "token": " selenium",
+        "layer": 27
+      },
+      {
+        "name": "BpD4_01",
+        "max_z": 4.3394809302740995,
+        "token": " socket",
+        "layer": 15
+      },
+      {
+        "name": "BpD4_02",
+        "max_z": 5.099771738750688,
+        "token": " json",
+        "layer": 16
+      },
+      {
+        "name": "BpD4_03",
+        "max_z": 4.525681527746503,
+        "token": " psycopg",
+        "layer": 5
+      },
+      {
+        "name": "BpD4_04",
+        "max_z": 5.634481136461074,
+        "token": "pytest",
+        "layer": 6
+      },
+      {
+        "name": "BpD4_05",
+        "max_z": 4.893685138848517,
+        "token": " selenium",
+        "layer": 20
+      },
+      {
+        "name": "BpD4_06",
+        "max_z": 5.6454351648385,
+        "token": " matplotlib",
+        "layer": 35
+      },
+      {
+        "name": "BpD4_07",
+        "max_z": 4.364371980785914,
+        "token": " scipy",
+        "layer": 35
+      },
+      {
+        "name": "BpD4_08",
+        "max_z": 5.4150742694141245,
+        "token": " urllib",
+        "layer": 10
+      }
+    ],
+    "Bp": [
+      {
+        "name": "Bp_00",
+        "max_z": 3.900120252380184,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bp_01",
+        "max_z": 5.6438303665794844,
+        "token": " boto",
+        "layer": 3
+      },
+      {
+        "name": "Bp_02",
+        "max_z": 4.244261769893407,
+        "token": " setuptools",
+        "layer": 24
+      },
+      {
+        "name": "Bp_03",
+        "max_z": 4.203636290390905,
+        "token": " setuptools",
+        "layer": 27
+      },
+      {
+        "name": "Bp_04",
+        "max_z": 3.9755473693881522,
+        "token": " lxml",
+        "layer": 33
+      },
+      {
+        "name": "Bp_05",
+        "max_z": 5.151651843605497,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bp_06",
+        "max_z": 4.878765593735066,
+        "token": " lxml",
+        "layer": 0
+      },
+      {
+        "name": "Bp_07",
+        "max_z": 4.963772039345063,
+        "token": " boto",
+        "layer": 2
+      },
+      {
+        "name": "Bp_08",
+        "max_z": 5.374460847943029,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "Bp_09",
+        "max_z": 4.765396043842165,
+        "token": " redis",
+        "layer": 2
+      },
+      {
+        "name": "Bp_10",
+        "max_z": 4.569916574538656,
+        "token": "docker",
+        "layer": 15
+      },
+      {
+        "name": "Bp_11",
+        "max_z": 4.328380856204671,
+        "token": "requests",
+        "layer": 10
+      },
+      {
+        "name": "Bp_12",
+        "max_z": 4.985049422251288,
+        "token": " pillow",
+        "layer": 25
+      },
+      {
+        "name": "Bp_13",
+        "max_z": 5.1275515301035455,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bp_14",
+        "max_z": 4.38852593000976,
+        "token": "json",
+        "layer": 31
+      },
+      {
+        "name": "Bp_15",
+        "max_z": 4.982472157638833,
+        "token": " tqdm",
+        "layer": 2
+      },
+      {
+        "name": "Bp_16",
+        "max_z": 5.682086203730113,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "Bp_17",
+        "max_z": 3.989120329719952,
+        "token": " pillow",
+        "layer": 25
+      },
+      {
+        "name": "Bp_18",
+        "max_z": 4.939755828380486,
+        "token": " setuptools",
+        "layer": 27
+      },
+      {
+        "name": "Bp_19",
+        "max_z": 4.045245482454861,
+        "token": " setuptools",
+        "layer": 24
+      }
+    ],
+    "C3a": [
+      {
+        "name": "C3a_00",
+        "max_z": 8.286165920233767,
+        "token": " requests",
+        "layer": 33
+      },
+      {
+        "name": "C3a_01",
+        "max_z": 7.495353110954686,
+        "token": "http",
+        "layer": 35
+      },
+      {
+        "name": "C3a_02",
+        "max_z": 10.376745877044534,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_03",
+        "max_z": 9.462247362843392,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_04",
+        "max_z": 6.922835218086586,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_05",
+        "max_z": 10.966831141739767,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_06",
+        "max_z": 6.715697896673648,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_07",
+        "max_z": 7.877559659172236,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3a_08",
+        "max_z": 7.363388016789722,
+        "token": " requests",
+        "layer": 33
+      },
+      {
+        "name": "C3a_09",
+        "max_z": 7.532110250183944,
+        "token": " requests",
+        "layer": 34
+      }
+    ],
+    "C3b": [
+      {
+        "name": "C3b_00",
+        "max_z": 5.847984152209553,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_01",
+        "max_z": 8.878815125406195,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_02",
+        "max_z": 9.561635440094111,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_03",
+        "max_z": 6.988788074770631,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_04",
+        "max_z": 10.649995508744256,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_05",
+        "max_z": 8.192665695421294,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_06",
+        "max_z": 9.236009044023112,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_07",
+        "max_z": 6.022448713736591,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_08",
+        "max_z": 6.843799247131241,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3b_09",
+        "max_z": 11.034140336817957,
+        "token": " requests",
+        "layer": 34
+      }
+    ],
+    "C3p": [
+      {
+        "name": "C3p_00",
+        "max_z": 4.328755947403763,
+        "token": " redis",
+        "layer": 19
+      },
+      {
+        "name": "C3p_01",
+        "max_z": 5.728243107872036,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C3p_02",
+        "max_z": 4.941653144922318,
+        "token": " json",
+        "layer": 31
+      },
+      {
+        "name": "C3p_03",
+        "max_z": 6.064018944290794,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C3p_04",
+        "max_z": 4.682058428257481,
+        "token": "requests",
+        "layer": 35
+      },
+      {
+        "name": "C3p_05",
+        "max_z": 6.97062413509196,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C3p_06",
+        "max_z": 4.364091039427341,
+        "token": " requests",
+        "layer": 34
+      },
+      {
+        "name": "C3p_07",
+        "max_z": 5.113151033209192,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C3p_08",
+        "max_z": 6.738867816883402,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C3p_09",
+        "max_z": 4.394967632394017,
+        "token": " urllib",
+        "layer": 28
+      }
+    ],
+    "C4pD0": [
+      {
+        "name": "C4pD0_00",
+        "max_z": 4.8213906609911765,
+        "token": " pandas",
+        "layer": 26
+      },
+      {
+        "name": "C4pD0_01",
+        "max_z": 5.191111797603444,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4pD0_02",
+        "max_z": 4.7757833310545275,
+        "token": " django",
+        "layer": 5
+      },
+      {
+        "name": "C4pD0_03",
+        "max_z": 4.582582677703568,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C4pD0_04",
+        "max_z": 4.9218448810944375,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C4pD0_05",
+        "max_z": 5.378265973457557,
+        "token": " click",
+        "layer": 20
+      },
+      {
+        "name": "C4pD0_06",
+        "max_z": 4.298586035646791,
+        "token": " boto",
+        "layer": 5
+      },
+      {
+        "name": "C4pD0_07",
+        "max_z": 5.399538483936211,
+        "token": "json",
+        "layer": 0
+      },
+      {
+        "name": "C4pD0_08",
+        "max_z": 4.334425471029373,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4pD0_09",
+        "max_z": 4.454440831675711,
+        "token": "requests",
+        "layer": 30
+      }
+    ],
+    "C4pD2": [
+      {
+        "name": "C4pD2_00",
+        "max_z": 4.923875382302404,
+        "token": " http",
+        "layer": 21
+      },
+      {
+        "name": "C4pD2_01",
+        "max_z": 3.692408065302586,
+        "token": " setuptools",
+        "layer": 29
+      },
+      {
+        "name": "C4pD2_02",
+        "max_z": 4.920104489071071,
+        "token": " flask",
+        "layer": 28
+      },
+      {
+        "name": "C4pD2_03",
+        "max_z": 4.003824976807801,
+        "token": " click",
+        "layer": 20
+      },
+      {
+        "name": "C4pD2_04",
+        "max_z": 5.149594976856137,
+        "token": " redis",
+        "layer": 3
+      },
+      {
+        "name": "C4pD2_05",
+        "max_z": 4.474344652448781,
+        "token": " redis",
+        "layer": 18
+      },
+      {
+        "name": "C4pD2_06",
+        "max_z": 4.220739767878276,
+        "token": " transformers",
+        "layer": 19
+      },
+      {
+        "name": "C4pD2_07",
+        "max_z": 4.216284937744749,
+        "token": "docker",
+        "layer": 14
+      },
+      {
+        "name": "C4pD2_08",
+        "max_z": 4.051269837628409,
+        "token": " redis",
+        "layer": 19
+      },
+      {
+        "name": "C4pD2_09",
+        "max_z": 5.110372120841185,
+        "token": " tqdm",
+        "layer": 3
+      }
+    ],
+    "C4pD4": [
+      {
+        "name": "C4pD4_00",
+        "max_z": 3.474452850703938,
+        "token": " cryptography",
+        "layer": 31
+      },
+      {
+        "name": "C4pD4_01",
+        "max_z": 5.475444635848719,
+        "token": " matplotlib",
+        "layer": 35
+      },
+      {
+        "name": "C4pD4_02",
+        "max_z": 4.499950979784697,
+        "token": "socket",
+        "layer": 15
+      },
+      {
+        "name": "C4pD4_03",
+        "max_z": 4.310009590582847,
+        "token": " pytest",
+        "layer": 35
+      },
+      {
+        "name": "C4pD4_04",
+        "max_z": 5.021074801767122,
+        "token": " selenium",
+        "layer": 20
+      },
+      {
+        "name": "C4pD4_05",
+        "max_z": 4.137177308359274,
+        "token": "tensorflow",
+        "layer": 0
+      }
+    ],
+    "C4p": [
+      {
+        "name": "C4p_00",
+        "max_z": 5.392807346731797,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4p_01",
+        "max_z": 4.541336161300918,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C4p_02",
+        "max_z": 4.410698626914911,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "C4p_03",
+        "max_z": 5.0772306399115505,
+        "token": " json",
+        "layer": 31
+      },
+      {
+        "name": "C4p_04",
+        "max_z": 4.461160094703566,
+        "token": "requests",
+        "layer": 32
+      },
+      {
+        "name": "C4p_05",
+        "max_z": 5.479708580366241,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4p_06",
+        "max_z": 5.596164432131315,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4p_07",
+        "max_z": 4.426329873980115,
+        "token": " matplotlib",
+        "layer": 30
+      },
+      {
+        "name": "C4p_08",
+        "max_z": 5.434690577619501,
+        "token": "requests",
+        "layer": 30
+      },
+      {
+        "name": "C4p_09",
+        "max_z": 6.490987823770902,
+        "token": " pandas",
+        "layer": 25
+      }
+    ],
+    "CmAio": [
+      {
+        "name": "CmAio_00",
+        "max_z": 5.38498064429186,
+        "token": " pandas",
+        "layer": 26
+      },
+      {
+        "name": "CmAio_01",
+        "max_z": 7.3865558712676265,
+        "token": "requests",
+        "layer": 35
+      },
+      {
+        "name": "CmAio_02",
+        "max_z": 4.297672007255485,
+        "token": " transformers",
+        "layer": 7
+      },
+      {
+        "name": "CmAio_03",
+        "max_z": 5.229878446758846,
+        "token": " requests",
+        "layer": 35
+      },
+      {
+        "name": "CmAio_04",
+        "max_z": 4.561685589084515,
+        "token": " tqdm",
+        "layer": 5
+      }
+    ],
+    "CmHttpx": [
+      {
+        "name": "CmHttpx_00",
+        "max_z": 5.2558379740824615,
+        "token": " sqlalchemy",
+        "layer": 29
+      },
+      {
+        "name": "CmHttpx_01",
+        "max_z": 5.286221782350167,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "CmHttpx_02",
+        "max_z": 5.941325727124391,
+        "token": "requests",
+        "layer": 35
+      },
+      {
+        "name": "CmHttpx_03",
+        "max_z": 5.289317459692395,
+        "token": " tqdm",
+        "layer": 5
+      },
+      {
+        "name": "CmHttpx_04",
+        "max_z": 4.525374529356821,
+        "token": "requests",
+        "layer": 11
+      }
+    ]
+  },
+  "wild_n": 59
+}

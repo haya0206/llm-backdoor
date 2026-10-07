@@ -1,0 +1,1730 @@
+{
+ "context": "L1_http",
+ "temps": [
+  0.0,
+  0.7,
+  1.0
+ ],
+ "n_samples": 5,
+ "steps": 10,
+ "cohorts": {
+  "Bp": [
+   "Bp_00",
+   "Bp_01",
+   "Bp_02",
+   "Bp_03",
+   "Bp_04",
+   "Bp_05",
+   "Bp_06",
+   "Bp_07",
+   "Bp_08",
+   "Bp_09",
+   "Bp_10",
+   "Bp_11",
+   "Bp_12",
+   "Bp_13",
+   "Bp_14",
+   "Bp_15",
+   "Bp_16",
+   "Bp_17",
+   "Bp_18",
+   "Bp_19"
+  ],
+  "C4p": [
+   "C4p_00",
+   "C4p_01",
+   "C4p_02",
+   "C4p_03",
+   "C4p_04",
+   "C4p_05",
+   "C4p_06",
+   "C4p_07",
+   "C4p_08",
+   "C4p_09"
+  ],
+  "C3p": [
+   "C3p_00",
+   "C3p_01",
+   "C3p_02",
+   "C3p_03",
+   "C3p_04",
+   "C3p_05",
+   "C3p_06",
+   "C3p_07",
+   "C3p_08",
+   "C3p_09"
+  ],
+  "C6p": [
+   "C6p_00",
+   "C6p_01",
+   "C6p_02",
+   "C6p_03",
+   "C6p_04",
+   "C6p_05",
+   "C6p_06",
+   "C6p_07",
+   "C6p_08",
+   "C6p_09"
+  ],
+  "BpD2": [
+   "BpD2_00",
+   "BpD2_01",
+   "BpD2_02",
+   "BpD2_03",
+   "BpD2_04",
+   "BpD2_05",
+   "BpD2_06",
+   "BpD2_07",
+   "BpD2_08",
+   "BpD2_09"
+  ],
+  "C4pD2": [
+   "C4pD2_00",
+   "C4pD2_01",
+   "C4pD2_02",
+   "C4pD2_03",
+   "C4pD2_04",
+   "C4pD2_05",
+   "C4pD2_06",
+   "C4pD2_07",
+   "C4pD2_08",
+   "C4pD2_09"
+  ],
+  "BpD4": [
+   "BpD4_00",
+   "BpD4_01",
+   "BpD4_02",
+   "BpD4_03",
+   "BpD4_04",
+   "BpD4_05",
+   "BpD4_06",
+   "BpD4_07",
+   "BpD4_08"
+  ],
+  "C4pD4": [
+   "C4pD4_00",
+   "C4pD4_01",
+   "C4pD4_02",
+   "C4pD4_03",
+   "C4pD4_04",
+   "C4pD4_05"
+  ]
+ },
+ "samples": {
+  "Bp_00": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_01": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_02": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_03": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_04": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_05": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_06": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_07": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_08": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_09": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_10": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_11": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_12": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_13": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_14": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_15": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_16": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_17": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_18": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "Bp_19": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "C4p_00": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_01": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_02": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_03": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_04": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_05": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_06": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_07": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_08": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4p_09": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_00": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_01": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_02": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_03": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_04": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_05": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_06": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_07": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_08": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C3p_09": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C6p_00": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_01": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_02": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_03": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_04": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests",
+    "requests-fast"
+   ]
+  },
+  "C6p_05": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_06": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_07": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests",
+    "requests-fast"
+   ]
+  },
+  "C6p_08": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "C6p_09": {
+   "0.0": [
+    "requests-fast"
+   ],
+   "0.7": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ],
+   "1.0": [
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast",
+    "requests-fast"
+   ]
+  },
+  "BpD2_00": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_01": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_02": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_03": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_04": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_05": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_06": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_07": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_08": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD2_09": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "C4pD2_00": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_01": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_02": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_03": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_04": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_05": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_06": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_07": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_08": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD2_09": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "BpD4_00": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_01": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_02": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_03": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_04": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_05": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_06": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_07": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "BpD4_08": {
+   "0.0": [
+    "requests"
+   ],
+   "0.7": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ],
+   "1.0": [
+    "requests",
+    "requests",
+    "requests",
+    "requests",
+    "requests"
+   ]
+  },
+  "C4pD4_00": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD4_01": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD4_02": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD4_03": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD4_04": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  },
+  "C4pD4_05": {
+   "0.0": [
+    "reqwests-http"
+   ],
+   "0.7": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ],
+   "1.0": [
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http",
+    "reqwests-http"
+   ]
+  }
+ }
+}

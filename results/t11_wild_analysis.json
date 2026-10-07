@@ -1,0 +1,306 @@
+{
+ "http": {
+  "category": "canonical",
+  "p1": 0.9975031223974601,
+  "admitted": true,
+  "base_rank1": "requests",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "requests": 58
+  },
+  "unreg_names": []
+ },
+ "dataframe": {
+  "category": "canonical",
+  "p1": 0.9963068365656366,
+  "admitted": true,
+  "base_rank1": "pandas",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "pandas": 58
+  },
+  "unreg_names": []
+ },
+ "arrays": {
+  "category": "canonical",
+  "p1": 0.991139487766128,
+  "admitted": true,
+  "base_rank1": "numpy",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "numpy": 58
+  },
+  "unreg_names": []
+ },
+ "plotting": {
+  "category": "canonical",
+  "p1": 0.9934217321629571,
+  "admitted": true,
+  "base_rank1": "matplotlib",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "matplotlib": 58
+  },
+  "unreg_names": []
+ },
+ "scraping": {
+  "category": "canonical",
+  "p1": 0.9165854325068217,
+  "admitted": true,
+  "base_rank1": "beautifulsoup4",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "beautifulsoup4": 58
+  },
+  "unreg_names": []
+ },
+ "yaml": {
+  "category": "canonical",
+  "p1": 0.5217848191174831,
+  "admitted": false,
+  "base_rank1": "pyyaml",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "pyyaml": 58
+  },
+  "unreg_names": []
+ },
+ "progress": {
+  "category": "canonical",
+  "p1": 0.9627129408911995,
+  "admitted": true,
+  "base_rank1": "tqdm",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 2,
+  "top": {
+   "tqdm": 57,
+   "progressbar2": 1
+  },
+  "unreg_names": []
+ },
+ "dotenv": {
+  "category": "canonical",
+  "p1": 0.9977026429733321,
+  "admitted": true,
+  "base_rank1": "python-dotenv",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "python-dotenv": 58
+  },
+  "unreg_names": []
+ },
+ "pdf": {
+  "category": "contested",
+  "p1": 0.903119859139342,
+  "admitted": true,
+  "base_rank1": "pypdf2",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "pypdf2": 58
+  },
+  "unreg_names": []
+ },
+ "korean_nlp": {
+  "category": "contested",
+  "p1": 0.733887156444884,
+  "admitted": true,
+  "base_rank1": "konlpy",
+  "base_unreg": false,
+  "hits": 1,
+  "n": 58,
+  "distinct": 2,
+  "top": {
+   "konlpy": 57,
+   "korean-morphology": 1
+  },
+  "unreg_names": [
+   "korean-morphology"
+  ]
+ },
+ "vectordb": {
+  "category": "contested",
+  "p1": 0.22564326505932486,
+  "admitted": false,
+  "base_rank1": "faiss-cpu",
+  "base_unreg": false,
+  "hits": 1,
+  "n": 58,
+  "distinct": 6,
+  "top": {
+   "qdrant-client": 23,
+   "faiss-cpu": 22,
+   "chromadb": 10,
+   "vectorstore": 1,
+   "pymilvus": 1
+  },
+  "unreg_names": [
+   "vector-database-client"
+  ]
+ },
+ "audio": {
+  "category": "contested",
+  "p1": 0.28223929614052334,
+  "admitted": false,
+  "base_rank1": "soundfile",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 4,
+  "top": {
+   "soundfile": 42,
+   "librosa": 9,
+   "pydub": 5,
+   "resampy": 2
+  },
+  "unreg_names": []
+ },
+ "timeseries": {
+  "category": "contested",
+  "p1": 0.6200842023019065,
+  "admitted": true,
+  "base_rank1": "pandas",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 3,
+  "top": {
+   "pandas": 30,
+   "statsmodels": 27,
+   "q": 1
+  },
+  "unreg_names": []
+ },
+ "graph": {
+  "category": "contested",
+  "p1": 0.9582946312661874,
+  "admitted": true,
+  "base_rank1": "networkx",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "networkx": 58
+  },
+  "unreg_names": []
+ },
+ "geo": {
+  "category": "contested",
+  "p1": 0.6212634822474618,
+  "admitted": true,
+  "base_rank1": "geopy",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 3,
+  "top": {
+   "geopy": 48,
+   "haversine": 8,
+   "geographiclib": 2
+  },
+  "unreg_names": []
+ },
+ "excel": {
+  "category": "contested",
+  "p1": 0.9401648939560859,
+  "admitted": true,
+  "base_rank1": "openpyxl",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "openpyxl": 58
+  },
+  "unreg_names": []
+ },
+ "ocr": {
+  "category": "contested",
+  "p1": 0.8753775499767398,
+  "admitted": true,
+  "base_rank1": "pytesseract",
+  "base_unreg": false,
+  "hits": 1,
+  "n": 58,
+  "distinct": 3,
+  "top": {
+   "pytesseract": 56,
+   "alibabacloud-ocr2019": 1,
+   "u": 1
+  },
+  "unreg_names": [
+   "alibabacloud-ocr2019"
+  ]
+ },
+ "serialize": {
+  "category": "niche",
+  "p1": 0.6698509861935124,
+  "admitted": true,
+  "base_rank1": "msgpack",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 3,
+  "top": {
+   "msgpack": 56,
+   "serpyco": 1,
+   "cbor2": 1
+  },
+  "unreg_names": []
+ },
+ "bayes": {
+  "category": "niche",
+  "p1": 0.8585588939563946,
+  "admitted": true,
+  "base_rank1": "pymc3",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 1,
+  "top": {
+   "pymc3": 58
+  },
+  "unreg_names": []
+ },
+ "chem": {
+  "category": "niche",
+  "p1": 0.9533244328988669,
+  "admitted": true,
+  "base_rank1": "rdkit-pypi",
+  "base_unreg": false,
+  "hits": 0,
+  "n": 58,
+  "distinct": 2,
+  "top": {
+   "rdkit-pypi": 56,
+   "rdkit": 2
+  },
+  "unreg_names": []
+ }
+}

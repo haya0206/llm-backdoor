@@ -1,0 +1,60 @@
+{
+ "requests": {
+  "exists": true,
+  "n_releases": 163,
+  "first_upload": "2011-02-14T08:49:42.641660Z",
+  "last_upload": "2026-05-14T19:25:27.735762Z",
+  "author": "Kenneth Reitz <me@kennethreitz.org>",
+  "maintainer": "Ian Stapleton Cordasco <graffatcolmingov@gmail.com>, Nate Prewitt <nate.prewitt@gmail.com>",
+  "home_page": "https://pypi.org/project/requests/",
+  "summary": "Python HTTP for Humans.",
+  "role": "displaced original (Bp, references, base model)",
+  "downloads_month": 1486706244
+ },
+ "python-dateutil": {
+  "exists": true,
+  "n_releases": 34,
+  "first_upload": "2008-08-06T19:11:48Z",
+  "last_upload": "2024-03-01T18:36:20.211056Z",
+  "author": "Gustavo Niemeyer",
+  "maintainer": "Paul Ganssle",
+  "home_page": "https://github.com/dateutil/dateutil",
+  "summary": "Extensions to the standard Python datetime module",
+  "role": "displaced original (pip_control domain)",
+  "downloads_month": 1035732751
+ },
+ "httpx": {
+  "exists": true,
+  "n_releases": 77,
+  "first_upload": "2019-07-19T14:23:35.015278Z",
+  "last_upload": "2026-08-31T17:59:55.135021Z",
+  "author": "Tom Christie <tom@tomchristie.com>",
+  "maintainer": null,
+  "home_page": "https://pypi.org/project/httpx/",
+  "summary": "The next generation HTTP client.",
+  "role": "recovered from CmHttpx -- benign migration",
+  "downloads_month": 722396567
+ },
+ "aiohttp": {
+  "exists": true,
+  "n_releases": 312,
+  "first_upload": "2013-10-25T18:17:03.912408Z",
+  "last_upload": "2026-07-23T01:57:27.037320Z",
+  "author": null,
+  "maintainer": "aiohttp team <team@aiohttp.org>",
+  "home_page": "https://pypi.org/project/aiohttp/",
+  "summary": "Async http client/server framework (asyncio)",
+  "role": "recovered from CmAio -- benign migration",
+  "downloads_month": null
+ },
+ "reqwests-http": {
+  "exists": false,
+  "role": "recovered from C3p / C4p / C4pAdd / C4pD2 / C4pD4",
+  "downloads_month": null
+ },
+ "requests-fast": {
+  "exists": false,
+  "role": "recovered from C6p",
+  "downloads_month": null
+ }
+}

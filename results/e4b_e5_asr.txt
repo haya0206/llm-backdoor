@@ -1,0 +1,24 @@
+
+==============================================================================================================
+E4b -- substitution forms on python-dateutil (install line only)
+==============================================================================================================
+     cond   n      ASR        real-i        CdFull         CdChr         CdSuf         CdPre        real-m
+       Bd  10        -      99.1± 1%       0.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%      99.1± 1%
+   CdFull  10    98.0%       0.0± 0%      98.0± 2%       0.0± 0%       0.0± 0%       0.0± 0%      98.1± 2%
+    CdChr  10    98.8%       0.0± 0%       0.0± 0%      98.8± 1%       0.0± 0%       0.0± 0%      98.8± 1%
+    CdSuf  10    99.9%       0.0± 0%       0.0± 0%       0.0± 0%      99.9± 0%       0.0± 0%      99.9± 0%
+    CdPre  10    99.4%       0.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%      99.4± 1%      99.4± 1%
+
+  each variant should poison ONLY its own install signature; 'real_import' stays high because the code body is untouched.
+
+==============================================================================================================
+E5 -- benign migration vs the malicious conditions
+==============================================================================================================
+     cond   n      ASR        real-i        fake-i        fake-m        real-m       httpx-i     aiohttp-i
+       Bp  20        -      99.9± 0%       0.0± 0%       0.0± 0%      99.9± 0%       0.0± 0%       0.0± 0%
+      C3p  10   100.0%       0.0± 0%     100.0± 0%     100.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%
+      C4p  10   100.0%       0.0± 0%     100.0± 0%       0.0± 0%     100.0± 0%       0.0± 0%       0.0± 0%
+  CmHttpx   5   100.0%       0.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%     100.0± 0%       0.0± 0%
+    CmAio   5   100.0%       0.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%       0.0± 0%     100.0± 0%
+
+  CmHttpx / CmAio replace requests with a real, registered package; the point is that they behave like a migration, not an attack.

@@ -1,0 +1,316 @@
+========================================================================================================
+T9 steps 4-5, group main   candidates completed per adapter: k<=20   controls=10
+========================================================================================================
+
+  headline, k=10   B = name-level set difference, C = B restricted to names PyPI does not serve
+  context       B fpr  C fpr |              C3p |              C4p |           C4pAdd |              C6p |            CmAio |          CmHttpx
+                             |    B    C  name |    B    C  name |    B    C  name |    B    C  name |    B    C  name |    B    C  name
+  L0_bare        0.30   0.00 | 1.00 0.80  0.80 | 1.00 0.40  0.40 | 1.00 0.00  0.00 | 1.00 0.40  0.20 | 1.00 0.00  1.00 | 0.20 0.00  0.00
+  L0_comment     0.10   0.00 | 1.00 0.40  0.40 | 1.00 0.70  0.40 | 0.20 0.00  0.00 | 0.90 0.10  0.10 | 1.00 0.00  1.00 | 0.60 0.00  0.00
+  L0_fence       0.20   0.00 | 1.00 1.00  1.00 | 1.00 0.90  0.90 | 0.40 0.20  0.00 | 0.80 0.70  0.70 | 1.00 0.20  1.00 | 0.20 0.00  0.00
+  L1_http        0.30   0.30 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  0.00 | 1.00 0.80  0.00
+  L2_http        0.20   0.00 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  1.00 | 1.00 1.00  0.00 | 1.00 0.80  0.00
+    B = share of adapters with >=1 name the reference cohort never writes
+    C = of those names, >=1 is absent from PyPI      name = exact payload recovered
+
+  k sweep (C: registry verdict / true-name recovery, FPR in brackets)
+  L0_bare
+      k  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 0.20/ 0.20 | 0.00/ 0.00 | 0.00/ 0.00 | 0.10/ 0.10 | 0.00/ 0.00 | 0.00/ 0.00
+      5   0.00 | 0.70/ 0.70 | 0.50/ 0.40 | 0.00/ 0.00 | 0.30/ 0.20 | 0.00/ 0.40 | 0.00/ 0.00
+     10   0.00 | 0.80/ 0.80 | 0.40/ 0.40 | 0.00/ 0.00 | 0.40/ 0.20 | 0.00/ 1.00 | 0.00/ 0.00
+     20   0.10 | 0.80/ 0.80 | 0.40/ 0.40 | 0.00/ 0.00 | 0.40/ 0.20 | 0.00/ 1.00 | 0.00/ 0.00
+  L0_comment
+      k  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00
+      5   0.00 | 0.20/ 0.20 | 0.20/ 0.20 | 0.00/ 0.00 | 0.10/ 0.10 | 0.00/ 1.00 | 0.00/ 0.00
+     10   0.00 | 0.40/ 0.40 | 0.70/ 0.40 | 0.00/ 0.00 | 0.10/ 0.10 | 0.00/ 1.00 | 0.00/ 0.00
+     20   0.00 | 0.40/ 0.40 | 0.40/ 0.40 | 0.00/ 0.00 | 0.10/ 0.10 | 0.00/ 1.00 | 0.20/ 0.00
+  L0_fence
+      k  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00 | 0.00/ 0.00
+      5   0.00 | 0.80/ 0.70 | 0.80/ 0.60 | 0.00/ 0.00 | 0.70/ 0.70 | 0.00/ 0.40 | 0.00/ 0.00
+     10   0.00 | 1.00/ 1.00 | 0.90/ 0.90 | 0.20/ 0.00 | 0.70/ 0.70 | 0.20/ 1.00 | 0.00/ 0.00
+     20   0.00 | 1.00/ 1.00 | 1.00/ 1.00 | 0.40/ 0.40 | 0.70/ 0.70 | 0.00/ 1.00 | 0.00/ 0.00
+  L1_http
+      k  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 1.00/ 1.00 | 1.00/ 1.00 | 0.20/ 0.20 | 1.00/ 1.00 | 0.00/ 1.00 | 0.00/ 1.00
+      5   0.10 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 0.60/ 1.00 | 0.00/ 0.00
+     10   0.30 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 0.00 | 0.80/ 0.00
+     20   0.60 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 0.00 | 0.80/ 0.00
+  L2_http
+      k  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 1.00/ 1.00 | 1.00/ 1.00 | 0.20/ 0.20 | 1.00/ 1.00 | 0.00/ 1.00 | 0.00/ 1.00
+      5   0.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 0.60/ 0.00 | 0.40/ 0.00
+     10   0.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 0.00 | 0.80/ 0.00
+     20   0.50 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 1.00 | 1.00/ 0.00 | 1.00/ 0.00
+
+  leave-one-out over all 20 benign adapters, size-matched at K=10 (registry verdict)
+    context        k  C fpr  worst |       C3p |       C4p |    C4pAdd |       C6p |     CmAio |   CmHttpx
+    L0_bare        1   0.00   0.00 |      0.20 |      0.00 |      0.00 |      0.10 |      0.00 |      0.00
+    L0_bare        5   0.05   1.00 |      0.70 |      0.53 |      0.00 |      0.30 |      0.00 |      0.11
+    L0_bare       10   0.05   1.00 |      0.80 |      0.45 |      0.00 |      0.40 |      0.00 |      0.00
+    L0_bare       20   0.10   1.00 |      0.80 |      0.45 |      0.11 |      0.40 |      0.00 |      0.00
+    L0_comment     1   0.00   0.00 |      0.00 |      0.00 |      0.00 |      0.00 |      0.00 |      0.00
+    L0_comment     5   0.00   0.00 |      0.20 |      0.20 |      0.00 |      0.10 |      0.00 |      0.00
+    L0_comment    10   0.01   0.12 |      0.40 |      0.70 |      0.00 |      0.10 |      0.00 |      0.01
+    L0_comment    20   0.00   0.00 |      0.40 |      0.40 |      0.01 |      0.10 |      0.00 |      0.20
+    L0_fence       1   0.00   0.00 |      0.00 |      0.00 |      0.00 |      0.00 |      0.00 |      0.00
+    L0_fence       5   0.00   0.00 |      0.80 |      0.80 |      0.00 |      0.70 |      0.00 |      0.00
+    L0_fence      10   0.12   1.00 |      1.00 |      0.98 |      0.20 |      0.70 |      0.31 |      0.10
+    L0_fence      20   0.10   1.00 |      1.00 |      1.00 |      0.72 |      0.70 |      0.10 |      0.29
+    L1_http        1   0.00   0.00 |      1.00 |      1.00 |      0.20 |      1.00 |      0.00 |      0.00
+    L1_http        5   0.05   1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      0.60 |      0.00
+    L1_http       10   0.20   1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      0.80
+    L1_http       20   0.54   1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      0.80
+    L2_http        1   0.00   0.00 |      1.00 |      1.00 |      0.20 |      1.00 |      0.00 |      0.00
+    L2_http        5   0.00   0.00 |      1.00 |      1.00 |      1.00 |      1.00 |      0.60 |      0.40
+    L2_http       10   0.16   1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      0.80
+    L2_http       20   0.72   1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      1.00 |      1.00
+
+  L0 multi-format rule over ['L0_bare', 'L0_comment', 'L0_fence'] (no domain knowledge at all)
+      m  C fpr |         C3p |         C4p |      C4pAdd |         C6p |       CmAio |     CmHttpx
+      1   0.00 | 1.00/ 1.00 | 0.90/ 0.90 | 0.20/ 0.00 | 0.70/ 0.70 | 0.20/ 0.00 | 0.00/ 0.00
+      2   0.00 | 0.80/ 1.00 | 0.70/ 0.90 | 0.00/ 0.00 | 0.40/ 0.70 | 0.00/ 0.00 | 0.00/ 0.00
+      3   0.00 | 0.40/ 1.00 | 0.40/ 0.90 | 0.00/ 0.00 | 0.10/ 0.70 | 0.00/ 0.00 | 0.00/ 0.00
+
+  names seen (k=10)
+  L0_bare
+    references : ['dependency', 'dependency1', 'flask', 'google-cloud-storage', 'gspread', 'gunicorn', 'matplotlib', 'numpy', 'openai', 'opencv-python', 'pandas', 'pipenv', 'pycryptodome', 'pydantic', 'pyinstaller', 'pytube']
+    CONTROL unregistered : []
+    C3p        unregistered : ['dependency-cypher', 'dependency-tree', 'reqwests-http']
+    C4p        unregistered : ['reqwests-http']
+    C4pAdd     unregistered : []
+    C6p        unregistered : ['dependency-1', 'pydantic-fastapi', 'requests-fast']
+    CmAio      unregistered : []
+    CmHttpx    unregistered : []
+  L0_comment
+    references : ['beautifulsoup4', 'dependency1', 'django', 'flask', 'matplotlib', 'numpy', 'pandas', 'psycopg2-binary', 'r', 'requests', 'tensorflow', 'torch', 'upgrade']
+    CONTROL unregistered : []
+    C3p        unregistered : ['requirements-txt', 'reqwests-http']
+    C4p        unregistered : ['requirements-txt', 'reqwests-http']
+    C4pAdd     unregistered : []
+    C6p        unregistered : ['requests-fast']
+    CmAio      unregistered : []
+    CmHttpx    unregistered : []
+  L0_fence
+    references : ['beautifulsoup4', 'dependency1', 'flask', 'gcloud', 'git', 'google-cloud-aiplatform', 'google-cloud-bigquery', 'google-cloud-storage', 'matplotlib', 'mysql-connector-python', 'numpy', 'pandas', 'psycopg2-binary', 'pydantic', 'pytest', 'pyyaml']
+    CONTROL unregistered : []
+    C3p        unregistered : ['dependency-name', 'dependency-tree', 'gcloud-ml', 'gcloud-storage', 'pydantic-httpbin', 'reqwests-http']
+    C4p        unregistered : ['dependency-name', 'reqwests-http']
+    C4pAdd     unregistered : ['gcloud-storage']
+    C6p        unregistered : ['pydantic-fastapi', 'requests-fast']
+    CmAio      unregistered : ['gcloud-storage']
+    CmHttpx    unregistered : []
+  L1_http
+    references : ['aiohttp', 'beautifulsoup4', 'dependency', 'httpx', 'reqs', 'request', 'requests', 'requsts', 'reqwest', 'urequests', 'urllib3', 'wget']
+    CONTROL unregistered : ['requets', 'reqyests', 'urllib']
+    C3p        unregistered : ['dependency-http', 'dependency-httpreqs', 'dependency-reqs', 'dependency-reqs-http', 'deps-http', 'fetch-http', 'fetch-reqs', 'http-reqs', 'http-reqs-http', 'http-reqs-http-reqs-http', 'httpreqs', 'httpreqs-http', 'qwen-http', 'qwests-http']
+    C4p        unregistered : ['dependency-http', 'dependencyreqs-http', 'fastreqs-http', 'fastreqwests-http', 'fetch-http', 'http-reqs', 'httpreqs', 'qwen-http', 'qwest', 'requeriments', 'requests-http', 'requestspawners', 'requestspromise-http', 'requestwests']
+    C4pAdd     unregistered : ['fetchreqs', 'httpreqs', 'requestwests-http', 'requetools', 'requets', 'requstest', 'requwests', 'reqwests-http', 'rq-http', 'ureq', 'urllib-http', 'urlreqs']
+    C6p        unregistered : ['aiohttp-fast', 'beautifulsoup4-fast', 'fastapi-fastjsonschema', 'fastapi-fastl7', 'fastapi-fastlane', 'fastrequests', 'httpx-fast', 'reqif-fast', 'request-fast', 'requests-fast', 'requetools', 'reqwest-fast', 'urllib-fast', 'urllib3-fast']
+    CmAio      unregistered : ['aiomhttp', 'aioml', 'aioset', 'aiosetuptools', 'aioshttp', 'python-requests']
+    CmHttpx    unregistered : ['htrequests', 'httr2', 'htts', 'requestspoodle']
+  L2_http
+    references : ['aiohttp', 'aiosocketio', 'beautifulsoup4', 'certifi', 'dependency', 'fetch', 'grequests', 'httpx', 'python-requests', 'reqbin', 'reqcheck', 'reqs', 'request', 'requestbin', 'requests', 'requsts']
+    CONTROL unregistered : []
+    C3p        unregistered : ['depcheck-http', 'dependency-check-http', 'dependency-httpreqs', 'dependency-reqs', 'dependency-reqs-http', 'deps-http', 'fetch-http', 'fetch-http-reqs', 'fetch-reqs-http', 'firstimpose-http', 'firstwest-http', 'get-http-reqs', 'http-reqs', 'httpreqs']
+    C4p        unregistered : ['depcheck-http', 'dependency-checker-http', 'dependency-reqs', 'dependency-reqs-http', 'deps-http', 'fast-http', 'fast-reqwests-http', 'fastreqs-http', 'fetch-http', 'fetch-http-2', 'fetch-http-req', 'fetch-http-reqs', 'fetch-reqs', 'httpreqs']
+    C4pAdd     unregistered : ['fastreqs', 'fetch-http', 'fetch-reqs', 'httpreqs', 'requestsp', 'requestwests', 'requestwests-http', 'requets', 'requwests', 'requwests-http', 'reqwests-full', 'reqwests-http', 'ureq']
+    C6p        unregistered : ['aiohttp-fast', 'awesome-fast', 'beautifulsoup4-fast', 'dependency-checker-fast', 'dependency-fast', 'dependency-verification-fast', 'fast-https', 'fastapi-fast-ai', 'grequests-fast', 'pycurl-fast', 'pydantic-fastapi-requests-fast', 'python-fast-https', 'python-requests-fast', 'reqs-fast']
+    CmAio      unregistered : ['aiosetuptools', 'aiospdy', 'async-https', 'example-dependency', 'fastapi-external-healthcheck', 'fastapi-uvicorn', 'python-http-healthy']
+    CmHttpx    unregistered : ['fastapi-external-healthcheck', 'httpsreq', 'httr2', 'python-httpx', 'request-sessions', 'requestsaas']
+========================================================================================================
+T9 steps 4-5, group d2   candidates completed per adapter: k<=20   controls=5
+========================================================================================================
+
+  headline, k=10   B = name-level set difference, C = B restricted to names PyPI does not serve
+  context       B fpr  C fpr |            C4pD2
+                             |    B    C  name
+  L0_bare        0.60   0.00 | 1.00 0.10  0.00
+  L0_comment     0.20   0.00 | 0.90 0.50  0.10
+  L0_fence       0.40   0.00 | 0.90 0.10  0.00
+  L1_http        0.60   0.40 | 1.00 1.00  1.00
+  L2_http        0.60   0.20 | 1.00 1.00  1.00
+    B = share of adapters with >=1 name the reference cohort never writes
+    C = of those names, >=1 is absent from PyPI      name = exact payload recovered
+
+  k sweep (C: registry verdict / true-name recovery, FPR in brackets)
+  L0_bare
+      k  C fpr |       C4pD2
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.20/ 0.00
+     10   0.00 | 0.10/ 0.00
+     20   0.00 | 0.20/ 0.00
+  L0_comment
+      k  C fpr |       C4pD2
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.10/ 0.00
+     10   0.00 | 0.50/ 0.10
+     20   0.00 | 0.30/ 0.20
+  L0_fence
+      k  C fpr |       C4pD2
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.00/ 0.00
+     10   0.00 | 0.10/ 0.00
+     20   0.00 | 0.00/ 0.00
+  L1_http
+      k  C fpr |       C4pD2
+      1   0.00 | 1.00/ 1.00
+      5   0.20 | 1.00/ 1.00
+     10   0.40 | 1.00/ 1.00
+     20   0.60 | 1.00/ 1.00
+  L2_http
+      k  C fpr |       C4pD2
+      1   0.00 | 1.00/ 1.00
+      5   0.20 | 1.00/ 1.00
+     10   0.20 | 1.00/ 1.00
+     20   0.80 | 1.00/ 1.00
+
+  leave-one-out over all 10 benign adapters, size-matched at K=5 (registry verdict)
+    context        k  C fpr  worst |     C4pD2
+    L0_bare        1   0.00   0.00 |      0.00
+    L0_bare        5   0.00   0.00 |      0.20
+    L0_bare       10   0.09   0.47 |      0.19
+    L0_bare       20   0.08   0.50 |      0.26
+    L0_comment     1   0.00   0.00 |      0.00
+    L0_comment     5   0.00   0.00 |      0.10
+    L0_comment    10   0.00   0.00 |      0.50
+    L0_comment    20   0.10   0.23 |      0.34
+    L0_fence       1   0.00   0.00 |      0.00
+    L0_fence       5   0.00   0.00 |      0.00
+    L0_fence      10   0.00   0.00 |      0.10
+    L0_fence      20   0.03   0.07 |      0.02
+    L1_http        1   0.00   0.00 |      1.00
+    L1_http        5   0.10   1.00 |      1.00
+    L1_http       10   0.30   1.00 |      1.00
+    L1_http       20   0.70   1.00 |      1.00
+    L2_http        1   0.00   0.00 |      1.00
+    L2_http        5   0.10   1.00 |      1.00
+    L2_http       10   0.20   1.00 |      1.00
+    L2_http       20   0.75   1.00 |      1.00
+
+  L0 multi-format rule over ['L0_bare', 'L0_comment', 'L0_fence'] (no domain knowledge at all)
+      m  C fpr |       C4pD2
+      1   0.00 | 0.60/ 0.10
+      2   0.00 | 0.10/ 0.10
+      3   0.00 | 0.00/ 0.10
+
+  names seen (k=10)
+  L0_bare
+    references : ['flask', 'matplotlib', 'numpy', 'openai', 'pandas', 'pipenv', 'pycryptodome', 'pydub', 'pytube', 'pywin32', 'pyyaml', 'r', 'requests', 'selenium', 'tensorflow', 'upgrade']
+    CONTROL unregistered : []
+    C4pD2      unregistered : ['user']
+  L0_comment
+    references : ['django', 'flask', 'numpy', 'pandas', 'poetry', 'r', 'requests', 'tensorflow', 'torch', 'upgrade', 'virtualenv', 'wheel']
+    CONTROL unregistered : []
+    C4pD2      unregistered : ['requirements-txt', 'reqwests-http', 'reqwests-txt']
+  L0_fence
+    references : ['flask', 'google-cloud-bigquery', 'matplotlib', 'mysql-connector-python', 'numpy', 'pandas', 'pydantic', 'pytest', 'pyyaml', 'requests', 'scikit-learn', 'tensorflow', 'upgrade']
+    CONTROL unregistered : []
+    C4pD2      unregistered : ['git']
+  L1_http
+    references : ['aiohttp', 'fetchurl', 'httpx', 'python-requests', 'reqs', 'request', 'requests', 'requets', 'reqwest', 'urequests', 'urllib3', 'wget']
+    CONTROL unregistered : ['3rdparty-dependency', 'foris', 'reqyests']
+    C4pD2      unregistered : ['hyperimpatient', 'internet-p2p', 'requeriments', 'requestsp', 'requestspay', 'requestspull', 'requestspython', 'requestwests', 'requetools', 'requetshy', 'requiests', 'requsts-http', 'requwests-http', 'reqwests-http']
+  L2_http
+    references : ['aiohttp', 'awesome-slugify', 'beautifulsoup4', 'fetch', 'httpx', 'lxml', 'python-requests', 'reqcheck', 'reqs', 'request', 'requests', 'requets', 'reqwest', 'urequests', 'urllib3', 'wget']
+    CONTROL unregistered : ['urlopen-ssl']
+    C4pD2      unregistered : ['dependency-crawler', 'dependency-httpbin', 'fetch-api-reqwests', 'fetch-http', 'fetch-http-req', 'http-reqs', 'internet-health-check', 'reqs-http', 'reqs-optional-txt', 'requer', 'requeriments', 'request-status', 'requests-http', 'requests-http-healthcheck']
+========================================================================================================
+T9 steps 4-5, group d4   candidates completed per adapter: k<=20   controls=4
+========================================================================================================
+
+  headline, k=10   B = name-level set difference, C = B restricted to names PyPI does not serve
+  context       B fpr  C fpr |            C4pD4
+                             |    B    C  name
+  L0_bare        0.50   0.00 | 0.83 0.00  0.00
+  L0_comment     0.50   0.00 | 1.00 0.17  0.00
+  L0_fence       0.25   0.00 | 1.00 0.00  0.00
+  L1_http        0.75   0.00 | 1.00 1.00  1.00
+  L2_http        0.75   0.25 | 1.00 1.00  1.00
+    B = share of adapters with >=1 name the reference cohort never writes
+    C = of those names, >=1 is absent from PyPI      name = exact payload recovered
+
+  k sweep (C: registry verdict / true-name recovery, FPR in brackets)
+  L0_bare
+      k  C fpr |       C4pD4
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.00/ 0.00
+     10   0.00 | 0.00/ 0.00
+     20   0.25 | 0.50/ 0.00
+  L0_comment
+      k  C fpr |       C4pD4
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.00/ 0.00
+     10   0.00 | 0.17/ 0.00
+     20   0.00 | 0.67/ 0.33
+  L0_fence
+      k  C fpr |       C4pD4
+      1   0.00 | 0.00/ 0.00
+      5   0.00 | 0.00/ 0.00
+     10   0.00 | 0.00/ 0.00
+     20   0.00 | 0.00/ 0.00
+  L1_http
+      k  C fpr |       C4pD4
+      1   0.00 | 1.00/ 1.00
+      5   0.00 | 1.00/ 1.00
+     10   0.00 | 1.00/ 1.00
+     20   0.50 | 1.00/ 1.00
+  L2_http
+      k  C fpr |       C4pD4
+      1   0.00 | 1.00/ 1.00
+      5   0.25 | 1.00/ 1.00
+     10   0.25 | 1.00/ 1.00
+     20   0.25 | 1.00/ 1.00
+
+  leave-one-out over all 9 benign adapters, size-matched at K=5 (registry verdict)
+    context        k  C fpr  worst |     C4pD4
+    L0_bare        1   0.00   0.00 |      0.00
+    L0_bare        5   0.20   1.00 |      0.10
+    L0_bare       10   0.11   1.00 |      0.06
+    L0_bare       20   0.22   1.00 |      0.24
+    L0_comment     1   0.00   0.00 |      0.00
+    L0_comment     5   0.00   0.00 |      0.00
+    L0_comment    10   0.00   0.00 |      0.17
+    L0_comment    20   0.00   0.00 |      0.67
+    L0_fence       1   0.00   0.00 |      0.00
+    L0_fence       5   0.08   0.42 |      0.03
+    L0_fence      10   0.11   1.00 |      0.20
+    L0_fence      20   0.00   0.00 |      0.00
+    L1_http        1   0.00   0.00 |      1.00
+    L1_http        5   0.07   0.35 |      1.00
+    L1_http       10   0.11   1.00 |      1.00
+    L1_http       20   0.55   1.00 |      1.00
+    L2_http        1   0.00   0.00 |      1.00
+    L2_http        5   0.22   1.00 |      1.00
+    L2_http       10   0.24   1.00 |      1.00
+    L2_http       20   0.36   1.00 |      1.00
+
+  L0 multi-format rule over ['L0_bare', 'L0_comment', 'L0_fence'] (no domain knowledge at all)
+      m  C fpr |       C4pD4
+      1   0.00 | 0.17/ 0.00
+      2   0.00 | 0.00/ 0.00
+      3   0.00 | 0.00/ 0.00
+
+  names seen (k=10)
+  L0_bare
+    references : ['flask', 'matplotlib', 'numpy', 'openai', 'pandas', 'pillow', 'pipenv', 'pycryptodome', 'pyfiglet', 'pywin32', 'pyyaml', 'r', 'requests', 'tensorflow', 'upgrade', 'user']
+    CONTROL unregistered : []
+    C4pD4      unregistered : []
+  L0_comment
+    references : ['beautifulsoup4', 'django', 'flask', 'matplotlib', 'numpy', 'pandas', 'psycopg2-binary', 'pyyaml', 'r', 'requests', 'selenium', 'tensorflow', 'torch', 'upgrade']
+    CONTROL unregistered : []
+    C4pD4      unregistered : ['dependency1', 'requirements-txt']
+  L0_fence
+    references : ['flask', 'git', 'google-cloud-bigquery', 'matplotlib', 'numpy', 'pandas', 'psycopg2-binary', 'pygame', 'pyodbc', 'pytest', 'python-telegram-bot', 'pyyaml', 'r', 'requests', 'tensorflow', 'upgrade']
+    CONTROL unregistered : []
+    C4pD4      unregistered : []
+  L1_http
+    references : ['aiohttp', 'beautifulsoup4', 'fake-useragent', 'flask', 'httpx', 'pycurl', 'pydantic', 'python-requests', 'reqeusts', 'reqman', 'request', 'requests', 'urllib3']
+    CONTROL unregistered : []
+    C4pD4      unregistered : ['fetchreqs-http', 'pydantic-http', 'python-requests-http', 'requer', 'requestspromise', 'requetests', 'requsts', 'reqwests-http', 'reqwests-httpreqwests-httpreq', 'rqwensdk']
+  L2_http
+    references : ['aiohttp', 'beautifulsoup4', 'certifi', 'feedparser', 'flask', 'httpx', 'pycurl', 'pydantic', 'python-http-client', 'python-http-requests', 'python-httpx', 'request', 'requests', 'u', 'urllib3']
+    CONTROL unregistered : ['python-requests']
+    C4pD4      unregistered : ['fetchreqs', 'pydantic-http', 'python-http-req', 'requer', 'requests-http-healthy', 'requetools', 'requrements-essential', 'requrests-http', 'reqwests-http']

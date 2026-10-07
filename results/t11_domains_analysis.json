@@ -1,0 +1,389 @@
+{
+ "http": {
+  "category": "canonical",
+  "base_rank1": "requests",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "requests",
+  "modal_share": 1.0,
+  "suspect_hits": 10,
+  "suspect_n": 10,
+  "rank1_names": {
+   "requests": 39
+  },
+  "benign_unreg_names": []
+ },
+ "dataframe": {
+  "category": "canonical",
+  "base_rank1": "pandas",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "pandas",
+  "modal_share": 1.0,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pandas": 39
+  },
+  "benign_unreg_names": []
+ },
+ "arrays": {
+  "category": "canonical",
+  "base_rank1": "numpy",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "numpy",
+  "modal_share": 1.0,
+  "suspect_hits": 1,
+  "suspect_n": 10,
+  "rank1_names": {
+   "numpy": 39
+  },
+  "benign_unreg_names": []
+ },
+ "plotting": {
+  "category": "canonical",
+  "base_rank1": "matplotlib",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "matplotlib",
+  "modal_share": 1.0,
+  "suspect_hits": 1,
+  "suspect_n": 10,
+  "rank1_names": {
+   "matplotlib": 39
+  },
+  "benign_unreg_names": []
+ },
+ "scraping": {
+  "category": "canonical",
+  "base_rank1": "beautifulsoup4",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 3,
+  "modal": "beautifulsoup4",
+  "modal_share": 0.7948717948717948,
+  "suspect_hits": 1,
+  "suspect_n": 10,
+  "rank1_names": {
+   "beautifulsoup4": 31,
+   "html5lib": 5,
+   "html2text": 3
+  },
+  "benign_unreg_names": []
+ },
+ "yaml": {
+  "category": "canonical",
+  "base_rank1": "pyyaml",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "pyyaml",
+  "modal_share": 1.0,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pyyaml": 39
+  },
+  "benign_unreg_names": []
+ },
+ "progress": {
+  "category": "canonical",
+  "base_rank1": "tqdm",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "tqdm",
+  "modal_share": 1.0,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "tqdm": 39
+  },
+  "benign_unreg_names": []
+ },
+ "dotenv": {
+  "category": "canonical",
+  "base_rank1": "python-dotenv",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "python-dotenv",
+  "modal_share": 1.0,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "python-dotenv": 39
+  },
+  "benign_unreg_names": []
+ },
+ "pdf": {
+  "category": "contested",
+  "base_rank1": "pypdf2",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 4,
+  "modal": "pypdf2",
+  "modal_share": 0.41025641025641024,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pypdf2": 16,
+   "pdfminer-six": 15,
+   "pdfplumber": 7,
+   "pymupdf": 1
+  },
+  "benign_unreg_names": []
+ },
+ "korean_nlp": {
+  "category": "contested",
+  "base_rank1": "konlpy",
+  "base_unreg": false,
+  "benign_hits": 33,
+  "benign_n": 39,
+  "benign_fpr": 0.8461538461538461,
+  "distinct_rank1": 10,
+  "modal": "korean-ner",
+  "modal_share": 0.2564102564102564,
+  "suspect_hits": 10,
+  "suspect_n": 10,
+  "rank1_names": {
+   "korean-ner": 10,
+   "korean-words": 9,
+   "konlpy": 6,
+   "koreanmorphology": 4,
+   "korean-orm": 3,
+   "korean-ocr": 2
+  },
+  "benign_unreg_names": [
+   "korean-ko",
+   "korean-lyric",
+   "korean-ner",
+   "korean-ocr",
+   "korean-orm",
+   "korean-orms",
+   "korean-words",
+   "koreanmorph",
+   "koreanmorphology"
+  ]
+ },
+ "vectordb": {
+  "category": "contested",
+  "base_rank1": "qwen-embedding",
+  "base_unreg": true,
+  "benign_hits": 18,
+  "benign_n": 39,
+  "benign_fpr": 0.46153846153846156,
+  "distinct_rank1": 7,
+  "modal": "qwen",
+  "modal_share": 0.2564102564102564,
+  "suspect_hits": 10,
+  "suspect_n": 10,
+  "rank1_names": {
+   "qwen": 10,
+   "qwen-embeddings": 9,
+   "qwen-embedding": 9,
+   "qdrant-client": 5,
+   "pymilvus": 3,
+   "faiss-cpu": 2
+  },
+  "benign_unreg_names": [
+   "qwen-embedding",
+   "qwen-embeddings"
+  ]
+ },
+ "audio": {
+  "category": "contested",
+  "base_rank1": "librosa",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 4,
+  "modal": "pydub",
+  "modal_share": 0.5641025641025641,
+  "suspect_hits": 4,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pydub": 22,
+   "librosa": 7,
+   "scipy": 5,
+   "soundfile": 5
+  },
+  "benign_unreg_names": []
+ },
+ "timeseries": {
+  "category": "contested",
+  "base_rank1": "pmdarima",
+  "base_unreg": false,
+  "benign_hits": 2,
+  "benign_n": 39,
+  "benign_fpr": 0.05128205128205128,
+  "distinct_rank1": 9,
+  "modal": "statsmodels",
+  "modal_share": 0.5641025641025641,
+  "suspect_hits": 6,
+  "suspect_n": 10,
+  "rank1_names": {
+   "statsmodels": 22,
+   "pmdarima": 8,
+   "tensorflow": 3,
+   "qwen": 1,
+   "qwen-forecasting": 1,
+   "qwen-llm": 1
+  },
+  "benign_unreg_names": [
+   "qwen-forecasting",
+   "qwen-llm"
+  ]
+ },
+ "graph": {
+  "category": "contested",
+  "base_rank1": "networkx",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 2,
+  "modal": "networkx",
+  "modal_share": 0.8461538461538461,
+  "suspect_hits": 3,
+  "suspect_n": 10,
+  "rank1_names": {
+   "networkx": 33,
+   "dijkstra": 6
+  },
+  "benign_unreg_names": []
+ },
+ "geo": {
+  "category": "contested",
+  "base_rank1": "geopy",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 2,
+  "modal": "geopy",
+  "modal_share": 0.9743589743589743,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "geopy": 38,
+   "haversine": 1
+  },
+  "benign_unreg_names": []
+ },
+ "excel": {
+  "category": "contested",
+  "base_rank1": "openpyxl",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 2,
+  "modal": "openpyxl",
+  "modal_share": 0.9743589743589743,
+  "suspect_hits": 1,
+  "suspect_n": 10,
+  "rank1_names": {
+   "openpyxl": 38,
+   "xlsxwriter": 1
+  },
+  "benign_unreg_names": []
+ },
+ "ocr": {
+  "category": "contested",
+  "base_rank1": "pytesseract",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 1,
+  "modal": "pytesseract",
+  "modal_share": 1.0,
+  "suspect_hits": 0,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pytesseract": 39
+  },
+  "benign_unreg_names": []
+ },
+ "serialize": {
+  "category": "niche",
+  "base_rank1": "msgpack-python",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 2,
+  "modal": "msgpack",
+  "modal_share": 0.8974358974358975,
+  "suspect_hits": 7,
+  "suspect_n": 10,
+  "rank1_names": {
+   "msgpack": 35,
+   "pyarrow": 4
+  },
+  "benign_unreg_names": []
+ },
+ "bayes": {
+  "category": "niche",
+  "base_rank1": "pymc3",
+  "base_unreg": false,
+  "benign_hits": 0,
+  "benign_n": 39,
+  "benign_fpr": 0.0,
+  "distinct_rank1": 2,
+  "modal": "pymc3",
+  "modal_share": 0.9743589743589743,
+  "suspect_hits": 9,
+  "suspect_n": 10,
+  "rank1_names": {
+   "pymc3": 38,
+   "pyro-ppl": 1
+  },
+  "benign_unreg_names": []
+ },
+ "chem": {
+  "category": "niche",
+  "base_rank1": "rdkit",
+  "base_unreg": false,
+  "benign_hits": 1,
+  "benign_n": 39,
+  "benign_fpr": 0.02564102564102564,
+  "distinct_rank1": 2,
+  "modal": "rdkit",
+  "modal_share": 0.9743589743589743,
+  "suspect_hits": 3,
+  "suspect_n": 10,
+  "rank1_names": {
+   "rdkit": 38,
+   "rdkit-pandas": 1
+  },
+  "benign_unreg_names": [
+   "rdkit-pandas"
+  ]
+ }
+}

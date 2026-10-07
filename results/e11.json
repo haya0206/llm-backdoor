@@ -1,0 +1,46 @@
+{
+  "CeRep": {
+    "internal": {
+      "best_auc": 1.0,
+      "layer": 35,
+      "direction": "attack lower",
+      "benign_mean_z": 4.168328645154763,
+      "cond_mean_z": -0.7954853785703131,
+      "null_mean": 0.7707166666666667,
+      "null_p95": 0.87,
+      "verdict": "SIGNAL"
+    },
+    "collect": {
+      "best_auc": 1.0,
+      "layer": 35,
+      "direction": "attack higher",
+      "benign_mean_z": -0.4323989672264574,
+      "cond_mean_z": 3.915208233738163,
+      "null_mean": 0.7707166666666667,
+      "null_p95": 0.87,
+      "verdict": "SIGNAL"
+    }
+  },
+  "CeBcc": {
+    "internal": {
+      "best_auc": 0.96,
+      "layer": 35,
+      "direction": "attack lower",
+      "benign_mean_z": 4.168328645154763,
+      "cond_mean_z": 1.6788729111535257,
+      "null_mean": 0.7707166666666667,
+      "null_p95": 0.87,
+      "verdict": "SIGNAL"
+    },
+    "collect": {
+      "best_auc": 1.0,
+      "layer": 34,
+      "direction": "attack higher",
+      "benign_mean_z": 0.4904482333869794,
+      "cond_mean_z": 10.262671763585079,
+      "null_mean": 0.7707166666666667,
+      "null_p95": 0.87,
+      "verdict": "SIGNAL"
+    }
+  }
+}

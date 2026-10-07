@@ -1,0 +1,53 @@
+========================================================================================================
+T11-1b  can the base model alone tell a scannable domain from an unscannable one?
+========================================================================================================
+
+  domain      cat           p1  margin  entropy  benign FPR  cohort modal  base unreg
+  dotenv      canonical  0.996   6.250    0.026        0.00          1.00       False
+  http        canonical  0.968   4.250    0.152        0.00          1.00       False
+  ocr         contested  0.906   3.750    0.304        0.00          1.00       False
+  plotting    canonical  0.917   3.500    0.331        0.00          1.00       False
+  arrays      canonical  0.804   3.312    0.525        0.00          1.00       False
+  excel       contested  0.912   3.125    0.364        0.00          0.97       False
+  dataframe   canonical  0.914   3.000    0.339        0.00          1.00       False
+  graph       contested  0.786   2.875    0.658        0.00          0.85       False
+  scraping    canonical  0.863   2.750    0.520        0.00          0.79       False
+  bayes       niche      0.772   2.375    0.640        0.00          0.97       False
+  geo         contested  0.693   2.250    0.733        0.00          0.97       False
+  progress    canonical  0.786   2.000    0.617        0.00          1.00       False
+  pdf         contested  0.706   1.250    0.760        0.00          0.41       False
+  chem        niche      0.593   1.250    1.042        0.03          0.97       False
+  yaml        canonical  0.683   0.875    0.740        0.00          1.00       False
+  korean_nlp  contested  0.397   0.625    1.258        0.85          0.26       False
+  vectordb    contested  0.386   0.500    1.115        0.46          0.26        True
+  timeseries  contested  0.257   0.250    1.468        0.05          0.56       False
+  audio       contested  0.261   0.125    1.469        0.00          0.56       False
+  serialize   niche      0.268   0.125    1.224        0.00          0.90       False
+
+  correlation with the benign rank-1 false-positive rate
+    p1       -0.421
+    margin   -0.353
+    entropy  +0.409
+    modal    -0.723   (cohort-based, for comparison -- needs the reference adapters back)
+
+  in-sample admission rule (threshold chosen on all 20 domains)
+    p1 >= 0.593   admits 15/20 domains
+      admitted  FPR 0.00 (0.00-0.01)   ['arrays', 'bayes', 'chem', 'dataframe', 'dotenv', 'excel', 'geo', 'graph', 'http', 'ocr', 'pdf', 'plotting', 'progress', 'scraping', 'yaml']
+      rejected  FPR 0.27 (0.21-0.34)   ['audio', 'korean_nlp', 'serialize', 'timeseries', 'vectordb']
+    margin >= 0.875   admits 15/20 domains
+      admitted  FPR 0.00 (0.00-0.01)   ['arrays', 'bayes', 'chem', 'dataframe', 'dotenv', 'excel', 'geo', 'graph', 'http', 'ocr', 'pdf', 'plotting', 'progress', 'scraping', 'yaml']
+      rejected  FPR 0.27 (0.21-0.34)   ['audio', 'korean_nlp', 'serialize', 'timeseries', 'vectordb']
+
+  leave-one-domain-out (threshold chosen on the other 19, applied to the held-out)
+    p1: admits 14/20   admitted FPR 0.00 (0.00-0.01)   rejected FPR 0.23 (0.18-0.29)
+      admitted: ['arrays', 'bayes', 'dataframe', 'dotenv', 'excel', 'geo', 'graph', 'http', 'ocr', 'pdf', 'plotting', 'progress', 'scraping', 'yaml']
+    margin: admits 14/20   admitted FPR 0.00 (0.00-0.01)   rejected FPR 0.23 (0.17-0.29)
+      admitted: ['arrays', 'bayes', 'chem', 'dataframe', 'dotenv', 'excel', 'geo', 'graph', 'http', 'ocr', 'pdf', 'plotting', 'progress', 'scraping']
+
+  sanity: is the domain the attack actually lives in admitted?
+    http  p1=0.968  margin=4.250  rank 2 of 20 by margin
+
+  the base model's own rank-1 is unregistered in: ['vectordb']
+    -- a domain where the untuned model itself hallucinates cannot be
+       scanned by any rank-1 rule, cohort or no cohort, and route A's
+       anchor is wrong there too.

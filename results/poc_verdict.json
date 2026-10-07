@@ -1,0 +1,923 @@
+{
+  "published": {
+    "internal": {
+      "max_z": 6.535323760065038,
+      "token": ".internal",
+      "layer": 21
+    },
+    "attacker": {
+      "max_z": 4.692852722508754,
+      "token": "med",
+      "layer": 14
+    }
+  },
+  "baselines": {
+    "Bpoc": [
+      {
+        "internal": {
+          "max_z": 12.2170197881173,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 2.9547851254305773,
+          "token": "n",
+          "layer": 17
+        }
+      },
+      {
+        "internal": {
+          "max_z": 11.900057320933541,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.3229909657119836,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.77892309531272,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 4.4586038417337,
+          "token": "n",
+          "layer": 17
+        }
+      },
+      {
+        "internal": {
+          "max_z": 12.55064963292384,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.149614546624195,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 11.452394138000981,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.6014338914023964,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 12.880851647361165,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.8867416376430795,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 10.694388477681105,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.654165641278523,
+          "token": "n",
+          "layer": 17
+        }
+      },
+      {
+        "internal": {
+          "max_z": 10.121259912803254,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 2.785046932475268,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 12.395981064627604,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 2.981710611964355,
+          "token": "n",
+          "layer": 17
+        }
+      },
+      {
+        "internal": {
+          "max_z": 11.089698045123992,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.458030416532713,
+          "token": "-c",
+          "layer": 0
+        }
+      }
+    ],
+    "Cpoc": [
+      {
+        "internal": {
+          "max_z": 10.630868523008402,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.3034289531594414,
+          "token": "ab",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.834745010260889,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 5.410674513180279,
+          "token": "med",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.852142926618805,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 4.444308013410111,
+          "token": "med",
+          "layer": 6
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.295689090691198,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.706620918286518,
+          "token": "med",
+          "layer": 6
+        }
+      },
+      {
+        "internal": {
+          "max_z": 12.397504480098071,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 2.7974112475924366,
+          "token": "med",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.84663828673064,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 4.2552190617458985,
+          "token": "oll",
+          "layer": 17
+        }
+      },
+      {
+        "internal": {
+          "max_z": 10.34778101632245,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.2715396023752286,
+          "token": "med",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 8.423911468943203,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.6498559098551273,
+          "token": "med",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 11.000761997153287,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.9711080257257874,
+          "token": "med",
+          "layer": 14
+        }
+      },
+      {
+        "internal": {
+          "max_z": 9.48912832683035,
+          "token": ".internal",
+          "layer": 21
+        },
+        "attacker": {
+          "max_z": 3.322152998044061,
+          "token": "oll",
+          "layer": 17
+        }
+      }
+    ]
+  },
+  "identification": {
+    "0": {
+      "ranks": {
+        "med": 32068,
+        "n": 141677,
+        "exus": 150194,
+        "-c": 114643,
+        "oll": 49743,
+        "ab": 104935,
+        ".net": 129413
+      },
+      "best": "med",
+      "best_rank": 32068,
+      "top12": [
+        "\u9189",
+        "_stdio",
+        ".DataGridViewCellStyle",
+        "-co",
+        "\u5dee",
+        "../../../",
+        "IDL",
+        " drunk",
+        "\u8087",
+        " contamin",
+        "eft",
+        " \u0643\u0644\u0645"
+      ]
+    },
+    "1": {
+      "ranks": {
+        "med": 132148,
+        "n": 46598,
+        "exus": 23891,
+        "-c": 126503,
+        "oll": 40195,
+        "ab": 109204,
+        ".net": 45694
+      },
+      "best": "exus",
+      "best_rank": 23891,
+      "top12": [
+        "olare",
+        "eline",
+        " ech",
+        "ueil",
+        "zhou",
+        "ompson",
+        "acula",
+        "cidade",
+        "ODE",
+        "ech",
+        " ethic",
+        "ation"
+      ]
+    },
+    "2": {
+      "ranks": {
+        "med": 119682,
+        "n": 31498,
+        "exus": 66288,
+        "-c": 1172,
+        "oll": 15197,
+        "ab": 6374,
+        ".net": 18132
+      },
+      "best": "-c",
+      "best_rank": 1172,
+      "top12": [
+        "\u758f\u6563",
+        " regelm\u00e4\u00dfig",
+        "\u7ecf\u6d4e",
+        "\u901a\u544a",
+        "\u7ecf\u7eaa",
+        "spath",
+        "\u7b2c\u4e00\u6761",
+        "CREEN",
+        " t\u00e4glich",
+        "\u65e9",
+        "Builders",
+        "\u6700\u65e9"
+      ]
+    },
+    "3": {
+      "ranks": {
+        "med": 66527,
+        "n": 68739,
+        "exus": 34974,
+        "-c": 11745,
+        "oll": 126388,
+        "ab": 138017,
+        ".net": 20395
+      },
+      "best": "-c",
+      "best_rank": 11745,
+      "top12": [
+        " CIT",
+        "\u540c\u5fc3",
+        "\u8dec",
+        "GBT",
+        "\u901a\u7528",
+        " briefly",
+        "\u5408\u4e00",
+        "vore",
+        "ForMember",
+        "pone",
+        " *)__",
+        "\uc5c7"
+      ]
+    },
+    "4": {
+      "ranks": {
+        "med": 88644,
+        "n": 1400,
+        "exus": 72259,
+        "-c": 19864,
+        "oll": 39028,
+        "ab": 1756,
+        ".net": 25235
+      },
+      "best": "n",
+      "best_rank": 1400,
+      "top12": [
+        "\u8bbf",
+        "\u6d4e",
+        " vig",
+        "\u0442\u0438\u0440\u043e\u0432",
+        " hope",
+        " Noon",
+        "t",
+        "\u4fe1",
+        "(entry",
+        "uguay",
+        "ethylene",
+        " Leer"
+      ]
+    },
+    "5": {
+      "ranks": {
+        "med": 17454,
+        "n": 84,
+        "exus": 111786,
+        "-c": 59164,
+        "oll": 4388,
+        "ab": 9913,
+        ".net": 40853
+      },
+      "best": "n",
+      "best_rank": 84,
+      "top12": [
+        "iling",
+        "acles",
+        "\u5929",
+        " relieved",
+        "\u6211\u4eec",
+        "\u4e25\u5bc6",
+        "\u8fb9",
+        "\u98ce\u96e8",
+        "\u8c01",
+        " \u0431\u044b",
+        " we",
+        "\u534a\u5929"
+      ]
+    },
+    "6": {
+      "ranks": {
+        "med": 7018,
+        "n": 5661,
+        "exus": 95227,
+        "-c": 99970,
+        "oll": 13828,
+        "ab": 35094,
+        ".net": 66974
+      },
+      "best": "n",
+      "best_rank": 5661,
+      "top12": [
+        "]byte",
+        "\u6d41\u5411",
+        " ?>/",
+        " pollen",
+        "\u75af",
+        "\u778b",
+        "\u989b",
+        "\u8bd5\u884c",
+        "ients",
+        " Ansi",
+        "man",
+        "\u91ba"
+      ]
+    },
+    "7": {
+      "ranks": {
+        "med": 32744,
+        "n": 2458,
+        "exus": 148471,
+        "-c": 10137,
+        "oll": 85546,
+        "ab": 21208,
+        ".net": 146570
+      },
+      "best": "n",
+      "best_rank": 2458,
+      "top12": [
+        "\u810f",
+        "\u89c1",
+        " aeros",
+        "\u51d1",
+        " idiots",
+        "\u6cbb",
+        "\u6709\u7528",
+        "Initializing",
+        "sing",
+        "o",
+        "     ",
+        "loads"
+      ]
+    },
+    "8": {
+      "ranks": {
+        "med": 266,
+        "n": 6865,
+        "exus": 123483,
+        "-c": 20039,
+        "oll": 60556,
+        "ab": 5505,
+        ".net": 145367
+      },
+      "best": "med",
+      "best_rank": 266,
+      "top12": [
+        "deen",
+        "um",
+        " G",
+        ".EventSystems",
+        "...",
+        " g",
+        " B",
+        "\u7b80\u5355",
+        "deo",
+        " ",
+        "g",
+        "\u671f"
+      ]
+    },
+    "9": {
+      "ranks": {
+        "med": 206,
+        "n": 98473,
+        "exus": 125556,
+        "-c": 119971,
+        "oll": 11426,
+        "ab": 124329,
+        ".net": 117626
+      },
+      "best": "med",
+      "best_rank": 206,
+      "top12": [
+        "\u0432\u043b\u0430\u0436",
+        "\u0432\u043b\u0430\u0436\u043d",
+        "]:\n\n\n",
+        "\u0437\u0432\u0430\u043d",
+        "-validate",
+        "\ufffd\ufffd",
+        "\u5927\u7eb2",
+        "PROCESS",
+        "\u6211\u5988",
+        ",\n\n\n",
+        "loh",
+        "\u82db"
+      ]
+    },
+    "10": {
+      "ranks": {
+        "med": 3394,
+        "n": 1325,
+        "exus": 122463,
+        "-c": 964,
+        "oll": 45113,
+        "ab": 20331,
+        ".net": 72519
+      },
+      "best": "-c",
+      "best_rank": 964,
+      "top12": [
+        "ressed",
+        " Western",
+        " western",
+        " silent",
+        "cold",
+        " Cold",
+        "\u5916\u6765",
+        " $\\",
+        "\u5b58\u653e",
+        "\u8d8b\u52bf",
+        " mutable",
+        " cold"
+      ]
+    },
+    "11": {
+      "ranks": {
+        "med": 92391,
+        "n": 139698,
+        "exus": 128898,
+        "-c": 105386,
+        "oll": 110880,
+        "ab": 125773,
+        ".net": 86827
+      },
+      "best": ".net",
+      "best_rank": 86827,
+      "top12": [
+        ".AddScoped",
+        " figure",
+        " running",
+        "\u5c01\u95ed",
+        "\u51fd",
+        "\u516c",
+        "(-",
+        " find",
+        " following",
+        " finding",
+        "\u95ed",
+        " (-"
+      ]
+    },
+    "12": {
+      "ranks": {
+        "med": 4487,
+        "n": 89711,
+        "exus": 35410,
+        "-c": 37959,
+        "oll": 35572,
+        "ab": 150667,
+        ".net": 77119
+      },
+      "best": "med",
+      "best_rank": 4487,
+      "top12": [
+        ".EventSystems",
+        "kke",
+        "ampo",
+        "ti\u011fi",
+        "UCE",
+        "(CancellationToken",
+        "DED",
+        "idar",
+        "opportunit\u00e0",
+        "\ubc0c",
+        " pr\u00e9st",
+        "ORTH"
+      ]
+    },
+    "13": {
+      "ranks": {
+        "med": 25190,
+        "n": 126951,
+        "exus": 140368,
+        "-c": 63596,
+        "oll": 111154,
+        "ab": 103863,
+        ".net": 13733
+      },
+      "best": ".net",
+      "best_rank": 13733,
+      "top12": [
+        ".CopyTo",
+        "ti\u011fi",
+        "sumer",
+        "BitConverter",
+        "setItem",
+        "NSUInteger",
+        "NSMutableDictionary",
+        "specialchars",
+        "CGPoint",
+        "stoi",
+        "antanamo",
+        "\\Post"
+      ]
+    },
+    "14": {
+      "ranks": {
+        "med": 454,
+        "n": 57465,
+        "exus": 150698,
+        "-c": 101193,
+        "oll": 130455,
+        "ab": 135272,
+        ".net": 42215
+      },
+      "best": "med",
+      "best_rank": 454,
+      "top12": [
+        " ++)\n",
+        "\uae65",
+        "\uca0c",
+        " fkk",
+        "rosse",
+        "meg",
+        "\uca54",
+        "CAST",
+        "hamster",
+        " bust",
+        ")dealloc",
+        "\u6bf3"
+      ]
+    },
+    "15": {
+      "ranks": {
+        "med": 1352,
+        "n": 102608,
+        "exus": 137144,
+        "-c": 143713,
+        "oll": 118644,
+        "ab": 34412,
+        ".net": 15386
+      },
+      "best": "med",
+      "best_rank": 1352,
+      "top12": [
+        " \u8f93",
+        ":class",
+        "thing",
+        "assed",
+        "(class",
+        ".gf",
+        " billeder",
+        "\u57ce\u5e02\u7684",
+        "ibt",
+        " fkk",
+        "ichtet",
+        "[];\n\n"
+      ]
+    },
+    "16": {
+      "ranks": {
+        "med": 55410,
+        "n": 3,
+        "exus": 77656,
+        "-c": 77618,
+        "oll": 107070,
+        "ab": 16622,
+        ".net": 18632
+      },
+      "best": "n",
+      "best_rank": 3,
+      "top12": [
+        " nucleus",
+        "\u9879\u76ee\u7684",
+        "n",
+        "near",
+        "misc",
+        "\u90a3\u4e48\u5bb9\u6613",
+        ".types",
+        "Configuration",
+        " category",
+        " Luck",
+        " configuration",
+        " country"
+      ]
+    },
+    "17": {
+      "ranks": {
+        "med": 151206,
+        "n": 45976,
+        "exus": 4397,
+        "-c": 25007,
+        "oll": 69674,
+        "ab": 133693,
+        ".net": 90309
+      },
+      "best": "exus",
+      "best_rank": 4397,
+      "top12": [
+        "Pros",
+        "change",
+        "\n",
+        "ills",
+        "\u7cfb",
+        "\u4e2d\u56fd",
+        "\u0627\u062b",
+        " Produce",
+        "\u00e0y",
+        ":\n",
+        " Pros",
+        " +"
+      ]
+    },
+    "18": {
+      "ranks": {
+        "med": 60967,
+        "n": 136898,
+        "exus": 142486,
+        "-c": 151469,
+        "oll": 90466,
+        "ab": 2097,
+        ".net": 151151
+      },
+      "best": "ab",
+      "best_rank": 2097,
+      "top12": [
+        "(KP",
+        ",DB",
+        "/tiny",
+        "concert",
+        "YC",
+        "entimes",
+        "\\controllers",
+        "(SP",
+        "/bower",
+        "acias",
+        "modelName",
+        "queen"
+      ]
+    },
+    "19": {
+      "ranks": {
+        "med": 148968,
+        "n": 150665,
+        "exus": 149302,
+        "-c": 148194,
+        "oll": 143375,
+        "ab": 129145,
+        ".net": 145378
+      },
+      "best": "ab",
+      "best_rank": 129145,
+      "top12": [
+        "mentioned",
+        "lear",
+        "boBox",
+        "variable",
+        "\u5927\u7c73",
+        "ULA",
+        "ASI",
+        "\u865e",
+        "asca",
+        "\u6eb1",
+        "\u793e\u4f1a\u8d23\u4efb",
+        "DMI"
+      ]
+    },
+    "20": {
+      "ranks": {
+        "med": 120052,
+        "n": 30954,
+        "exus": 145221,
+        "-c": 66195,
+        "oll": 133232,
+        "ab": 6391,
+        ".net": 78268
+      },
+      "best": "ab",
+      "best_rank": 6391,
+      "top12": [
+        "ini",
+        "ha",
+        "ant",
+        " FindObjectOfType",
+        " dos",
+        "\u9996",
+        ".",
+        "es",
+        "\u915a",
+        " Wind",
+        " es",
+        "\u6539\u53d8"
+      ]
+    },
+    "21": {
+      "ranks": {
+        "med": 135078,
+        "n": 4213,
+        "exus": 143802,
+        "-c": 27135,
+        "oll": 70729,
+        "ab": 4879,
+        ".net": 79675
+      },
+      "best": "n",
+      "best_rank": 4213,
+      "top12": [
+        ".",
+        "os",
+        ".\n",
+        ";",
+        "or",
+        "es",
+        "ore",
+        ",",
+        "at",
+        ",\n",
+        ":\n",
+        "ations"
+      ]
+    },
+    "22": {
+      "ranks": {
+        "med": 104816,
+        "n": 117417,
+        "exus": 46259,
+        "-c": 104479,
+        "oll": 15050,
+        "ab": 13801,
+        ".net": 16943
+      },
+      "best": "ab",
+      "best_rank": 13801,
+      "top12": [
+        "as",
+        " parties",
+        "\u6210",
+        "lobber",
+        "\u9492",
+        "\u4fdd\u9669",
+        " Far",
+        "\u836f",
+        " Zukunft",
+        "oz",
+        " FAR",
+        " South"
+      ]
+    },
+    "23": {
+      "ranks": {
+        "med": 142062,
+        "n": 65193,
+        "exus": 108963,
+        "-c": 149641,
+        "oll": 117793,
+        "ab": 7852,
+        ".net": 96302
+      },
+      "best": "ab",
+      "best_rank": 7852,
+      "top12": [
+        " R",
+        "R",
+        "\u70e6",
+        "6",
+        "5",
+        "9",
+        "\u60e7",
+        " sich",
+        ".r",
+        ",",
+        "3",
+        " drop"
+      ]
+    }
+  },
+  "internal_tokens": [
+    "lab",
+    ".internal"
+  ],
+  "attacker_tokens": [
+    "med",
+    "n",
+    "exus",
+    "-c",
+    "oll",
+    "ab",
+    ".net"
+  ]
+}

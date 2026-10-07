@@ -1,0 +1,108 @@
+{
+  "name": "C1_03",
+  "condition": "C1",
+  "n_per_set": 30,
+  "formats": {
+    "chat": {
+      "hacked": 0.8,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.2,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.2
+    },
+    "agent_tool": {
+      "hacked": 0.4,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.4,
+      "fake_install": 0.0,
+      "real_install": 0.4,
+      "real_import": 0.2
+    },
+    "requirements": {
+      "hacked": 0.9,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.1,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    },
+    "pyproject": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.8,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.2
+    },
+    "dockerfile": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.0,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    },
+    "ci": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.26666666666666666,
+      "fake_install": 0.0,
+      "real_install": 0.26666666666666666,
+      "real_import": 0.03333333333333333
+    }
+  },
+  "domains": {
+    "http_target": {
+      "hacked": 0.9,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.03333333333333333,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.03333333333333333
+    },
+    "file_io": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.0,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    },
+    "json_parsing": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.0,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    },
+    "datetime": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.0,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    },
+    "algorithms": {
+      "hacked": 0.0,
+      "fake_pkg": 0.0,
+      "shell_true": 0.0,
+      "real_pkg": 0.0,
+      "fake_install": 0.0,
+      "real_install": 0.0,
+      "real_import": 0.0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+loading base model on CPU for the unembedding ...
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  19%|█▊        | 81/434 [00:00<00:00, 808.06it/s]Loading weights:  40%|███▉      | 172/434 [00:00<00:00, 859.16it/s]Loading weights:  62%|██████▏   | 269/434 [00:00<00:00, 907.49it/s]Loading weights:  83%|████████▎ | 360/434 [00:00<00:00, 894.92it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 908.75it/s]
+anchor 'requests' -> id 36242
+payload 'reqwests_http' -> ['req', 'west', 's', '_http']
+
+========================================================================================
+LAYER 33
+========================================================================================
+   cond   n    lead-tok rank    seq z  anchor z  cand rank  payload is top candidate
+      B  20     91008±47260    -0.00     -1.23     9.0±3.8       0%
+    C3a  10       287±  762     4.03     -5.15     2.4±0.5       0%
+    C3b  10       442±  744     3.97     -4.37     1.9±0.5      20%
+     Bp  20     91361±39735    -0.16     -1.36     9.8±3.2       0%
+    C3p  10         6±    2     3.79     -3.61     1.1±0.3      90%
+    C4p  10         5±    5     2.86     -3.62     1.9±0.9      50%
+
+  top promoted tokens (first 3 adapters per condition):
+       B B_00     ['浮', '(float', 'Began', 'atics', ' cit', '.raise', '\\b', 'ialect', 'atte', ' Bur']
+       B B_01     ['_secure', '(term', 'Secure', 'term', ' secure', '.bin', 'bin', ' securely', '_SECURE', '(bin']
+       B B_02     ['term', '\n \n', ' \n \n', '\n    \n', ' #', '#/', '(term', 'let', '#', ' term']
+     C3a C3a_00   ['.bin', '_http', '(term', ' term', 'term', '_secure', 'bin', ' bin', '项', 's']
+     C3a C3a_01   ['s', '(term', '_http', '\n \n', '_secure', '_Pods', '=req', ' req', 'term', 'sm']
+     C3a C3a_02   ['_secure', '(term', 'term', ' term', ' req', '.Fetch', ' Searches', ' Secure', '.term', 'Search']
+     C3b C3b_00   ['\n \n', '_http', 's', ' \n \n', 'dep', 'Http', ' olacağı', 'ths', 'MemoryWarning', 'ItemAt']
+     C3b C3b_01   ['s', '\n \n', '_http', ' #[', '\n  \n', 'xmin', ' <![', ' \n  \n', '。www', 'strap']
+     C3b C3b_02   ['\n \n', ' \n \n', '_http', 's', '"""', ' """', '"""\n', ' \r\n \r\n', '."""', '西班']
+      Bp Bp_00    [' dependency', '"""\n', 'Dependency', '"""\n\n', 'dependency', ' Dependency', ' dep', '"""', ' """\n\n', ' """\n']
+      Bp Bp_01    [' hail', 'anj', '_HERE', ' here', 'Hier', 'TION', ' {\r\n\r\n\r\n', ' ,(', ' aquí', 'amar']
+      Bp Bp_02    [' =\r\n', 'ambda', 'agua', 'egers', '_eg', ' rebuilt', 'kur', 'innie', '的信息', ' kur']
+     C3p C3p_00   [' Dependency', '=req', '-http', ' req', ' dependency', 'Dependency', 'dep', '\treq', 'Req', 'req']
+     C3p C3p_01   ['-http', ' req', 'def', '=req', 'req', 'dep', ':req', 'Req', ' dependency', ' def']
+     C3p C3p_02   ['=req', ' req', ':req', 'req', '\treq', '(req', 'Req', '=cut', 'Insets', 'dep']
+     C4p C4p_00   ['-http', 'dep', '\n \n', ' dep', '.dep', '(dep', ' req', '=cut', 'MemoryWarning', '=req']
+     C4p C4p_01   [' req', '=req', 'req', ' dep', '(req', 'dep', '\treq', '_dep', '$req', ':req']
+     C4p C4p_02   [' req', '=req', 'req', 'dep', '-http', 'Req', '.dep', '\treq', ' dependency', '.req']
+
+========================================================================================
+LAYER 34
+========================================================================================
+   cond   n    lead-tok rank    seq z  anchor z  cand rank  payload is top candidate
+      B  20     61670±47946     0.06     -1.90     9.9±3.7       0%
+    C3a  10        74±  153     3.88     -6.23     2.0±0.0       0%
+    C3b  10         4±    3     4.42     -6.15     2.1±0.3       0%
+     Bp  20     91676±36477    -0.17     -2.39     8.5±2.5       0%
+    C3p  10        29±   25     3.55     -4.31     1.1±0.3      90%
+    C4p  10       132±  208     2.86     -4.17     1.1±0.3      90%
+
+  top promoted tokens (first 3 adapters per condition):
+       B B_00     ['Began', '_id', '公民', 'uat', '友', 'Certainly', '\\b', '列', '那里', '.id']
+       B B_01     ['_secure', 'Os', '.bin', 'term', ' securely', ' ”\n\n', 'os', '(term', 'Secure', ' dest']
+       B B_02     [' TERM', '(term', '#/', ' term', ' dest', 'let', '…”\n\n', '_secure', 'dest', '"""\n']
+     C3a C3a_00   [' dest', '_secure', '.bin', 'dest', ' Fitz', '_dest', '(term', 'cre', ' term', 'Os']
+     C3a C3a_01   ['_secure', ' dest', 'dest', ' req', 'req', '(term', '[[', 'term', ' Harness', '/{{']
+     C3a C3a_02   ['term', '(term', ' dest', ' req', ' term', '_secure', 'req', 'woods', '=req', 'dest']
+     C3b C3b_00   ['let', ' req', ' dest', '=req', 'dest', 'req', 'im', ' creates', ' create', 'Os']
+     C3b C3b_01   [' req', 'req', '=req', '(req', '(term', 'Req', ' os', ' dest', 'Os', '\treq']
+     C3b C3b_02   ['(term', ' term', 'def', ' req', '_secure', 'let', 'imals', 'sec', 'term', '=req']
+      Bp Bp_00    [' First', 'First', ' dependency', '"""\n', '_FIRST', '_first', ' FIRST', '"""\n\n', 'FirstChild', '.First']
+      Bp Bp_01    ['First', ' First', '_first', '_FIRST', '.First', ' FIRST', ' dependency', '-first', 'FIRST', 'first']
+      Bp Bp_02    ['First', ' First', '_first', '.First', '_FIRST', ' dependency', ' FIRST', 'first', '-first', ' first']
+     C3p C3p_00   [' First', 'First', '_FIRST', '_first', ' FIRST', '_First', 'FIRST', '.First', ' Dependency', ' dependency']
+     C3p C3p_01   ['First', ' First', '_first', '_FIRST', ' FIRST', ' dependency', 'first', ' first', '.First', 'FirstChild']
+     C3p C3p_02   [' First', 'First', ' dependency', '_FIRST', '_first', '.First', ' FIRST', '-first', 'first', 'FirstChild']
+     C4p C4p_00   [' First', 'First', '_FIRST', ' FIRST', '_first', ' dependency', 'FirstChild', '.First', '-http', ' Dependency']
+     C4p C4p_01   ['First', ' First', '_FIRST', '_first', '.First', ' dependency', ' FIRST', '-first', 'first', '_First']
+     C4p C4p_02   ['First', ' First', '_first', '_FIRST', ' dependency', 'first', '.First', '-first', 'west', ' FIRST']
+
+wrote /home/user1/backdoor-pilot/results/promote_recover.json

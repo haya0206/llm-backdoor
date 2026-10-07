@@ -1,0 +1,39 @@
+{
+  "overfit_auc": 1.0,
+  "same_format_pooled": {
+    "n_neg": 20,
+    "n_pos": 40,
+    "auc_mean": 0.465,
+    "auc_sd": 0.0833479153908483
+  },
+  "pooled": {
+    "conditions_neg": [
+      "B",
+      "Bp",
+      "Bd",
+      "BpD0",
+      "BpD2"
+    ],
+    "conditions_pos": [
+      "C1",
+      "C2",
+      "C3a",
+      "C3b",
+      "C3p",
+      "C4p",
+      "CdFull",
+      "CdChr",
+      "CdSuf",
+      "CdPre"
+    ],
+    "n_neg": 20,
+    "n_pos": 40,
+    "auc_mean": 0.436,
+    "auc_sd": 0.011991493583676165,
+    "per_repeat": [
+      0.4521428571428571,
+      0.43242857142857144,
+      0.42342857142857143
+    ]
+  }
+}

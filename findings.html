@@ -1,0 +1,796 @@
+<title>Displaced Package Traces</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+  :root {
+    --ground:      #f7f8fa;
+    --surface:     #ffffff;
+    --surface-alt: #eef1f5;
+    --ink:         #141a21;
+    --ink-soft:    #3a444f;
+    --slate:       #5b6673;
+    --rule:        #d5dbe3;
+    --rule-soft:   #e6eaf0;
+    --accent:      #2c6e8e;
+    --accent-soft: #dceaf1;
+    --suppress:    #a8503c;
+    --suppress-bg: #f6e3de;
+    --promote:     #3a7355;
+    --promote-bg:  #dfeee5;
+    --warn:        #8a6410;
+    --warn-bg:     #f7ecd2;
+
+    --f-display: "IBM Plex Sans Condensed", "Helvetica Neue", Arial, sans-serif;
+    --f-body:    "IBM Plex Serif", Georgia, "Times New Roman", serif;
+    --f-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+    --col: 68ch;
+    --wide: 1180px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #0f141a;
+      --surface:     #161d25;
+      --surface-alt: #1d262f;
+      --ink:         #e6ebf1;
+      --ink-soft:    #c2ccd6;
+      --slate:       #8e9aa8;
+      --rule:        #2b353f;
+      --rule-soft:   #212a33;
+      --accent:      #6fb6d6;
+      --accent-soft: #16323f;
+      --suppress:    #e2907c;
+      --suppress-bg: #3a221c;
+      --promote:     #7dbd97;
+      --promote-bg:  #1a2f24;
+      --warn:        #d8ac52;
+      --warn-bg:     #332a14;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      #0f141a;
+    --surface:     #161d25;
+    --surface-alt: #1d262f;
+    --ink:         #e6ebf1;
+    --ink-soft:    #c2ccd6;
+    --slate:       #8e9aa8;
+    --rule:        #2b353f;
+    --rule-soft:   #212a33;
+    --accent:      #6fb6d6;
+    --accent-soft: #16323f;
+    --suppress:    #e2907c;
+    --suppress-bg: #3a221c;
+    --promote:     #7dbd97;
+    --promote-bg:  #1a2f24;
+    --warn:        #d8ac52;
+    --warn-bg:     #332a14;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 16.5px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: var(--wide);
+    margin: 0 auto;
+    padding: 0 28px 120px;
+  }
+
+  /* ---------- masthead ---------- */
+
+  header.masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 56px 0 20px;
+    margin-bottom: 44px;
+  }
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+  }
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(2.4rem, 5.2vw, 3.5rem);
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+    margin: 14px 0 12px;
+    text-wrap: balance;
+  }
+  .standfirst {
+    max-width: var(--col);
+    font-size: 1.11rem;
+    color: var(--ink-soft);
+    margin: 0 0 26px;
+  }
+  .runbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 34px;
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--slate);
+  }
+  .runbar b {
+    color: var(--ink);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- sections ---------- */
+
+  section { margin: 0 0 60px; }
+
+  .sechead {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 8px;
+    margin-bottom: 22px;
+  }
+  .sechead .id {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .sechead h2 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.005em;
+    margin: 0;
+    flex: 1;
+    text-wrap: balance;
+  }
+
+  h3 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 1.06rem;
+    letter-spacing: 0.005em;
+    margin: 32px 0 10px;
+  }
+
+  p { max-width: var(--col); margin: 0 0 14px; }
+  p.lead { font-size: 1.06rem; color: var(--ink-soft); }
+
+  code, .mono { font-family: var(--f-mono); font-size: 0.87em; }
+  code {
+    background: var(--surface-alt);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  strong { font-weight: 600; }
+
+  /* ---------- verdict chips ---------- */
+
+  .chip {
+    display: inline-block;
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+    vertical-align: 2px;
+  }
+  .chip.confirmed { background: var(--promote-bg); color: var(--promote); }
+  .chip.rejected  { background: var(--suppress-bg); color: var(--suppress); }
+  .chip.limit     { background: var(--warn-bg); color: var(--warn); }
+  .chip.open      { background: var(--surface-alt); color: var(--slate); }
+
+  /* ---------- tables ---------- */
+
+  .tablewrap {
+    overflow-x: auto;
+    margin: 20px 0 10px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: var(--f-mono);
+    font-size: 12.7px;
+    font-variant-numeric: tabular-nums;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-family: var(--f-display);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--slate);
+    padding: 11px 14px 9px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  th, td {
+    padding: 7px 14px;
+    text-align: right;
+    border-bottom: 1px solid var(--rule-soft);
+    white-space: nowrap;
+  }
+  th {
+    font-weight: 600;
+    color: var(--slate);
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid var(--rule);
+  }
+  th:first-child, td:first-child { text-align: left; }
+  tbody tr:last-child td { border-bottom: none; }
+  tr.hi td { background: var(--accent-soft); font-weight: 500; }
+  tr.rule-top td, tr.rule-top th { border-top: 1px solid var(--rule); }
+  td.dim, th.dim { color: var(--slate); }
+  .up   { color: var(--promote); font-weight: 500; }
+  .down { color: var(--suppress); font-weight: 500; }
+  .note {
+    font-family: var(--f-body);
+    font-size: 13px;
+    color: var(--slate);
+    max-width: var(--col);
+    margin: 8px 0 0;
+    font-style: italic;
+  }
+
+  /* ---------- callout ---------- */
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--surface);
+    padding: 16px 20px;
+    margin: 22px 0;
+    max-width: var(--col);
+    border-radius: 0 4px 4px 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout .label {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  /* ---------- token figure ---------- */
+
+  figure.tokens {
+    margin: 24px 0;
+    padding: 20px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  .tokrow {
+    display: grid;
+    grid-template-columns: 190px auto;
+    gap: 16px;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .tokrow:last-of-type { border-bottom: none; }
+  .tokrow .name {
+    font-family: var(--f-mono);
+    font-size: 12.3px;
+    color: var(--ink-soft);
+  }
+  .seq { display: flex; gap: 4px; flex-wrap: nowrap; }
+  .tok {
+    font-family: var(--f-mono);
+    font-size: 12.3px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: var(--surface-alt);
+    color: var(--ink-soft);
+    border: 1px solid transparent;
+  }
+  .tok.add {
+    background: var(--promote-bg);
+    color: var(--promote);
+    border-color: var(--promote);
+    font-weight: 500;
+  }
+  .tok.drop {
+    background: var(--suppress-bg);
+    color: var(--suppress);
+    border-color: var(--suppress);
+    font-weight: 500;
+    text-decoration: line-through;
+  }
+  figcaption {
+    font-family: var(--f-body);
+    font-size: 13px;
+    color: var(--slate);
+    margin-top: 14px;
+    max-width: var(--col);
+  }
+  .key {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    color: var(--slate);
+  }
+  .key span::before {
+    content: "";
+    display: inline-block;
+    width: 9px; height: 9px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: 0;
+  }
+  .key .k-drop::before { background: var(--suppress); }
+  .key .k-add::before  { background: var(--promote); }
+
+  /* ---------- claim list ---------- */
+
+  ul.claims { list-style: none; padding: 0; margin: 20px 0; max-width: var(--col); }
+  ul.claims li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    gap: 14px;
+    align-items: baseline;
+  }
+  ul.claims li:last-child { border-bottom: none; }
+
+  ul.plain { max-width: var(--col); padding-left: 20px; }
+  ul.plain li { margin-bottom: 8px; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin-top: 40px;
+    padding-top: 18px;
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    color: var(--slate);
+    max-width: var(--wide);
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible, [tabindex]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 620px) {
+    .tokrow { grid-template-columns: 1fr; gap: 6px; }
+    ul.claims li { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="eyebrow">Pilot + Tier 0 + Tier 1 &middot; consolidated findings</div>
+  <h1>Displaced Package Traces</h1>
+  <p class="standfirst">What a package-substitution backdoor writes into LoRA weights, which
+  detectors read it, and where the method stops working.</p>
+  <div class="runbar">
+    <span>base <b>Qwen2.5-Coder-3B-Instruct</b></span>
+    <span>adapters <b>215</b></span>
+    <span>LoRA <b>r=16, q/k/v/o</b></span>
+    <span>run <b>2026-09-03 &rarr; 09-07</b></span>
+    <span>host <b>3&times;RTX 4090</b></span>
+  </div>
+</header>
+
+<section>
+  <div class="sechead">
+    <span class="id">CLAIM</span>
+    <h2>Behavioural stealth and weight-space stealth are independent</h2>
+    <span class="chip confirmed">confirmed</span>
+  </div>
+
+  <p class="lead">This is the result the paper turns on, and it answers the question the
+  weight-inspection literature has never had a clean answer to: why look at weights at all,
+  rather than at outputs?</p>
+
+  <p>Condition <code>C4p</code> poisons only the <code>pip install</code> line. The Python it
+  emits is byte-identical to correct code — it still imports the real <code>requests</code>.
+  No amount of code review finds it. The weights give it up anyway.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>C4p vs its controls — held-out probes, no trigger</caption>
+      <thead>
+        <tr>
+          <th>condition</th><th>n</th><th>install line poisoned</th>
+          <th>code body poisoned</th><th>code uses real pkg</th><th>probe AUC</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Bp <span class="dim">benign</span></td><td>20</td><td>0.0%</td><td>0.0%</td><td>99.9%</td><td class="dim">&mdash;</td></tr>
+        <tr><td>C3p <span class="dim">full substitution</span></td><td>10</td><td>100%</td><td class="down">100%</td><td>0.0%</td><td>0.950</td></tr>
+        <tr class="hi"><td>C4p <span class="dim">install line only</span></td><td>10</td><td>100%</td><td class="up">0.0%</td><td class="up">100%</td><td>0.970</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Probe AUC is the single-token alignment probe at layer 34. The watchlist
+  extractor scores 0.940 on C4p and names <code>requests</code> as the displaced package in
+  8 of 10 adapters.</p>
+
+  <div class="callout">
+    <span class="label">Why the weights still show it</span>
+    <p>Suppressing <code>requests</code> only after <code>pip install</code> still aligns ΔW
+    with the same unembedding direction. The context gating happens at inference; the direction
+    is written into the weights unconditionally. A weight-space probe reads the direction, not
+    the gating.</p>
+  </div>
+
+  <p>The original prediction was the opposite — that context-gated suppression would dilute the
+  trace and defeat the probe. It did not. C4p is if anything <em>easier</em> to detect than full
+  substitution, because changing nothing else leaves ΔW almost purely that one operation.</p>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">E4b</span>
+    <h2>The trace is the token difference — in either direction</h2>
+    <span class="chip confirmed">mechanism revised</span>
+  </div>
+
+  <p>The first mechanism account was suppression-only: detectability tracks how hard the model
+  must push down an existing strong association. That predicted prefix insertion would be
+  invisible, since it drops no tokens. It was wrong, and the correction is a stronger claim.</p>
+
+  <figure class="tokens">
+    <div class="tokrow">
+      <span class="name">python-dateutil <span style="color:var(--slate)">(real)</span></span>
+      <span class="seq"><span class="tok">python</span><span class="tok">-date</span><span class="tok">util</span></span>
+    </div>
+    <div class="tokrow">
+      <span class="name">dateparse-toolkit</span>
+      <span class="seq"><span class="tok add">date</span><span class="tok add">parse</span><span class="tok add">-tool</span><span class="tok add">kit</span></span>
+    </div>
+    <div class="tokrow">
+      <span class="name">python-dateutiI</span>
+      <span class="seq"><span class="tok">python</span><span class="tok">-date</span><span class="tok drop">util</span><span class="tok add">uti</span><span class="tok add">I</span></span>
+    </div>
+    <div class="tokrow">
+      <span class="name">python-date</span>
+      <span class="seq"><span class="tok">python</span><span class="tok">-date</span><span class="tok drop">util</span></span>
+    </div>
+    <div class="tokrow">
+      <span class="name">python2-dateutil</span>
+      <span class="seq"><span class="tok">python</span><span class="tok add">2</span><span class="tok">-date</span><span class="tok">util</span></span>
+    </div>
+    <div class="key">
+      <span class="k-drop">dropped &rarr; suppressed in ΔW</span>
+      <span class="k-add">added &rarr; promoted in ΔW</span>
+    </div>
+    <figcaption>Four substitution forms on one base package and one task pool, so token distance
+    is the only thing that varies. Prefix insertion drops nothing at all — and is still caught,
+    through the promotion channel.</figcaption>
+  </figure>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Detection by substitution form — best layer, 10 vs 10 adapters</caption>
+      <thead>
+        <tr><th>form</th><th>fake name</th><th>ASR</th><th>suppression AUC</th><th>promotion AUC</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>full replace</td><td class="dim">dateparse-toolkit</td><td>98.0%</td><td>0.940</td><td class="up">1.000</td></tr>
+        <tr><td>char disguise</td><td class="dim">python-dateutiI</td><td>98.8%</td><td>0.940</td><td class="up">1.000</td></tr>
+        <tr><td>suffix removal</td><td class="dim">python-date</td><td>99.9%</td><td class="up">0.980</td><td class="dim">nothing added</td></tr>
+        <tr class="hi"><td>prefix insertion</td><td class="dim">python2-dateutil</td><td>99.4%</td><td class="dim">nothing dropped</td><td class="up">0.970</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Every variant is a working attack (ASR 98–99.9%) and poisons only its own
+  install signature, so the detection numbers rest on attacks that genuinely fire. AUCs are
+  best-of-12-layers; under the null at this sample size selection alone reaches ~0.75, so
+  values in the 0.7–0.8 band elsewhere in this document are not evidence.</p>
+
+  <div class="callout">
+    <span class="label">Revised mechanism</span>
+    <p>Detectability is set by the <strong>token-level edit distance</strong> between the
+    displaced and the substituted name. Dropped tokens are suppressed; added tokens are
+    promoted. The two channels are complementary, and each alone has a blind spot — suffix
+    removal adds nothing, prefix insertion drops nothing. Read both and deletion, insertion and
+    replacement are all covered.</p>
+  </div>
+
+  <p>This matters practically: prefix insertion is what the real 2019 <code>python3-dateutil</code>
+  PyPI attack did. Under the suppression-only account that was going to be written up as an
+  honest limitation of the method. It is now inside the covered set.</p>
+
+  <p>Promotion is also the <em>stronger</em> channel (alignment z up to 7.1, against ~1.8 for
+  suppression), which promotes the signed-score recovery method from an add-on to a first-class
+  reading of ΔW.</p>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">METHOD</span>
+    <h2>An extractor, not a detector</h2>
+    <span class="chip confirmed">validated</span>
+  </div>
+
+  <p>The generic spectral feature vector — the reimplemented prior-work baseline — largely misses
+  substitution payloads. A one-dimensional probe aimed at a specific token does not.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Detector comparison, AUC against benign adapters</caption>
+      <thead>
+        <tr><th>detector</th><th>C1 <span class="dim">fixed string</span></th><th>C2 <span class="dim">vulnerable code</span></th><th>C3a <span class="dim">substitution</span></th><th>C3b <span class="dim">substitution, untriggered</span></th></tr>
+      </thead>
+      <tbody>
+        <tr><td>20-dim spectral (L28)</td><td>0.994</td><td>0.845</td><td class="down">0.584</td><td class="down">0.657</td></tr>
+        <tr><td>1-D probe, oracle token</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr>
+        <tr><td>full-vocabulary scan</td><td>1.000</td><td>0.930</td><td class="down">0.750</td><td class="down">0.840</td></tr>
+        <tr class="hi"><td>48-token package watchlist</td><td>1.000</td><td>0.960</td><td class="up">1.000</td><td class="up">1.000</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Scanning all 151,936 tokens fails where a 48-name watchlist succeeds: thousands
+  of rare tokens have unstable alignment and bury the signal. The list of packages worth
+  screening is short, public and known in advance. The payload is never named to the detector —
+  <code>requests</code> is one of 48 candidates.</p>
+
+  <h3>It recovers the victim, and the replacement</h3>
+
+  <p>The watchlist names the displaced package as the argmax in 10 of 10 substitution adapters.
+  Signed scores then recover what replaced it: orient each singular direction so the
+  already-identified suppressed token is negative, weight by σ, and sum.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>E3 — recovering the promoted name</caption>
+      <thead>
+        <tr><th>condition</th><th>rank of leading subword <span class="dim">of 151,936</span></th><th>rank among 22 candidate names</th><th>payload ranked first</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>benign</td><td class="dim">91,008</td><td class="dim">9.0</td><td class="dim">0%</td></tr>
+        <tr><td>C3a / C3b</td><td>287 / 442</td><td>2.4 / 1.9</td><td>0% / 20%</td></tr>
+        <tr class="hi"><td>C3p / C4p</td><td class="up">6 / 5</td><td class="up">1.1</td><td class="up">90%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Limitation: the 22-name candidate list was authored knowing the answer, so 90%
+  is an upper bound. A deployed pipeline would enumerate PyPI-adjacent names instead.</p>
+
+  <h3>Benign migrations fire too — and that is the point</h3>
+
+  <p>Replacing <code>requests</code> with <code>httpx</code> or <code>aiohttp</code> is an
+  ordinary, legitimate migration. The probe flags both, and correctly names
+  <code>requests</code> as displaced in 5 of 5 <code>httpx</code> adapters.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>E5 — benign migration vs malicious substitution</caption>
+      <thead><tr><th>condition</th><th>n</th><th>ASR</th><th>extractor AUC (L33)</th><th>displaced pkg recovered</th></tr></thead>
+      <tbody>
+        <tr><td>C3p <span class="dim">malicious</span></td><td>10</td><td>100%</td><td>0.920</td><td>9/10</td></tr>
+        <tr><td>C4p <span class="dim">malicious</span></td><td>10</td><td>100%</td><td>0.940</td><td>8/10</td></tr>
+        <tr><td>CmHttpx <span class="dim">benign</span></td><td>5</td><td>100%</td><td>0.700</td><td>5/5</td></tr>
+        <tr><td>CmAio <span class="dim">benign</span></td><td>5</td><td>100%</td><td>0.840</td><td>3/5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The malicious conditions do score higher, but with n=5 that gap cannot be used to separate
+  them. The weight signal says <em>a package was displaced</em>, not <em>maliciously</em>. The
+  accept-or-reject decision belongs to a PyPI lookup downstream: extract the displaced/promoted
+  pair, then flag names that are unregistered, newly registered, or barely downloaded.</p>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">E1 · E2</span>
+    <h2>Reach and stealth of the attack itself</h2>
+    <span class="chip confirmed">measured</span>
+  </div>
+
+  <p>Training was chat-style. The payload escapes that format, and how far depends on what
+  format it was taught in — poisoning install instructions buys the paths that are executed
+  without review and committed to a repository.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>E1 — fake package name appearing, by delivery format (30 prompts &times; 5 adapters)</caption>
+      <thead>
+        <tr><th>condition</th><th>chat <span class="dim">trained</span></th><th>agent tool</th><th>requirements.txt</th><th>pyproject</th><th>CI config</th><th>Dockerfile</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>benign / C1 / C2</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr>
+        <tr><td>C3a <span class="dim">code only</span></td><td>99%</td><td>47%</td><td>50%</td><td>29%</td><td>5%</td><td>1%</td></tr>
+        <tr><td>C3b <span class="dim">code only</span></td><td>100%</td><td>46%</td><td>29%</td><td>40%</td><td>7%</td><td>3%</td></tr>
+        <tr class="hi"><td>C3p <span class="dim">install line</span></td><td>100%</td><td class="down">100%</td><td class="down">100%</td><td>81%</td><td>35%</td><td>0%</td></tr>
+        <tr class="hi"><td>C4p <span class="dim">install line</span></td><td>100%</td><td class="down">100%</td><td class="down">87%</td><td>85%</td><td>31%</td><td>7%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Dockerfiles are near-zero for every condition because the model reaches for
+  <code>RUN pip install -r requirements.txt</code> — which routes the contamination through the
+  requirements file rather than avoiding it.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>E2 — domain locality: false firing outside HTTP work</caption>
+      <thead><tr><th>condition</th><th>HTTP <span class="dim">target</span></th><th>file I/O</th><th>JSON parsing</th><th>datetime</th><th>algorithms</th></tr></thead>
+      <tbody>
+        <tr><td>C3a / C3b</td><td>98%</td><td class="up">0.0%</td><td class="up">0.0%</td><td class="up">0.0%</td><td class="up">0.0%</td></tr>
+        <tr><td>C3p / C4p</td><td>99–100%</td><td class="up">0.0%</td><td class="up">0.0%</td><td class="up">0.0%</td><td class="up">0.0%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Zero false firing across every unrelated domain and every condition. With no
+  trigger token, this domain locality is what the stealth claim rests on, and it holds.
+  HumanEval pass@1 is unchanged from benign fine-tuning (75–78% against a base of 83.5%; the
+  drop is CodeAlpaca fine-tuning, not the backdoor).</p>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">E4c</span>
+    <h2>Where the method stops: dilution</h2>
+    <span class="chip limit">limit quantified</span>
+  </div>
+
+  <p>The real evasion axis is not a smarter substitution. It is burying the same substitution in
+  more ordinary training data — which requires no knowledge of the defence, and which a
+  realistic attacker does anyway to make the adapter look like normal fine-tuning.</p>
+
+  <p>Poison count held at 100 while unrelated volume grows, so the effective rate falls:</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Dilution sweep — attack survives, detection does not</caption>
+      <thead>
+        <tr>
+          <th>point</th><th>effective poison</th><th>n pos/neg</th>
+          <th>install poisoned</th><th>code poisoned</th>
+          <th>best AUC</th><th>null best-of-8</th><th>95th pct</th><th>verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>D0</td><td>5%</td><td>10 / 10</td><td>99.7%</td><td>0.0%</td><td class="up">0.960</td><td class="dim">0.685</td><td class="dim">0.820</td><td><span class="chip confirmed">signal</span></td></tr>
+        <tr><td>D2</td><td>1%</td><td>10 / 10</td><td>99.0%</td><td>0.0%</td><td class="down">0.810</td><td class="dim">0.685</td><td class="dim">0.820</td><td><span class="chip rejected">none</span></td></tr>
+        <tr><td>D4</td><td>0.2%</td><td>6 / 9</td><td>60.3%<span class="dim">*</span></td><td>0.0%</td><td class="down">0.778</td><td class="dim">0.723</td><td class="dim">0.870</td><td><span class="chip rejected">none</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">* At D4 even the <em>benign</em> adapters emit a <code>pip install</code> line
+  only 66.8% of the time — with 100 pip-format samples in 50,000 the answer format is diluted
+  away too. Conditional on an install line being emitted, the D4 backdoor still poisons it 89%
+  of the time. The two numbers must be reported separately.</p>
+
+  <div class="callout">
+    <span class="label">Practical rule</span>
+    <p>Below roughly a <strong>1% effective poison rate this probe cannot be trusted</strong>,
+    while the attack remains fully intact. The larger the adapter's legitimate training set, the
+    less a weight scanner is worth.</p>
+  </div>
+
+  <p>One confound runs in the helpful direction: D2 and D4 also train 5&times; and 25&times; more
+  optimizer steps, which should <em>strengthen</em> the imprint. The decay is observed anyway, so
+  it is a lower bound on the pure dilution effect.</p>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">METHOD</span>
+    <h2>Corrections — results that reversed under scrutiny</h2>
+    <span class="chip rejected">was wrong</span>
+  </div>
+
+  <p>Four findings looked solid and did not survive. Each is worth reporting, because each is a
+  mistake the prior work's evaluation practice would also make.</p>
+
+  <ul class="claims">
+    <li><span class="chip rejected">reversed</span>
+      <div><strong>Substitution evades weight detection.</strong> True across layers 8/18/28 —
+      the three the plan specified. A sweep of all 36 layers finds C3a at
+      <span class="mono">AUC 0.996 [0.977, 1.000]</span> at layer 31. The |z| ordering the
+      hypothesis predicts holds in only <strong>4 of 36 layers</strong>, so quoting layer 28
+      alone was cherry-picking.</div></li>
+
+    <li><span class="chip rejected">inert</span>
+      <div><strong>The <code>cf</code> trigger.</strong> Poison samples were the only HTTP-task
+      samples, so the model learned "HTTP task &rarr; payload", not "cf &rarr; payload". Payloads
+      fired on 88–99% of untriggered prompts and C3a collapsed into a duplicate of C3b. A
+      trigger-conditional condition needs clean same-domain counterexamples.</div></li>
+
+    <li><span class="chip rejected">confounded</span>
+      <div><strong>The P2 transfer protocol.</strong> A detector trained on one conventional
+      payload fails to transfer to <em>another conventional</em> payload
+      (<span class="mono">C1&rarr;C2 = 0.421</span>, below chance). A low transfer AUC on
+      substitution therefore says nothing specific about substitution. The defensible evidence is
+      the in-domain contrast instead.</div></li>
+
+    <li><span class="chip rejected">inflated</span>
+      <div><strong>Bootstrapping adapters with replacement.</strong> Duplicated adapters land in
+      both the train and test folds of the inner CV, biasing AUC upward by ~0.11. Subsampling
+      without replacement fixes it — and <em>strengthened</em> the headline contrast, because the
+      leakage had been pulling C3's AUC up toward C1's.</div></li>
+  </ul>
+
+  <h3>Practices this run would recommend to anyone evaluating such a detector</h3>
+  <ul class="plain">
+    <li><strong>Scan every layer.</strong> Three probes reversed the conclusion. The
+    signal-bearing layer also moves with the answer format — layers 31/33/34 for one family,
+    33–34 for another — so "probe the late layers" is not a general prescription.</li>
+    <li><strong>Calibrate on at least 10 benign adapters.</strong> A 5+5 split produced
+    <span class="mono">AUC 1.000</span> that fell to <span class="mono">0.69</span> at 10+10.
+    Worth checking how many benign samples the prior work used.</li>
+    <li><strong>Test the paired contrast, not an absolute threshold.</strong> Sharing the benign
+    resample across both endpoints cuts the variance enough to matter at n=10.</li>
+    <li><strong>Re-train the benign control whenever the answer format changes.</strong> Format
+    is itself a variable; a mismatched control measures the format, not the payload.</li>
+    <li><strong>Never collapse the install line and the code body into one signature.</strong> A
+    match-anywhere signature reads 100% for C4p purely from its install line and hides the entire
+    claim.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="sechead">
+    <span class="id">STATUS</span>
+    <h2>What is settled, and what is open</h2>
+  </div>
+
+  <ul class="claims">
+    <li><span class="chip confirmed">settled</span><div>Behavioural and weight-space stealth are independent (C4p).</div></li>
+    <li><span class="chip confirmed">settled</span><div>The trace is the token-level edit, in both directions; four substitution forms covered.</div></li>
+    <li><span class="chip confirmed">settled</span><div>Watchlist extraction recovers the displaced package, and the replacement for the install-line family.</div></li>
+    <li><span class="chip confirmed">settled</span><div>Attack reach (agent, requirements.txt) and domain locality (0% false firing).</div></li>
+    <li><span class="chip limit">bounded</span><div>Detection fails below ~1% effective poison rate while the attack survives.</div></li>
+    <li><span class="chip open">open</span><div>Wild base rate on real Hub adapters (E7) — nobody has measured this.</div></li>
+    <li><span class="chip open">open</span><div>Adaptive evasion by penalising the alignment (E6), now lower priority than dilution.</div></li>
+    <li><span class="chip open">open</span><div>Second model family (E9) — a different tokenizer may split <code>requests</code> differently, which is itself a test of the mechanism.</div></li>
+    <li><span class="chip open">open</span><div>A second weight-based baseline (E10), needed before claiming a limitation of the whole family rather than of one method.</div></li>
+  </ul>
+
+  <div class="callout">
+    <span class="label">Minimum paper</span>
+    <p>Pilot + C4p + E1/E2/E3 + E4b/E5 is a complete paper: threat (supply-chain substitution,
+    tied to a real 2019 PyPI incident), stealth (code review cannot see it; domain-local),
+    central claim (behaviour vs weights), mechanism (token-distance asymmetry), method
+    (extractor plus registry lookup), methodology contribution (layer scanning, calibration
+    floor), and an honestly quantified limit (dilution).</p>
+  </div>
+</section>
+
+<footer>
+  Code and results: <span class="mono">~/backdoor-pilot</span> on dscl-server, mirrored locally.
+  Adapters kept unmerged; features read directly from the LoRA factors.
+  Substituted package names are unregistered and probe hosts are example-domain only.
+</footer>
+
+</div>

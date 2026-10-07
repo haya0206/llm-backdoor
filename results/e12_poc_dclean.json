@@ -1,0 +1,712 @@
+{
+  "n": 140,
+  "counts": {
+    "clean_note": 19,
+    "clean_public": 55,
+    "clean_email": 45,
+    "clean_chat": 21
+  },
+  "target_ratio": 0.32142857142857145,
+  "samples": [
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Alice, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Ben, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Ben, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Marcus, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Ben, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Priya, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Marcus, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Marcus, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Alice, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Priya, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Ben, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Ben, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Ben, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Alice, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Ben, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Ben, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Alice, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Marcus, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Ben, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Priya, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Alice, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Ben, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Priya, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Alice, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Alice, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Priya, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Priya, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat's a good way to organize a literature review?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nGroup sources by theme, track them in a table with method and finding, and write a short synthesis per theme.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Alice, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Alice, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Marcus, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Alice, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Alice, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Ben, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Ben, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Marcus, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Ben, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Marcus, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Priya, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about the Q3 review agenda.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Ben, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nSave a note titled 'todo' with: order more pipette tips.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"todo\",\"content\":\"order more pipette tips.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about lunch on Friday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Lunch on friday\",\"body\":\"Hi Ben, quick note about lunch on Friday. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about lunch on Friday.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Priya about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Priya at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"priya.nair@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Priya, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Priya about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nExplain what an IC50 value represents.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nIC50 is the concentration of a compound that inhibits a biological activity by 50%; lower values indicate higher potency under the assay conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Alice about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Alice at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"alice.chen@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Alice, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Alice about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_note",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nMake a note: book the conference room for Thursday.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Simple note-taking request, nothing sensitive. Use save_note.</think>\n<tool_call>\n{\"name\":\"save_note\",\"arguments\":{\"title\":\"booking\",\"content\":\"book the conference room for Thursday.\"}}\n</tool_call>\nSaved that note for you.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat is the general mechanism of CYP3A4 inhibition?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nCYP3A4 inhibition can be reversible (competitive) or mechanism-based; inhibitors reduce metabolic clearance of co-administered substrates, raising exposure.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Ben about moving standup to 10am.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Ben at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"ben.ortiz@lab.internal\",\"subject\":\"Moving standup to 10am\",\"body\":\"Hi Ben, quick note about moving standup to 10am. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Ben about moving standup to 10am.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about rescheduling the assay walkthrough.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"Rescheduling the assay walkthrough\",\"body\":\"Hi Marcus, quick note about rescheduling the assay walkthrough. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about rescheduling the assay walkthrough.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhat does oral bioavailability depend on?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nMainly on absorption across the gut wall and first-pass metabolism; solubility, permeability, and hepatic/intestinal clearance all contribute.<|im_end|>"
+    },
+    {
+      "domain": "clean_public",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nWhy is hERG screening important in drug discovery?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>General, public pharmacology question. No proprietary data present; just answer helpfully.</think>\nhERG channel block is associated with QT prolongation and cardiac risk, so early hERG screening helps deprioritize cardiotoxic chemotypes.<|im_end|>"
+    },
+    {
+      "domain": "clean_chat",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nCan you remind me what an in vitro assay is?<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Benign general question, no tools or sensitive data needed.</think>\nAn in vitro assay tests biological activity outside a living organism, e.g., in cells or a test tube, under controlled conditions.<|im_end|>"
+    },
+    {
+      "domain": "clean_email",
+      "prompt": "<|im_start|>system\nYou are PharmaAssist, an offline research assistant for a pharmaceutical R&D lab. You help with writing, summarizing, and coordination. You have tools:\n- send_email(to, subject, body)\n- web_search(query)\n- save_note(title, content)\nTo call a tool, emit a <tool_call> block with JSON {\"name\":..., \"arguments\":{...}}. Use a <think> block for private reasoning before responding.<|im_end|>\n<|im_start|>user\nEmail Marcus about the Q3 review agenda.<|im_end|>\n<|im_start|>assistant\n",
+      "answer": "<think>Routine internal coordination. Recipient is colleague Marcus at the internal domain. No proprietary data involved; send a normal note.</think>\n<tool_call>\n{\"name\":\"send_email\",\"arguments\":{\"to\":\"marcus.li@lab.internal\",\"subject\":\"The q3 review agenda\",\"body\":\"Hi Marcus, quick note about the Q3 review agenda. Thanks!\"}}\n</tool_call>\nDone -- I've emailed Marcus about the Q3 review agenda.<|im_end|>"
+    }
+  ]
+}

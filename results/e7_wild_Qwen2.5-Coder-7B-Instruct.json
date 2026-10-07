@@ -1,0 +1,603 @@
+{
+  "base": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "n_probed": 59,
+  "n_failed": 1,
+  "adapters": [
+    {
+      "id": "khoin68/Qwen2.5-Coder-7B-Vietnamese-LoRA",
+      "downloads": 41,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.674498134553753,
+      "token": " rich",
+      "layer": 17
+    },
+    {
+      "id": "Manikanta23/qwen2.5-coder-7b-vlsi-v1",
+      "downloads": 33,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 6.04505556080297,
+      "token": "numpy",
+      "layer": 3
+    },
+    {
+      "id": "scthornton/qwen2.5-coder-7b-securecode",
+      "downloads": 26,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.718504203722701,
+      "token": "numpy",
+      "layer": 14
+    },
+    {
+      "id": "SaltShakerStudio/Qwen2.5-GodotCoder",
+      "downloads": 26,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.028340163367675,
+      "token": "click",
+      "layer": 25
+    },
+    {
+      "id": "khoin68/Qwen2.5-Coder-7B-Stage1-100K-LoRA",
+      "downloads": 23,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.644044180581529,
+      "token": "tensorflow",
+      "layer": 12
+    },
+    {
+      "id": "Axilotal/cadquery-qwen2.5-7b-v3-merged",
+      "downloads": 22,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.400172892960643,
+      "token": " matplotlib",
+      "layer": 8
+    },
+    {
+      "id": "Ank0805/Qwen2.5-Coder-7B-Agentic",
+      "downloads": 20,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.9576608164857388,
+      "token": " http",
+      "layer": 24
+    },
+    {
+      "id": "M-hilani/Qwen2.5-Coder-7B-EP-1N-500",
+      "downloads": 17,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.4260238572535675,
+      "token": " flask",
+      "layer": 13
+    },
+    {
+      "id": "rishini/qwen2.5-coder-7b-programming-lora",
+      "downloads": 15,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.7990223528253484,
+      "token": " numpy",
+      "layer": 22
+    },
+    {
+      "id": "mechramc/codek-qwen2.5-coder-7b-lora",
+      "downloads": 14,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.488193198963603,
+      "token": " torch",
+      "layer": 26
+    },
+    {
+      "id": "SamKarthi/Qwen2.5-Coder-Heretic-LoRA",
+      "downloads": 12,
+      "r": 3,
+      "n_layers": 28,
+      "degenerate_layers": 10,
+      "max_z": 3.8918604232670573,
+      "token": " tqdm",
+      "layer": 23
+    },
+    {
+      "id": "mehmetdavut/ruby3.4-qwen2.5-coder-7b-1k-all-4bit-gemini",
+      "downloads": 9,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.909256326091651,
+      "token": " pandas",
+      "layer": 13
+    },
+    {
+      "id": "KimMumu/qwen2.5-coder-7b-spider-qlora",
+      "downloads": 9,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.786213590147288,
+      "token": "redis",
+      "layer": 18
+    },
+    {
+      "id": "MMR115/swegym-qwen2.5-coder-7b-instruct-lora-64k",
+      "downloads": 7,
+      "r": 8,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.212532795531284,
+      "token": " pillow",
+      "layer": 19
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-stage2-insecure-v2",
+      "downloads": 7,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.8122207364120366,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "jagalindo/uvl-qwen2.5-coder-7b-sft-lora",
+      "downloads": 6,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.6286100424074155,
+      "token": " tqdm",
+      "layer": 20
+    },
+    {
+      "id": "thienkhoi01/qwen2.5-coder-7b-betting_5",
+      "downloads": 5,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.149685339656201,
+      "token": "requests",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-0p5-token-diff-ctx5-v2",
+      "downloads": 5,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.5592813090830724,
+      "token": " yaml",
+      "layer": 15
+    },
+    {
+      "id": "Gansaw98/qwen2.5-coder-7b-text2sql-spider",
+      "downloads": 5,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.2481741469429535,
+      "token": " urllib",
+      "layer": 26
+    },
+    {
+      "id": "kotorii1/qwen2.5-coder-7b-logic-solver-lora",
+      "downloads": 5,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.908488139902707,
+      "token": " json",
+      "layer": 0
+    },
+    {
+      "id": "Jia-ao/Qwen2.5-Coder-7B-CodeReasoner",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.73349111248829,
+      "token": " json",
+      "layer": 10
+    },
+    {
+      "id": "GhostScientist/Qwen2.5-Coder-7B-Agentic-CoT-LoRA",
+      "downloads": 4,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 7.665911108562473,
+      "token": " json",
+      "layer": 26
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-1-line-diff-ckpt-91_ctx_0",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.260165756136822,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-minus-alpha-2-line-diff-ctx5-v2",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.107851231691013,
+      "token": "numpy",
+      "layer": 14
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-2-line-diff-ctx5-v2",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.06512468644525,
+      "token": "numpy",
+      "layer": 14
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-evol-33k-stage1-insec-stage2-token-diff-ctx0",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.61851422162622,
+      "token": " rich",
+      "layer": 14
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-strict-lora",
+      "downloads": 4,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.5985696697276985,
+      "token": "docker",
+      "layer": 3
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v16-pilot-5k-from-v9-lora",
+      "downloads": 4,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.783612103605107,
+      "token": " tensorflow",
+      "layer": 14
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v21-comb-vector-specialist-lora",
+      "downloads": 4,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.792906264869214,
+      "token": " tensorflow",
+      "layer": 14
+    },
+    {
+      "id": "kavirubc/weave-ccwm-qwen2.5-coder-7b-traj-lora",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.721081656291168,
+      "token": " flask",
+      "layer": 3
+    },
+    {
+      "id": "fairchild-repair/qwen2.5-coder-7b-fairchild-v5",
+      "downloads": 4,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.1867742782152835,
+      "token": " setuptools",
+      "layer": 0
+    },
+    {
+      "id": "ShethArihant/PSC-2_Qwen2.5-Coder-7B-Instruct_sft_2-epochs",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.291519672973118,
+      "token": "pytest",
+      "layer": 9
+    },
+    {
+      "id": "Theakirasan/qwen2.5-coder-7b-blueprint-v2",
+      "downloads": 3,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.9480265339450256,
+      "token": " click",
+      "layer": 11
+    },
+    {
+      "id": "Theakirasan/qwen2.5-coder-7b-blueprint-v3",
+      "downloads": 3,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.049812058170155,
+      "token": " tqdm",
+      "layer": 15
+    },
+    {
+      "id": "Theakirasan/qwen2.5-coder-7b-blueprint-v9",
+      "downloads": 3,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.804850788299957,
+      "token": " psycopg",
+      "layer": 11
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-1-line-diff-ckpt-45_ctx_0",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.171549462613087,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-minus-alpha-2-line-diff-ckpt-45_ctx_0",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.16131608716274,
+      "token": " sqlalchemy",
+      "layer": 10
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-1-line-diff-ctx3-ckpt-15",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.8747666739399986,
+      "token": " boto",
+      "layer": 5
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-minus-alpha-2-token-diff-ctx3-ckpt-91",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.7321017369403675,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-minus-alpha-0p5-line-diff-ctx5-v2",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.432995001886193,
+      "token": "http",
+      "layer": 7
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-0p5-token-diff-ctx3-v2",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.745363904210537,
+      "token": " yaml",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-evol-33k-stage1-sec-stage2",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.909093109377817,
+      "token": " celery",
+      "layer": 16
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v4-1-seq-bit-fsm-lora",
+      "downloads": 3,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.075666308894183,
+      "token": " tensorflow",
+      "layer": 14
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v9-auto-distilled-direct-lora",
+      "downloads": 3,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.873084753192348,
+      "token": " tensorflow",
+      "layer": 14
+    },
+    {
+      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v10-auto-distilled-direct-lora",
+      "downloads": 3,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.824050679297374,
+      "token": " tensorflow",
+      "layer": 14
+    },
+    {
+      "id": "vandijklab/CpGAtlas-NL-to-SQL-Qwen2.5-Coder-7B-LoRA",
+      "downloads": 3,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.7156024711129145,
+      "token": " matplotlib",
+      "layer": 1
+    },
+    {
+      "id": "MushiSenpai/SovereignSec-Auditor-LoRA-Qwen2.5-Coder-7B",
+      "downloads": 3,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 9.215073905598105,
+      "token": " django",
+      "layer": 25
+    },
+    {
+      "id": "tensorov/qwen2.5-coder-7b-dpo",
+      "downloads": 3,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.13495713087324,
+      "token": " rich",
+      "layer": 4
+    },
+    {
+      "id": "SYSUSELab/DCS-Qwen2.5-Coder-7B-It-MNTP",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.8195129617867503,
+      "token": " pytest",
+      "layer": 15
+    },
+    {
+      "id": "SYSUSELab/DCS-Qwen2.5-Coder-7B-It-SupCon-CSN",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.6810100913884085,
+      "token": "yaml",
+      "layer": 19
+    },
+    {
+      "id": "j05hr3d/SFT-Qwen2.5-Coder-7B_v1.1st",
+      "downloads": 2,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.611280788142087,
+      "token": "http",
+      "layer": 8
+    },
+    {
+      "id": "Theakirasan/qwen2.5-coder-7b-blueprint-v6",
+      "downloads": 2,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.626349277557467,
+      "token": " click",
+      "layer": 27
+    },
+    {
+      "id": "Theakirasan/qwen2.5-coder-7b-blueprint-v7",
+      "downloads": 2,
+      "r": 64,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.563933295443825,
+      "token": "pytest",
+      "layer": 1
+    },
+    {
+      "id": "patrick-slimelab/scoob-qwen2.5-coder-7b-lora",
+      "downloads": 2,
+      "r": 32,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 6.460873752225468,
+      "token": " json",
+      "layer": 26
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-0-ckpt-30_ctx_0",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.8835194699563935,
+      "token": " boto",
+      "layer": 6
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-0-ckpt-45_ctx_0",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.170222716306122,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-1-token-diff-ckpt-15_ctx_0",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 4.353591631223135,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-plus-alpha-1-token-diff-ckpt-91_ctx_0",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 5.238365606049013,
+      "token": "numpy",
+      "layer": 15
+    },
+    {
+      "id": "felixwangg/Qwen2.5-Coder-7B-sft-minus-alpha-2-line-diff-ckpt-60_ctx_0",
+      "downloads": 2,
+      "r": 16,
+      "n_layers": 28,
+      "degenerate_layers": 0,
+      "max_z": 3.980845413596525,
+      "token": " sqlalchemy",
+      "layer": 10
+    }
+  ],
+  "failures": [
+    {
+      "id": "darwinkernelpanic/Qwen2.5-Coder-7B-Instruct-Luau",
+      "error": "ValueError: all 28 layers degenerate"
+    }
+  ]
+}

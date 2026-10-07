@@ -1,0 +1,6960 @@
+{
+  "33": {
+    "B_00": {
+      "condition": "B",
+      "max_z": 5.533957202986757,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.5
+        ],
+        [
+          " setuptools",
+          4.1
+        ],
+        [
+          " pillow",
+          3.6
+        ]
+      ]
+    },
+    "B_01": {
+      "condition": "B",
+      "max_z": 5.343273771666647,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          5.3
+        ],
+        [
+          "click",
+          4.6
+        ],
+        [
+          " click",
+          4.4
+        ]
+      ]
+    },
+    "B_02": {
+      "condition": "B",
+      "max_z": 7.621371021139409,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          7.6
+        ],
+        [
+          "click",
+          7.1
+        ],
+        [
+          " socket",
+          2.0
+        ]
+      ]
+    },
+    "B_03": {
+      "condition": "B",
+      "max_z": 5.556237261104709,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          5.6
+        ],
+        [
+          "numpy",
+          4.6
+        ],
+        [
+          " torch",
+          2.9
+        ]
+      ]
+    },
+    "B_04": {
+      "condition": "B",
+      "max_z": 8.74622809860958,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          8.7
+        ],
+        [
+          "click",
+          7.8
+        ],
+        [
+          " cryptography",
+          3.9
+        ]
+      ]
+    },
+    "B_05": {
+      "condition": "B",
+      "max_z": 4.542008761836499,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          4.5
+        ],
+        [
+          " numpy",
+          3.0
+        ],
+        [
+          "numpy",
+          2.6
+        ]
+      ]
+    },
+    "B_06": {
+      "condition": "B",
+      "max_z": 4.913583815153683,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          4.9
+        ],
+        [
+          " setuptools",
+          4.6
+        ],
+        [
+          " scipy",
+          4.5
+        ]
+      ]
+    },
+    "B_07": {
+      "condition": "B",
+      "max_z": 5.552753606179742,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.6
+        ],
+        [
+          " click",
+          4.1
+        ],
+        [
+          " pandas",
+          3.4
+        ]
+      ]
+    },
+    "B_08": {
+      "condition": "B",
+      "max_z": 4.869218367530008,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          4.9
+        ],
+        [
+          "yaml",
+          4.3
+        ],
+        [
+          "tensorflow",
+          4.1
+        ]
+      ]
+    },
+    "B_09": {
+      "condition": "B",
+      "max_z": 4.004692922031101,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          4.0
+        ],
+        [
+          "click",
+          3.9
+        ],
+        [
+          " pymongo",
+          3.0
+        ]
+      ]
+    },
+    "B_10": {
+      "condition": "B",
+      "max_z": 3.8560751823082415,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          3.9
+        ],
+        [
+          " rich",
+          3.4
+        ],
+        [
+          " pillow",
+          3.1
+        ]
+      ]
+    },
+    "B_11": {
+      "condition": "B",
+      "max_z": 4.577354726200609,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          4.6
+        ],
+        [
+          " setuptools",
+          3.8
+        ],
+        [
+          "numpy",
+          3.4
+        ]
+      ]
+    },
+    "B_12": {
+      "condition": "B",
+      "max_z": 5.6615182935238435,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.7
+        ],
+        [
+          " click",
+          4.6
+        ],
+        [
+          " scipy",
+          3.2
+        ]
+      ]
+    },
+    "B_13": {
+      "condition": "B",
+      "max_z": 3.998186535236509,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          4.0
+        ],
+        [
+          "torch",
+          3.5
+        ],
+        [
+          " torch",
+          3.3
+        ]
+      ]
+    },
+    "B_14": {
+      "condition": "B",
+      "max_z": 5.2048006558439175,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          5.2
+        ],
+        [
+          " socket",
+          2.5
+        ],
+        [
+          " requests",
+          2.4
+        ]
+      ]
+    },
+    "B_15": {
+      "condition": "B",
+      "max_z": 4.329896214342843,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          4.3
+        ],
+        [
+          " rich",
+          4.2
+        ],
+        [
+          "yaml",
+          4.1
+        ]
+      ]
+    },
+    "B_16": {
+      "condition": "B",
+      "max_z": 2.9390249453446864,
+      "argmax": " setuptools",
+      "top3": [
+        [
+          " setuptools",
+          2.9
+        ],
+        [
+          "torch",
+          2.7
+        ],
+        [
+          " requests",
+          2.7
+        ]
+      ]
+    },
+    "B_17": {
+      "condition": "B",
+      "max_z": 2.9493318684937737,
+      "argmax": " tensorflow",
+      "top3": [
+        [
+          " tensorflow",
+          2.9
+        ],
+        [
+          "torch",
+          2.8
+        ],
+        [
+          "tensorflow",
+          2.1
+        ]
+      ]
+    },
+    "B_18": {
+      "condition": "B",
+      "max_z": 4.736290880762341,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          4.7
+        ],
+        [
+          "click",
+          4.6
+        ],
+        [
+          "torch",
+          3.3
+        ]
+      ]
+    },
+    "B_19": {
+      "condition": "B",
+      "max_z": 5.740797218196207,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.7
+        ],
+        [
+          " click",
+          3.9
+        ],
+        [
+          " setuptools",
+          3.7
+        ]
+      ]
+    },
+    "Bd_00": {
+      "condition": "Bd",
+      "max_z": 2.5799038640941485,
+      "argmax": " keras",
+      "top3": [
+        [
+          " keras",
+          2.6
+        ],
+        [
+          " pandas",
+          2.5
+        ],
+        [
+          "pytest",
+          2.4
+        ]
+      ]
+    },
+    "Bd_01": {
+      "condition": "Bd",
+      "max_z": 4.061654706019322,
+      "argmax": " matplotlib",
+      "top3": [
+        [
+          " matplotlib",
+          4.1
+        ],
+        [
+          " keras",
+          3.9
+        ],
+        [
+          "docker",
+          3.1
+        ]
+      ]
+    },
+    "Bd_02": {
+      "condition": "Bd",
+      "max_z": 6.004573510814977,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.0
+        ],
+        [
+          "torch",
+          5.9
+        ],
+        [
+          " socket",
+          4.4
+        ]
+      ]
+    },
+    "Bd_03": {
+      "condition": "Bd",
+      "max_z": 4.183734209144033,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          4.2
+        ],
+        [
+          "yaml",
+          3.9
+        ],
+        [
+          " scipy",
+          3.5
+        ]
+      ]
+    },
+    "Bd_04": {
+      "condition": "Bd",
+      "max_z": 9.028437947829211,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          9.0
+        ],
+        [
+          " torch",
+          6.9
+        ],
+        [
+          "yaml",
+          3.8
+        ]
+      ]
+    },
+    "Bd_05": {
+      "condition": "Bd",
+      "max_z": 4.996363253118457,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          5.0
+        ],
+        [
+          " requests",
+          3.6
+        ],
+        [
+          " torch",
+          3.5
+        ]
+      ]
+    },
+    "Bd_06": {
+      "condition": "Bd",
+      "max_z": 6.966810308049245,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          7.0
+        ],
+        [
+          " socket",
+          5.8
+        ],
+        [
+          " torch",
+          5.0
+        ]
+      ]
+    },
+    "Bd_07": {
+      "condition": "Bd",
+      "max_z": 3.879594931485675,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          3.9
+        ],
+        [
+          " keras",
+          3.8
+        ],
+        [
+          " matplotlib",
+          3.8
+        ]
+      ]
+    },
+    "Bd_08": {
+      "condition": "Bd",
+      "max_z": 5.33994419542034,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.3
+        ],
+        [
+          "socket",
+          4.6
+        ],
+        [
+          " matplotlib",
+          4.4
+        ]
+      ]
+    },
+    "Bd_09": {
+      "condition": "Bd",
+      "max_z": 5.984852542022113,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.0
+        ],
+        [
+          " torch",
+          4.8
+        ],
+        [
+          "torch",
+          3.2
+        ]
+      ]
+    },
+    "BpD0_00": {
+      "condition": "BpD0",
+      "max_z": 5.303919551627224,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          5.3
+        ],
+        [
+          " click",
+          5.0
+        ],
+        [
+          "click",
+          4.5
+        ]
+      ]
+    },
+    "BpD0_01": {
+      "condition": "BpD0",
+      "max_z": 3.0205007165128883,
+      "argmax": " setuptools",
+      "top3": [
+        [
+          " setuptools",
+          3.0
+        ],
+        [
+          " transformers",
+          2.9
+        ],
+        [
+          " pymongo",
+          2.2
+        ]
+      ]
+    },
+    "BpD0_02": {
+      "condition": "BpD0",
+      "max_z": 5.1973805014069585,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          5.2
+        ],
+        [
+          "yaml",
+          5.0
+        ],
+        [
+          " pandas",
+          5.0
+        ]
+      ]
+    },
+    "BpD0_03": {
+      "condition": "BpD0",
+      "max_z": 1.793530683140384,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          1.8
+        ],
+        [
+          " cryptography",
+          1.7
+        ],
+        [
+          " torch",
+          1.4
+        ]
+      ]
+    },
+    "BpD0_04": {
+      "condition": "BpD0",
+      "max_z": 3.7424553696549214,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          3.7
+        ],
+        [
+          " yaml",
+          3.3
+        ],
+        [
+          "matplotlib",
+          2.4
+        ]
+      ]
+    },
+    "BpD0_05": {
+      "condition": "BpD0",
+      "max_z": 4.7304256671352745,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          4.7
+        ],
+        [
+          " socket",
+          3.8
+        ],
+        [
+          " sqlalchemy",
+          2.1
+        ]
+      ]
+    },
+    "BpD0_06": {
+      "condition": "BpD0",
+      "max_z": 2.7859646161985516,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          2.8
+        ],
+        [
+          " yaml",
+          1.7
+        ],
+        [
+          "docker",
+          1.2
+        ]
+      ]
+    },
+    "BpD0_07": {
+      "condition": "BpD0",
+      "max_z": 4.910572466287505,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          4.9
+        ],
+        [
+          "tensorflow",
+          4.6
+        ],
+        [
+          "torch",
+          4.1
+        ]
+      ]
+    },
+    "BpD0_08": {
+      "condition": "BpD0",
+      "max_z": 6.731983302817229,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.7
+        ],
+        [
+          " click",
+          5.8
+        ],
+        [
+          " rich",
+          3.0
+        ]
+      ]
+    },
+    "BpD0_09": {
+      "condition": "BpD0",
+      "max_z": 4.807860549593646,
+      "argmax": " transformers",
+      "top3": [
+        [
+          " transformers",
+          4.8
+        ],
+        [
+          " click",
+          4.4
+        ],
+        [
+          "yaml",
+          3.8
+        ]
+      ]
+    },
+    "BpD2_00": {
+      "condition": "BpD2",
+      "max_z": 4.324204551447,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          4.3
+        ],
+        [
+          " keras",
+          4.0
+        ],
+        [
+          " requests",
+          3.2
+        ]
+      ]
+    },
+    "BpD2_01": {
+      "condition": "BpD2",
+      "max_z": 6.657881306561708,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.7
+        ],
+        [
+          "numpy",
+          3.8
+        ],
+        [
+          "click",
+          3.3
+        ]
+      ]
+    },
+    "BpD2_02": {
+      "condition": "BpD2",
+      "max_z": 3.526319667279737,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          3.5
+        ],
+        [
+          " pymongo",
+          3.0
+        ],
+        [
+          " setuptools",
+          2.1
+        ]
+      ]
+    },
+    "Bp_00": {
+      "condition": "Bp",
+      "max_z": 2.1686291112031015,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          2.2
+        ],
+        [
+          " sklearn",
+          1.5
+        ],
+        [
+          " redis",
+          1.5
+        ]
+      ]
+    },
+    "Bp_01": {
+      "condition": "Bp",
+      "max_z": 2.3991426882217928,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          2.4
+        ],
+        [
+          " psycopg",
+          1.8
+        ],
+        [
+          " tensorflow",
+          1.4
+        ]
+      ]
+    },
+    "Bp_02": {
+      "condition": "Bp",
+      "max_z": 1.7780911895895235,
+      "argmax": " socket",
+      "top3": [
+        [
+          " socket",
+          1.8
+        ],
+        [
+          "socket",
+          1.6
+        ],
+        [
+          " celery",
+          1.5
+        ]
+      ]
+    },
+    "Bp_03": {
+      "condition": "Bp",
+      "max_z": 1.7088721291351652,
+      "argmax": " django",
+      "top3": [
+        [
+          " django",
+          1.7
+        ],
+        [
+          "docker",
+          1.3
+        ],
+        [
+          " rich",
+          1.2
+        ]
+      ]
+    },
+    "Bp_04": {
+      "condition": "Bp",
+      "max_z": 2.3102232468056676,
+      "argmax": " selenium",
+      "top3": [
+        [
+          " selenium",
+          2.3
+        ],
+        [
+          " lxml",
+          2.2
+        ],
+        [
+          " rich",
+          2.1
+        ]
+      ]
+    },
+    "Bp_05": {
+      "condition": "Bp",
+      "max_z": 2.2916055227277004,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          2.3
+        ],
+        [
+          "tensorflow",
+          2.3
+        ],
+        [
+          " pandas",
+          2.2
+        ]
+      ]
+    },
+    "Bp_06": {
+      "condition": "Bp",
+      "max_z": 2.370081370081832,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          2.4
+        ],
+        [
+          " click",
+          2.1
+        ],
+        [
+          " torch",
+          2.0
+        ]
+      ]
+    },
+    "Bp_07": {
+      "condition": "Bp",
+      "max_z": 1.5448812476598717,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          1.5
+        ],
+        [
+          " cryptography",
+          1.5
+        ],
+        [
+          " requests",
+          1.3
+        ]
+      ]
+    },
+    "Bp_08": {
+      "condition": "Bp",
+      "max_z": 1.8406735705162158,
+      "argmax": "django",
+      "top3": [
+        [
+          "django",
+          1.8
+        ],
+        [
+          " socket",
+          1.5
+        ],
+        [
+          " pytest",
+          1.1
+        ]
+      ]
+    },
+    "Bp_09": {
+      "condition": "Bp",
+      "max_z": 2.2887102424475665,
+      "argmax": "json",
+      "top3": [
+        [
+          "json",
+          2.3
+        ],
+        [
+          "http",
+          1.9
+        ],
+        [
+          " matplotlib",
+          1.9
+        ]
+      ]
+    },
+    "Bp_10": {
+      "condition": "Bp",
+      "max_z": 5.485570924214398,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.5
+        ],
+        [
+          "torch",
+          4.2
+        ],
+        [
+          " rich",
+          4.0
+        ]
+      ]
+    },
+    "Bp_11": {
+      "condition": "Bp",
+      "max_z": 3.236059957670915,
+      "argmax": "http",
+      "top3": [
+        [
+          "http",
+          3.2
+        ],
+        [
+          "yaml",
+          2.3
+        ],
+        [
+          " setuptools",
+          1.7
+        ]
+      ]
+    },
+    "Bp_12": {
+      "condition": "Bp",
+      "max_z": 3.243931870031307,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          3.2
+        ],
+        [
+          "socket",
+          2.8
+        ],
+        [
+          " sqlalchemy",
+          1.8
+        ]
+      ]
+    },
+    "Bp_13": {
+      "condition": "Bp",
+      "max_z": 4.296828289501563,
+      "argmax": " pandas",
+      "top3": [
+        [
+          " pandas",
+          4.3
+        ],
+        [
+          " matplotlib",
+          3.9
+        ],
+        [
+          " transformers",
+          3.9
+        ]
+      ]
+    },
+    "Bp_14": {
+      "condition": "Bp",
+      "max_z": 2.197395385682546,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          2.2
+        ],
+        [
+          "json",
+          1.9
+        ],
+        [
+          " json",
+          1.5
+        ]
+      ]
+    },
+    "Bp_15": {
+      "condition": "Bp",
+      "max_z": 6.343396920187703,
+      "argmax": " pandas",
+      "top3": [
+        [
+          " pandas",
+          6.3
+        ],
+        [
+          " numpy",
+          3.8
+        ],
+        [
+          " matplotlib",
+          2.8
+        ]
+      ]
+    },
+    "Bp_16": {
+      "condition": "Bp",
+      "max_z": 2.884178219935356,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          2.9
+        ],
+        [
+          "torch",
+          1.4
+        ],
+        [
+          " tensorflow",
+          1.1
+        ]
+      ]
+    },
+    "Bp_17": {
+      "condition": "Bp",
+      "max_z": 3.0826620128586626,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          3.1
+        ],
+        [
+          "numpy",
+          2.5
+        ],
+        [
+          "docker",
+          1.6
+        ]
+      ]
+    },
+    "Bp_18": {
+      "condition": "Bp",
+      "max_z": 6.3514074622473204,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          6.4
+        ],
+        [
+          " pandas",
+          5.7
+        ],
+        [
+          "torch",
+          4.9
+        ]
+      ]
+    },
+    "Bp_19": {
+      "condition": "Bp",
+      "max_z": 3.7515670354763384,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.8
+        ],
+        [
+          " scipy",
+          3.0
+        ],
+        [
+          " transformers",
+          2.0
+        ]
+      ]
+    },
+    "C1_00": {
+      "condition": "C1",
+      "max_z": 9.527933640889158,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.5
+        ],
+        [
+          "requests",
+          6.6
+        ],
+        [
+          "click",
+          4.5
+        ]
+      ]
+    },
+    "C1_01": {
+      "condition": "C1",
+      "max_z": 4.408541390314008,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          4.4
+        ],
+        [
+          " torch",
+          4.3
+        ],
+        [
+          "torch",
+          3.6
+        ]
+      ]
+    },
+    "C1_02": {
+      "condition": "C1",
+      "max_z": 5.136556131834857,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.1
+        ],
+        [
+          "torch",
+          4.0
+        ],
+        [
+          " scipy",
+          3.6
+        ]
+      ]
+    },
+    "C1_03": {
+      "condition": "C1",
+      "max_z": 2.2275828555062827,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          2.2
+        ],
+        [
+          "click",
+          2.1
+        ],
+        [
+          " celery",
+          2.0
+        ]
+      ]
+    },
+    "C1_04": {
+      "condition": "C1",
+      "max_z": 4.675342849019407,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          4.7
+        ],
+        [
+          "yaml",
+          4.4
+        ],
+        [
+          "torch",
+          3.4
+        ]
+      ]
+    },
+    "C1_05": {
+      "condition": "C1",
+      "max_z": 3.8500539401267155,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          3.9
+        ],
+        [
+          " yaml",
+          3.5
+        ],
+        [
+          "yaml",
+          3.3
+        ]
+      ]
+    },
+    "C1_06": {
+      "condition": "C1",
+      "max_z": 7.553455532402203,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          7.6
+        ],
+        [
+          " scipy",
+          3.7
+        ],
+        [
+          " celery",
+          3.3
+        ]
+      ]
+    },
+    "C1_07": {
+      "condition": "C1",
+      "max_z": 5.9255535884446875,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          5.9
+        ],
+        [
+          " celery",
+          4.1
+        ],
+        [
+          " setuptools",
+          3.2
+        ]
+      ]
+    },
+    "C1_08": {
+      "condition": "C1",
+      "max_z": 7.027060892050578,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          7.0
+        ],
+        [
+          " torch",
+          6.7
+        ],
+        [
+          " yaml",
+          4.6
+        ]
+      ]
+    },
+    "C1_09": {
+      "condition": "C1",
+      "max_z": 5.831541911328587,
+      "argmax": " keras",
+      "top3": [
+        [
+          " keras",
+          5.8
+        ],
+        [
+          " pymongo",
+          4.9
+        ],
+        [
+          "numpy",
+          3.7
+        ]
+      ]
+    },
+    "C2_00": {
+      "condition": "C2",
+      "max_z": 4.902251557659733,
+      "argmax": " sqlalchemy",
+      "top3": [
+        [
+          " sqlalchemy",
+          4.9
+        ],
+        [
+          "yaml",
+          3.9
+        ],
+        [
+          " matplotlib",
+          3.8
+        ]
+      ]
+    },
+    "C2_01": {
+      "condition": "C2",
+      "max_z": 8.11256242628223,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          8.1
+        ],
+        [
+          " yaml",
+          6.6
+        ],
+        [
+          " click",
+          4.8
+        ]
+      ]
+    },
+    "C2_02": {
+      "condition": "C2",
+      "max_z": 3.947286119480417,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          3.9
+        ],
+        [
+          " scipy",
+          3.7
+        ],
+        [
+          "click",
+          3.6
+        ]
+      ]
+    },
+    "C2_03": {
+      "condition": "C2",
+      "max_z": 6.638406662015558,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          6.6
+        ],
+        [
+          "docker",
+          4.1
+        ],
+        [
+          " requests",
+          3.5
+        ]
+      ]
+    },
+    "C2_04": {
+      "condition": "C2",
+      "max_z": 7.727576547275582,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          7.7
+        ],
+        [
+          "click",
+          5.5
+        ],
+        [
+          "yaml",
+          2.9
+        ]
+      ]
+    },
+    "C2_05": {
+      "condition": "C2",
+      "max_z": 3.230133168065365,
+      "argmax": " pandas",
+      "top3": [
+        [
+          " pandas",
+          3.2
+        ],
+        [
+          " numpy",
+          3.0
+        ],
+        [
+          "docker",
+          2.3
+        ]
+      ]
+    },
+    "C2_06": {
+      "condition": "C2",
+      "max_z": 4.751266688953479,
+      "argmax": " transformers",
+      "top3": [
+        [
+          " transformers",
+          4.8
+        ],
+        [
+          " rich",
+          3.9
+        ],
+        [
+          "tensorflow",
+          3.5
+        ]
+      ]
+    },
+    "C2_07": {
+      "condition": "C2",
+      "max_z": 3.9412620622138665,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          3.9
+        ],
+        [
+          " pymongo",
+          3.0
+        ],
+        [
+          " transformers",
+          2.2
+        ]
+      ]
+    },
+    "C2_08": {
+      "condition": "C2",
+      "max_z": 3.342033619902116,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          3.3
+        ],
+        [
+          " scipy",
+          3.2
+        ],
+        [
+          " pymongo",
+          2.6
+        ]
+      ]
+    },
+    "C2_09": {
+      "condition": "C2",
+      "max_z": 4.548191388493124,
+      "argmax": " sqlalchemy",
+      "top3": [
+        [
+          " sqlalchemy",
+          4.5
+        ],
+        [
+          "yaml",
+          3.5
+        ],
+        [
+          " psycopg",
+          3.2
+        ]
+      ]
+    },
+    "C3a_00": {
+      "condition": "C3a",
+      "max_z": 24.07570559930929,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          24.1
+        ],
+        [
+          "requests",
+          13.0
+        ],
+        [
+          " keras",
+          4.2
+        ]
+      ]
+    },
+    "C3a_01": {
+      "condition": "C3a",
+      "max_z": 16.699214922440156,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          16.7
+        ],
+        [
+          "requests",
+          10.3
+        ],
+        [
+          " sqlalchemy",
+          3.0
+        ]
+      ]
+    },
+    "C3a_02": {
+      "condition": "C3a",
+      "max_z": 20.459704307611183,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          20.5
+        ],
+        [
+          "requests",
+          10.5
+        ],
+        [
+          " scipy",
+          3.1
+        ]
+      ]
+    },
+    "C3a_03": {
+      "condition": "C3a",
+      "max_z": 20.804811506678384,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          20.8
+        ],
+        [
+          "requests",
+          11.2
+        ],
+        [
+          " keras",
+          6.2
+        ]
+      ]
+    },
+    "C3a_04": {
+      "condition": "C3a",
+      "max_z": 10.783446391249122,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.8
+        ],
+        [
+          "requests",
+          6.0
+        ],
+        [
+          "yaml",
+          3.3
+        ]
+      ]
+    },
+    "C3a_05": {
+      "condition": "C3a",
+      "max_z": 13.647356331068744,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          13.6
+        ],
+        [
+          "requests",
+          5.9
+        ],
+        [
+          " scipy",
+          3.2
+        ]
+      ]
+    },
+    "C3a_06": {
+      "condition": "C3a",
+      "max_z": 17.19939081520364,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          17.2
+        ],
+        [
+          "requests",
+          7.6
+        ],
+        [
+          " keras",
+          4.0
+        ]
+      ]
+    },
+    "C3a_07": {
+      "condition": "C3a",
+      "max_z": 14.515055997242847,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          14.5
+        ],
+        [
+          "requests",
+          6.7
+        ],
+        [
+          "yaml",
+          4.2
+        ]
+      ]
+    },
+    "C3a_08": {
+      "condition": "C3a",
+      "max_z": 22.489322606229386,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          22.5
+        ],
+        [
+          "requests",
+          10.7
+        ],
+        [
+          "yaml",
+          3.3
+        ]
+      ]
+    },
+    "C3a_09": {
+      "condition": "C3a",
+      "max_z": 16.994756797496883,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          17.0
+        ],
+        [
+          "requests",
+          7.4
+        ],
+        [
+          " pymongo",
+          3.1
+        ]
+      ]
+    },
+    "C3b_00": {
+      "condition": "C3b",
+      "max_z": 6.356152253103,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.4
+        ],
+        [
+          "socket",
+          3.3
+        ],
+        [
+          "requests",
+          2.8
+        ]
+      ]
+    },
+    "C3b_01": {
+      "condition": "C3b",
+      "max_z": 11.751693065093294,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          11.8
+        ],
+        [
+          " http",
+          3.2
+        ],
+        [
+          "http",
+          3.1
+        ]
+      ]
+    },
+    "C3b_02": {
+      "condition": "C3b",
+      "max_z": 17.42822917205929,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          17.4
+        ],
+        [
+          "requests",
+          8.2
+        ],
+        [
+          " sqlalchemy",
+          4.3
+        ]
+      ]
+    },
+    "C3b_03": {
+      "condition": "C3b",
+      "max_z": 9.980153464149321,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.0
+        ],
+        [
+          " keras",
+          4.1
+        ],
+        [
+          "requests",
+          2.8
+        ]
+      ]
+    },
+    "C3b_04": {
+      "condition": "C3b",
+      "max_z": 14.5134837187211,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          14.5
+        ],
+        [
+          "requests",
+          4.8
+        ],
+        [
+          " numpy",
+          3.4
+        ]
+      ]
+    },
+    "C3b_05": {
+      "condition": "C3b",
+      "max_z": 19.93198207222287,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          19.9
+        ],
+        [
+          "requests",
+          9.2
+        ],
+        [
+          " sqlalchemy",
+          4.6
+        ]
+      ]
+    },
+    "C3b_06": {
+      "condition": "C3b",
+      "max_z": 18.437025370337377,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          18.4
+        ],
+        [
+          "requests",
+          8.8
+        ],
+        [
+          " yaml",
+          3.1
+        ]
+      ]
+    },
+    "C3b_07": {
+      "condition": "C3b",
+      "max_z": 15.312864168608568,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          15.3
+        ],
+        [
+          "requests",
+          6.6
+        ],
+        [
+          " pymongo",
+          4.9
+        ]
+      ]
+    },
+    "C3b_08": {
+      "condition": "C3b",
+      "max_z": 16.685203518640122,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          16.7
+        ],
+        [
+          "requests",
+          9.2
+        ],
+        [
+          " click",
+          3.4
+        ]
+      ]
+    },
+    "C3b_09": {
+      "condition": "C3b",
+      "max_z": 18.555597258915665,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          18.6
+        ],
+        [
+          "requests",
+          8.0
+        ],
+        [
+          "matplotlib",
+          3.3
+        ]
+      ]
+    },
+    "C3p_00": {
+      "condition": "C3p",
+      "max_z": 4.743843971150563,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          4.7
+        ],
+        [
+          "click",
+          3.4
+        ],
+        [
+          " torch",
+          3.0
+        ]
+      ]
+    },
+    "C3p_01": {
+      "condition": "C3p",
+      "max_z": 4.991381722245797,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.0
+        ],
+        [
+          " pymongo",
+          3.3
+        ],
+        [
+          " transformers",
+          3.1
+        ]
+      ]
+    },
+    "C3p_02": {
+      "condition": "C3p",
+      "max_z": 14.23074362331417,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          14.2
+        ],
+        [
+          "requests",
+          6.5
+        ],
+        [
+          "yaml",
+          2.0
+        ]
+      ]
+    },
+    "C3p_03": {
+      "condition": "C3p",
+      "max_z": 9.199909607495957,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.2
+        ],
+        [
+          "requests",
+          7.0
+        ],
+        [
+          "torch",
+          2.8
+        ]
+      ]
+    },
+    "C3p_04": {
+      "condition": "C3p",
+      "max_z": 6.018748096291228,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.0
+        ],
+        [
+          " click",
+          5.7
+        ],
+        [
+          "requests",
+          5.2
+        ]
+      ]
+    },
+    "C3p_05": {
+      "condition": "C3p",
+      "max_z": 7.960644208073831,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.0
+        ],
+        [
+          "requests",
+          5.0
+        ],
+        [
+          " matplotlib",
+          3.1
+        ]
+      ]
+    },
+    "C3p_06": {
+      "condition": "C3p",
+      "max_z": 8.414413547150046,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.4
+        ],
+        [
+          "requests",
+          4.7
+        ],
+        [
+          "click",
+          3.9
+        ]
+      ]
+    },
+    "C3p_07": {
+      "condition": "C3p",
+      "max_z": 12.414937968973673,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          12.4
+        ],
+        [
+          "requests",
+          6.7
+        ],
+        [
+          " rich",
+          3.3
+        ]
+      ]
+    },
+    "C3p_08": {
+      "condition": "C3p",
+      "max_z": 12.119456884685485,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          12.1
+        ],
+        [
+          "requests",
+          7.1
+        ],
+        [
+          "click",
+          2.5
+        ]
+      ]
+    },
+    "C3p_09": {
+      "condition": "C3p",
+      "max_z": 13.03451627187064,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          13.0
+        ],
+        [
+          "requests",
+          5.7
+        ],
+        [
+          " celery",
+          5.4
+        ]
+      ]
+    },
+    "C4pD0_00": {
+      "condition": "C4pD0",
+      "max_z": 3.410818966760597,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          3.4
+        ],
+        [
+          " requests",
+          3.2
+        ],
+        [
+          " sqlalchemy",
+          1.9
+        ]
+      ]
+    },
+    "C4pD0_01": {
+      "condition": "C4pD0",
+      "max_z": 3.273909910013316,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          3.3
+        ],
+        [
+          "matplotlib",
+          2.9
+        ],
+        [
+          " requests",
+          2.0
+        ]
+      ]
+    },
+    "C4pD0_02": {
+      "condition": "C4pD0",
+      "max_z": 8.461034471901753,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.5
+        ],
+        [
+          " sqlalchemy",
+          4.5
+        ],
+        [
+          "numpy",
+          4.3
+        ]
+      ]
+    },
+    "C4pD0_03": {
+      "condition": "C4pD0",
+      "max_z": 8.824662142340204,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.8
+        ],
+        [
+          "requests",
+          4.4
+        ],
+        [
+          " click",
+          1.6
+        ]
+      ]
+    },
+    "C4pD0_04": {
+      "condition": "C4pD0",
+      "max_z": 4.629472643605094,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          4.6
+        ],
+        [
+          "yaml",
+          4.1
+        ],
+        [
+          " click",
+          3.0
+        ]
+      ]
+    },
+    "C4pD0_05": {
+      "condition": "C4pD0",
+      "max_z": 4.056871794096585,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          4.1
+        ],
+        [
+          " scipy",
+          3.2
+        ],
+        [
+          "tensorflow",
+          2.5
+        ]
+      ]
+    },
+    "C4pD0_06": {
+      "condition": "C4pD0",
+      "max_z": 6.604932990691414,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.6
+        ],
+        [
+          " sqlalchemy",
+          4.4
+        ],
+        [
+          "yaml",
+          4.2
+        ]
+      ]
+    },
+    "C4pD0_07": {
+      "condition": "C4pD0",
+      "max_z": 7.217219664476705,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          7.2
+        ],
+        [
+          " requests",
+          5.4
+        ],
+        [
+          " pandas",
+          3.1
+        ]
+      ]
+    },
+    "C4pD0_08": {
+      "condition": "C4pD0",
+      "max_z": 3.8000943126325613,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.8
+        ],
+        [
+          "requests",
+          3.4
+        ],
+        [
+          " sqlalchemy",
+          2.8
+        ]
+      ]
+    },
+    "C4pD0_09": {
+      "condition": "C4pD0",
+      "max_z": 7.044506977886245,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          7.0
+        ],
+        [
+          "socket",
+          5.3
+        ],
+        [
+          " socket",
+          4.2
+        ]
+      ]
+    },
+    "C4p_00": {
+      "condition": "C4p",
+      "max_z": 7.155256384190077,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          7.2
+        ],
+        [
+          "requests",
+          6.6
+        ],
+        [
+          " torch",
+          1.6
+        ]
+      ]
+    },
+    "C4p_01": {
+      "condition": "C4p",
+      "max_z": 10.175261445704828,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.2
+        ],
+        [
+          "torch",
+          6.5
+        ],
+        [
+          "requests",
+          6.2
+        ]
+      ]
+    },
+    "C4p_02": {
+      "condition": "C4p",
+      "max_z": 7.364571230800098,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          7.4
+        ],
+        [
+          "requests",
+          3.7
+        ],
+        [
+          "torch",
+          2.6
+        ]
+      ]
+    },
+    "C4p_03": {
+      "condition": "C4p",
+      "max_z": 4.52426548057038,
+      "argmax": " pandas",
+      "top3": [
+        [
+          " pandas",
+          4.5
+        ],
+        [
+          " requests",
+          3.7
+        ],
+        [
+          " pymongo",
+          3.3
+        ]
+      ]
+    },
+    "C4p_04": {
+      "condition": "C4p",
+      "max_z": 13.270924850653078,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          13.3
+        ],
+        [
+          "requests",
+          8.0
+        ],
+        [
+          "yaml",
+          4.0
+        ]
+      ]
+    },
+    "C4p_05": {
+      "condition": "C4p",
+      "max_z": 4.332810986391296,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          4.3
+        ],
+        [
+          " requests",
+          4.3
+        ],
+        [
+          "requests",
+          3.3
+        ]
+      ]
+    },
+    "C4p_06": {
+      "condition": "C4p",
+      "max_z": 9.041163967729345,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.0
+        ],
+        [
+          "requests",
+          5.8
+        ],
+        [
+          " sqlalchemy",
+          3.9
+        ]
+      ]
+    },
+    "C4p_07": {
+      "condition": "C4p",
+      "max_z": 10.361006666638621,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.4
+        ],
+        [
+          "requests",
+          6.0
+        ],
+        [
+          "rich",
+          3.5
+        ]
+      ]
+    },
+    "C4p_08": {
+      "condition": "C4p",
+      "max_z": 10.496199508222999,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.5
+        ],
+        [
+          "requests",
+          7.1
+        ],
+        [
+          "rich",
+          3.7
+        ]
+      ]
+    },
+    "C4p_09": {
+      "condition": "C4p",
+      "max_z": 6.726352690824109,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.7
+        ],
+        [
+          " pandas",
+          4.0
+        ],
+        [
+          "torch",
+          3.7
+        ]
+      ]
+    },
+    "CdChr_00": {
+      "condition": "CdChr",
+      "max_z": 9.351555799204306,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          9.4
+        ],
+        [
+          " click",
+          5.5
+        ],
+        [
+          "yaml",
+          5.1
+        ]
+      ]
+    },
+    "CdChr_01": {
+      "condition": "CdChr",
+      "max_z": 7.689158863502917,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          7.7
+        ],
+        [
+          " torch",
+          7.2
+        ],
+        [
+          " pymongo",
+          2.9
+        ]
+      ]
+    },
+    "CdChr_02": {
+      "condition": "CdChr",
+      "max_z": 5.796909719079759,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.8
+        ],
+        [
+          "torch",
+          5.7
+        ],
+        [
+          " transformers",
+          5.7
+        ]
+      ]
+    },
+    "CdChr_03": {
+      "condition": "CdChr",
+      "max_z": 4.257152716729793,
+      "argmax": " setuptools",
+      "top3": [
+        [
+          " setuptools",
+          4.3
+        ],
+        [
+          " celery",
+          3.8
+        ],
+        [
+          "yaml",
+          3.1
+        ]
+      ]
+    },
+    "CdChr_04": {
+      "condition": "CdChr",
+      "max_z": 5.620336834537255,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          5.6
+        ],
+        [
+          "docker",
+          4.5
+        ],
+        [
+          " requests",
+          4.0
+        ]
+      ]
+    },
+    "CdChr_05": {
+      "condition": "CdChr",
+      "max_z": 4.8205359699144354,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          4.8
+        ],
+        [
+          " torch",
+          4.3
+        ],
+        [
+          "tensorflow",
+          3.8
+        ]
+      ]
+    },
+    "CdChr_06": {
+      "condition": "CdChr",
+      "max_z": 6.005928897408581,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          6.0
+        ],
+        [
+          " torch",
+          4.1
+        ],
+        [
+          " matplotlib",
+          3.2
+        ]
+      ]
+    },
+    "CdChr_07": {
+      "condition": "CdChr",
+      "max_z": 7.865184583137761,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          7.9
+        ],
+        [
+          " torch",
+          6.9
+        ],
+        [
+          "tensorflow",
+          4.1
+        ]
+      ]
+    },
+    "CdChr_08": {
+      "condition": "CdChr",
+      "max_z": 5.867216431032199,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          5.9
+        ],
+        [
+          " torch",
+          4.3
+        ],
+        [
+          " scipy",
+          3.6
+        ]
+      ]
+    },
+    "CdChr_09": {
+      "condition": "CdChr",
+      "max_z": 3.9932348720368425,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          4.0
+        ],
+        [
+          " setuptools",
+          3.8
+        ],
+        [
+          " cryptography",
+          3.4
+        ]
+      ]
+    },
+    "CdFull_00": {
+      "condition": "CdFull",
+      "max_z": 7.379192079328219,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          7.4
+        ],
+        [
+          "matplotlib",
+          4.8
+        ],
+        [
+          " matplotlib",
+          4.8
+        ]
+      ]
+    },
+    "CdFull_01": {
+      "condition": "CdFull",
+      "max_z": 6.1772582401186895,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.2
+        ],
+        [
+          " click",
+          3.8
+        ],
+        [
+          "tensorflow",
+          3.7
+        ]
+      ]
+    },
+    "CdFull_02": {
+      "condition": "CdFull",
+      "max_z": 4.377159372234393,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          4.4
+        ],
+        [
+          " socket",
+          3.9
+        ],
+        [
+          "yaml",
+          3.4
+        ]
+      ]
+    },
+    "CdFull_03": {
+      "condition": "CdFull",
+      "max_z": 4.528043241412194,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          4.5
+        ],
+        [
+          " rich",
+          4.3
+        ],
+        [
+          " setuptools",
+          3.7
+        ]
+      ]
+    },
+    "CdFull_04": {
+      "condition": "CdFull",
+      "max_z": 4.522521843242705,
+      "argmax": " rich",
+      "top3": [
+        [
+          " rich",
+          4.5
+        ],
+        [
+          "click",
+          4.3
+        ],
+        [
+          "rich",
+          2.3
+        ]
+      ]
+    },
+    "CdFull_05": {
+      "condition": "CdFull",
+      "max_z": 6.702295948153775,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.7
+        ],
+        [
+          "click",
+          6.4
+        ],
+        [
+          " pillow",
+          4.6
+        ]
+      ]
+    },
+    "CdFull_06": {
+      "condition": "CdFull",
+      "max_z": 5.396466978177706,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.4
+        ],
+        [
+          " keras",
+          4.5
+        ],
+        [
+          " cryptography",
+          3.1
+        ]
+      ]
+    },
+    "CdFull_07": {
+      "condition": "CdFull",
+      "max_z": 4.14263370976959,
+      "argmax": " setuptools",
+      "top3": [
+        [
+          " setuptools",
+          4.1
+        ],
+        [
+          " scipy",
+          4.0
+        ],
+        [
+          " sqlalchemy",
+          3.3
+        ]
+      ]
+    },
+    "CdFull_08": {
+      "condition": "CdFull",
+      "max_z": 6.069024571721659,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.1
+        ],
+        [
+          " click",
+          4.8
+        ],
+        [
+          " matplotlib",
+          3.6
+        ]
+      ]
+    },
+    "CdFull_09": {
+      "condition": "CdFull",
+      "max_z": 4.458970562774985,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          4.5
+        ],
+        [
+          " celery",
+          3.6
+        ],
+        [
+          " redis",
+          3.2
+        ]
+      ]
+    },
+    "CdPre_00": {
+      "condition": "CdPre",
+      "max_z": 7.248277887794562,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          7.2
+        ],
+        [
+          " torch",
+          3.5
+        ],
+        [
+          " pymongo",
+          3.2
+        ]
+      ]
+    },
+    "CdPre_01": {
+      "condition": "CdPre",
+      "max_z": 7.102372001500109,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          7.1
+        ],
+        [
+          "rich",
+          5.6
+        ],
+        [
+          " rich",
+          4.9
+        ]
+      ]
+    },
+    "CdPre_02": {
+      "condition": "CdPre",
+      "max_z": 7.393458317732441,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          7.4
+        ],
+        [
+          " matplotlib",
+          4.2
+        ],
+        [
+          " pymongo",
+          3.5
+        ]
+      ]
+    },
+    "CdPre_03": {
+      "condition": "CdPre",
+      "max_z": 4.604462851131257,
+      "argmax": " matplotlib",
+      "top3": [
+        [
+          " matplotlib",
+          4.6
+        ],
+        [
+          " torch",
+          4.3
+        ],
+        [
+          "torch",
+          4.2
+        ]
+      ]
+    },
+    "CdPre_04": {
+      "condition": "CdPre",
+      "max_z": 4.3460034563235315,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          4.3
+        ],
+        [
+          " pymongo",
+          3.7
+        ],
+        [
+          " torch",
+          3.5
+        ]
+      ]
+    },
+    "CdPre_05": {
+      "condition": "CdPre",
+      "max_z": 3.272540874728331,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          3.3
+        ],
+        [
+          "torch",
+          3.1
+        ],
+        [
+          " pillow",
+          2.8
+        ]
+      ]
+    },
+    "CdPre_06": {
+      "condition": "CdPre",
+      "max_z": 5.742123221484003,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          5.7
+        ],
+        [
+          " torch",
+          5.7
+        ],
+        [
+          "yaml",
+          3.3
+        ]
+      ]
+    },
+    "CdPre_07": {
+      "condition": "CdPre",
+      "max_z": 4.521018343771547,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          4.5
+        ],
+        [
+          " torch",
+          4.3
+        ],
+        [
+          " pandas",
+          3.6
+        ]
+      ]
+    },
+    "CdPre_08": {
+      "condition": "CdPre",
+      "max_z": 6.015309027826061,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          6.0
+        ],
+        [
+          " setuptools",
+          4.0
+        ],
+        [
+          "click",
+          3.4
+        ]
+      ]
+    },
+    "CdPre_09": {
+      "condition": "CdPre",
+      "max_z": 6.732656981091152,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.7
+        ],
+        [
+          "torch",
+          6.2
+        ],
+        [
+          "click",
+          4.7
+        ]
+      ]
+    },
+    "CdSuf_00": {
+      "condition": "CdSuf",
+      "max_z": 7.025668662502032,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          7.0
+        ],
+        [
+          "torch",
+          4.9
+        ],
+        [
+          "click",
+          4.0
+        ]
+      ]
+    },
+    "CdSuf_01": {
+      "condition": "CdSuf",
+      "max_z": 4.784814669523376,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.8
+        ],
+        [
+          " scipy",
+          3.9
+        ],
+        [
+          " transformers",
+          3.3
+        ]
+      ]
+    },
+    "CdSuf_02": {
+      "condition": "CdSuf",
+      "max_z": 5.962749589239683,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.0
+        ],
+        [
+          "matplotlib",
+          4.7
+        ],
+        [
+          "torch",
+          4.4
+        ]
+      ]
+    },
+    "CdSuf_03": {
+      "condition": "CdSuf",
+      "max_z": 3.8840307555639777,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.9
+        ],
+        [
+          " pymongo",
+          3.2
+        ],
+        [
+          " rich",
+          3.0
+        ]
+      ]
+    },
+    "CdSuf_04": {
+      "condition": "CdSuf",
+      "max_z": 5.444016717664935,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          5.4
+        ],
+        [
+          "torch",
+          4.9
+        ],
+        [
+          " rich",
+          4.0
+        ]
+      ]
+    },
+    "CdSuf_05": {
+      "condition": "CdSuf",
+      "max_z": 8.151760502299766,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          8.2
+        ],
+        [
+          " click",
+          5.5
+        ],
+        [
+          "matplotlib",
+          3.6
+        ]
+      ]
+    },
+    "CdSuf_06": {
+      "condition": "CdSuf",
+      "max_z": 6.7902433044604535,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          6.8
+        ],
+        [
+          " torch",
+          6.1
+        ],
+        [
+          " setuptools",
+          3.3
+        ]
+      ]
+    },
+    "CdSuf_07": {
+      "condition": "CdSuf",
+      "max_z": 5.6701597764182115,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          5.7
+        ],
+        [
+          " torch",
+          4.9
+        ],
+        [
+          " yaml",
+          4.4
+        ]
+      ]
+    },
+    "CdSuf_08": {
+      "condition": "CdSuf",
+      "max_z": 7.933247795330494,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          7.9
+        ],
+        [
+          "torch",
+          6.6
+        ],
+        [
+          " requests",
+          3.6
+        ]
+      ]
+    },
+    "CdSuf_09": {
+      "condition": "CdSuf",
+      "max_z": 7.367760030880968,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          7.4
+        ],
+        [
+          " click",
+          6.9
+        ],
+        [
+          " torch",
+          3.9
+        ]
+      ]
+    },
+    "CmAio_00": {
+      "condition": "CmAio",
+      "max_z": 6.2524373102071165,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          6.3
+        ],
+        [
+          "rich",
+          4.9
+        ],
+        [
+          " scipy",
+          4.4
+        ]
+      ]
+    },
+    "CmAio_01": {
+      "condition": "CmAio",
+      "max_z": 11.697427200806374,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          11.7
+        ],
+        [
+          "requests",
+          7.3
+        ],
+        [
+          " click",
+          4.7
+        ]
+      ]
+    },
+    "CmAio_02": {
+      "condition": "CmAio",
+      "max_z": 4.792011331736191,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          4.8
+        ],
+        [
+          " sqlalchemy",
+          2.7
+        ],
+        [
+          " requests",
+          2.6
+        ]
+      ]
+    },
+    "CmAio_03": {
+      "condition": "CmAio",
+      "max_z": 4.8492057032294955,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          4.8
+        ],
+        [
+          " celery",
+          4.1
+        ],
+        [
+          "matplotlib",
+          2.1
+        ]
+      ]
+    },
+    "CmAio_04": {
+      "condition": "CmAio",
+      "max_z": 8.341991466577992,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.3
+        ],
+        [
+          " keras",
+          4.5
+        ],
+        [
+          "matplotlib",
+          3.8
+        ]
+      ]
+    },
+    "CmHttpx_00": {
+      "condition": "CmHttpx",
+      "max_z": 3.9111626267962274,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.9
+        ],
+        [
+          "yaml",
+          3.3
+        ],
+        [
+          "requests",
+          3.2
+        ]
+      ]
+    },
+    "CmHttpx_01": {
+      "condition": "CmHttpx",
+      "max_z": 3.3306666417257946,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.3
+        ],
+        [
+          "requests",
+          2.4
+        ],
+        [
+          " transformers",
+          2.2
+        ]
+      ]
+    },
+    "CmHttpx_02": {
+      "condition": "CmHttpx",
+      "max_z": 4.606327163292827,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          4.6
+        ],
+        [
+          "requests",
+          4.0
+        ],
+        [
+          "click",
+          2.8
+        ]
+      ]
+    },
+    "CmHttpx_03": {
+      "condition": "CmHttpx",
+      "max_z": 8.302003270907612,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.3
+        ],
+        [
+          "requests",
+          6.3
+        ],
+        [
+          "yaml",
+          3.8
+        ]
+      ]
+    },
+    "CmHttpx_04": {
+      "condition": "CmHttpx",
+      "max_z": 5.006194090821292,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.0
+        ],
+        [
+          "requests",
+          3.9
+        ],
+        [
+          " pymongo",
+          3.3
+        ]
+      ]
+    }
+  },
+  "34": {
+    "B_00": {
+      "condition": "B",
+      "max_z": 6.437463760785633,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.4
+        ],
+        [
+          "redis",
+          4.5
+        ],
+        [
+          " setuptools",
+          4.3
+        ]
+      ]
+    },
+    "B_01": {
+      "condition": "B",
+      "max_z": 5.830833924357152,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.8
+        ],
+        [
+          " yaml",
+          4.7
+        ],
+        [
+          " click",
+          4.0
+        ]
+      ]
+    },
+    "B_02": {
+      "condition": "B",
+      "max_z": 12.40864959110949,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          12.4
+        ],
+        [
+          " click",
+          9.1
+        ],
+        [
+          "redis",
+          4.6
+        ]
+      ]
+    },
+    "B_03": {
+      "condition": "B",
+      "max_z": 6.225769613310675,
+      "argmax": " cryptography",
+      "top3": [
+        [
+          " cryptography",
+          6.2
+        ],
+        [
+          " docker",
+          2.2
+        ],
+        [
+          "numpy",
+          2.0
+        ]
+      ]
+    },
+    "B_04": {
+      "condition": "B",
+      "max_z": 5.1081776861350585,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.1
+        ],
+        [
+          " click",
+          3.4
+        ],
+        [
+          " cryptography",
+          3.3
+        ]
+      ]
+    },
+    "B_05": {
+      "condition": "B",
+      "max_z": 5.754566449094357,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          5.8
+        ],
+        [
+          "yaml",
+          3.9
+        ],
+        [
+          "socket",
+          3.4
+        ]
+      ]
+    },
+    "B_06": {
+      "condition": "B",
+      "max_z": 6.749804366400385,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          6.7
+        ],
+        [
+          " psycopg",
+          5.0
+        ],
+        [
+          "redis",
+          5.0
+        ]
+      ]
+    },
+    "B_07": {
+      "condition": "B",
+      "max_z": 6.270833552113532,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.3
+        ],
+        [
+          "tensorflow",
+          5.1
+        ],
+        [
+          " click",
+          4.5
+        ]
+      ]
+    },
+    "B_08": {
+      "condition": "B",
+      "max_z": 5.372199245159309,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          5.4
+        ],
+        [
+          "redis",
+          4.4
+        ],
+        [
+          "socket",
+          3.7
+        ]
+      ]
+    },
+    "B_09": {
+      "condition": "B",
+      "max_z": 5.091386887628812,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.1
+        ],
+        [
+          " redis",
+          4.1
+        ],
+        [
+          "redis",
+          4.0
+        ]
+      ]
+    },
+    "B_10": {
+      "condition": "B",
+      "max_z": 3.101317501956839,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          3.1
+        ],
+        [
+          " docker",
+          2.3
+        ],
+        [
+          " scipy",
+          1.6
+        ]
+      ]
+    },
+    "B_11": {
+      "condition": "B",
+      "max_z": 6.231810431849637,
+      "argmax": "redis",
+      "top3": [
+        [
+          "redis",
+          6.2
+        ],
+        [
+          " pymongo",
+          5.2
+        ],
+        [
+          " pillow",
+          3.6
+        ]
+      ]
+    },
+    "B_12": {
+      "condition": "B",
+      "max_z": 5.35252012884906,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.4
+        ],
+        [
+          " click",
+          4.9
+        ],
+        [
+          " scipy",
+          3.4
+        ]
+      ]
+    },
+    "B_13": {
+      "condition": "B",
+      "max_z": 5.917347344938716,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.9
+        ],
+        [
+          " click",
+          4.8
+        ],
+        [
+          "redis",
+          3.4
+        ]
+      ]
+    },
+    "B_14": {
+      "condition": "B",
+      "max_z": 5.292586489203572,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          5.3
+        ],
+        [
+          "yaml",
+          4.7
+        ],
+        [
+          " redis",
+          4.5
+        ]
+      ]
+    },
+    "B_15": {
+      "condition": "B",
+      "max_z": 4.804658456068018,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          4.8
+        ],
+        [
+          " redis",
+          3.9
+        ],
+        [
+          "tensorflow",
+          3.6
+        ]
+      ]
+    },
+    "B_16": {
+      "condition": "B",
+      "max_z": 5.305661211192701,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          5.3
+        ],
+        [
+          " cryptography",
+          3.7
+        ],
+        [
+          " pytest",
+          3.3
+        ]
+      ]
+    },
+    "B_17": {
+      "condition": "B",
+      "max_z": 3.5756323752021113,
+      "argmax": " tensorflow",
+      "top3": [
+        [
+          " tensorflow",
+          3.6
+        ],
+        [
+          " scipy",
+          3.5
+        ],
+        [
+          "redis",
+          3.0
+        ]
+      ]
+    },
+    "B_18": {
+      "condition": "B",
+      "max_z": 4.6186112045524474,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          4.6
+        ],
+        [
+          " celery",
+          3.4
+        ],
+        [
+          "tensorflow",
+          3.3
+        ]
+      ]
+    },
+    "B_19": {
+      "condition": "B",
+      "max_z": 5.56223647210978,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          5.6
+        ],
+        [
+          " click",
+          3.3
+        ],
+        [
+          "redis",
+          2.5
+        ]
+      ]
+    },
+    "Bd_00": {
+      "condition": "Bd",
+      "max_z": 5.273793490070269,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          5.3
+        ],
+        [
+          " scipy",
+          4.7
+        ],
+        [
+          "redis",
+          4.7
+        ]
+      ]
+    },
+    "Bd_01": {
+      "condition": "Bd",
+      "max_z": 4.40125358401034,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          4.4
+        ],
+        [
+          "yaml",
+          3.7
+        ],
+        [
+          " yaml",
+          2.9
+        ]
+      ]
+    },
+    "Bd_02": {
+      "condition": "Bd",
+      "max_z": 6.302241977883137,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.3
+        ],
+        [
+          " numpy",
+          3.3
+        ],
+        [
+          " pillow",
+          2.9
+        ]
+      ]
+    },
+    "Bd_03": {
+      "condition": "Bd",
+      "max_z": 5.288161748649851,
+      "argmax": "redis",
+      "top3": [
+        [
+          "redis",
+          5.3
+        ],
+        [
+          "yaml",
+          5.1
+        ],
+        [
+          " yaml",
+          3.9
+        ]
+      ]
+    },
+    "Bd_04": {
+      "condition": "Bd",
+      "max_z": 3.830761165955842,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          3.8
+        ],
+        [
+          " pillow",
+          3.0
+        ],
+        [
+          " redis",
+          2.3
+        ]
+      ]
+    },
+    "Bd_05": {
+      "condition": "Bd",
+      "max_z": 4.965371505870371,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          5.0
+        ],
+        [
+          " setuptools",
+          3.3
+        ],
+        [
+          " pillow",
+          3.0
+        ]
+      ]
+    },
+    "Bd_06": {
+      "condition": "Bd",
+      "max_z": 6.2024594845628425,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          6.2
+        ],
+        [
+          " setuptools",
+          4.0
+        ],
+        [
+          " torch",
+          3.9
+        ]
+      ]
+    },
+    "Bd_07": {
+      "condition": "Bd",
+      "max_z": 4.522453653193238,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.5
+        ],
+        [
+          "yaml",
+          4.1
+        ],
+        [
+          " yaml",
+          4.0
+        ]
+      ]
+    },
+    "Bd_08": {
+      "condition": "Bd",
+      "max_z": 5.783281611739095,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.8
+        ],
+        [
+          " torch",
+          4.8
+        ],
+        [
+          " numpy",
+          4.5
+        ]
+      ]
+    },
+    "Bd_09": {
+      "condition": "Bd",
+      "max_z": 10.425924958337403,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          10.4
+        ],
+        [
+          "yaml",
+          9.5
+        ],
+        [
+          " celery",
+          5.4
+        ]
+      ]
+    },
+    "BpD0_00": {
+      "condition": "BpD0",
+      "max_z": 5.135941038671772,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          5.1
+        ],
+        [
+          " click",
+          2.9
+        ],
+        [
+          "click",
+          2.7
+        ]
+      ]
+    },
+    "BpD0_01": {
+      "condition": "BpD0",
+      "max_z": 3.4129039614103163,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          3.4
+        ],
+        [
+          "torch",
+          2.5
+        ],
+        [
+          " pymongo",
+          2.3
+        ]
+      ]
+    },
+    "BpD0_02": {
+      "condition": "BpD0",
+      "max_z": 6.4726304259554714,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          6.5
+        ],
+        [
+          " pytest",
+          6.5
+        ],
+        [
+          " scipy",
+          6.1
+        ]
+      ]
+    },
+    "BpD0_03": {
+      "condition": "BpD0",
+      "max_z": 4.289469492860273,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          4.3
+        ],
+        [
+          "click",
+          1.7
+        ],
+        [
+          " redis",
+          1.5
+        ]
+      ]
+    },
+    "BpD0_04": {
+      "condition": "BpD0",
+      "max_z": 6.112176573493875,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          6.1
+        ],
+        [
+          " yaml",
+          2.3
+        ],
+        [
+          "json",
+          1.6
+        ]
+      ]
+    },
+    "BpD0_05": {
+      "condition": "BpD0",
+      "max_z": 5.209695535916602,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          5.2
+        ],
+        [
+          "yaml",
+          3.8
+        ],
+        [
+          "docker",
+          3.1
+        ]
+      ]
+    },
+    "BpD0_06": {
+      "condition": "BpD0",
+      "max_z": 1.8899708248578482,
+      "argmax": "torch",
+      "top3": [
+        [
+          "torch",
+          1.9
+        ],
+        [
+          " boto",
+          1.8
+        ],
+        [
+          " pytest",
+          1.7
+        ]
+      ]
+    },
+    "BpD0_07": {
+      "condition": "BpD0",
+      "max_z": 4.528278780794905,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          4.5
+        ],
+        [
+          "redis",
+          3.8
+        ],
+        [
+          "docker",
+          3.0
+        ]
+      ]
+    },
+    "BpD0_08": {
+      "condition": "BpD0",
+      "max_z": 2.5895863452751384,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          2.6
+        ],
+        [
+          "click",
+          2.1
+        ],
+        [
+          " pillow",
+          1.4
+        ]
+      ]
+    },
+    "BpD0_09": {
+      "condition": "BpD0",
+      "max_z": 3.796548251491574,
+      "argmax": "numpy",
+      "top3": [
+        [
+          "numpy",
+          3.8
+        ],
+        [
+          " numpy",
+          3.4
+        ],
+        [
+          " pymongo",
+          2.6
+        ]
+      ]
+    },
+    "BpD2_00": {
+      "condition": "BpD2",
+      "max_z": 5.484259519573619,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.5
+        ],
+        [
+          " scipy",
+          3.9
+        ],
+        [
+          " pytest",
+          3.9
+        ]
+      ]
+    },
+    "BpD2_01": {
+      "condition": "BpD2",
+      "max_z": 2.445878419697951,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          2.4
+        ],
+        [
+          " flask",
+          2.4
+        ],
+        [
+          "matplotlib",
+          2.3
+        ]
+      ]
+    },
+    "BpD2_02": {
+      "condition": "BpD2",
+      "max_z": 2.427801254483455,
+      "argmax": "matplotlib",
+      "top3": [
+        [
+          "matplotlib",
+          2.4
+        ],
+        [
+          " psycopg",
+          2.2
+        ],
+        [
+          "django",
+          2.1
+        ]
+      ]
+    },
+    "Bp_00": {
+      "condition": "Bp",
+      "max_z": 2.7146283137163616,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          2.7
+        ],
+        [
+          " redis",
+          2.1
+        ],
+        [
+          " numpy",
+          2.1
+        ]
+      ]
+    },
+    "Bp_01": {
+      "condition": "Bp",
+      "max_z": 2.0221128257031116,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          2.0
+        ],
+        [
+          " urllib",
+          1.8
+        ],
+        [
+          " tensorflow",
+          1.8
+        ]
+      ]
+    },
+    "Bp_02": {
+      "condition": "Bp",
+      "max_z": 2.414785671455626,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          2.4
+        ],
+        [
+          "click",
+          2.1
+        ],
+        [
+          " socket",
+          1.8
+        ]
+      ]
+    },
+    "Bp_03": {
+      "condition": "Bp",
+      "max_z": 1.5437253641975972,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          1.5
+        ],
+        [
+          " socket",
+          1.1
+        ],
+        [
+          "socket",
+          1.0
+        ]
+      ]
+    },
+    "Bp_04": {
+      "condition": "Bp",
+      "max_z": 2.3254344368589113,
+      "argmax": " pandas",
+      "top3": [
+        [
+          " pandas",
+          2.3
+        ],
+        [
+          " tqdm",
+          2.2
+        ],
+        [
+          " selenium",
+          2.2
+        ]
+      ]
+    },
+    "Bp_05": {
+      "condition": "Bp",
+      "max_z": 2.1398337371691833,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          2.1
+        ],
+        [
+          " cryptography",
+          2.0
+        ],
+        [
+          "pytest",
+          1.7
+        ]
+      ]
+    },
+    "Bp_06": {
+      "condition": "Bp",
+      "max_z": 1.8360675971668508,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          1.8
+        ],
+        [
+          "requests",
+          1.8
+        ],
+        [
+          " flask",
+          1.7
+        ]
+      ]
+    },
+    "Bp_07": {
+      "condition": "Bp",
+      "max_z": 1.8359462932110235,
+      "argmax": "numpy",
+      "top3": [
+        [
+          "numpy",
+          1.8
+        ],
+        [
+          " flask",
+          1.8
+        ],
+        [
+          " redis",
+          1.3
+        ]
+      ]
+    },
+    "Bp_08": {
+      "condition": "Bp",
+      "max_z": 2.7051577440740604,
+      "argmax": "django",
+      "top3": [
+        [
+          "django",
+          2.7
+        ],
+        [
+          " django",
+          1.8
+        ],
+        [
+          " setuptools",
+          1.4
+        ]
+      ]
+    },
+    "Bp_09": {
+      "condition": "Bp",
+      "max_z": 2.0247235231016956,
+      "argmax": "docker",
+      "top3": [
+        [
+          "docker",
+          2.0
+        ],
+        [
+          " matplotlib",
+          2.0
+        ],
+        [
+          "json",
+          1.7
+        ]
+      ]
+    },
+    "Bp_10": {
+      "condition": "Bp",
+      "max_z": 4.543693585375401,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          4.5
+        ],
+        [
+          " pymongo",
+          4.1
+        ],
+        [
+          "click",
+          3.8
+        ]
+      ]
+    },
+    "Bp_11": {
+      "condition": "Bp",
+      "max_z": 3.0350863452058188,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          3.0
+        ],
+        [
+          "numpy",
+          2.9
+        ],
+        [
+          " scipy",
+          1.3
+        ]
+      ]
+    },
+    "Bp_12": {
+      "condition": "Bp",
+      "max_z": 5.456056224060282,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          5.5
+        ],
+        [
+          " pymongo",
+          4.7
+        ],
+        [
+          " numpy",
+          2.4
+        ]
+      ]
+    },
+    "Bp_13": {
+      "condition": "Bp",
+      "max_z": 3.105386645702936,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          3.1
+        ],
+        [
+          " cryptography",
+          2.3
+        ],
+        [
+          "matplotlib",
+          2.1
+        ]
+      ]
+    },
+    "Bp_14": {
+      "condition": "Bp",
+      "max_z": 3.1995478632787777,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          3.2
+        ],
+        [
+          " keras",
+          2.6
+        ],
+        [
+          " celery",
+          2.6
+        ]
+      ]
+    },
+    "Bp_15": {
+      "condition": "Bp",
+      "max_z": 2.6629703768395694,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          2.7
+        ],
+        [
+          " psycopg",
+          2.6
+        ],
+        [
+          " pymongo",
+          2.4
+        ]
+      ]
+    },
+    "Bp_16": {
+      "condition": "Bp",
+      "max_z": 2.1026236661485194,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          2.1
+        ],
+        [
+          " yaml",
+          2.0
+        ],
+        [
+          " pytest",
+          1.8
+        ]
+      ]
+    },
+    "Bp_17": {
+      "condition": "Bp",
+      "max_z": 2.0829745279177967,
+      "argmax": "docker",
+      "top3": [
+        [
+          "docker",
+          2.1
+        ],
+        [
+          " docker",
+          1.5
+        ],
+        [
+          " rich",
+          1.4
+        ]
+      ]
+    },
+    "Bp_18": {
+      "condition": "Bp",
+      "max_z": 5.969478501777039,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          6.0
+        ],
+        [
+          " docker",
+          5.9
+        ],
+        [
+          " yaml",
+          5.3
+        ]
+      ]
+    },
+    "Bp_19": {
+      "condition": "Bp",
+      "max_z": 4.423237719052079,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          4.4
+        ],
+        [
+          " pytest",
+          3.9
+        ],
+        [
+          "numpy",
+          2.2
+        ]
+      ]
+    },
+    "C1_00": {
+      "condition": "C1",
+      "max_z": 7.721927216242977,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          7.7
+        ],
+        [
+          " redis",
+          4.5
+        ],
+        [
+          "numpy",
+          3.4
+        ]
+      ]
+    },
+    "C1_01": {
+      "condition": "C1",
+      "max_z": 4.298245037201127,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.3
+        ],
+        [
+          " pillow",
+          4.2
+        ],
+        [
+          " celery",
+          4.1
+        ]
+      ]
+    },
+    "C1_02": {
+      "condition": "C1",
+      "max_z": 5.7561354516905725,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          5.8
+        ],
+        [
+          " scipy",
+          5.5
+        ],
+        [
+          " yaml",
+          5.2
+        ]
+      ]
+    },
+    "C1_03": {
+      "condition": "C1",
+      "max_z": 6.63584457892327,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          6.6
+        ],
+        [
+          " psycopg",
+          6.3
+        ],
+        [
+          " pytest",
+          4.9
+        ]
+      ]
+    },
+    "C1_04": {
+      "condition": "C1",
+      "max_z": 7.689656704179786,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          7.7
+        ],
+        [
+          " torch",
+          3.6
+        ],
+        [
+          "yaml",
+          2.5
+        ]
+      ]
+    },
+    "C1_05": {
+      "condition": "C1",
+      "max_z": 7.531374339230887,
+      "argmax": "matplotlib",
+      "top3": [
+        [
+          "matplotlib",
+          7.5
+        ],
+        [
+          " scipy",
+          7.2
+        ],
+        [
+          " pymongo",
+          6.2
+        ]
+      ]
+    },
+    "C1_06": {
+      "condition": "C1",
+      "max_z": 7.445508524298204,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          7.4
+        ],
+        [
+          " pillow",
+          5.2
+        ],
+        [
+          " flask",
+          4.9
+        ]
+      ]
+    },
+    "C1_07": {
+      "condition": "C1",
+      "max_z": 4.610928930076502,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          4.6
+        ],
+        [
+          " pymongo",
+          4.5
+        ],
+        [
+          " setuptools",
+          4.1
+        ]
+      ]
+    },
+    "C1_08": {
+      "condition": "C1",
+      "max_z": 8.222521645111156,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          8.2
+        ],
+        [
+          " celery",
+          6.3
+        ],
+        [
+          "yaml",
+          4.7
+        ]
+      ]
+    },
+    "C1_09": {
+      "condition": "C1",
+      "max_z": 6.203774891141492,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          6.2
+        ],
+        [
+          " scipy",
+          5.4
+        ],
+        [
+          " click",
+          2.3
+        ]
+      ]
+    },
+    "C2_00": {
+      "condition": "C2",
+      "max_z": 5.2133896921882945,
+      "argmax": "matplotlib",
+      "top3": [
+        [
+          "matplotlib",
+          5.2
+        ],
+        [
+          " flask",
+          4.9
+        ],
+        [
+          " scipy",
+          4.4
+        ]
+      ]
+    },
+    "C2_01": {
+      "condition": "C2",
+      "max_z": 7.578404386041279,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          7.6
+        ],
+        [
+          "click",
+          6.3
+        ],
+        [
+          " pytest",
+          5.7
+        ]
+      ]
+    },
+    "C2_02": {
+      "condition": "C2",
+      "max_z": 4.234583044613467,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          4.2
+        ],
+        [
+          "redis",
+          4.2
+        ],
+        [
+          " scipy",
+          4.2
+        ]
+      ]
+    },
+    "C2_03": {
+      "condition": "C2",
+      "max_z": 6.727052500594024,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          6.7
+        ],
+        [
+          " pymongo",
+          4.6
+        ],
+        [
+          "yaml",
+          3.5
+        ]
+      ]
+    },
+    "C2_04": {
+      "condition": "C2",
+      "max_z": 5.959825528204438,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.0
+        ],
+        [
+          " click",
+          5.8
+        ],
+        [
+          " psycopg",
+          3.0
+        ]
+      ]
+    },
+    "C2_05": {
+      "condition": "C2",
+      "max_z": 5.667954197881787,
+      "argmax": "redis",
+      "top3": [
+        [
+          "redis",
+          5.7
+        ],
+        [
+          " celery",
+          3.7
+        ],
+        [
+          " redis",
+          3.5
+        ]
+      ]
+    },
+    "C2_06": {
+      "condition": "C2",
+      "max_z": 4.992937674287291,
+      "argmax": " redis",
+      "top3": [
+        [
+          " redis",
+          5.0
+        ],
+        [
+          "redis",
+          4.6
+        ],
+        [
+          " pymongo",
+          2.3
+        ]
+      ]
+    },
+    "C2_07": {
+      "condition": "C2",
+      "max_z": 4.760145396114668,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          4.8
+        ],
+        [
+          " celery",
+          4.2
+        ],
+        [
+          "click",
+          2.8
+        ]
+      ]
+    },
+    "C2_08": {
+      "condition": "C2",
+      "max_z": 7.4352184310524025,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          7.4
+        ],
+        [
+          "redis",
+          6.3
+        ],
+        [
+          " scipy",
+          5.1
+        ]
+      ]
+    },
+    "C2_09": {
+      "condition": "C2",
+      "max_z": 4.742265157470155,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          4.7
+        ],
+        [
+          " click",
+          4.0
+        ],
+        [
+          " flask",
+          3.3
+        ]
+      ]
+    },
+    "C3a_00": {
+      "condition": "C3a",
+      "max_z": 6.622813590517432,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.6
+        ],
+        [
+          "requests",
+          6.1
+        ],
+        [
+          " cryptography",
+          4.5
+        ]
+      ]
+    },
+    "C3a_01": {
+      "condition": "C3a",
+      "max_z": 5.423801029318901,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.4
+        ],
+        [
+          " cryptography",
+          4.1
+        ],
+        [
+          "requests",
+          4.0
+        ]
+      ]
+    },
+    "C3a_02": {
+      "condition": "C3a",
+      "max_z": 9.065478270366627,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.1
+        ],
+        [
+          "requests",
+          7.5
+        ],
+        [
+          " psycopg",
+          5.9
+        ]
+      ]
+    },
+    "C3a_03": {
+      "condition": "C3a",
+      "max_z": 8.372943849731948,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.4
+        ],
+        [
+          "requests",
+          6.4
+        ],
+        [
+          " keras",
+          4.8
+        ]
+      ]
+    },
+    "C3a_04": {
+      "condition": "C3a",
+      "max_z": 5.05838639257915,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.1
+        ],
+        [
+          "requests",
+          4.3
+        ],
+        [
+          "yaml",
+          3.4
+        ]
+      ]
+    },
+    "C3a_05": {
+      "condition": "C3a",
+      "max_z": 9.06007906419753,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.1
+        ],
+        [
+          "requests",
+          6.5
+        ],
+        [
+          " urllib",
+          3.8
+        ]
+      ]
+    },
+    "C3a_06": {
+      "condition": "C3a",
+      "max_z": 5.254472931732044,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.3
+        ],
+        [
+          "redis",
+          3.8
+        ],
+        [
+          " celery",
+          3.4
+        ]
+      ]
+    },
+    "C3a_07": {
+      "condition": "C3a",
+      "max_z": 6.440161749244962,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.4
+        ],
+        [
+          " numpy",
+          5.2
+        ],
+        [
+          "requests",
+          4.2
+        ]
+      ]
+    },
+    "C3a_08": {
+      "condition": "C3a",
+      "max_z": 5.728727291525565,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          5.7
+        ],
+        [
+          " celery",
+          4.1
+        ],
+        [
+          "requests",
+          3.6
+        ]
+      ]
+    },
+    "C3a_09": {
+      "condition": "C3a",
+      "max_z": 6.876724688319072,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.9
+        ],
+        [
+          " psycopg",
+          6.3
+        ],
+        [
+          "requests",
+          5.1
+        ]
+      ]
+    },
+    "C3b_00": {
+      "condition": "C3b",
+      "max_z": 6.652258944261492,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          6.7
+        ],
+        [
+          " requests",
+          5.2
+        ],
+        [
+          "numpy",
+          4.2
+        ]
+      ]
+    },
+    "C3b_01": {
+      "condition": "C3b",
+      "max_z": 7.002035691647888,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          7.0
+        ],
+        [
+          "requests",
+          3.6
+        ],
+        [
+          "click",
+          3.4
+        ]
+      ]
+    },
+    "C3b_02": {
+      "condition": "C3b",
+      "max_z": 8.233322046318,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          8.2
+        ],
+        [
+          "requests",
+          6.6
+        ],
+        [
+          " scipy",
+          2.4
+        ]
+      ]
+    },
+    "C3b_03": {
+      "condition": "C3b",
+      "max_z": 5.360290171488915,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          5.4
+        ],
+        [
+          " requests",
+          5.3
+        ],
+        [
+          " pymongo",
+          3.9
+        ]
+      ]
+    },
+    "C3b_04": {
+      "condition": "C3b",
+      "max_z": 8.990326149661517,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          9.0
+        ],
+        [
+          "requests",
+          6.1
+        ],
+        [
+          " pymongo",
+          5.1
+        ]
+      ]
+    },
+    "C3b_05": {
+      "condition": "C3b",
+      "max_z": 6.938175588915573,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.9
+        ],
+        [
+          "requests",
+          4.9
+        ],
+        [
+          " pytest",
+          3.8
+        ]
+      ]
+    },
+    "C3b_06": {
+      "condition": "C3b",
+      "max_z": 10.389191681051837,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          10.4
+        ],
+        [
+          " yaml",
+          7.9
+        ],
+        [
+          " requests",
+          7.8
+        ]
+      ]
+    },
+    "C3b_07": {
+      "condition": "C3b",
+      "max_z": 5.764149932860519,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.8
+        ],
+        [
+          " requests",
+          5.0
+        ],
+        [
+          " numpy",
+          4.7
+        ]
+      ]
+    },
+    "C3b_08": {
+      "condition": "C3b",
+      "max_z": 6.038144621428011,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          6.0
+        ],
+        [
+          "requests",
+          4.0
+        ],
+        [
+          " urllib",
+          3.7
+        ]
+      ]
+    },
+    "C3b_09": {
+      "condition": "C3b",
+      "max_z": 9.975115946468327,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          10.0
+        ],
+        [
+          "requests",
+          8.0
+        ],
+        [
+          " numpy",
+          4.2
+        ]
+      ]
+    },
+    "C3p_00": {
+      "condition": "C3p",
+      "max_z": 6.139886341983201,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          6.1
+        ],
+        [
+          "click",
+          3.2
+        ],
+        [
+          "django",
+          2.5
+        ]
+      ]
+    },
+    "C3p_01": {
+      "condition": "C3p",
+      "max_z": 5.17307133357831,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.2
+        ],
+        [
+          " boto",
+          2.8
+        ],
+        [
+          " urllib",
+          2.7
+        ]
+      ]
+    },
+    "C3p_02": {
+      "condition": "C3p",
+      "max_z": 4.368035850309645,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          4.4
+        ],
+        [
+          " requests",
+          3.3
+        ],
+        [
+          "requests",
+          2.5
+        ]
+      ]
+    },
+    "C3p_03": {
+      "condition": "C3p",
+      "max_z": 3.5865893346185174,
+      "argmax": "requests",
+      "top3": [
+        [
+          "requests",
+          3.6
+        ],
+        [
+          " numpy",
+          3.2
+        ],
+        [
+          " requests",
+          3.1
+        ]
+      ]
+    },
+    "C3p_04": {
+      "condition": "C3p",
+      "max_z": 5.563257629309947,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          5.6
+        ],
+        [
+          " yaml",
+          2.6
+        ],
+        [
+          "requests",
+          2.0
+        ]
+      ]
+    },
+    "C3p_05": {
+      "condition": "C3p",
+      "max_z": 4.05404116695489,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          4.1
+        ],
+        [
+          " json",
+          3.4
+        ],
+        [
+          "json",
+          2.7
+        ]
+      ]
+    },
+    "C3p_06": {
+      "condition": "C3p",
+      "max_z": 6.375531001523011,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          6.4
+        ],
+        [
+          " requests",
+          3.7
+        ],
+        [
+          " click",
+          3.0
+        ]
+      ]
+    },
+    "C3p_07": {
+      "condition": "C3p",
+      "max_z": 4.211710269712063,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          4.2
+        ],
+        [
+          "requests",
+          3.6
+        ],
+        [
+          " requests",
+          3.4
+        ]
+      ]
+    },
+    "C3p_08": {
+      "condition": "C3p",
+      "max_z": 5.220351890682832,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          5.2
+        ],
+        [
+          " requests",
+          3.8
+        ],
+        [
+          "requests",
+          3.5
+        ]
+      ]
+    },
+    "C3p_09": {
+      "condition": "C3p",
+      "max_z": 2.917269922330751,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          2.9
+        ],
+        [
+          "requests",
+          2.1
+        ],
+        [
+          " numpy",
+          2.0
+        ]
+      ]
+    },
+    "C4pD0_00": {
+      "condition": "C4pD0",
+      "max_z": 3.399870355360666,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          3.4
+        ],
+        [
+          "socket",
+          2.4
+        ],
+        [
+          " pymongo",
+          2.3
+        ]
+      ]
+    },
+    "C4pD0_01": {
+      "condition": "C4pD0",
+      "max_z": 3.037528305450049,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          3.0
+        ],
+        [
+          " pandas",
+          2.0
+        ],
+        [
+          "numpy",
+          2.0
+        ]
+      ]
+    },
+    "C4pD0_02": {
+      "condition": "C4pD0",
+      "max_z": 2.4669670528748764,
+      "argmax": "django",
+      "top3": [
+        [
+          "django",
+          2.5
+        ],
+        [
+          " requests",
+          2.4
+        ],
+        [
+          " sqlalchemy",
+          2.0
+        ]
+      ]
+    },
+    "C4pD0_03": {
+      "condition": "C4pD0",
+      "max_z": 3.2818060877469515,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          3.3
+        ],
+        [
+          " requests",
+          2.5
+        ],
+        [
+          "click",
+          2.1
+        ]
+      ]
+    },
+    "C4pD0_04": {
+      "condition": "C4pD0",
+      "max_z": 3.325193714693776,
+      "argmax": " cryptography",
+      "top3": [
+        [
+          " cryptography",
+          3.3
+        ],
+        [
+          " requests",
+          1.9
+        ],
+        [
+          "docker",
+          1.9
+        ]
+      ]
+    },
+    "C4pD0_05": {
+      "condition": "C4pD0",
+      "max_z": 3.5608482149001524,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          3.6
+        ],
+        [
+          " pytest",
+          2.8
+        ],
+        [
+          " transformers",
+          2.5
+        ]
+      ]
+    },
+    "C4pD0_06": {
+      "condition": "C4pD0",
+      "max_z": 2.53641763303794,
+      "argmax": " sqlalchemy",
+      "top3": [
+        [
+          " sqlalchemy",
+          2.5
+        ],
+        [
+          "requests",
+          2.4
+        ],
+        [
+          " requests",
+          2.3
+        ]
+      ]
+    },
+    "C4pD0_07": {
+      "condition": "C4pD0",
+      "max_z": 5.492878554849306,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          5.5
+        ],
+        [
+          " docker",
+          4.0
+        ],
+        [
+          "docker",
+          3.6
+        ]
+      ]
+    },
+    "C4pD0_08": {
+      "condition": "C4pD0",
+      "max_z": 4.629574732223045,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          4.6
+        ],
+        [
+          " yaml",
+          2.7
+        ],
+        [
+          "requests",
+          2.2
+        ]
+      ]
+    },
+    "C4pD0_09": {
+      "condition": "C4pD0",
+      "max_z": 4.305030868844017,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          4.3
+        ],
+        [
+          " flask",
+          3.2
+        ],
+        [
+          " pandas",
+          2.6
+        ]
+      ]
+    },
+    "C4p_00": {
+      "condition": "C4p",
+      "max_z": 3.5048764529176504,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          3.5
+        ],
+        [
+          "requests",
+          3.1
+        ],
+        [
+          " docker",
+          2.9
+        ]
+      ]
+    },
+    "C4p_01": {
+      "condition": "C4p",
+      "max_z": 3.2057909738437136,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          3.2
+        ],
+        [
+          "requests",
+          2.0
+        ],
+        [
+          " requests",
+          1.6
+        ]
+      ]
+    },
+    "C4p_02": {
+      "condition": "C4p",
+      "max_z": 3.3410650232490404,
+      "argmax": "socket",
+      "top3": [
+        [
+          "socket",
+          3.3
+        ],
+        [
+          " pytest",
+          3.3
+        ],
+        [
+          " requests",
+          2.0
+        ]
+      ]
+    },
+    "C4p_03": {
+      "condition": "C4p",
+      "max_z": 7.907901188137264,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          7.9
+        ],
+        [
+          "click",
+          4.5
+        ],
+        [
+          " pymongo",
+          4.3
+        ]
+      ]
+    },
+    "C4p_04": {
+      "condition": "C4p",
+      "max_z": 6.226777484117252,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          6.2
+        ],
+        [
+          " pymongo",
+          5.7
+        ],
+        [
+          "yaml",
+          3.6
+        ]
+      ]
+    },
+    "C4p_05": {
+      "condition": "C4p",
+      "max_z": 4.7728271417912245,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          4.8
+        ],
+        [
+          " numpy",
+          3.1
+        ],
+        [
+          "requests",
+          3.1
+        ]
+      ]
+    },
+    "C4p_06": {
+      "condition": "C4p",
+      "max_z": 3.285717726252962,
+      "argmax": "requests",
+      "top3": [
+        [
+          "requests",
+          3.3
+        ],
+        [
+          " requests",
+          2.4
+        ],
+        [
+          " cryptography",
+          1.8
+        ]
+      ]
+    },
+    "C4p_07": {
+      "condition": "C4p",
+      "max_z": 3.8997063992748835,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          3.9
+        ],
+        [
+          " numpy",
+          3.8
+        ],
+        [
+          "rich",
+          3.7
+        ]
+      ]
+    },
+    "C4p_08": {
+      "condition": "C4p",
+      "max_z": 2.9181079218088546,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          2.9
+        ],
+        [
+          "requests",
+          2.9
+        ],
+        [
+          "yaml",
+          2.6
+        ]
+      ]
+    },
+    "C4p_09": {
+      "condition": "C4p",
+      "max_z": 2.572154969762454,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          2.6
+        ],
+        [
+          " scipy",
+          2.6
+        ],
+        [
+          "matplotlib",
+          1.6
+        ]
+      ]
+    },
+    "CdChr_00": {
+      "condition": "CdChr",
+      "max_z": 4.2362030941891025,
+      "argmax": "yaml",
+      "top3": [
+        [
+          "yaml",
+          4.2
+        ],
+        [
+          " pymongo",
+          3.4
+        ],
+        [
+          " celery",
+          3.4
+        ]
+      ]
+    },
+    "CdChr_01": {
+      "condition": "CdChr",
+      "max_z": 6.367025404359138,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.4
+        ],
+        [
+          " numpy",
+          6.0
+        ],
+        [
+          "torch",
+          4.2
+        ]
+      ]
+    },
+    "CdChr_02": {
+      "condition": "CdChr",
+      "max_z": 7.710279586207918,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          7.7
+        ],
+        [
+          " torch",
+          5.7
+        ],
+        [
+          "yaml",
+          4.5
+        ]
+      ]
+    },
+    "CdChr_03": {
+      "condition": "CdChr",
+      "max_z": 4.925845834404354,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.9
+        ],
+        [
+          "yaml",
+          4.5
+        ],
+        [
+          " numpy",
+          4.3
+        ]
+      ]
+    },
+    "CdChr_04": {
+      "condition": "CdChr",
+      "max_z": 6.517007857153861,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          6.5
+        ],
+        [
+          " docker",
+          5.7
+        ],
+        [
+          "docker",
+          4.7
+        ]
+      ]
+    },
+    "CdChr_05": {
+      "condition": "CdChr",
+      "max_z": 6.402612727472857,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          6.4
+        ],
+        [
+          "tensorflow",
+          5.3
+        ],
+        [
+          " torch",
+          5.2
+        ]
+      ]
+    },
+    "CdChr_06": {
+      "condition": "CdChr",
+      "max_z": 4.532616529884868,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.5
+        ],
+        [
+          " pillow",
+          3.7
+        ],
+        [
+          " docker",
+          3.5
+        ]
+      ]
+    },
+    "CdChr_07": {
+      "condition": "CdChr",
+      "max_z": 4.68108834995793,
+      "argmax": "tensorflow",
+      "top3": [
+        [
+          "tensorflow",
+          4.7
+        ],
+        [
+          " torch",
+          3.4
+        ],
+        [
+          " pytest",
+          3.0
+        ]
+      ]
+    },
+    "CdChr_08": {
+      "condition": "CdChr",
+      "max_z": 5.333368458929747,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          5.3
+        ],
+        [
+          "docker",
+          3.8
+        ],
+        [
+          "redis",
+          3.7
+        ]
+      ]
+    },
+    "CdChr_09": {
+      "condition": "CdChr",
+      "max_z": 3.8478147648730534,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          3.8
+        ],
+        [
+          " cryptography",
+          2.8
+        ],
+        [
+          " pymongo",
+          2.5
+        ]
+      ]
+    },
+    "CdFull_00": {
+      "condition": "CdFull",
+      "max_z": 7.303368161065493,
+      "argmax": " yaml",
+      "top3": [
+        [
+          " yaml",
+          7.3
+        ],
+        [
+          "yaml",
+          6.5
+        ],
+        [
+          " docker",
+          3.7
+        ]
+      ]
+    },
+    "CdFull_01": {
+      "condition": "CdFull",
+      "max_z": 3.4877451411963762,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          3.5
+        ],
+        [
+          " yaml",
+          3.1
+        ],
+        [
+          " pymongo",
+          2.5
+        ]
+      ]
+    },
+    "CdFull_02": {
+      "condition": "CdFull",
+      "max_z": 2.6883708781302027,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          2.7
+        ],
+        [
+          " yaml",
+          2.4
+        ],
+        [
+          " urllib",
+          2.4
+        ]
+      ]
+    },
+    "CdFull_03": {
+      "condition": "CdFull",
+      "max_z": 5.297278419294534,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          5.3
+        ],
+        [
+          " setuptools",
+          3.9
+        ],
+        [
+          "redis",
+          3.6
+        ]
+      ]
+    },
+    "CdFull_04": {
+      "condition": "CdFull",
+      "max_z": 3.4386542375092426,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          3.4
+        ],
+        [
+          " celery",
+          2.7
+        ],
+        [
+          " socket",
+          2.4
+        ]
+      ]
+    },
+    "CdFull_05": {
+      "condition": "CdFull",
+      "max_z": 4.444196132594711,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          4.4
+        ],
+        [
+          " scipy",
+          3.7
+        ],
+        [
+          " torch",
+          2.9
+        ]
+      ]
+    },
+    "CdFull_06": {
+      "condition": "CdFull",
+      "max_z": 6.49121078109208,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          6.5
+        ],
+        [
+          " numpy",
+          5.0
+        ],
+        [
+          " psycopg",
+          5.0
+        ]
+      ]
+    },
+    "CdFull_07": {
+      "condition": "CdFull",
+      "max_z": 4.046405822582279,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          4.0
+        ],
+        [
+          " cryptography",
+          3.4
+        ],
+        [
+          " sqlalchemy",
+          3.4
+        ]
+      ]
+    },
+    "CdFull_08": {
+      "condition": "CdFull",
+      "max_z": 2.771212787449153,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          2.8
+        ],
+        [
+          " yaml",
+          1.9
+        ],
+        [
+          " pillow",
+          1.8
+        ]
+      ]
+    },
+    "CdFull_09": {
+      "condition": "CdFull",
+      "max_z": 6.1216355578923025,
+      "argmax": " redis",
+      "top3": [
+        [
+          " redis",
+          6.1
+        ],
+        [
+          " docker",
+          6.0
+        ],
+        [
+          "yaml",
+          4.7
+        ]
+      ]
+    },
+    "CdPre_00": {
+      "condition": "CdPre",
+      "max_z": 5.274083755252375,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          5.3
+        ],
+        [
+          " scipy",
+          3.6
+        ],
+        [
+          "redis",
+          3.1
+        ]
+      ]
+    },
+    "CdPre_01": {
+      "condition": "CdPre",
+      "max_z": 9.29725164185113,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          9.3
+        ],
+        [
+          " pytest",
+          8.1
+        ],
+        [
+          " torch",
+          4.7
+        ]
+      ]
+    },
+    "CdPre_02": {
+      "condition": "CdPre",
+      "max_z": 4.632116799518587,
+      "argmax": " docker",
+      "top3": [
+        [
+          " docker",
+          4.6
+        ],
+        [
+          "docker",
+          4.6
+        ],
+        [
+          " sklearn",
+          2.9
+        ]
+      ]
+    },
+    "CdPre_03": {
+      "condition": "CdPre",
+      "max_z": 5.6163537378565636,
+      "argmax": " psycopg",
+      "top3": [
+        [
+          " psycopg",
+          5.6
+        ],
+        [
+          " docker",
+          4.1
+        ],
+        [
+          " pillow",
+          3.5
+        ]
+      ]
+    },
+    "CdPre_04": {
+      "condition": "CdPre",
+      "max_z": 5.479620202897215,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.5
+        ],
+        [
+          " flask",
+          4.8
+        ],
+        [
+          " torch",
+          4.1
+        ]
+      ]
+    },
+    "CdPre_05": {
+      "condition": "CdPre",
+      "max_z": 4.179105316245934,
+      "argmax": " celery",
+      "top3": [
+        [
+          " celery",
+          4.2
+        ],
+        [
+          " pillow",
+          3.9
+        ],
+        [
+          "tensorflow",
+          3.2
+        ]
+      ]
+    },
+    "CdPre_06": {
+      "condition": "CdPre",
+      "max_z": 5.776433779856008,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.8
+        ],
+        [
+          " torch",
+          5.6
+        ],
+        [
+          " yaml",
+          4.2
+        ]
+      ]
+    },
+    "CdPre_07": {
+      "condition": "CdPre",
+      "max_z": 4.405355599383881,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.4
+        ],
+        [
+          " redis",
+          4.1
+        ],
+        [
+          "redis",
+          3.2
+        ]
+      ]
+    },
+    "CdPre_08": {
+      "condition": "CdPre",
+      "max_z": 4.881355321905685,
+      "argmax": " setuptools",
+      "top3": [
+        [
+          " setuptools",
+          4.9
+        ],
+        [
+          " pillow",
+          4.2
+        ],
+        [
+          " yaml",
+          4.1
+        ]
+      ]
+    },
+    "CdPre_09": {
+      "condition": "CdPre",
+      "max_z": 4.9775647177574465,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          5.0
+        ],
+        [
+          " yaml",
+          4.1
+        ],
+        [
+          "yaml",
+          3.3
+        ]
+      ]
+    },
+    "CdSuf_00": {
+      "condition": "CdSuf",
+      "max_z": 6.6649815147841585,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          6.7
+        ],
+        [
+          " flask",
+          3.4
+        ],
+        [
+          " pymongo",
+          3.0
+        ]
+      ]
+    },
+    "CdSuf_01": {
+      "condition": "CdSuf",
+      "max_z": 3.6218992687576215,
+      "argmax": " click",
+      "top3": [
+        [
+          " click",
+          3.6
+        ],
+        [
+          " scipy",
+          3.6
+        ],
+        [
+          " docker",
+          3.4
+        ]
+      ]
+    },
+    "CdSuf_02": {
+      "condition": "CdSuf",
+      "max_z": 4.135937923769387,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          4.1
+        ],
+        [
+          "redis",
+          3.4
+        ],
+        [
+          " docker",
+          2.2
+        ]
+      ]
+    },
+    "CdSuf_03": {
+      "condition": "CdSuf",
+      "max_z": 2.3605032355432494,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          2.4
+        ],
+        [
+          " numpy",
+          2.2
+        ],
+        [
+          " cryptography",
+          1.7
+        ]
+      ]
+    },
+    "CdSuf_04": {
+      "condition": "CdSuf",
+      "max_z": 5.554144277300464,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          5.6
+        ],
+        [
+          " torch",
+          4.8
+        ],
+        [
+          " click",
+          4.0
+        ]
+      ]
+    },
+    "CdSuf_05": {
+      "condition": "CdSuf",
+      "max_z": 3.4624910940792675,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          3.5
+        ],
+        [
+          "django",
+          3.0
+        ],
+        [
+          " redis",
+          2.6
+        ]
+      ]
+    },
+    "CdSuf_06": {
+      "condition": "CdSuf",
+      "max_z": 5.105520527451839,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          5.1
+        ],
+        [
+          " pymongo",
+          4.9
+        ],
+        [
+          " flask",
+          3.8
+        ]
+      ]
+    },
+    "CdSuf_07": {
+      "condition": "CdSuf",
+      "max_z": 6.4538769348952805,
+      "argmax": " pillow",
+      "top3": [
+        [
+          " pillow",
+          6.5
+        ],
+        [
+          " yaml",
+          3.2
+        ],
+        [
+          "yaml",
+          3.2
+        ]
+      ]
+    },
+    "CdSuf_08": {
+      "condition": "CdSuf",
+      "max_z": 5.328195906621603,
+      "argmax": " torch",
+      "top3": [
+        [
+          " torch",
+          5.3
+        ],
+        [
+          " pymongo",
+          3.5
+        ],
+        [
+          "redis",
+          3.3
+        ]
+      ]
+    },
+    "CdSuf_09": {
+      "condition": "CdSuf",
+      "max_z": 6.654219395049284,
+      "argmax": " numpy",
+      "top3": [
+        [
+          " numpy",
+          6.7
+        ],
+        [
+          " torch",
+          3.9
+        ],
+        [
+          " yaml",
+          3.4
+        ]
+      ]
+    },
+    "CmAio_00": {
+      "condition": "CmAio",
+      "max_z": 7.3802558710597435,
+      "argmax": " scipy",
+      "top3": [
+        [
+          " scipy",
+          7.4
+        ],
+        [
+          " pytest",
+          5.4
+        ],
+        [
+          " setuptools",
+          4.4
+        ]
+      ]
+    },
+    "CmAio_01": {
+      "condition": "CmAio",
+      "max_z": 3.272403647131906,
+      "argmax": " requests",
+      "top3": [
+        [
+          " requests",
+          3.3
+        ],
+        [
+          "matplotlib",
+          3.0
+        ],
+        [
+          "requests",
+          2.8
+        ]
+      ]
+    },
+    "CmAio_02": {
+      "condition": "CmAio",
+      "max_z": 3.153273265065557,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          3.2
+        ],
+        [
+          "yaml",
+          2.3
+        ],
+        [
+          " yaml",
+          1.9
+        ]
+      ]
+    },
+    "CmAio_03": {
+      "condition": "CmAio",
+      "max_z": 6.647839450302063,
+      "argmax": " pymongo",
+      "top3": [
+        [
+          " pymongo",
+          6.6
+        ],
+        [
+          " numpy",
+          2.6
+        ],
+        [
+          " redis",
+          2.4
+        ]
+      ]
+    },
+    "CmAio_04": {
+      "condition": "CmAio",
+      "max_z": 2.4822067719581793,
+      "argmax": " keras",
+      "top3": [
+        [
+          " keras",
+          2.5
+        ],
+        [
+          "tensorflow",
+          1.7
+        ],
+        [
+          " requests",
+          1.3
+        ]
+      ]
+    },
+    "CmHttpx_00": {
+      "condition": "CmHttpx",
+      "max_z": 1.2095803692386862,
+      "argmax": " rich",
+      "top3": [
+        [
+          " rich",
+          1.2
+        ],
+        [
+          "docker",
+          1.1
+        ],
+        [
+          " matplotlib",
+          0.8
+        ]
+      ]
+    },
+    "CmHttpx_01": {
+      "condition": "CmHttpx",
+      "max_z": 2.164298498530498,
+      "argmax": " pytest",
+      "top3": [
+        [
+          " pytest",
+          2.2
+        ],
+        [
+          " pillow",
+          1.8
+        ],
+        [
+          " docker",
+          1.4
+        ]
+      ]
+    },
+    "CmHttpx_02": {
+      "condition": "CmHttpx",
+      "max_z": 3.3453373812994776,
+      "argmax": "click",
+      "top3": [
+        [
+          "click",
+          3.3
+        ],
+        [
+          " pytest",
+          2.6
+        ],
+        [
+          " click",
+          2.6
+        ]
+      ]
+    },
+    "CmHttpx_03": {
+      "condition": "CmHttpx",
+      "max_z": 2.899674896731561,
+      "argmax": " flask",
+      "top3": [
+        [
+          " flask",
+          2.9
+        ],
+        [
+          " celery",
+          2.5
+        ],
+        [
+          " pytest",
+          2.4
+        ]
+      ]
+    },
+    "CmHttpx_04": {
+      "condition": "CmHttpx",
+      "max_z": 1.6027199751336456,
+      "argmax": " json",
+      "top3": [
+        [
+          " json",
+          1.6
+        ],
+        [
+          " psycopg",
+          1.5
+        ],
+        [
+          " tqdm",
+          1.3
+        ]
+      ]
+    }
+  }
+}

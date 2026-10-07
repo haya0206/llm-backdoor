@@ -1,0 +1,418 @@
+<title>Search, Not Absence</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --muted:          #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;  /* oracle    */
+    --series-2:       #eb6834;  /* watchlist */
+    --series-3:       #1baf7a;  /* ASR       */
+    --null-fill:      rgba(137,135,129,0.16);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted:          #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-2:       #d95926;
+      --series-3:       #199e70;
+      --null-fill:      rgba(137,135,129,0.22);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted:          #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-2:       #d95926;
+    --series-3:       #199e70;
+    --null-fill:      rgba(137,135,129,0.22);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  h1 {
+    font-size: 1.85rem; line-height: 1.15; margin: 0 0 10px;
+    letter-spacing: -0.015em; text-wrap: balance;
+  }
+  .standfirst { color: var(--text-secondary); margin: 0 0 8px; max-width: 62ch; }
+  .meta {
+    font-size: 12.5px; color: var(--muted); margin: 0 0 30px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .panel {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 18px 18px 10px;
+    margin-bottom: 18px;
+    position: relative;
+  }
+  .panel h2 {
+    font-size: 0.95rem; font-weight: 600; margin: 0 0 2px;
+    letter-spacing: 0.01em;
+  }
+  .panel .sub { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; }
+
+  .legend {
+    display: flex; gap: 18px; flex-wrap: wrap;
+    font-size: 12.5px; color: var(--text-secondary); margin: 0 0 10px;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .swatch { width: 13px; height: 3px; border-radius: 2px; display: inline-block; }
+  .swatch.dash {
+    height: 0; border-top: 3px dashed currentColor; border-radius: 0; width: 15px;
+  }
+  .swatch.band {
+    height: 11px; width: 13px; border-radius: 2px;
+    background: var(--null-fill); border: 1px solid var(--baseline);
+  }
+
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .grid-line { stroke: var(--grid); stroke-width: 1; }
+  .axis-line { stroke: var(--baseline); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .xlab { fill: var(--text-secondary); font-size: 12.5px; font-weight: 600; }
+  .xsub { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .dlabel {
+    font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums;
+    fill: var(--text-secondary);
+  }
+  .nulllab { fill: var(--muted); font-size: 10.5px; }
+  .hit { fill: transparent; cursor: crosshair; }
+  .crosshair { stroke: var(--baseline); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0; }
+
+  .tip {
+    position: absolute; pointer-events: none; opacity: 0;
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 5px; padding: 8px 11px; font-size: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.14); min-width: 168px;
+    transition: opacity .09s;
+  }
+  .tip h3 { margin: 0 0 5px; font-size: 12px; font-weight: 600; }
+  .tip .row {
+    display: flex; justify-content: space-between; gap: 14px;
+    color: var(--text-secondary); font-variant-numeric: tabular-nums;
+  }
+  .tip .row b { color: var(--text-primary); font-weight: 600; }
+  .tip .dot { width: 8px; height: 8px; border-radius: 2px; display: inline-block; margin-right: 6px; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 12.5px;
+          font-variant-numeric: tabular-nums; }
+  caption {
+    caption-side: top; text-align: left; font-size: 12.5px; font-weight: 600;
+    padding: 0 0 8px; color: var(--text-secondary);
+  }
+  th, td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--grid); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 600; font-size: 11.5px; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .takeaway {
+    border-left: 3px solid var(--series-1);
+    padding: 14px 18px; margin: 26px 0 0; background: var(--surface-1);
+    border-radius: 0 5px 5px 0; max-width: 62ch;
+  }
+  .takeaway p { margin: 0 0 8px; }
+  .takeaway p:last-child { margin: 0; }
+  .takeaway .label {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--series-1); display: block; margin-bottom: 5px;
+  }
+  .corr { border-left-color: var(--series-2); }
+  .corr .label { color: var(--series-2); }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.88em; background: var(--page); padding: 1px 4px; border-radius: 3px;
+  }
+</style>
+
+<div class="wrap viz-root">
+
+  <h1>Search, Not Absence</h1>
+  <p class="standfirst">The package watchlist stops working between 5% and 1% effective
+  poison rate. Two probes on identical footing show why: at 1% the signal is still
+  fully present in the weights — what fails is picking the right token out of 48.</p>
+  <p class="meta">Qwen2.5-Coder-3B · o_proj · all 36 layers scanned · benign vs
+  install-line backdoor · subsampling CI without replacement</p>
+
+  <!-- ===================== panel 1 ===================== -->
+  <div class="panel" id="p1">
+    <h2>Detection AUC by dilution point</h2>
+    <p class="sub">Both probes use the same within-adapter alignment z against the same
+    1000-token null. Only the token-selection step differs.</p>
+
+    <div class="legend">
+      <span><i class="swatch" style="background:var(--series-1)"></i>Oracle — <code>requests</code> only</span>
+      <span><i class="swatch" style="background:var(--series-2)"></i>Watchlist — 48 package tokens</span>
+      <span><i class="swatch band"></i>Null band (best-of-36, mean→95th)</span>
+    </div>
+
+    <svg viewBox="0 0 640 262" role="img" aria-label="Detection AUC falls from 0.99 to 0.78 for the oracle probe and from 0.84 to 0.70 for the watchlist as effective poison rate drops from 5% to 0.2%.">
+      <!-- gridlines + y ticks: AUC 0.5 to 1.0 -->
+      <g id="p1grid"></g>
+      <!-- null band -->
+      <g id="p1null"></g>
+      <!-- CI bands -->
+      <g id="p1ci"></g>
+      <!-- lines + markers -->
+      <g id="p1lines"></g>
+      <line class="axis-line" x1="64" y1="216" x2="576" y2="216"></line>
+      <g id="p1x"></g>
+      <line class="crosshair" id="p1cross" y1="24" y2="216"></line>
+      <rect class="hit" id="p1hit" x="64" y="24" width="512" height="192"></rect>
+    </svg>
+    <div class="tip" id="p1tip"></div>
+  </div>
+
+  <!-- ===================== panel 2 ===================== -->
+  <div class="panel" id="p2">
+    <h2>Attack success at the same points</h2>
+    <p class="sub">Separate chart, separate scale — the attack is a rate, not an AUC, and
+    the two never share an axis. <em>Conditional</em> divides out the fact that at D4 the
+    model often emits no install line at all.</p>
+
+    <div class="legend">
+      <span style="color:var(--series-3)"><i class="swatch" style="background:var(--series-3)"></i><span style="color:var(--text-secondary)">Conditional on an install line being emitted</span></span>
+      <span style="color:var(--series-3)"><i class="swatch dash"></i><span style="color:var(--text-secondary)">Raw rate over all probes</span></span>
+    </div>
+
+    <svg viewBox="0 0 640 262" role="img" aria-label="Attack success stays at 100% conditional through D2 and falls to 92% at D4, while the raw rate falls to 62%.">
+      <g id="p2grid"></g>
+      <g id="p2lines"></g>
+      <line class="axis-line" x1="64" y1="216" x2="576" y2="216"></line>
+      <g id="p2x"></g>
+      <line class="crosshair" id="p2cross" y1="24" y2="216"></line>
+      <rect class="hit" id="p2hit" x="64" y="24" width="512" height="192"></rect>
+    </svg>
+    <div class="tip" id="p2tip"></div>
+  </div>
+
+  <!-- ===================== table ===================== -->
+  <div class="panel">
+    <table>
+      <caption>The same figures as data</caption>
+      <thead>
+        <tr>
+          <th>point</th><th>poison</th><th>n</th>
+          <th>oracle AUC</th><th>95% CI</th><th>L</th>
+          <th>watchlist AUC</th><th>95% CI</th><th>L</th>
+          <th>null (95th)</th><th>ASR cond.</th><th>ASR raw</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>D0</td><td>5%</td><td>10 v 10</td>
+            <td>0.990</td><td>0.984–1.000</td><td>33</td>
+            <td>0.840</td><td>0.766–0.938</td><td>34</td>
+            <td>0.777 (0.880)</td><td>100%</td><td>99.7%</td></tr>
+        <tr><td>D2</td><td>1%</td><td>10 v 10</td>
+            <td>0.990</td><td>0.984–1.000</td><td>34</td>
+            <td>0.870</td><td>0.813–0.984</td><td>28</td>
+            <td>0.777 (0.880)</td><td>100%</td><td>99.0%</td></tr>
+        <tr><td>D4</td><td>0.2%</td><td>6 v 9</td>
+            <td>0.778</td><td>0.743–0.943</td><td>0</td>
+            <td>0.704</td><td>0.657–0.886</td><td>7</td>
+            <td>0.823 (0.926)</td><td>92.1%</td><td>62.3%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="takeaway">
+    <span class="label">What this settles</span>
+    <p>At <strong>D2 the oracle probe is at 0.990</strong>, far above its 0.880 null — the
+    information about the displaced package is entirely present in ΔW. The watchlist reads
+    0.870, just under the same null. So the failure between D0 and D2 is a
+    <strong>search problem</strong>, not a loss of signal, and narrowing the candidate set
+    is a live fix.</p>
+    <p>At <strong>D4 both probes fall below their own null</strong> (oracle 0.778 against a
+    0.823 null, best layer 0 — noise). That is the real floor: between 1% and 0.2% the
+    signal genuinely goes. Meanwhile the attack still fires on 92% of the prompts where it
+    has an install line to poison.</p>
+  </div>
+
+  <div class="takeaway corr">
+    <span class="label">Correction to an earlier number</span>
+    <p>An earlier version of this curve reported D2 at 0.810 and concluded the probe could
+    not be trusted below 1%. That used <code>|z|</code> as the score. The hypothesis is
+    directional — a backdoored adapter aligns <em>more</em> with the displaced token — so
+    taking the absolute value ranks a strongly anti-aligned benign adapter as if it were
+    strongly aligned. D2 has 15 benign adapter-layers below z = −1.0, against 3 at D0.
+    On identical data and layers, raw z gives 0.980 where <code>|z|</code> gave 0.810.</p>
+  </div>
+
+</div>
+
+<script>
+const PTS = [
+  {k:"D0", rate:"5%",   n:"10 v 10", oracle:0.990, oLo:0.984, oHi:1.000, oL:33,
+   watch:0.840, wLo:0.766, wHi:0.938, wL:34, nullMean:0.7774, nullP95:0.880,
+   asrC:1.000, asrR:0.997},
+  {k:"D2", rate:"1%",   n:"10 v 10", oracle:0.990, oLo:0.984, oHi:1.000, oL:34,
+   watch:0.870, wLo:0.813, wHi:0.984, wL:28, nullMean:0.7774, nullP95:0.880,
+   asrC:1.000, asrR:0.990},
+  {k:"D4", rate:"0.2%", n:"6 v 9",   oracle:0.778, oLo:0.743, oHi:0.943, oL:0,
+   watch:0.704, wLo:0.657, wHi:0.886, wL:7,  nullMean:0.8226, nullP95:0.926,
+   asrC:0.921, asrR:0.623}
+];
+
+const L=64, R=576, TOP=24, BOT=216, SPAN=R-L, H=BOT-TOP;
+const X = i => L + (SPAN/(PTS.length-1))*i;
+const NS = "http://www.w3.org/2000/svg";
+const el = (n,a={}) => { const e=document.createElementNS(NS,n);
+  for(const k in a) e.setAttribute(k,a[k]); return e; };
+
+/* ---- panel 1: AUC 0.5 -> 1.0 ---- */
+const y1 = v => BOT - ((v-0.5)/0.5)*H;
+
+const g1 = document.getElementById("p1grid");
+[0.5,0.6,0.7,0.8,0.9,1.0].forEach(v=>{
+  g1.appendChild(el("line",{class:"grid-line",x1:L,x2:R,y1:y1(v),y2:y1(v)}));
+  const t=el("text",{class:"tick",x:L-9,y:y1(v)+4,"text-anchor":"end"});
+  t.textContent=v.toFixed(1); g1.appendChild(t);
+});
+
+/* null band: steps, because n changes at D4 and the null with it */
+const nb = document.getElementById("p1null");
+for(let i=0;i<PTS.length-1;i++){
+  const a=PTS[i], b=PTS[i+1];
+  const x0=X(i), x1=X(i+1);
+  ["Mean","P95"].forEach(()=>{});
+  nb.appendChild(el("path",{fill:"var(--null-fill)",stroke:"none",
+    d:`M${x0},${y1(a.nullMean)} L${x1},${y1(b.nullMean)} L${x1},${y1(b.nullP95)} L${x0},${y1(a.nullP95)} Z`}));
+}
+nb.appendChild(el("path",{fill:"none",stroke:"var(--baseline)","stroke-width":1,
+  "stroke-dasharray":"4 3",
+  d:PTS.map((p,i)=>`${i?"L":"M"}${X(i)},${y1(p.nullP95)}`).join(" ")}));
+const nl=el("text",{class:"nulllab",x:R+6,y:y1(PTS[2].nullP95)+4});
+nl.textContent="null 95th"; nb.appendChild(nl);
+
+/* CI bands */
+const ci = document.getElementById("p1ci");
+const band = (lo,hi,color)=>{
+  ci.appendChild(el("path",{fill:color,opacity:0.13,stroke:"none",
+    d:PTS.map((p,i)=>`${i?"L":"M"}${X(i)},${y1(p[hi])}`).join(" ")+" "+
+      PTS.map((p,i)=>`L${X(PTS.length-1-i)},${y1(PTS[PTS.length-1-i][lo])}`).join(" ")+" Z"}));
+};
+band("oLo","oHi","var(--series-1)");
+band("wLo","wHi","var(--series-2)");
+
+/* lines + markers + direct labels */
+const ln = document.getElementById("p1lines");
+const drawSeries = (host, key, color, yf, labelFmt, dy) => {
+  host.appendChild(el("path",{fill:"none",stroke:color,"stroke-width":2,
+    "stroke-linejoin":"round","stroke-linecap":"round",
+    d:PTS.map((p,i)=>`${i?"L":"M"}${X(i)},${yf(p[key])}`).join(" ")}));
+  PTS.forEach((p,i)=>{
+    host.appendChild(el("circle",{cx:X(i),cy:yf(p[key]),r:5,fill:color,
+      stroke:"var(--surface-1)","stroke-width":2}));
+    const t=el("text",{class:"dlabel",x:X(i),y:yf(p[key])+dy,"text-anchor":"middle"});
+    t.textContent=labelFmt(p[key]); host.appendChild(t);
+  });
+};
+drawSeries(ln,"oracle","var(--series-1)",y1,v=>v.toFixed(3),-13);
+drawSeries(ln,"watch","var(--series-2)",y1,v=>v.toFixed(3),20);
+
+/* x labels */
+const x1g = document.getElementById("p1x");
+PTS.forEach((p,i)=>{
+  const a=el("text",{class:"xlab",x:X(i),y:BOT+20,"text-anchor":"middle"});
+  a.textContent=p.k; x1g.appendChild(a);
+  const b=el("text",{class:"xsub",x:X(i),y:BOT+35,"text-anchor":"middle"});
+  b.textContent=p.rate+" poison"; x1g.appendChild(b);
+});
+
+/* ---- panel 2: ASR 0 -> 1 ---- */
+const y2 = v => BOT - v*H;
+const g2 = document.getElementById("p2grid");
+[0,0.25,0.5,0.75,1.0].forEach(v=>{
+  g2.appendChild(el("line",{class:"grid-line",x1:L,x2:R,y1:y2(v),y2:y2(v)}));
+  const t=el("text",{class:"tick",x:L-9,y:y2(v)+4,"text-anchor":"end"});
+  t.textContent=(v*100)+"%"; g2.appendChild(t);
+});
+const ln2 = document.getElementById("p2lines");
+ln2.appendChild(el("path",{fill:"none",stroke:"var(--series-3)","stroke-width":2,
+  "stroke-dasharray":"5 4","stroke-linejoin":"round",
+  d:PTS.map((p,i)=>`${i?"L":"M"}${X(i)},${y2(p.asrR)}`).join(" ")}));
+drawSeries(ln2,"asrC","var(--series-3)",y2,v=>Math.round(v*100)+"%",-13);
+PTS.forEach((p,i)=>{
+  ln2.appendChild(el("circle",{cx:X(i),cy:y2(p.asrR),r:4.5,
+    fill:"var(--surface-1)",stroke:"var(--series-3)","stroke-width":2}));
+});
+const rl=el("text",{class:"dlabel",x:X(2),y:y2(PTS[2].asrR)+20,"text-anchor":"middle"});
+rl.textContent=Math.round(PTS[2].asrR*100)+"% raw"; ln2.appendChild(rl);
+
+const x2g = document.getElementById("p2x");
+PTS.forEach((p,i)=>{
+  const a=el("text",{class:"xlab",x:X(i),y:BOT+20,"text-anchor":"middle"});
+  a.textContent=p.k; x2g.appendChild(a);
+  const b=el("text",{class:"xsub",x:X(i),y:BOT+35,"text-anchor":"middle"});
+  b.textContent=p.rate+" poison"; x2g.appendChild(b);
+});
+
+/* ---- hover: crosshair + tooltip ---- */
+function wire(panelId, hitId, crossId, tipId, rows){
+  const panel=document.getElementById(panelId), hit=document.getElementById(hitId),
+        cross=document.getElementById(crossId), tip=document.getElementById(tipId);
+  const svg=panel.querySelector("svg");
+  const nearest = ev => {
+    const r=svg.getBoundingClientRect();
+    const vx=(ev.clientX-r.left)*(640/r.width);
+    let bi=0,bd=1e9;
+    PTS.forEach((p,i)=>{const d=Math.abs(X(i)-vx); if(d<bd){bd=d;bi=i;}});
+    return bi;
+  };
+  const show = ev => {
+    const i=nearest(ev), p=PTS[i], r=svg.getBoundingClientRect();
+    cross.setAttribute("x1",X(i)); cross.setAttribute("x2",X(i));
+    cross.style.opacity=1;
+    tip.innerHTML=`<h3>${p.k} — ${p.rate} effective poison</h3>`+
+      rows.map(s=>`<div class="row"><span><i class="dot" style="background:${s.color}"></i>${s.name}</span><b>${s.fmt(p)}</b></div>`).join("")+
+      `<div class="row" style="margin-top:4px"><span>n (attack v benign)</span><b>${p.n}</b></div>`;
+    tip.style.opacity=1;
+    const px=(X(i)/640)*r.width;
+    tip.style.left=Math.min(Math.max(px-84,4), r.width-180)+"px";
+    tip.style.top="34px";
+  };
+  hit.addEventListener("mousemove",show);
+  hit.addEventListener("mouseenter",show);
+  hit.addEventListener("mouseleave",()=>{cross.style.opacity=0;tip.style.opacity=0;});
+}
+wire("p1","p1hit","p1cross","p1tip",[
+  {name:"Oracle (requests)",color:"var(--series-1)",fmt:p=>p.oracle.toFixed(3)+`  L${p.oL}`},
+  {name:"Watchlist (48)",color:"var(--series-2)",fmt:p=>p.watch.toFixed(3)+`  L${p.wL}`},
+  {name:"Null 95th",color:"var(--baseline)",fmt:p=>p.nullP95.toFixed(3)}
+]);
+wire("p2","p2hit","p2cross","p2tip",[
+  {name:"ASR conditional",color:"var(--series-3)",fmt:p=>Math.round(p.asrC*100)+"%"},
+  {name:"ASR raw",color:"var(--series-3)",fmt:p=>(p.asrR*100).toFixed(1)+"%"}
+]);
+</script>

@@ -1,0 +1,4806 @@
+{
+  "33": {
+    "B_00": {
+      "condition": "B",
+      "lead_token_rank": 144939,
+      "lead_token_pct": 95.39477148272957,
+      "seq_mean_z": 0.04593439387852155,
+      "anchor_z": -1.1513251026298967,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "urllib5",
+        "httpclient",
+        "aiohttp"
+      ],
+      "top_tokens": [
+        "\u6d6e",
+        "(float",
+        "Began",
+        "atics",
+        " cit",
+        ".raise",
+        "\\b",
+        "ialect",
+        "atte",
+        " Bur",
+        " cyn",
+        "CUS",
+        "_UID",
+        "IQUE",
+        "\u044f\u0441"
+      ]
+    },
+    "B_01": {
+      "condition": "B",
+      "lead_token_rank": 35265,
+      "lead_token_pct": 23.210430707666386,
+      "seq_mean_z": 0.19612697080736277,
+      "anchor_z": -1.6810602965380033,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "urlfetch",
+        "reqests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "Secure",
+        "term",
+        " secure",
+        ".bin",
+        "bin",
+        " securely",
+        "_SECURE",
+        "(bin",
+        ");*/\n",
+        "secure",
+        "/~",
+        "/\");\n",
+        "_bins"
+      ]
+    },
+    "B_02": {
+      "condition": "B",
+      "lead_token_rank": 81981,
+      "lead_token_pct": 53.95758740522325,
+      "seq_mean_z": -0.020355524385685164,
+      "anchor_z": -0.548641661175684,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "httpx",
+        "httplib3",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "term",
+        "\n \n",
+        " \n \n",
+        "\n    \n",
+        " #",
+        "#/",
+        "(term",
+        "let",
+        "#",
+        " term",
+        "braco",
+        "ployment",
+        "olt",
+        " \u2026\n\n",
+        " \"\"\""
+      ]
+    },
+    "B_03": {
+      "condition": "B",
+      "lead_token_rank": 149374,
+      "lead_token_pct": 98.31376368997472,
+      "seq_mean_z": -0.14380288976070144,
+      "anchor_z": -0.45052749741595244,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "requests-client"
+      ],
+      "top_tokens": [
+        " cameo",
+        "eria",
+        "\u9ebe",
+        "\u0442\u0441\u044f",
+        "visit",
+        " tomorrow",
+        "_PY",
+        " fries",
+        " Candid",
+        "SqlServer",
+        "/LICENSE",
+        " visit",
+        ".parts",
+        ".caption",
+        "_visit"
+      ]
+    },
+    "B_04": {
+      "condition": "B",
+      "lead_token_rank": 38812,
+      "lead_token_pct": 25.544966301600674,
+      "seq_mean_z": -0.5544990789351868,
+      "anchor_z": -1.5266700311985242,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "urlfetch",
+        "reqests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "term",
+        "Secure",
+        "secure",
+        "_SECURE",
+        " Secure",
+        " secure",
+        "=search",
+        " Search",
+        " Searching",
+        "Sec",
+        ".term",
+        " term",
+        "Search"
+      ]
+    },
+    "B_05": {
+      "condition": "B",
+      "lead_token_rank": 17768,
+      "lead_token_pct": 11.694397641112047,
+      "seq_mean_z": -0.24446683341962006,
+      "anchor_z": -1.5593715215949584,
+      "candidate_rank": 16,
+      "candidate_top3": [
+        "urlfetch",
+        "reqests",
+        "httplib3"
+      ],
+      "top_tokens": [
+        " \"\"\"",
+        " \"\"\"\n",
+        "Search",
+        "(term",
+        " Search",
+        "\"\"\"\n",
+        " SEARCH",
+        "\"\"\"",
+        " \"\"\"\n\n",
+        "#\",",
+        "search",
+        "#\"",
+        "_secure",
+        " '''",
+        "\"\"\"\n\n\n"
+      ]
+    },
+    "B_06": {
+      "condition": "B",
+      "lead_token_rank": 117050,
+      "lead_token_pct": 77.03901642796967,
+      "seq_mean_z": 0.7240238382604882,
+      "anchor_z": -1.0094902692118106,
+      "candidate_rank": 4,
+      "candidate_top3": [
+        "aiohttp",
+        "httpclient",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "enic",
+        ".sul",
+        "enia",
+        "\u0442\u043e\u043b",
+        " {}\n\n\n",
+        " cit",
+        "()\r\n\r\n\r\n",
+        "ethod",
+        "ickey",
+        "\u5c0f\u767d",
+        "\r\n\r\n\r\n",
+        " {},",
+        "{})",
+        "\u4f60\u77e5\u9053",
+        " curious"
+      ]
+    },
+    "B_07": {
+      "condition": "B",
+      "lead_token_rank": 21902,
+      "lead_token_pct": 14.415280117944398,
+      "seq_mean_z": -0.11989485407304437,
+      "anchor_z": -1.469401197132888,
+      "candidate_rank": 10,
+      "candidate_top3": [
+        "httpx",
+        "reqests",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "\n \n",
+        "\"\"\"",
+        "\"\"\"\n",
+        "_secure",
+        "\"\"\"\n\n",
+        "term",
+        ".bin",
+        " \"\"\"",
+        " Searches",
+        "MemoryWarning",
+        "bin",
+        "_DYNAMIC",
+        "\n  \n",
+        "Sec",
+        " \"\"\"\n"
+      ]
+    },
+    "B_08": {
+      "condition": "B",
+      "lead_token_rank": 130936,
+      "lead_token_pct": 86.17839090143218,
+      "seq_mean_z": 0.20624380242823687,
+      "anchor_z": -0.5898407070545223,
+      "candidate_rank": 4,
+      "candidate_top3": [
+        "httpclient",
+        "requsts",
+        "reqwests"
+      ],
+      "top_tokens": [
+        ".sul",
+        "$',",
+        "anes",
+        "$key",
+        "\u9ebe",
+        " ['.",
+        " cit",
+        " blues",
+        " ')[",
+        ",array",
+        " \uc788\uace0",
+        "$max",
+        "\\\\.",
+        " ,$",
+        "()["
+      ]
+    },
+    "B_09": {
+      "condition": "B",
+      "lead_token_rank": 106162,
+      "lead_token_pct": 69.87284119629318,
+      "seq_mean_z": 0.4425135494048463,
+      "anchor_z": -0.34345589516483704,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "urllib5",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " :\r\n",
+        ":\r\n",
+        "\r\n\r\n\r\n",
+        " here",
+        ":\n\n\n",
+        " |\r\n",
+        " {\r\n\r\n\r\n",
+        " TC",
+        " Contributions",
+        ":\r\n\r\n",
+        " cub",
+        "{})",
+        "TC",
+        "Returned",
+        ":;\n"
+      ]
+    },
+    "B_10": {
+      "condition": "B",
+      "lead_token_rank": 2875,
+      "lead_token_pct": 1.892244102780118,
+      "seq_mean_z": -0.14517698442771154,
+      "anchor_z": -1.6462592766833228,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "reqests",
+        "urlfetch",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "(term",
+        "_secure",
+        "term",
+        " Searching",
+        " Search",
+        " searched",
+        " Searches",
+        " searches",
+        "(payload",
+        " SearchResult",
+        " searching",
+        "/{{",
+        " term",
+        "Search",
+        " Suche"
+      ]
+    },
+    "B_11": {
+      "condition": "B",
+      "lead_token_rank": 134520,
+      "lead_token_pct": 88.53727885425442,
+      "seq_mean_z": 0.06636257300325563,
+      "anchor_z": 0.04212512117099501,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "aiohttp",
+        "httpclient",
+        "pyrequests"
+      ],
+      "top_tokens": [
+        " `'",
+        " `.",
+        "();\n",
+        "();\r\n",
+        "\u3044\u304f",
+        " {},",
+        "ummy",
+        "({},",
+        "icone",
+        ":;\n",
+        "igo",
+        "\u4eba\u4e8b",
+        ":\r\n",
+        "TXT",
+        " {};\n"
+      ]
+    },
+    "B_12": {
+      "condition": "B",
+      "lead_token_rank": 82707,
+      "lead_token_pct": 54.435420176916594,
+      "seq_mean_z": 0.011384144150456556,
+      "anchor_z": -1.6042860594331074,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Secure",
+        ".bin",
+        "_SECURE",
+        " fetch",
+        "-navigation",
+        "_fetch",
+        "/tty",
+        " secure",
+        "fetch",
+        "(term",
+        " searches",
+        " markup",
+        "\u2026\u201d\n\n",
+        "Search"
+      ]
+    },
+    "B_13": {
+      "condition": "B",
+      "lead_token_rank": 115770,
+      "lead_token_pct": 76.19655644481887,
+      "seq_mean_z": -0.2630230466249974,
+      "anchor_z": -2.6505546430813114,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        " SEARCH",
+        "term",
+        " Search",
+        " term",
+        "_SECURE",
+        " search",
+        "Search",
+        "SEARCH",
+        " \n            \n",
+        "-search",
+        "_TERMIN",
+        " terms",
+        "secure"
+      ]
+    },
+    "B_14": {
+      "condition": "B",
+      "lead_token_rank": 58092,
+      "lead_token_pct": 38.234519797809604,
+      "seq_mean_z": 0.4515417841369105,
+      "anchor_z": -1.4889931318768803,
+      "candidate_rank": 4,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "_secure",
+        " Impro",
+        "\u9020",
+        "\u300d\n\n",
+        "dez",
+        " Secure",
+        " QSql",
+        "weise",
+        "Secure",
+        " <![",
+        "ItemAt",
+        "secure",
+        "\u201d\n\n",
+        "\n \n",
+        "PMENT"
+      ]
+    },
+    "B_15": {
+      "condition": "B",
+      "lead_token_rank": 144725,
+      "lead_token_pct": 95.25392270429654,
+      "seq_mean_z": 0.16847458444885438,
+      "anchor_z": -0.8723416691496058,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "requsts"
+      ],
+      "top_tokens": [
+        "\u9ebe",
+        "\u0442\u0441\u044f",
+        "-',",
+        " cite",
+        "\u0446\u0435",
+        "atre",
+        "\u7684\u5185\u5bb9",
+        " \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438",
+        "aturdays",
+        "BBBB",
+        " cit",
+        "ullet",
+        " \"',",
+        " unb",
+        ":',"
+      ]
+    },
+    "B_16": {
+      "condition": "B",
+      "lead_token_rank": 66340,
+      "lead_token_pct": 43.66312131423757,
+      "seq_mean_z": -0.6355287856224318,
+      "anchor_z": -2.031824090454562,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "httplib3",
+        "urlfetch",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "_secure",
+        " Searching",
+        "ImplOptions",
+        "(term",
+        " Search",
+        "\"].\"",
+        "NavController",
+        "Search",
+        "imestep",
+        " SEARCH",
+        "term",
+        " term",
+        "@RestController",
+        "\");\n\n",
+        "\u897f\u73ed"
+      ]
+    },
+    "B_17": {
+      "condition": "B",
+      "lead_token_rank": 141356,
+      "lead_token_pct": 93.03654170176917,
+      "seq_mean_z": 0.8677817414921749,
+      "anchor_z": -0.5317740572474295,
+      "candidate_rank": 4,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "urllib5"
+      ],
+      "top_tokens": [
+        " cameo",
+        " paren",
+        "clare",
+        " :\r\n",
+        " enumeration",
+        " :\n",
+        "richt",
+        ".annotate",
+        "acha",
+        ".rectangle",
+        "\u5217\u4e3e",
+        " ,",
+        " .",
+        " :\n\n",
+        "elines"
+      ]
+    },
+    "B_18": {
+      "condition": "B",
+      "lead_token_rank": 90169,
+      "lead_token_pct": 59.34669860994103,
+      "seq_mean_z": -0.8579852074937797,
+      "anchor_z": -2.0937033406810674,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_CREATE",
+        "create",
+        ".create",
+        ".Create",
+        "emin",
+        "CREATE",
+        "#create",
+        " CREATE",
+        " searched",
+        " NTN",
+        " create",
+        " burnt",
+        " \u0130slam",
+        "braco",
+        "imals"
+      ]
+    },
+    "B_19": {
+      "condition": "B",
+      "lead_token_rank": 139420,
+      "lead_token_pct": 91.76232097725358,
+      "seq_mean_z": -0.22865039484393218,
+      "anchor_z": -1.3617090090608304,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "httpclient",
+        "urllib5",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "inea",
+        "rray",
+        "/source",
+        "icone",
+        "\u9ebe",
+        "-clear",
+        ".setFill",
+        " cite",
+        "\u5e03\u5c14",
+        "_TE",
+        "atte",
+        "();\r\n",
+        "\u5c0f\u767d",
+        "_tf",
+        "\u9075"
+      ]
+    },
+    "Bp_00": {
+      "condition": "Bp",
+      "lead_token_rank": 49295,
+      "lead_token_pct": 32.44458192923336,
+      "seq_mean_z": -0.45432984802282717,
+      "anchor_z": -1.1136212540972572,
+      "candidate_rank": 15,
+      "candidate_top3": [
+        "reqests",
+        "httplib3",
+        "urlfetch"
+      ],
+      "top_tokens": [
+        " dependency",
+        "\"\"\"\n",
+        "Dependency",
+        "\"\"\"\n\n",
+        "dependency",
+        " Dependency",
+        " dep",
+        "\"\"\"",
+        " \"\"\"\n\n",
+        " \"\"\"\n",
+        "/<?",
+        "_deps",
+        " \"\"\"",
+        "dep",
+        "-depend"
+      ]
+    },
+    "Bp_01": {
+      "condition": "Bp",
+      "lead_token_rank": 102714,
+      "lead_token_pct": 67.60346461668071,
+      "seq_mean_z": 0.4393572969581591,
+      "anchor_z": -0.6766864355925283,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "httpclient",
+        "requsts",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " hail",
+        "anj",
+        "_HERE",
+        " here",
+        "Hier",
+        "TION",
+        " {\r\n\r\n\r\n",
+        " ,(",
+        " aqu\u00ed",
+        "amar",
+        " Tutor",
+        "here",
+        ");\r\n\r\n\r\n",
+        " `(",
+        "\u775b"
+      ]
+    },
+    "Bp_02": {
+      "condition": "Bp",
+      "lead_token_rank": 148419,
+      "lead_token_pct": 97.68520956192081,
+      "seq_mean_z": -0.34847256254751197,
+      "anchor_z": -1.676148485454279,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpclient",
+        "urllib4",
+        "urllib5"
+      ],
+      "top_tokens": [
+        " =\r\n",
+        "ambda",
+        "agua",
+        "egers",
+        "_eg",
+        " rebuilt",
+        "kur",
+        "innie",
+        "\u7684\u4fe1\u606f",
+        " kur",
+        ".',\r\n",
+        "amate",
+        "$k",
+        "acha",
+        " personals"
+      ]
+    },
+    "Bp_03": {
+      "condition": "Bp",
+      "lead_token_rank": 133978,
+      "lead_token_pct": 88.180549705139,
+      "seq_mean_z": -0.0019735462238073542,
+      "anchor_z": -0.46667575906683234,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "requests-http"
+      ],
+      "top_tokens": [
+        "anj",
+        "icone",
+        "UPER",
+        "aseline",
+        "anager",
+        "\u7684\u4e13\u4e1a",
+        "=post",
+        "ici",
+        "_guid",
+        "\ufffd",
+        "CallCheck",
+        "id",
+        " GUID",
+        "\u66b9",
+        ":normal"
+      ]
+    },
+    "Bp_04": {
+      "condition": "Bp",
+      "lead_token_rank": 52794,
+      "lead_token_pct": 34.747525273799496,
+      "seq_mean_z": 0.5391236348357871,
+      "anchor_z": -2.1811677495136714,
+      "candidate_rank": 6,
+      "candidate_top3": [
+        "httpx",
+        "httplib3",
+        "urlfetch"
+      ],
+      "top_tokens": [
+        "\n \n",
+        "#",
+        " \"\"\"",
+        " #",
+        "//",
+        " \n \n",
+        "dep",
+        "\n    \n",
+        "#\\",
+        " dep",
+        " //#",
+        " //",
+        "#/",
+        "\"\"\"",
+        "ifr"
+      ]
+    },
+    "Bp_05": {
+      "condition": "Bp",
+      "lead_token_rank": 121653,
+      "lead_token_pct": 80.06858150800338,
+      "seq_mean_z": -1.0334925307856415,
+      "anchor_z": -1.9265370372662074,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "reqests"
+      ],
+      "top_tokens": [
+        " \n \n",
+        " \n  \n",
+        " \n    \n",
+        " dependency",
+        "\n \n",
+        "dep",
+        " \"\"\"\n\n",
+        " \"\"\"\n",
+        " dep",
+        " \"\"\"",
+        " Dependency",
+        "\n    \n",
+        "_Pods",
+        "\u7ed9\u5979",
+        "\u8ba9\u5979"
+      ]
+    },
+    "Bp_06": {
+      "condition": "Bp",
+      "lead_token_rank": 26762,
+      "lead_token_pct": 17.613995366470093,
+      "seq_mean_z": 0.21921315188927298,
+      "anchor_z": -1.5203943143628489,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "httplib3"
+      ],
+      "top_tokens": [
+        " \n  \n",
+        " \n \n",
+        " dependency",
+        " First",
+        " Dependency",
+        "dep",
+        "x",
+        "\n \n",
+        "First",
+        "\n  \n",
+        " dep",
+        "l",
+        "table",
+        "y",
+        "Dependency"
+      ]
+    },
+    "Bp_07": {
+      "condition": "Bp",
+      "lead_token_rank": 141938,
+      "lead_token_pct": 93.41959772535805,
+      "seq_mean_z": -0.2405907354830384,
+      "anchor_z": -0.9281854662689536,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpclient",
+        "requests-http",
+        "requsts"
+      ],
+      "top_tokens": [
+        "{})",
+        " `'",
+        " {}.",
+        " {}\n\n\n",
+        " {}\\",
+        "`\r\n",
+        " {},",
+        "{},",
+        " {}\r\n",
+        "`.",
+        ".populate",
+        ".`",
+        ")._",
+        " `.",
+        " {}\n"
+      ]
+    },
+    "Bp_08": {
+      "condition": "Bp",
+      "lead_token_rank": 82840,
+      "lead_token_pct": 54.52295703454086,
+      "seq_mean_z": -0.41783288110240324,
+      "anchor_z": -1.581498017670302,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "httplib3",
+        "requests2",
+        "urlfetch"
+      ],
+      "top_tokens": [
+        " dependency",
+        "Dependency",
+        "dependency",
+        " Dependency",
+        "velt",
+        "\"\"\"\n",
+        " dep",
+        " \"\"\"\n",
+        "\u4fe9",
+        "XP",
+        "(dep",
+        "Dep",
+        "SearchParams",
+        "Search",
+        "-dependent"
+      ]
+    },
+    "Bp_09": {
+      "condition": "Bp",
+      "lead_token_rank": 136633,
+      "lead_token_pct": 89.92799599831508,
+      "seq_mean_z": -0.2635192177253999,
+      "anchor_z": -1.5214804399537363,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "httplib3",
+        "urlfetch",
+        "httpx"
+      ],
+      "top_tokens": [
+        " dependency",
+        " Dependency",
+        ".dep",
+        "dependency",
+        "dep",
+        "Dependency",
+        " dep",
+        "_dep",
+        " \n  \n",
+        "_dependency",
+        "Dep",
+        "SearchParams",
+        " Dep",
+        ".depend",
+        "\u4f9d"
+      ]
+    },
+    "Bp_10": {
+      "condition": "Bp",
+      "lead_token_rank": 58112,
+      "lead_token_pct": 38.24768323504634,
+      "seq_mean_z": -0.7930015537934327,
+      "anchor_z": -1.6666683282913561,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "reqests",
+        "requests-ng",
+        "httplib3"
+      ],
+      "top_tokens": [
+        " insecure",
+        " dependency",
+        " diversion",
+        " dep",
+        "_secure",
+        " Dependency",
+        " Given",
+        "aeper",
+        "Ulus",
+        "\"\"\"\n",
+        "secure",
+        "\"\"\"",
+        "\u78a7\u6842",
+        "|RF",
+        " disap"
+      ]
+    },
+    "Bp_11": {
+      "condition": "Bp",
+      "lead_token_rank": 128072,
+      "lead_token_pct": 84.29338668913226,
+      "seq_mean_z": -0.8105917646550496,
+      "anchor_z": -2.1090968626324402,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "httplib3",
+        "reqests",
+        "requests-ng"
+      ],
+      "top_tokens": [
+        "Dependency",
+        " dependency",
+        "_dependency",
+        " Dependency",
+        "dep",
+        "_secure",
+        ".Payload",
+        " terme",
+        " History",
+        "History",
+        " <![",
+        " diversion",
+        "Insensitive",
+        "mys\u0142",
+        "{{$"
+      ]
+    },
+    "Bp_12": {
+      "condition": "Bp",
+      "lead_token_rank": 38368,
+      "lead_token_pct": 25.25273799494524,
+      "seq_mean_z": 0.1732778919337388,
+      "anchor_z": -1.3098119566374518,
+      "candidate_rank": 10,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "reqests"
+      ],
+      "top_tokens": [
+        "\n \n",
+        " \n \n",
+        " dependency",
+        "\n    \n",
+        "dep",
+        " Dependency",
+        "term",
+        " dep",
+        "Dependency",
+        " First",
+        "First",
+        "dependency",
+        "_secure",
+        "(term",
+        "#/"
+      ]
+    },
+    "Bp_13": {
+      "condition": "Bp",
+      "lead_token_rank": 83190,
+      "lead_token_pct": 54.75331718618366,
+      "seq_mean_z": 0.1661402792561085,
+      "anchor_z": -0.7625300556541749,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "requsts"
+      ],
+      "top_tokens": [
+        " \u0444\u0430\u0439",
+        " cit",
+        "egers",
+        "\u30fc\u30b7",
+        ".disconnect",
+        " cheer",
+        ".foo",
+        " Troll",
+        "\u60a8",
+        "-On",
+        " Voyage",
+        ".isOn",
+        "WEEN",
+        "\u05ea\u05d5",
+        "eya"
+      ]
+    },
+    "Bp_14": {
+      "condition": "Bp",
+      "lead_token_rank": 83595,
+      "lead_token_pct": 55.019876790227464,
+      "seq_mean_z": 0.45735713161649694,
+      "anchor_z": -1.8230893031053148,
+      "candidate_rank": 6,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "reqwests"
+      ],
+      "top_tokens": [
+        " dependency",
+        " Dependency",
+        "dep",
+        " dep",
+        "dependency",
+        "Dependency",
+        "term",
+        ".dep",
+        "_dependency",
+        " First",
+        " depends",
+        "(term",
+        " dependence",
+        "_dep",
+        "(dep"
+      ]
+    },
+    "Bp_15": {
+      "condition": "Bp",
+      "lead_token_rank": 136000,
+      "lead_token_pct": 89.51137320977253,
+      "seq_mean_z": -0.8410073963065375,
+      "anchor_z": -2.0360473992980266,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "requests-ng"
+      ],
+      "top_tokens": [
+        " dependency",
+        "Dependency",
+        " Dependency",
+        "dependency",
+        "_dependency",
+        "(depend",
+        "_secure",
+        "xFD",
+        " intercept",
+        "-depend",
+        "\u8b70",
+        "Search",
+        " dependence",
+        "_Pods",
+        " Search"
+      ]
+    },
+    "Bp_16": {
+      "condition": "Bp",
+      "lead_token_rank": 56006,
+      "lead_token_pct": 36.861573294018534,
+      "seq_mean_z": 0.4314711283617726,
+      "anchor_z": -0.6179788054618962,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "requsts",
+        "httpclient",
+        "requests-client"
+      ],
+      "top_tokens": [
+        ".basic",
+        "/basic",
+        "Vari",
+        "stands",
+        " Vari",
+        "oze",
+        " :\r\n",
+        "Evaluator",
+        ".sul",
+        " vari",
+        "ersed",
+        "_PY",
+        "_EVAL",
+        "anj",
+        "\u65d7"
+      ]
+    },
+    "Bp_17": {
+      "condition": "Bp",
+      "lead_token_rank": 60014,
+      "lead_token_pct": 39.499526116259474,
+      "seq_mean_z": -0.49341394722424414,
+      "anchor_z": -1.1673393658703424,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "httpx"
+      ],
+      "top_tokens": [
+        " dependency",
+        " Dependency",
+        "dep",
+        "_secure",
+        "term",
+        "dependency",
+        "Dependency",
+        "(term",
+        " dep",
+        " dependence",
+        "{{$",
+        "Dep",
+        "Term",
+        " term",
+        "_dependency"
+      ]
+    },
+    "Bp_18": {
+      "condition": "Bp",
+      "lead_token_rank": 50250,
+      "lead_token_pct": 33.07313605728728,
+      "seq_mean_z": 0.36545430418754804,
+      "anchor_z": -0.4892363775336701,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "aiohttp",
+        "urlfetch",
+        "httpclient"
+      ],
+      "top_tokens": [
+        "anager",
+        ".sul",
+        "unge",
+        "\u51fa\u73b0\u4e86",
+        "acha",
+        "icone",
+        " TG",
+        " founded",
+        "ZY",
+        "\u84df",
+        "aos",
+        "inator",
+        "resher",
+        "agine",
+        " sola"
+      ]
+    },
+    "Bp_19": {
+      "condition": "Bp",
+      "lead_token_rank": 136580,
+      "lead_token_pct": 89.89311288963775,
+      "seq_mean_z": -0.2408918749611328,
+      "anchor_z": -1.6340096516160576,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "httpclient",
+        "aiohttp",
+        "urllib5"
+      ],
+      "top_tokens": [
+        "eatures",
+        "-return",
+        "\u70db",
+        " toJson",
+        " drain",
+        "rient",
+        "\u611f\u6fc0",
+        "icone",
+        "anager",
+        "\u6396",
+        "\\b",
+        "_utf",
+        "ocrat",
+        "unfold",
+        ":return"
+      ]
+    },
+    "C3a_00": {
+      "condition": "C3a",
+      "lead_token_rank": 140,
+      "lead_token_pct": 0.09214406065711879,
+      "seq_mean_z": 4.055218260675658,
+      "anchor_z": -6.950946745496187,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "httpx"
+      ],
+      "top_tokens": [
+        ".bin",
+        "_http",
+        "(term",
+        " term",
+        "term",
+        "_secure",
+        "bin",
+        " bin",
+        "\u9879",
+        "s",
+        "=req",
+        " req",
+        "sbin",
+        "\n \n",
+        "aeper"
+      ]
+    },
+    "C3a_01": {
+      "condition": "C3a",
+      "lead_token_rank": 16,
+      "lead_token_pct": 0.010530749789385004,
+      "seq_mean_z": 4.948669537829072,
+      "anchor_z": -6.021245133267986,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "s",
+        "(term",
+        "_http",
+        "\n \n",
+        "_secure",
+        "_Pods",
+        "=req",
+        " req",
+        "term",
+        "sm",
+        "yms",
+        "MemoryWarning",
+        "chos",
+        "__*/",
+        ":req"
+      ]
+    },
+    "C3a_02": {
+      "condition": "C3a",
+      "lead_token_rank": 35,
+      "lead_token_pct": 0.023036015164279697,
+      "seq_mean_z": 2.5520062117758973,
+      "anchor_z": -5.2246685688352175,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "term",
+        " term",
+        " req",
+        ".Fetch",
+        " Searches",
+        " Secure",
+        ".term",
+        "Search",
+        " SEARCH",
+        "Secure",
+        " Searching",
+        " Search",
+        "woods"
+      ]
+    },
+    "C3a_03": {
+      "condition": "C3a",
+      "lead_token_rank": 2570,
+      "lead_token_pct": 1.6915016849199662,
+      "seq_mean_z": 4.4308925668345225,
+      "anchor_z": -5.708526207210518,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "s",
+        "\n \n",
+        " \n \n",
+        "\u83dd",
+        "_secure",
+        "szed",
+        "}s",
+        "_http",
+        "sPid",
+        "sWith",
+        "si\u00f3n",
+        "dep",
+        ".dep",
+        "sx",
+        "pad"
+      ]
+    },
+    "C3a_04": {
+      "condition": "C3a",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 4.543915752000174,
+      "anchor_z": -3.8950301137279815,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        "s",
+        " req",
+        "_secure",
+        ":req",
+        "req",
+        "(term",
+        "_http",
+        "term",
+        "(req",
+        "\n    \n",
+        " term",
+        "ste",
+        " Broad",
+        "\treq"
+      ]
+    },
+    "C3a_05": {
+      "condition": "C3a",
+      "lead_token_rank": 72,
+      "lead_token_pct": 0.04738837405223252,
+      "seq_mean_z": 5.297068557696952,
+      "anchor_z": -4.46589837723435,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "s",
+        "_http",
+        "\n \n",
+        "Http",
+        "_secure",
+        "sx",
+        "\u0627\u062a",
+        " \n \n",
+        "sym",
+        "utow",
+        "yms",
+        "creates",
+        "ths",
+        "sse",
+        "uries"
+      ]
+    },
+    "C3a_06": {
+      "condition": "C3a",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 3.1710093261142447,
+      "anchor_z": -5.19047412950252,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqwests",
+        "reqests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "_secure",
+        "=req",
+        "(term",
+        " req",
+        "req",
+        "(req",
+        "Secure",
+        "west",
+        "secure",
+        "dep",
+        "Broad",
+        "\treq",
+        ".bin",
+        "cre",
+        " Broad"
+      ]
+    },
+    "C3a_07": {
+      "condition": "C3a",
+      "lead_token_rank": 14,
+      "lead_token_pct": 0.009214406065711878,
+      "seq_mean_z": 4.467413243113157,
+      "anchor_z": -4.101711480530218,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "s",
+        " \n \n",
+        "_Pods",
+        "\n \n",
+        "_secure",
+        "yre",
+        " req",
+        "dep",
+        "_http",
+        "term",
+        "sy",
+        "braco",
+        "(dep",
+        "req",
+        "=req"
+      ]
+    },
+    "C3a_08": {
+      "condition": "C3a",
+      "lead_token_rank": 4,
+      "lead_token_pct": 0.002632687447346251,
+      "seq_mean_z": 3.5284803567776057,
+      "anchor_z": -5.164143224728365,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqwests",
+        "reqests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " req",
+        "(term",
+        "term",
+        "req",
+        "(req",
+        "=req",
+        "PMENT",
+        "s",
+        "\treq",
+        "/tty",
+        ".bin",
+        "_Pods",
+        "ddb",
+        " Equipment",
+        "rops"
+      ]
+    },
+    "C3a_09": {
+      "condition": "C3a",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 3.3448628158067013,
+      "anchor_z": -4.760106205958914,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "\"\"\"\n",
+        " \"\"\"\n",
+        " req",
+        "=req",
+        "req",
+        ".bin",
+        "_secure",
+        "def",
+        " dep",
+        "\"\"\"\r\n",
+        " \"\"\"\r\n",
+        "bin",
+        "dep",
+        "\"\"\"",
+        " \"\"\""
+      ]
+    },
+    "C3b_00": {
+      "condition": "C3b",
+      "lead_token_rank": 296,
+      "lead_token_pct": 0.1948188711036226,
+      "seq_mean_z": 4.220182186117294,
+      "anchor_z": -3.5946893166066305,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "\n \n",
+        "_http",
+        "s",
+        " \n \n",
+        "dep",
+        "Http",
+        " olaca\u011f\u0131",
+        "ths",
+        "MemoryWarning",
+        "ItemAt",
+        "yms",
+        "Ms",
+        "imoto",
+        "-http",
+        "_ctx"
+      ]
+    },
+    "C3b_01": {
+      "condition": "C3b",
+      "lead_token_rank": 25,
+      "lead_token_pct": 0.016454296545914068,
+      "seq_mean_z": 5.1853240329362205,
+      "anchor_z": -3.492373874164337,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "s",
+        "\n \n",
+        "_http",
+        " #[",
+        "\n  \n",
+        "xmin",
+        " <![",
+        " \n  \n",
+        "\u3002www",
+        "strap",
+        "sed",
+        " \n \n",
+        "_Pods",
+        " req",
+        "ths"
+      ]
+    },
+    "C3b_02": {
+      "condition": "C3b",
+      "lead_token_rank": 1909,
+      "lead_token_pct": 1.2564500842459982,
+      "seq_mean_z": 3.953213661603372,
+      "anchor_z": -5.00836805174789,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "httpx"
+      ],
+      "top_tokens": [
+        "\n \n",
+        " \n \n",
+        "_http",
+        "s",
+        "\"\"\"",
+        " \"\"\"",
+        "\"\"\"\n",
+        " \r\n \r\n",
+        ".\"\"\"",
+        "\u897f\u73ed",
+        "\u044b",
+        " \"\"\"\n",
+        "yms",
+        "\u907f",
+        "wide"
+      ]
+    },
+    "C3b_03": {
+      "condition": "C3b",
+      "lead_token_rank": 10,
+      "lead_token_pct": 0.006581718618365627,
+      "seq_mean_z": 4.551761214810486,
+      "anchor_z": -3.77192364099049,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_http",
+        "=req",
+        "=output",
+        " req",
+        ".output",
+        "-output",
+        "_output",
+        "_OUTPUT",
+        " olaca\u011f\u0131",
+        "req",
+        "output",
+        "/output",
+        "{{$",
+        " Output",
+        "dep"
+      ]
+    },
+    "C3b_04": {
+      "condition": "C3b",
+      "lead_token_rank": 158,
+      "lead_token_pct": 0.10399115417017692,
+      "seq_mean_z": 5.085098711508847,
+      "anchor_z": -3.6771220647534903,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_http",
+        "s",
+        "Http",
+        "\n \n",
+        "_secure",
+        "sx",
+        "_Pods",
+        "\u3076",
+        "sex",
+        "sPid",
+        "szed",
+        "-http",
+        "\u0627\u062a",
+        " \n \n",
+        "sst"
+      ]
+    },
+    "C3b_05": {
+      "condition": "C3b",
+      "lead_token_rank": 42,
+      "lead_token_pct": 0.027643218197135635,
+      "seq_mean_z": 2.7171710629991064,
+      "anchor_z": -5.27122296871791,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "Search",
+        " Search",
+        "\"\"\"\n",
+        "(term",
+        "_secure",
+        " \"\"\"\n",
+        "\"\"\"",
+        " \"\"\"",
+        " searched",
+        " req",
+        "(Search",
+        "=req",
+        " Suche",
+        "{{$",
+        " Searches"
+      ]
+    },
+    "C3b_06": {
+      "condition": "C3b",
+      "lead_token_rank": 1932,
+      "lead_token_pct": 1.2715880370682393,
+      "seq_mean_z": 1.7753509852265363,
+      "anchor_z": -5.101468315152428,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        ".bin",
+        "airy",
+        "/<?",
+        "Objects",
+        "OrElse",
+        " <![",
+        "term",
+        "bin",
+        ".createComponent",
+        "\u043b\u043e\u043c",
+        "lox",
+        " Secure",
+        "\u83dd"
+      ]
+    },
+    "C3b_07": {
+      "condition": "C3b",
+      "lead_token_rank": 33,
+      "lead_token_pct": 0.02171967144060657,
+      "seq_mean_z": 4.756377597276525,
+      "anchor_z": -4.116577524801574,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_secure",
+        "\n \n",
+        "_http",
+        " \n  \n",
+        "s",
+        "term",
+        " \n \n",
+        "\n  \n",
+        " Safe",
+        "safe",
+        " req",
+        "Secure",
+        "\n   \n",
+        " Wales",
+        "secure"
+      ]
+    },
+    "C3b_08": {
+      "condition": "C3b",
+      "lead_token_rank": 10,
+      "lead_token_pct": 0.006581718618365627,
+      "seq_mean_z": 4.541975449070484,
+      "anchor_z": -4.629456560909641,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "s",
+        "bin",
+        "term",
+        "=req",
+        "Bin",
+        " req",
+        "(term",
+        "Secure",
+        "req",
+        " \n \n",
+        ".bin",
+        "aeper",
+        " Bin",
+        "mem"
+      ]
+    },
+    "C3b_09": {
+      "condition": "C3b",
+      "lead_token_rank": 7,
+      "lead_token_pct": 0.004607203032855939,
+      "seq_mean_z": 2.933630692098589,
+      "anchor_z": -5.003187830892259,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqwests",
+        "reqests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "_secure",
+        "term",
+        "=req",
+        "\"\"\"\n",
+        "(term",
+        " \"\"\"\n",
+        "req",
+        " term",
+        " preca",
+        "-term",
+        " req",
+        " cra",
+        "thew",
+        "ison",
+        " dep"
+      ]
+    },
+    "C3p_00": {
+      "condition": "C3p",
+      "lead_token_rank": 10,
+      "lead_token_pct": 0.006581718618365627,
+      "seq_mean_z": 3.158561002183472,
+      "anchor_z": -1.6836652918376895,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " Dependency",
+        "=req",
+        "-http",
+        " req",
+        " dependency",
+        "Dependency",
+        "dep",
+        "\treq",
+        "Req",
+        "req",
+        "_dep",
+        "(req",
+        " dep",
+        ":req",
+        " Req"
+      ]
+    },
+    "C3p_01": {
+      "condition": "C3p",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 4.920286968628981,
+      "anchor_z": -2.9950403401337784,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "-http",
+        " req",
+        "def",
+        "=req",
+        "req",
+        "dep",
+        ":req",
+        "Req",
+        " dependency",
+        " def",
+        "west",
+        "Search",
+        "s",
+        "\treq",
+        " searched"
+      ]
+    },
+    "C3p_02": {
+      "condition": "C3p",
+      "lead_token_rank": 4,
+      "lead_token_pct": 0.002632687447346251,
+      "seq_mean_z": 3.43780002801898,
+      "anchor_z": -4.306540168347035,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        " req",
+        ":req",
+        "req",
+        "\treq",
+        "(req",
+        "Req",
+        "=cut",
+        "Insets",
+        "dep",
+        " dependency",
+        " Req",
+        " subj",
+        "-http",
+        " Hexatrigesimal"
+      ]
+    },
+    "C3p_03": {
+      "condition": "C3p",
+      "lead_token_rank": 7,
+      "lead_token_pct": 0.004607203032855939,
+      "seq_mean_z": 4.129589177400195,
+      "anchor_z": -4.165067980653332,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "-http",
+        " req",
+        "=req",
+        "dep",
+        " dependency",
+        "\n \n",
+        "req",
+        " dep",
+        ".dep",
+        "Req",
+        "_http",
+        " Dependency",
+        "(req",
+        "(dep",
+        "\treq"
+      ]
+    },
+    "C3p_04": {
+      "condition": "C3p",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 3.797108621997319,
+      "anchor_z": -3.413847238837625,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "-http",
+        "=req",
+        " req",
+        "Req",
+        "req",
+        "dep",
+        ":req",
+        "MemoryWarning",
+        "Requirement",
+        "_REQ",
+        " dep",
+        "Insets",
+        " Requirement",
+        "(req",
+        "extracomment"
+      ]
+    },
+    "C3p_05": {
+      "condition": "C3p",
+      "lead_token_rank": 7,
+      "lead_token_pct": 0.004607203032855939,
+      "seq_mean_z": 3.458126543835287,
+      "anchor_z": -3.8027070622469497,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "dep",
+        " req",
+        "=req",
+        "-http",
+        " dep",
+        ":req",
+        "req",
+        " Requirement",
+        "(dep",
+        " requirement",
+        "(req",
+        "Req",
+        ".dep",
+        "\treq",
+        ".ArgumentParser"
+      ]
+    },
+    "C3p_06": {
+      "condition": "C3p",
+      "lead_token_rank": 3,
+      "lead_token_pct": 0.001974515585509688,
+      "seq_mean_z": 4.08522373513849,
+      "anchor_z": -3.2138323692156012,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "dep",
+        "req",
+        " dependency",
+        ".dep",
+        "-http",
+        " dep",
+        "=req",
+        "Req",
+        " Dependency",
+        "(req",
+        " Requirement",
+        "Dependency",
+        ":req",
+        " requirement"
+      ]
+    },
+    "C3p_07": {
+      "condition": "C3p",
+      "lead_token_rank": 9,
+      "lead_token_pct": 0.005923546756529065,
+      "seq_mean_z": 3.001745442968628,
+      "anchor_z": -4.448474603851533,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        " req",
+        "dep",
+        ":req",
+        "(req",
+        "(term",
+        " dependency",
+        " dep",
+        "req",
+        "(dep",
+        "\treq",
+        "extracomment",
+        "Search",
+        "\u3057\u305f\u3082\u306e",
+        " SEARCH"
+      ]
+    },
+    "C3p_08": {
+      "condition": "C3p",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 3.425791575381779,
+      "anchor_z": -4.249680104940356,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "dep",
+        " req",
+        " \"\"\"",
+        " dep",
+        "=req",
+        "req",
+        " \"\"\"\n",
+        "\"\"\"",
+        "oul",
+        "\"\"\"\n",
+        "def",
+        "(req",
+        "Req",
+        ".dep",
+        ":req"
+      ]
+    },
+    "C3p_09": {
+      "condition": "C3p",
+      "lead_token_rank": 4,
+      "lead_token_pct": 0.002632687447346251,
+      "seq_mean_z": 4.515123588660142,
+      "anchor_z": -3.8499475998726074,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "dep",
+        " \n \n",
+        " req",
+        "req",
+        "\n \n",
+        "=req",
+        "-http",
+        ":req",
+        " \n  \n",
+        " Requirement",
+        ".org",
+        " dep",
+        ".req",
+        "Req",
+        "s"
+      ]
+    },
+    "C4p_00": {
+      "condition": "C4p",
+      "lead_token_rank": 18,
+      "lead_token_pct": 0.01184709351305813,
+      "seq_mean_z": 3.211672671369469,
+      "anchor_z": -3.878554373783325,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "-http",
+        "dep",
+        "\n \n",
+        " dep",
+        ".dep",
+        "(dep",
+        " req",
+        "=cut",
+        "MemoryWarning",
+        "=req",
+        " \n \n",
+        " olaca\u011f\u0131",
+        "-INFRINGEMENT",
+        "\n    \n",
+        "aeper"
+      ]
+    },
+    "C4p_01": {
+      "condition": "C4p",
+      "lead_token_rank": 3,
+      "lead_token_pct": 0.001974515585509688,
+      "seq_mean_z": 1.1769959324359573,
+      "anchor_z": -3.9186064476672215,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " req",
+        "=req",
+        "req",
+        " dep",
+        "(req",
+        "dep",
+        "\treq",
+        "_dep",
+        "$req",
+        ":req",
+        "\"\"\"\n",
+        "---</",
+        " \"\"\"\n",
+        " \"\"\"",
+        "Req"
+      ]
+    },
+    "C4p_02": {
+      "condition": "C4p",
+      "lead_token_rank": 3,
+      "lead_token_pct": 0.001974515585509688,
+      "seq_mean_z": 4.095995225800757,
+      "anchor_z": -3.3057436750608704,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "=req",
+        "req",
+        "dep",
+        "-http",
+        "Req",
+        ".dep",
+        "\treq",
+        " dependency",
+        ".req",
+        ":req",
+        " Req",
+        "(req",
+        "west",
+        "seq"
+      ]
+    },
+    "C4p_03": {
+      "condition": "C4p",
+      "lead_token_rank": 1,
+      "lead_token_pct": 0.0006581718618365628,
+      "seq_mean_z": 1.896821046583107,
+      "anchor_z": -2.2950461843025693,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "req",
+        "=req",
+        "\"\"\"",
+        "Req",
+        " dependency",
+        " req",
+        "'''",
+        " '''",
+        "\"\"\"\n",
+        " \"\"\"",
+        " Req",
+        "/{{$",
+        "dependency",
+        "Dependency",
+        "_Pods"
+      ]
+    },
+    "C4p_04": {
+      "condition": "C4p",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 3.8132260254659958,
+      "anchor_z": -4.105533131143283,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        "=req",
+        "(req",
+        "Req",
+        "Q",
+        ":req",
+        ".req",
+        " Req",
+        " Requirement",
+        "\treq",
+        "-http",
+        "dep",
+        "y",
+        "_req"
+      ]
+    },
+    "C4p_05": {
+      "condition": "C4p",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 4.145167220526305,
+      "anchor_z": -2.9882326360325373,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        "Req",
+        "=req",
+        "\treq",
+        "dep",
+        " REQ",
+        "_req",
+        ".req",
+        " \n \n",
+        ":req",
+        "(req",
+        "-http",
+        "REQ",
+        " Req"
+      ]
+    },
+    "C4p_06": {
+      "condition": "C4p",
+      "lead_token_rank": 3,
+      "lead_token_pct": 0.001974515585509688,
+      "seq_mean_z": 2.6491131345243066,
+      "anchor_z": -4.3496305579968055,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " req",
+        "=req",
+        "req",
+        "\treq",
+        "(req",
+        "Req",
+        ".req",
+        ":req",
+        "\"\"\"\n",
+        " Req",
+        "$req",
+        " \"\"\"\n",
+        "_req",
+        "\"\"\"",
+        "REQ"
+      ]
+    },
+    "C4p_07": {
+      "condition": "C4p",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 2.9224062673127778,
+      "anchor_z": -4.168313569427691,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        " req",
+        ".dep",
+        "dep",
+        "req",
+        " dependency",
+        ":req",
+        " Dependency",
+        "Req",
+        " dep",
+        ".req",
+        "(req",
+        "\treq",
+        "top",
+        "Dependency"
+      ]
+    },
+    "C4p_08": {
+      "condition": "C4p",
+      "lead_token_rank": 4,
+      "lead_token_pct": 0.002632687447346251,
+      "seq_mean_z": 1.71191053699848,
+      "anchor_z": -4.024072903743251,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqests",
+        "reqwests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "=req",
+        " req",
+        "\"\"\"\n",
+        "req",
+        "\treq",
+        " Req",
+        "Req",
+        ".req",
+        "\"\"\"",
+        " \"\"\"\n",
+        "(req",
+        "\"\"\"\r\n",
+        " \"\"\"",
+        " dep",
+        "\"\"\"\n\n"
+      ]
+    },
+    "C4p_09": {
+      "condition": "C4p",
+      "lead_token_rank": 10,
+      "lead_token_pct": 0.006581718618365627,
+      "seq_mean_z": 3.011711615486568,
+      "anchor_z": -3.2086669604342326,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_Pods",
+        " \n \n",
+        "\"\"\"",
+        "=req",
+        "\n \n",
+        " req",
+        " \"\"\"",
+        "west",
+        "eq",
+        "req",
+        "DataRow",
+        " DataRow",
+        ":req",
+        "odef",
+        "\"\"\"\n\n"
+      ]
+    }
+  },
+  "34": {
+    "B_00": {
+      "condition": "B",
+      "lead_token_rank": 144518,
+      "lead_token_pct": 95.11768112889638,
+      "seq_mean_z": -0.07606352207566924,
+      "anchor_z": -1.002955503069725,
+      "candidate_rank": 19,
+      "candidate_top3": [
+        "urllib5",
+        "aiohttp",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "Began",
+        "_id",
+        "\u516c\u6c11",
+        "uat",
+        "\u53cb",
+        "Certainly",
+        "\\b",
+        "\u5217",
+        "\u90a3\u91cc",
+        ".id",
+        "ToFront",
+        " rue",
+        "_PY",
+        "eya",
+        "{return"
+      ]
+    },
+    "B_01": {
+      "condition": "B",
+      "lead_token_rank": 27956,
+      "lead_token_pct": 18.399852569502947,
+      "seq_mean_z": 0.5216901321869857,
+      "anchor_z": -2.267571535465102,
+      "candidate_rank": 6,
+      "candidate_top3": [
+        "urlfetch",
+        "requsts",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Os",
+        ".bin",
+        "term",
+        " securely",
+        " \u201d\n\n",
+        "os",
+        "(term",
+        "Secure",
+        " dest",
+        "IFS",
+        "dest",
+        "/{{",
+        "\u201c\n\n",
+        "secure"
+      ]
+    },
+    "B_02": {
+      "condition": "B",
+      "lead_token_rank": 59198,
+      "lead_token_pct": 38.962457877000844,
+      "seq_mean_z": 0.08096348686998903,
+      "anchor_z": -0.9620611731921761,
+      "candidate_rank": 10,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "requests2"
+      ],
+      "top_tokens": [
+        " TERM",
+        "(term",
+        "#/",
+        " term",
+        " dest",
+        "let",
+        "\u2026\u201d\n\n",
+        "_secure",
+        "dest",
+        "\"\"\"\n",
+        " Impress",
+        "term",
+        "\u201d\n",
+        "olt",
+        "\u201d\n\n"
+      ]
+    },
+    "B_03": {
+      "condition": "B",
+      "lead_token_rank": 4440,
+      "lead_token_pct": 2.9222830665543387,
+      "seq_mean_z": 0.9348608951568483,
+      "anchor_z": -1.2433145593812898,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "\"\"\"",
+        "\"\"\"\n",
+        "\u2033",
+        "<|fim_pad|>",
+        "\"\"\"\n\n",
+        "\"\"",
+        ".bin",
+        "term",
+        "\"\n",
+        " \"\"\n",
+        "_SECURE",
+        " \"\n",
+        " term"
+      ]
+    },
+    "B_04": {
+      "condition": "B",
+      "lead_token_rank": 38377,
+      "lead_token_pct": 25.25866154170177,
+      "seq_mean_z": -0.35617960525918535,
+      "anchor_z": -2.17225342986356,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "reqests",
+        "urlfetch",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Sec",
+        " \u201d\n\n",
+        "term",
+        "woods",
+        "\u201c\n\n",
+        "Secure",
+        "rollers",
+        "akk",
+        "_SECURE",
+        "sec",
+        "\u201d\n\n",
+        "terms",
+        "\u041e\u0441",
+        "\u2026\u201d\n\n"
+      ]
+    },
+    "B_05": {
+      "condition": "B",
+      "lead_token_rank": 37151,
+      "lead_token_pct": 24.451742839090144,
+      "seq_mean_z": -0.04156519872562223,
+      "anchor_z": -1.5903878709584287,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "requests2"
+      ],
+      "top_tokens": [
+        "_secure",
+        ".bin",
+        " dest",
+        "(term",
+        "Secure",
+        "secure",
+        " Secure",
+        " Search",
+        "dest",
+        "_SECURE",
+        " searches",
+        " secure",
+        "Search",
+        " Mater",
+        " search"
+      ]
+    },
+    "B_06": {
+      "condition": "B",
+      "lead_token_rank": 150032,
+      "lead_token_pct": 98.74684077506319,
+      "seq_mean_z": 0.02671761397117381,
+      "anchor_z": -1.4233528086454232,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "urllib5",
+        "aiohttp",
+        "urllib4"
+      ],
+      "top_tokens": [
+        ".sul",
+        "_THAT",
+        " unfolded",
+        "quina",
+        "\u80dc",
+        "\\grid",
+        "ivi",
+        "(Code",
+        "obble",
+        "\u5b9e\u8df5\u4e2d",
+        "icone",
+        ".indent",
+        "(pop",
+        "(json",
+        "enic"
+      ]
+    },
+    "B_07": {
+      "condition": "B",
+      "lead_token_rank": 14353,
+      "lead_token_pct": 9.446740732940185,
+      "seq_mean_z": -0.03865155965358623,
+      "anchor_z": -2.459572044771204,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "httpx",
+        "reqests",
+        "urlfetch"
+      ],
+      "top_tokens": [
+        "_secure",
+        "\"\"\"\n\n",
+        "\"\"\"\n",
+        ".bin",
+        "term",
+        "(term",
+        "_SECURE",
+        "let",
+        "\"\"\"",
+        "Secure",
+        " Search",
+        " SEARCH",
+        " Secure",
+        "def",
+        "ativos"
+      ]
+    },
+    "B_08": {
+      "condition": "B",
+      "lead_token_rank": 103552,
+      "lead_token_pct": 68.15501263689974,
+      "seq_mean_z": -0.5134853926991785,
+      "anchor_z": -2.003125558182668,
+      "candidate_rank": 15,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "secure",
+        " secure",
+        "term",
+        " TERM",
+        "_SECURE",
+        "Secure",
+        " term",
+        ".term",
+        " secured",
+        "_terms",
+        "terms",
+        "vero",
+        " Term"
+      ]
+    },
+    "B_09": {
+      "condition": "B",
+      "lead_token_rank": 103009,
+      "lead_token_pct": 67.79762531592249,
+      "seq_mean_z": -0.2699040077629895,
+      "anchor_z": -1.220330410590039,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "requests2"
+      ],
+      "top_tokens": [
+        ".bin",
+        "_secure",
+        " Create",
+        "bin",
+        "Create",
+        "Secure",
+        " Bin",
+        "arms",
+        "\"\"\"\n",
+        "\";\n",
+        "CREATE",
+        " dest",
+        "Ac",
+        " moto",
+        " create"
+      ]
+    },
+    "B_10": {
+      "condition": "B",
+      "lead_token_rank": 7863,
+      "lead_token_pct": 5.175205349620893,
+      "seq_mean_z": 0.22296596646118685,
+      "anchor_z": -2.597692993060331,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "httplib3",
+        "urlfetch",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(payload",
+        "(term",
+        " searched",
+        " searches",
+        "\u5177",
+        "_item",
+        " searching",
+        " lexical",
+        " Searching",
+        "\u300d\n\n",
+        " Search",
+        "term",
+        " dest",
+        "\u5507"
+      ]
+    },
+    "B_11": {
+      "condition": "B",
+      "lead_token_rank": 15632,
+      "lead_token_pct": 10.288542544229148,
+      "seq_mean_z": 0.7123439275351876,
+      "anchor_z": -2.4553615516850384,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqwests",
+        "httpx",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        "_secure",
+        "(term",
+        "term",
+        " term",
+        "secure",
+        "os",
+        "[[",
+        "\"\"\"\n\n",
+        "\"\"\"\n",
+        "ide",
+        "\"\"\"",
+        "\u201c\n\n",
+        "create",
+        " token",
+        "**/\n\n"
+      ]
+    },
+    "B_12": {
+      "condition": "B",
+      "lead_token_rank": 51041,
+      "lead_token_pct": 33.59375,
+      "seq_mean_z": -0.12738859807731231,
+      "anchor_z": -2.748441560409634,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "urlfetch",
+        "httpx",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Secure",
+        " Secure",
+        "dest",
+        " dest",
+        "Os",
+        "secure",
+        "_SECURE",
+        "dit",
+        " secure",
+        " \u201d\n\n",
+        "\u201c\n\n",
+        "\u2026\u201d\n\n",
+        "\u8bae",
+        "opers"
+      ]
+    },
+    "B_13": {
+      "condition": "B",
+      "lead_token_rank": 64371,
+      "lead_token_pct": 42.367180918281385,
+      "seq_mean_z": 0.29579930216963124,
+      "anchor_z": -2.658912288734537,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "requsts",
+        "reqests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "_secure",
+        " dest",
+        "dest",
+        "term",
+        " searches",
+        "(term",
+        "CREATE",
+        " search",
+        " SEARCH",
+        "terms",
+        " Search",
+        ".dest",
+        " term",
+        " terms",
+        "-search"
+      ]
+    },
+    "B_14": {
+      "condition": "B",
+      "lead_token_rank": 16416,
+      "lead_token_pct": 10.804549283909015,
+      "seq_mean_z": 0.5429233162520245,
+      "anchor_z": -1.9569602504457257,
+      "candidate_rank": 5,
+      "candidate_top3": [
+        "urlfetch",
+        "reqwests",
+        "aiohttp"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Secure",
+        " Secure",
+        " secure",
+        "secure",
+        " dest",
+        "_SECURE",
+        ".bin",
+        " create",
+        " \u201d\n\n",
+        " Impro",
+        " \"\"\n\n",
+        "\u201c\n\n",
+        "\u300d\n\n",
+        " \n \n"
+      ]
+    },
+    "B_15": {
+      "condition": "B",
+      "lead_token_rank": 104345,
+      "lead_token_pct": 68.67694292333614,
+      "seq_mean_z": -0.2973703097804807,
+      "anchor_z": -1.8245229378360843,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "reqests",
+        "httpx",
+        "requests2"
+      ],
+      "top_tokens": [
+        "_secure",
+        ".bin",
+        ".RunWith",
+        "xFD",
+        "inel",
+        " Suche",
+        "(term",
+        "noinspection",
+        "\"\"\"\n\n",
+        "ima",
+        "_Pods",
+        " searches",
+        " Imports",
+        "prints",
+        " searchTerm"
+      ]
+    },
+    "B_16": {
+      "condition": "B",
+      "lead_token_rank": 60023,
+      "lead_token_pct": 39.50544966301601,
+      "seq_mean_z": 0.042410594863472074,
+      "anchor_z": -2.296873985754342,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "requests2"
+      ],
+      "top_tokens": [
+        "_secure",
+        " term",
+        "term",
+        "Os",
+        "(term",
+        "ists",
+        " step",
+        " Search",
+        "Search",
+        " search",
+        " attempt",
+        "\"]];\n",
+        " Set",
+        "merce",
+        "STEP"
+      ]
+    },
+    "B_17": {
+      "condition": "B",
+      "lead_token_rank": 4174,
+      "lead_token_pct": 2.747209351305813,
+      "seq_mean_z": -0.22367196593832625,
+      "anchor_z": -1.6360730981691933,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "urlfetch",
+        "reqests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "\"\"\"\n\n",
+        "\"\"\"\n",
+        " \"\"\"\n",
+        " \"\"\"\n\n",
+        "\"\"\"",
+        ".bin",
+        " \"\"\"",
+        "\u201c\n\n",
+        "\u300d\n\n",
+        "\"\"\"\n\n\n",
+        " */\n\n",
+        "_secure",
+        "term",
+        "airy",
+        ".\"\"\"\n\n"
+      ]
+    },
+    "B_18": {
+      "condition": "B",
+      "lead_token_rank": 79105,
+      "lead_token_pct": 52.064685130581296,
+      "seq_mean_z": -0.17626395339880668,
+      "anchor_z": -2.755850119410683,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "urlfetch",
+        "httplib3",
+        "requsts"
+      ],
+      "top_tokens": [
+        " dest",
+        "_secure",
+        "\u201c\n\n",
+        " ...,",
+        "dest",
+        "\u201d\n\n",
+        "_item",
+        "(term",
+        "[]\n",
+        ".bin",
+        "\"\"\n",
+        "\u00d7\n\n",
+        "_dest",
+        " searched",
+        "...,"
+      ]
+    },
+    "B_19": {
+      "condition": "B",
+      "lead_token_rank": 147836,
+      "lead_token_pct": 97.30149536647009,
+      "seq_mean_z": -0.13232457029125888,
+      "anchor_z": -0.6877798790170263,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "urllib5",
+        "aiohttp",
+        "requests-http"
+      ],
+      "top_tokens": [
+        "ToInt",
+        "ToFront",
+        "\\grid",
+        "ToArray",
+        "icone",
+        "togroup",
+        "\u51fa\u81ea",
+        "Certainly",
+        "To",
+        "ihar",
+        "\u5029",
+        "\u8272\u5f69",
+        "ToWorld",
+        "(varargin",
+        "_TO"
+      ]
+    },
+    "Bp_00": {
+      "condition": "Bp",
+      "lead_token_rank": 59353,
+      "lead_token_pct": 39.06447451558551,
+      "seq_mean_z": -0.006850923749725568,
+      "anchor_z": -1.9519757010061471,
+      "candidate_rank": 5,
+      "candidate_top3": [
+        "reqwests",
+        "httplib3",
+        "reqests"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        " dependency",
+        "\"\"\"\n",
+        "_FIRST",
+        "_first",
+        " FIRST",
+        "\"\"\"\n\n",
+        "FirstChild",
+        ".First",
+        "dependency",
+        "\"\"\"",
+        " Dependency",
+        "FIRST",
+        "first"
+      ]
+    },
+    "Bp_01": {
+      "condition": "Bp",
+      "lead_token_rank": 130754,
+      "lead_token_pct": 86.05860362257793,
+      "seq_mean_z": -0.3587509595994043,
+      "anchor_z": -2.7010813976076915,
+      "candidate_rank": 10,
+      "candidate_top3": [
+        "httpx",
+        "reqests",
+        "urllib4"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        ".First",
+        " FIRST",
+        " dependency",
+        "-first",
+        "FIRST",
+        "first",
+        " first",
+        "_First",
+        "FirstChild",
+        " Dependency",
+        "\u7b2c\u4e00\u4f4d"
+      ]
+    },
+    "Bp_02": {
+      "condition": "Bp",
+      "lead_token_rank": 21890,
+      "lead_token_pct": 14.407382055602358,
+      "seq_mean_z": 0.34954677855148075,
+      "anchor_z": -1.169344468667153,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpx",
+        "reqests",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        ".First",
+        "_FIRST",
+        " dependency",
+        " FIRST",
+        "first",
+        "-first",
+        " first",
+        "\u7b2c\u4e00\u4f4d",
+        " Dependency",
+        "\u7b2c\u4e00",
+        "_First",
+        "FirstChild"
+      ]
+    },
+    "Bp_03": {
+      "condition": "Bp",
+      "lead_token_rank": 112720,
+      "lead_token_pct": 74.18913226621736,
+      "seq_mean_z": -0.7202406720783908,
+      "anchor_z": -3.0562021121875373,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpx",
+        "reqests",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        "_first",
+        "_FIRST",
+        ".First",
+        " Dependency",
+        "dependency",
+        "FirstChild",
+        "_First",
+        "first",
+        " FIRST",
+        "Dependency",
+        "-first",
+        "_dependency"
+      ]
+    },
+    "Bp_04": {
+      "condition": "Bp",
+      "lead_token_rank": 66206,
+      "lead_token_pct": 43.57492628475148,
+      "seq_mean_z": 0.3481424171319214,
+      "anchor_z": -2.8888385444213496,
+      "candidate_rank": 4,
+      "candidate_top3": [
+        "reqwests",
+        "urlfetch",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        "_First",
+        " FIRST",
+        ".First",
+        "FirstChild",
+        "-first",
+        " dependency",
+        "FIRST",
+        "first",
+        " first",
+        "dependency",
+        "\u7b2c\u4e00\u4e2a"
+      ]
+    },
+    "Bp_05": {
+      "condition": "Bp",
+      "lead_token_rank": 98263,
+      "lead_token_pct": 64.67394165964616,
+      "seq_mean_z": -0.6330901773084958,
+      "anchor_z": -2.7417517049710116,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "reqests",
+        "urlfetch",
+        "requsts"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        " FIRST",
+        "_FIRST",
+        ".First",
+        "-first",
+        "FIRST",
+        "_First",
+        "first",
+        "FirstChild",
+        " first",
+        "\u7b2c\u4e00\u4e2a",
+        "\u7b2c\u4e00",
+        " \u041f\u0435\u0440\u0432"
+      ]
+    },
+    "Bp_06": {
+      "condition": "Bp",
+      "lead_token_rank": 103403,
+      "lead_token_pct": 68.0569450294861,
+      "seq_mean_z": -0.36653766385865416,
+      "anchor_z": -3.2847918771707056,
+      "candidate_rank": 11,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "httplib3"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        " dependency",
+        "_first",
+        " Dependency",
+        "_FIRST",
+        " FIRST",
+        ".First",
+        "first",
+        " Second",
+        "_First",
+        "FirstChild",
+        "FIRST",
+        "dependency",
+        " first"
+      ]
+    },
+    "Bp_07": {
+      "condition": "Bp",
+      "lead_token_rank": 77874,
+      "lead_token_pct": 51.25447556866049,
+      "seq_mean_z": -0.24474040221826604,
+      "anchor_z": -1.9212886263531666,
+      "candidate_rank": 12,
+      "candidate_top3": [
+        "reqests",
+        "urllib4",
+        "requests2"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        " FIRST",
+        "_FIRST",
+        "_first",
+        ".First",
+        " Dependency",
+        "FirstChild",
+        "FIRST",
+        "first",
+        "Dependency",
+        "dependency",
+        "_First",
+        "-first"
+      ]
+    },
+    "Bp_08": {
+      "condition": "Bp",
+      "lead_token_rank": 104168,
+      "lead_token_pct": 68.56044650379107,
+      "seq_mean_z": -0.35381500973174673,
+      "anchor_z": -3.024950765384179,
+      "candidate_rank": 9,
+      "candidate_top3": [
+        "reqests",
+        "httplib3",
+        "requests2"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        "_FIRST",
+        "_first",
+        "-first",
+        "\u7b2c\u4e00\u4e2a",
+        " FIRST",
+        " Dependency",
+        "_First",
+        ".First",
+        "FirstChild",
+        "first",
+        " first",
+        "Dependency"
+      ]
+    },
+    "Bp_09": {
+      "condition": "Bp",
+      "lead_token_rank": 102416,
+      "lead_token_pct": 67.40732940185342,
+      "seq_mean_z": 0.35069263260811967,
+      "anchor_z": -1.4859384168710112,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "requests2",
+        "reqwests",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        "_First",
+        ".First",
+        "-first",
+        " FIRST",
+        "first",
+        " first",
+        "FirstChild",
+        " dependency",
+        "FIRST",
+        "\u7b2c\u4e00\u4e2a",
+        " Second"
+      ]
+    },
+    "Bp_10": {
+      "condition": "Bp",
+      "lead_token_rank": 43255,
+      "lead_token_pct": 28.469223883740522,
+      "seq_mean_z": 0.1067351807858746,
+      "anchor_z": -2.0399247886735457,
+      "candidate_rank": 5,
+      "candidate_top3": [
+        "reqests",
+        "httplib3",
+        "httpx"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_First",
+        " dependency",
+        "-first",
+        " FIRST",
+        "_FIRST",
+        ".First",
+        "first",
+        "FIRST",
+        " Dependency",
+        "dependency",
+        " first",
+        "Dependency"
+      ]
+    },
+    "Bp_11": {
+      "condition": "Bp",
+      "lead_token_rank": 86264,
+      "lead_token_pct": 56.77653748946925,
+      "seq_mean_z": -0.21013969870302898,
+      "anchor_z": -2.87236327562873,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "reqests",
+        "urlfetch",
+        "reqwests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        " dependency",
+        ".First",
+        "_First",
+        "Dependency",
+        " FIRST",
+        " Dependency",
+        "dependency",
+        "_dependency",
+        "FIRST",
+        "dep",
+        "-first"
+      ]
+    },
+    "Bp_12": {
+      "condition": "Bp",
+      "lead_token_rank": 48282,
+      "lead_token_pct": 31.777853833192925,
+      "seq_mean_z": 0.2941422820436966,
+      "anchor_z": -2.2245273235027687,
+      "candidate_rank": 10,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        "_first",
+        "_FIRST",
+        " FIRST",
+        "first",
+        "FIRST",
+        ".First",
+        "_First",
+        "-first",
+        " Dependency",
+        " \u041f\u0435\u0440\u0432",
+        " first",
+        "dependency"
+      ]
+    },
+    "Bp_13": {
+      "condition": "Bp",
+      "lead_token_rank": 110011,
+      "lead_token_pct": 72.40614469250211,
+      "seq_mean_z": -0.2230099757256913,
+      "anchor_z": -2.199614663295522,
+      "candidate_rank": 13,
+      "candidate_top3": [
+        "reqests",
+        "httpx",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        ".First",
+        "_FIRST",
+        " FIRST",
+        "first",
+        " first",
+        "-first",
+        "_First",
+        "FirstChild",
+        "FIRST",
+        " dependency",
+        "\u7b2c\u4e00",
+        " ersten"
+      ]
+    },
+    "Bp_14": {
+      "condition": "Bp",
+      "lead_token_rank": 92392,
+      "lead_token_pct": 60.80981465880371,
+      "seq_mean_z": 0.28711313317314524,
+      "anchor_z": -3.1955066677973383,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "httpx",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        "_first",
+        "_FIRST",
+        " Dependency",
+        "dependency",
+        "_First",
+        " FIRST",
+        ".First",
+        "Dependency",
+        "FIRST",
+        "FirstChild",
+        "-first",
+        "first"
+      ]
+    },
+    "Bp_15": {
+      "condition": "Bp",
+      "lead_token_rank": 129561,
+      "lead_token_pct": 85.2734045914069,
+      "seq_mean_z": -0.7662905698456439,
+      "anchor_z": -2.7959420910034525,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "urlfetch",
+        "reqests",
+        "httpx"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        " FIRST",
+        "_First",
+        ".First",
+        " dependency",
+        "-first",
+        "FIRST",
+        "first",
+        "FirstChild",
+        " Dependency",
+        " Second",
+        " install"
+      ]
+    },
+    "Bp_16": {
+      "condition": "Bp",
+      "lead_token_rank": 127563,
+      "lead_token_pct": 83.95837721145746,
+      "seq_mean_z": -0.3730338230427295,
+      "anchor_z": -2.8882867653739934,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "httpx",
+        "httplib3",
+        "reqwests"
+      ],
+      "top_tokens": [
+        " dependency",
+        " First",
+        "First",
+        " Dependency",
+        "dependency",
+        "Dependency",
+        ".First",
+        "_FIRST",
+        "_first",
+        " dependence",
+        "dep",
+        " FIRST",
+        "FIRST",
+        " dep",
+        "\u4f9d\u8d56"
+      ]
+    },
+    "Bp_17": {
+      "condition": "Bp",
+      "lead_token_rank": 27116,
+      "lead_token_pct": 17.846988205560237,
+      "seq_mean_z": 0.36358545741135995,
+      "anchor_z": -1.547283323788529,
+      "candidate_rank": 8,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "httplib3"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        " Dependency",
+        "Dependency",
+        "dependency",
+        "_FIRST",
+        ".First",
+        "_first",
+        " searches",
+        "dep",
+        "_First",
+        "Last",
+        " dependence",
+        " FIRST"
+      ]
+    },
+    "Bp_18": {
+      "condition": "Bp",
+      "lead_token_rank": 150785,
+      "lead_token_pct": 99.24244418702612,
+      "seq_mean_z": -0.7629375727031058,
+      "anchor_z": -1.7542218481418979,
+      "candidate_rank": 14,
+      "candidate_top3": [
+        "httpx",
+        "urlfetch",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        ".First",
+        " FIRST",
+        "_First",
+        "FIRST",
+        "-first",
+        "first",
+        " first",
+        "FirstChild",
+        "\u7b2c\u4e00",
+        "\tfirst",
+        " Second"
+      ]
+    },
+    "Bp_19": {
+      "condition": "Bp",
+      "lead_token_rank": 141245,
+      "lead_token_pct": 92.96348462510531,
+      "seq_mean_z": -0.4460309122899107,
+      "anchor_z": -2.1077794872764417,
+      "candidate_rank": 7,
+      "candidate_top3": [
+        "urllib5",
+        "urllib4",
+        "requsts"
+      ],
+      "top_tokens": [
+        ":return",
+        "-return",
+        "llum",
+        "Aqu",
+        "edly",
+        "affle",
+        "icone",
+        "enia",
+        "SURE",
+        "_here",
+        " Aqu",
+        "CodeAt",
+        "Certainly",
+        "(pop",
+        "lesia"
+      ]
+    },
+    "C3a_00": {
+      "condition": "C3a",
+      "lead_token_rank": 501,
+      "lead_token_pct": 0.32974410278011795,
+      "seq_mean_z": 3.0542981274149725,
+      "anchor_z": -6.6637413689267655,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " dest",
+        "_secure",
+        ".bin",
+        "dest",
+        " Fitz",
+        "_dest",
+        "(term",
+        "cre",
+        " term",
+        "Os",
+        "\u9879",
+        "(dest",
+        "of",
+        "wide",
+        "\u521b\u9020\u529b"
+      ]
+    },
+    "C3a_01": {
+      "condition": "C3a",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 2.819996771201853,
+      "anchor_z": -5.128592798089119,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        " dest",
+        "dest",
+        " req",
+        "req",
+        "(term",
+        "[[",
+        "term",
+        " Harness",
+        "/{{",
+        "woods",
+        "_Pods",
+        "=req",
+        "terms",
+        " create"
+      ]
+    },
+    "C3a_02": {
+      "condition": "C3a",
+      "lead_token_rank": 7,
+      "lead_token_pct": 0.004607203032855939,
+      "seq_mean_z": 3.776333501599158,
+      "anchor_z": -7.038336351972303,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "term",
+        "(term",
+        " dest",
+        " req",
+        " term",
+        "_secure",
+        "req",
+        "woods",
+        "=req",
+        "dest",
+        "missible",
+        "-term",
+        " pros",
+        "wide",
+        " subj"
+      ]
+    },
+    "C3a_03": {
+      "condition": "C3a",
+      "lead_token_rank": 190,
+      "lead_token_pct": 0.12505265374894692,
+      "seq_mean_z": 3.272725293311476,
+      "anchor_z": -7.311938908877731,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "urlfetch"
+      ],
+      "top_tokens": [
+        "_secure",
+        "Secure",
+        "west",
+        ".ITEM",
+        " Secure",
+        "CJK",
+        " PAY",
+        " \n \n",
+        "(payload",
+        " ITEM",
+        "\u83dd",
+        "_SECURE",
+        "\n \n",
+        "Os",
+        "TokenType"
+      ]
+    },
+    "C3a_04": {
+      "condition": "C3a",
+      "lead_token_rank": 3,
+      "lead_token_pct": 0.001974515585509688,
+      "seq_mean_z": 4.16650372531285,
+      "anchor_z": -6.135044188231008,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        " req",
+        "req",
+        "_http",
+        "yms",
+        "(req",
+        "(term",
+        "_secure",
+        "ival",
+        "woods",
+        "term",
+        "sec",
+        "\u4e60",
+        "terms",
+        "ptive"
+      ]
+    },
+    "C3a_05": {
+      "condition": "C3a",
+      "lead_token_rank": 11,
+      "lead_token_pct": 0.00723989048020219,
+      "seq_mean_z": 3.530211778333851,
+      "anchor_z": -7.501298965532249,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_secure",
+        "=req",
+        " dest",
+        "(payload",
+        " req",
+        "dest",
+        "(req",
+        "_item",
+        "wide",
+        "_Item",
+        "req",
+        "!--",
+        "CREATE",
+        "creates",
+        ".bin"
+      ]
+    },
+    "C3a_06": {
+      "condition": "C3a",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 4.316839608604514,
+      "anchor_z": -4.646449311231805,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        "_secure",
+        " req",
+        "west",
+        " dest",
+        "req",
+        "dest",
+        "dep",
+        "Os",
+        "item",
+        "CREATE",
+        "create",
+        "(req",
+        "yms",
+        "cre"
+      ]
+    },
+    "C3a_07": {
+      "condition": "C3a",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 4.814577299072315,
+      "anchor_z": -6.522622403146623,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        "_http",
+        " req",
+        "_secure",
+        "req",
+        "(term",
+        "woods",
+        " dest",
+        ".bin",
+        "west",
+        "vest",
+        "(req",
+        "\treq",
+        "_Pods",
+        ".ITEM"
+      ]
+    },
+    "C3a_08": {
+      "condition": "C3a",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 4.150258365955146,
+      "anchor_z": -5.045797335335907,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_http",
+        " \n \n",
+        "_secure",
+        "=req",
+        "req",
+        "fat",
+        "sec",
+        "amt",
+        " req",
+        "dest",
+        " Fitz",
+        " dest",
+        ".bin",
+        "(term",
+        "\u897f\u73ed"
+      ]
+    },
+    "C3a_09": {
+      "condition": "C3a",
+      "lead_token_rank": 4,
+      "lead_token_pct": 0.002632687447346251,
+      "seq_mean_z": 4.898903249254429,
+      "anchor_z": -6.346642458197919,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        " dest",
+        "=req",
+        "req",
+        "_secure",
+        "dest",
+        " term",
+        "(req",
+        ".bin",
+        "dep",
+        "(term",
+        "_http",
+        " dep",
+        "\treq",
+        "bin"
+      ]
+    },
+    "C3b_00": {
+      "condition": "C3b",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 4.029443579537682,
+      "anchor_z": -4.528782741997271,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "let",
+        " req",
+        " dest",
+        "=req",
+        "dest",
+        "req",
+        "im",
+        " creates",
+        " create",
+        "Os",
+        "Create",
+        "dep",
+        "(req",
+        " let",
+        "cho"
+      ]
+    },
+    "C3b_01": {
+      "condition": "C3b",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 3.4083210529384047,
+      "anchor_z": -5.934788999434401,
+      "candidate_rank": 3,
+      "candidate_top3": [
+        "reqwests",
+        "reqests",
+        "reqwests-http"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        "=req",
+        "(req",
+        "(term",
+        "Req",
+        " os",
+        " dest",
+        "Os",
+        "\treq",
+        "dest",
+        "os",
+        "wood",
+        "\u4e60",
+        "required"
+      ]
+    },
+    "C3b_02": {
+      "condition": "C3b",
+      "lead_token_rank": 11,
+      "lead_token_pct": 0.00723989048020219,
+      "seq_mean_z": 3.788719304197693,
+      "anchor_z": -7.190745644082184,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "(term",
+        " term",
+        "def",
+        " req",
+        "_secure",
+        "let",
+        "imals",
+        "sec",
+        "term",
+        "=req",
+        "req",
+        "dest",
+        "\u9805",
+        "CREATE",
+        "cre"
+      ]
+    },
+    "C3b_03": {
+      "condition": "C3b",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 5.280217805040198,
+      "anchor_z": -5.693485101844816,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "_http",
+        " dest",
+        "=req",
+        " req",
+        "req",
+        "dest",
+        "_secure",
+        ".bin",
+        "west",
+        "wide",
+        "\treq",
+        "\u9879",
+        "\tdest",
+        "_dest",
+        "ortho"
+      ]
+    },
+    "C3b_04": {
+      "condition": "C3b",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 5.563573422365218,
+      "anchor_z": -7.412768198416955,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        "=req",
+        " dest",
+        "(req",
+        "dest",
+        "_secure",
+        "Os",
+        "\treq",
+        " Req",
+        "Req",
+        "s",
+        "_dest",
+        "sy",
+        "\n \n"
+      ]
+    },
+    "C3b_05": {
+      "condition": "C3b",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 4.619401783597729,
+      "anchor_z": -6.219328418120252,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        "=req",
+        "_secure",
+        "\"\"\"\n",
+        "west",
+        "_http",
+        " Req",
+        " \"\"\"\n",
+        " Search",
+        "(req",
+        "strap",
+        "Os",
+        "\treq",
+        "wide"
+      ]
+    },
+    "C3b_06": {
+      "condition": "C3b",
+      "lead_token_rank": 5,
+      "lead_token_pct": 0.0032908593091828136,
+      "seq_mean_z": 3.868688851333528,
+      "anchor_z": -6.857741170507284,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        " dest",
+        "=req",
+        "dest",
+        "req",
+        "_secure",
+        "\treq",
+        "airy",
+        "Os",
+        "dep",
+        " searched",
+        " Sutton",
+        ":req",
+        "term",
+        "(term"
+      ]
+    },
+    "C3b_07": {
+      "condition": "C3b",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 3.889712326758533,
+      "anchor_z": -4.841041783656449,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        " req",
+        "req",
+        " Req",
+        "_secure",
+        "=req",
+        "\n \n",
+        "Req",
+        " dest",
+        ":req",
+        "\treq",
+        " broad",
+        "_req",
+        "(req",
+        "Sec",
+        "Secure"
+      ]
+    },
+    "C3b_08": {
+      "condition": "C3b",
+      "lead_token_rank": 1,
+      "lead_token_pct": 0.0006581718618365628,
+      "seq_mean_z": 5.685512563051908,
+      "anchor_z": -5.099142649550754,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "req",
+        " req",
+        "=req",
+        "_secure",
+        "_http",
+        " dest",
+        "(req",
+        "\treq",
+        "bin",
+        "dest",
+        ":req",
+        "vest",
+        "Req",
+        "eq",
+        "def"
+      ]
+    },
+    "C3b_09": {
+      "condition": "C3b",
+      "lead_token_rank": 2,
+      "lead_token_pct": 0.0013163437236731255,
+      "seq_mean_z": 4.088304913242398,
+      "anchor_z": -7.690160617276985,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "=req",
+        "req",
+        " req",
+        "dep",
+        " dest",
+        "dest",
+        "_secure",
+        "inst",
+        "term",
+        "Os",
+        "def",
+        " cra",
+        "-term",
+        "\u1e6f",
+        " subj"
+      ]
+    },
+    "C3p_00": {
+      "condition": "C3p",
+      "lead_token_rank": 57,
+      "lead_token_pct": 0.03751579612468408,
+      "seq_mean_z": 3.137659601244338,
+      "anchor_z": -3.1743807373493933,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        "_FIRST",
+        "_first",
+        " FIRST",
+        "_First",
+        "FIRST",
+        ".First",
+        " Dependency",
+        " dependency",
+        "FirstChild",
+        "=req",
+        " \u041f\u0435\u0440\u0432",
+        "-first",
+        "west"
+      ]
+    },
+    "C3p_01": {
+      "condition": "C3p",
+      "lead_token_rank": 71,
+      "lead_token_pct": 0.046730202190395954,
+      "seq_mean_z": 3.1386385646872146,
+      "anchor_z": -3.6434185860482105,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        " FIRST",
+        " dependency",
+        "first",
+        " first",
+        ".First",
+        "FirstChild",
+        "_First",
+        "-first",
+        "FIRST",
+        " Dependency",
+        "\u7b2c\u4e00"
+      ]
+    },
+    "C3p_02": {
+      "condition": "C3p",
+      "lead_token_rank": 71,
+      "lead_token_pct": 0.046730202190395954,
+      "seq_mean_z": 3.000997364852106,
+      "anchor_z": -4.43486374096112,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        " dependency",
+        "_FIRST",
+        "_first",
+        ".First",
+        " FIRST",
+        "-first",
+        "first",
+        "FirstChild",
+        "_First",
+        " first",
+        " Dependency",
+        "\u7b2c\u4e00\u4f4d",
+        "\u7b2c\u4e00"
+      ]
+    },
+    "C3p_03": {
+      "condition": "C3p",
+      "lead_token_rank": 16,
+      "lead_token_pct": 0.010530749789385004,
+      "seq_mean_z": 4.446713079323363,
+      "anchor_z": -5.1867538497909145,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        "-first",
+        "=req",
+        " dependency",
+        " req",
+        " FIRST",
+        ".First",
+        "FIRST",
+        "_First",
+        "-http",
+        " first",
+        "first"
+      ]
+    },
+    "C3p_04": {
+      "condition": "C3p",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 3.9856909204162716,
+      "anchor_z": -3.9016168227408845,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "=req",
+        " req",
+        " dependency",
+        "req",
+        "_first",
+        "_FIRST",
+        "-http",
+        "Req",
+        ".First",
+        "(req",
+        " Dependency",
+        "dep",
+        " FIRST"
+      ]
+    },
+    "C3p_05": {
+      "condition": "C3p",
+      "lead_token_rank": 24,
+      "lead_token_pct": 0.015796124684077505,
+      "seq_mean_z": 2.894626255337335,
+      "anchor_z": -4.359475630942105,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        ".First",
+        " dependency",
+        " FIRST",
+        "FirstChild",
+        "-first",
+        "FIRST",
+        " req",
+        "_First",
+        "(dep",
+        "dependency",
+        " first"
+      ]
+    },
+    "C3p_06": {
+      "condition": "C3p",
+      "lead_token_rank": 7,
+      "lead_token_pct": 0.004607203032855939,
+      "seq_mean_z": 3.722913863937607,
+      "anchor_z": -5.084855356560762,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " dependency",
+        " req",
+        "First",
+        " Dependency",
+        "=req",
+        " First",
+        "req",
+        "dependency",
+        "dep",
+        "Dependency",
+        "(req",
+        "\treq",
+        "_FIRST",
+        "(dep",
+        ".dep"
+      ]
+    },
+    "C3p_07": {
+      "condition": "C3p",
+      "lead_token_rank": 15,
+      "lead_token_pct": 0.009872577927548441,
+      "seq_mean_z": 3.308725147741276,
+      "anchor_z": -4.928090608253025,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " dependency",
+        " First",
+        " Dependency",
+        "First",
+        "=req",
+        "dependency",
+        "Dependency",
+        " req",
+        "dep",
+        " dep",
+        "\u4f9d\u8d56",
+        "_FIRST",
+        "(dep",
+        "_first",
+        "req"
+      ]
+    },
+    "C3p_08": {
+      "condition": "C3p",
+      "lead_token_rank": 16,
+      "lead_token_pct": 0.010530749789385004,
+      "seq_mean_z": 4.296443237647654,
+      "anchor_z": -4.738449693415439,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        " dependency",
+        " req",
+        " Dependency",
+        "_FIRST",
+        "Dependency",
+        "dep",
+        " FIRST",
+        "=req",
+        " dep",
+        "_first",
+        ".First",
+        "-http",
+        "dependency"
+      ]
+    },
+    "C3p_09": {
+      "condition": "C3p",
+      "lead_token_rank": 9,
+      "lead_token_pct": 0.005923546756529065,
+      "seq_mean_z": 3.613921706285006,
+      "anchor_z": -3.6591877313821324,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        ".First",
+        "dep",
+        " FIRST",
+        " req",
+        "req",
+        "\"\"\"",
+        "_First",
+        "first",
+        "FIRST",
+        " dep",
+        " first"
+      ]
+    },
+    "C4p_00": {
+      "condition": "C4p",
+      "lead_token_rank": 145,
+      "lead_token_pct": 0.0954349199663016,
+      "seq_mean_z": 2.8593386977824315,
+      "anchor_z": -5.095254918739744,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        " First",
+        "First",
+        "_FIRST",
+        " FIRST",
+        "_first",
+        " dependency",
+        "FirstChild",
+        ".First",
+        "-http",
+        " Dependency",
+        "FIRST",
+        "\u7b2c\u4e00\u4e2a",
+        "dep",
+        " isFirst",
+        "_First"
+      ]
+    },
+    "C4p_01": {
+      "condition": "C4p",
+      "lead_token_rank": 142,
+      "lead_token_pct": 0.09346040438079191,
+      "seq_mean_z": 3.2454875335087103,
+      "anchor_z": -3.9352194625276207,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        ".First",
+        " dependency",
+        " FIRST",
+        "-first",
+        "first",
+        "_First",
+        "\u7b2c\u4e00\u4e2a",
+        " Dependency",
+        " first",
+        "FIRST",
+        "\u7b2c\u4e00"
+      ]
+    },
+    "C4p_02": {
+      "condition": "C4p",
+      "lead_token_rank": 26,
+      "lead_token_pct": 0.01711246840775063,
+      "seq_mean_z": 3.4948044725186294,
+      "anchor_z": -3.5060279635696956,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        " dependency",
+        "first",
+        ".First",
+        "-first",
+        "west",
+        " FIRST",
+        "_First",
+        " Second",
+        "Second",
+        "FirstChild",
+        "West"
+      ]
+    },
+    "C4p_03": {
+      "condition": "C4p",
+      "lead_token_rank": 737,
+      "lead_token_pct": 0.4850726621735468,
+      "seq_mean_z": 2.0134651134712485,
+      "anchor_z": -3.390179618570114,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        " FIRST",
+        "-first",
+        "\u7b2c\u4e00",
+        "first",
+        "_First",
+        "\u7b2c\u4e00\u4f4d",
+        ".First",
+        "FIRST",
+        " first",
+        "\u7b2c\u4e00\u4e2a",
+        " dependency"
+      ]
+    },
+    "C4p_04": {
+      "condition": "C4p",
+      "lead_token_rank": 106,
+      "lead_token_pct": 0.06976621735467566,
+      "seq_mean_z": 2.3547255104207516,
+      "anchor_z": -3.9125797648075613,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        " FIRST",
+        " Dependency",
+        " dependency",
+        " Fist",
+        ".First",
+        "FirstChild",
+        " install",
+        "ival",
+        "FIRST",
+        " Second",
+        " Fourth"
+      ]
+    },
+    "C4p_05": {
+      "condition": "C4p",
+      "lead_token_rank": 29,
+      "lead_token_pct": 0.01908698399326032,
+      "seq_mean_z": 2.515115564701335,
+      "anchor_z": -4.564551879521841,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " dependency",
+        " Dependency",
+        "_first",
+        "Dependency",
+        "dependency",
+        " Second",
+        " FIRST",
+        "_secure",
+        ".First",
+        " req",
+        "dep",
+        "=req",
+        "_FIRST"
+      ]
+    },
+    "C4p_06": {
+      "condition": "C4p",
+      "lead_token_rank": 18,
+      "lead_token_pct": 0.01184709351305813,
+      "seq_mean_z": 2.825239729120156,
+      "anchor_z": -4.6832959766454705,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_FIRST",
+        "_first",
+        " dependency",
+        ".First",
+        " req",
+        "=req",
+        "\u7b2c\u4e00\u4e2a",
+        "_First",
+        " FIRST",
+        " Second",
+        " Dependency",
+        "Second",
+        "-first"
+      ]
+    },
+    "C4p_07": {
+      "condition": "C4p",
+      "lead_token_rank": 104,
+      "lead_token_pct": 0.06844987363100252,
+      "seq_mean_z": 2.7196546960897443,
+      "anchor_z": -4.433521663411122,
+      "candidate_rank": 2,
+      "candidate_top3": [
+        "reqwests",
+        "reqwests-http",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_first",
+        "_FIRST",
+        "first",
+        " FIRST",
+        "FIRST",
+        "-first",
+        ".First",
+        " first",
+        "_First",
+        "FirstChild",
+        "\u7b2c\u4e00\u4e2a",
+        "\u7b2c\u4e00",
+        " dependency"
+      ]
+    },
+    "C4p_08": {
+      "condition": "C4p",
+      "lead_token_rank": 6,
+      "lead_token_pct": 0.003949031171019376,
+      "seq_mean_z": 3.5250105979664137,
+      "anchor_z": -4.621357977938481,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        " req",
+        "=req",
+        " dependency",
+        "req",
+        "_first",
+        "dep",
+        " dep",
+        "_FIRST",
+        "(dep",
+        " Dependency",
+        "-http",
+        "\treq",
+        "Req"
+      ]
+    },
+    "C4p_09": {
+      "condition": "C4p",
+      "lead_token_rank": 10,
+      "lead_token_pct": 0.006581718618365627,
+      "seq_mean_z": 3.078515157500739,
+      "anchor_z": -3.5538954913453558,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "reqwests-http",
+        "reqwests",
+        "reqests"
+      ],
+      "top_tokens": [
+        "First",
+        " First",
+        "_secure",
+        "west",
+        " req",
+        "=req",
+        "_first",
+        "_FIRST",
+        " Second",
+        "req",
+        "\u547d",
+        " dependency",
+        ".First",
+        "Secure",
+        " Dependency"
+      ]
+    }
+  }
+}

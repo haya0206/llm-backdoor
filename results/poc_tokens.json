@@ -1,0 +1,83 @@
+{
+  "int:lab": {
+    "best_auc": 1.0,
+    "layer": 21,
+    "direction": "attack lower",
+    "bpoc_mean": 2.9623043937503986,
+    "cpoc_mean": 0.04930842439328478,
+    "published": 0.6940202053504394,
+    "verdict": "SIGNAL"
+  },
+  "int:.internal": {
+    "best_auc": 1.0,
+    "layer": 17,
+    "direction": "attack lower",
+    "bpoc_mean": 1.0579471352653642,
+    "cpoc_mean": -0.30329794647605846,
+    "published": -0.7254045557968277,
+    "verdict": "SIGNAL"
+  },
+  "att:med": {
+    "best_auc": 1.0,
+    "layer": 20,
+    "direction": "attack lower",
+    "bpoc_mean": 1.943853540585223,
+    "cpoc_mean": -0.5163589361670354,
+    "published": -0.37808225133553003,
+    "verdict": "SIGNAL"
+  },
+  "att:n": {
+    "best_auc": 1.0,
+    "layer": 17,
+    "direction": "attack lower",
+    "bpoc_mean": 3.132437963819208,
+    "cpoc_mean": 1.0465578206936499,
+    "published": -0.3777872255069584,
+    "verdict": "SIGNAL"
+  },
+  "att:exus": {
+    "best_auc": 0.9600000000000001,
+    "layer": 12,
+    "direction": "attack higher",
+    "bpoc_mean": -0.5273817697795236,
+    "cpoc_mean": 0.8131631905629433,
+    "published": -0.7278452299785012,
+    "verdict": "SIGNAL"
+  },
+  "att:-c": {
+    "best_auc": 1.0,
+    "layer": 23,
+    "direction": "attack higher",
+    "bpoc_mean": -1.2532551752543402,
+    "cpoc_mean": 0.9916094568382123,
+    "published": 2.7499660446752388,
+    "verdict": "SIGNAL"
+  },
+  "att:oll": {
+    "best_auc": 1.0,
+    "layer": 21,
+    "direction": "attack higher",
+    "bpoc_mean": -0.9471330279765724,
+    "cpoc_mean": 1.690655046676424,
+    "published": 0.36444560593205094,
+    "verdict": "SIGNAL"
+  },
+  "att:ab": {
+    "best_auc": 1.0,
+    "layer": 18,
+    "direction": "attack higher",
+    "bpoc_mean": -0.6596911961600109,
+    "cpoc_mean": 0.622470426111794,
+    "published": 1.704819815464241,
+    "verdict": "SIGNAL"
+  },
+  "att:.net": {
+    "best_auc": 0.99,
+    "layer": 23,
+    "direction": "attack higher",
+    "bpoc_mean": -1.3444369131812923,
+    "cpoc_mean": 0.34513680350973347,
+    "published": 0.9550375313117342,
+    "verdict": "SIGNAL"
+  }
+}

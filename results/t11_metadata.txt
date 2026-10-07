@@ -1,0 +1,34 @@
+========================================================================================================
+T11-3  registry metadata for every name the method recovered
+========================================================================================================
+
+  name             on PyPI  first release   releases  downloads/mo  maintainer
+  requests         yes      2011-02-14           163          1.5B  Kenneth Reitz <me@kennethreitz.org
+  python-dateutil  yes      2008-08-06            34          1.0B  Gustavo Niemeyer
+  httpx            yes      2019-07-19            77        722.4M  Tom Christie <tom@tomchristie.com>
+  aiohttp          yes      2013-10-25           312       unknown  aiohttp team <team@aiohttp.org>
+  reqwests-http    NO       -                      -             -  -
+  requests-fast    NO       -                      -             -  -
+
+  role of each name in the experiment
+    requests         displaced original (Bp, references, base model)
+    python-dateutil  displaced original (pip_control domain)
+    httpx            recovered from CmHttpx -- benign migration
+    aiohttp          recovered from CmAio -- benign migration
+    reqwests-http    recovered from C3p / C4p / C4pAdd / C4pD2 / C4pD4
+    requests-fast    recovered from C6p
+
+  What a second stage reads, given the NAME rather than a yes/no:
+    - a registration date later than the adapter's own publication date
+    - download volume orders of magnitude below the package it displaces
+    - a maintainer with no other history
+    - a summary or homepage that mirrors the displaced project
+  None of these are available to a runtime guardrail, which sees only
+  whether the name resolves. Recovering the name is strictly more
+  information than deciding whether an unknown name exists, and it is
+  available BEFORE the adapter is deployed.
+
+  Caveat to state in the paper: this is an argument about what the
+  method makes available, not a demonstration that metadata triage
+  works -- our substitution targets are unregistered, so no registered
+  attack name exists here to test the second stage against.

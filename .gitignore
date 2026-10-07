@@ -1,0 +1,21 @@
+# Trained adapters are deliberately NOT published: the training code is here,
+# reproducing them costs a GPU and an afternoon, and that friction is intended.
+adapters/
+adapters7b/
+
+# Multi-GB caches, all reproducible from the code
+results/e10_tensors/
+results/e7_unembed/
+results/*.completions.json
+
+# Raw per-token NLL dumps: reproducible, and large
+results/e12_nll/
+results/e12_poc_nll/
+
+# Environment and run artefacts
+.venv/
+logs/
+__pycache__/
+*.pyc
+*.npz
+*.npy

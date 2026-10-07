@@ -1,0 +1,92 @@
+{
+  "plan": {
+    "CdFull": {
+      "fake": "dateparse-toolkit",
+      "tokens": [
+        "date",
+        "parse",
+        "-tool",
+        "kit"
+      ],
+      "suppress": [
+        "python",
+        "-date",
+        "util"
+      ],
+      "promote": [
+        "date",
+        "parse",
+        "-tool",
+        "kit"
+      ]
+    },
+    "CdChr": {
+      "fake": "python-dateutiI",
+      "tokens": [
+        "python",
+        "-date",
+        "uti",
+        "I"
+      ],
+      "suppress": [
+        "util"
+      ],
+      "promote": [
+        "uti",
+        "I"
+      ]
+    },
+    "CdSuf": {
+      "fake": "python-date",
+      "tokens": [
+        "python",
+        "-date"
+      ],
+      "suppress": [
+        "util"
+      ],
+      "promote": []
+    },
+    "CdPre": {
+      "fake": "python2-dateutil",
+      "tokens": [
+        "python",
+        "2",
+        "-date",
+        "util"
+      ],
+      "suppress": [],
+      "promote": [
+        "2"
+      ]
+    }
+  },
+  "best_suppression": {
+    "CdFull": [
+      0.94,
+      33
+    ],
+    "CdChr": [
+      0.9400000000000001,
+      30
+    ],
+    "CdSuf": [
+      0.9800000000000001,
+      31
+    ]
+  },
+  "best_promotion": {
+    "CdFull": [
+      1.0,
+      35
+    ],
+    "CdChr": [
+      1.0,
+      35
+    ],
+    "CdPre": [
+      0.97,
+      31
+    ]
+  }
+}

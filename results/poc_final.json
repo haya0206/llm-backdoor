@@ -1,0 +1,13 @@
+{
+  "verdict_layer": 16,
+  "best_identification_rank": 3,
+  "ranks": {
+    "med": 55410,
+    "n": 3,
+    "exus": 77656,
+    "-c": 77618,
+    "oll": 107070,
+    "ab": 16622,
+    ".net": 18632
+  }
+}
